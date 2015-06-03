@@ -1,0 +1,397 @@
+<?php
+
+use Illuminate\Database\Seeder;
+
+class VodsTableSeeder extends Seeder {
+
+	/**
+	 * Auto generated seed file
+	 *
+	 * @return void
+	 */
+	public function run()
+	{
+		\DB::table('vods')->delete();
+        
+		\DB::table('vods')->insert(array (
+			0 => 
+			array (
+				'id' => '1',
+				'url' => 'RBH4Z_vz1fk',
+				'title' => 'Westballz imprisoned by destiny. . . Again',
+				'update_date' => '2015-04-16 08:25:11',
+				'score' => '0',
+				'credit' => 'GRSmash',
+				'typeid' => '3',
+				'dataid' => '0',
+				'submitted_by' => '',
+				'description' => 'RIP Westballz',
+			),
+			1 => 
+			array (
+				'id' => '2',
+				'url' => 'qUiAZltrWwo',
+			'title' => '[Falco] Multi-shine Tutorial - feat. Squid (Advanced Level) - SSBM',
+				'update_date' => '2015-04-16 09:04:50',
+				'score' => '0',
+				'credit' => 'SSBM Tutorials',
+				'typeid' => '1',
+				'dataid' => '0',
+				'submitted_by' => '',
+				'description' => 'A quick tutorial on Multi-shine with Falco',
+			),
+			2 => 
+			array (
+				'id' => '4',
+				'url' => 'Kr5y0-W9YVo',
+			'title' => 'Cort (Marth) vs PC Chris (Fox) 2',
+				'update_date' => '2015-04-16 09:11:56',
+				'score' => '0',
+				'credit' => 'raserucort',
+				'typeid' => '2',
+				'dataid' => '0',
+				'submitted_by' => '',
+				'description' => 'One of the fastest matches in Melee',
+			),
+			3 => 
+			array (
+				'id' => '5',
+				'url' => 'OSxVR_QGPoI',
+				'title' => 'PewFat',
+				'update_date' => '2015-04-13 00:46:02',
+				'score' => '0',
+				'credit' => 'SFAT',
+				'typeid' => '6',
+				'dataid' => '0',
+				'submitted_by' => '',
+				'description' => 'PewPewU and SFAT demonstrating great teams synergy many years ago',
+			),
+			4 => 
+			array (
+				'id' => '6',
+				'url' => '8orJkb0LtaE',
+			'title' => 'Shroomed - "IM NOT YELLING" (nsfw)',
+				'update_date' => '2015-04-13 00:50:20',
+				'score' => '0',
+				'credit' => 'ShowDown Smash',
+				'typeid' => '3',
+				'dataid' => '0',
+				'submitted_by' => '',
+				'description' => 'Shroomed going off at a recent "Get Smashed at the Foundry event".',
+			),
+			5 => 
+			array (
+				'id' => '8',
+				'url' => 'JLuFpmoKUVQ',
+			'title' => 'Melee Impossible - The Combo Video (TAS)',
+				'update_date' => '2015-04-13 00:29:22',
+				'score' => '0',
+				'credit' => 'antdgar2',
+				'typeid' => '3',
+				'dataid' => '0',
+				'submitted_by' => '',
+				'description' => 'Some insane tool assisted combos',
+			),
+			6 => 
+			array (
+				'id' => '9',
+				'url' => 'vsr4M6r0B2Q',
+				'title' => 'Smash Bros is a Freaking Blast',
+				'update_date' => '2015-04-13 00:35:27',
+				'score' => '0',
+				'credit' => 'The Toasty Knight',
+				'typeid' => '5',
+				'dataid' => '0',
+				'submitted_by' => '',
+				'description' => 'A PewPewU Combo Video',
+			),
+			7 => 
+			array (
+				'id' => '10',
+				'url' => 'kKsEobD1pew',
+				'title' => 'PewPewUniversity - A lesson on Sheild Stops',
+				'update_date' => '2015-04-13 00:46:52',
+				'score' => '0',
+				'credit' => 'PewPewU',
+				'typeid' => '4',
+				'dataid' => '0',
+				'submitted_by' => '',
+				'description' => 'Shield Stop',
+			),
+			8 => 
+			array (
+				'id' => '11',
+				'url' => 'V3hjjNLCcMQ',
+				'title' => 'PewPewUniversity - a lesson on Run Cancels',
+				'update_date' => '2015-04-13 00:46:54',
+				'score' => '0',
+				'credit' => 'pewpewu',
+				'typeid' => '4',
+				'dataid' => '0',
+				'submitted_by' => '',
+				'description' => 'Run Canceling',
+			),
+			9 => 
+			array (
+				'id' => '12',
+				'url' => 'J_aqH9sJnbU',
+				'title' => 'PewPewUniversity - a lesson on pivoting',
+				'update_date' => '2015-04-13 00:05:54',
+				'score' => '0',
+				'credit' => 'PewPewU',
+				'typeid' => '4',
+				'dataid' => '0',
+				'submitted_by' => '',
+				'description' => 'A quick lesson on pivoting by PewPewU',
+			),
+			10 => 
+			array (
+				'id' => '13',
+				'url' => 'XhujDoRBXeY',
+			'title' => 'PewPewUniversity - a lesson on No Impact Landing (NIL)',
+				'update_date' => '2015-04-13 00:06:34',
+				'score' => '0',
+				'credit' => 'PewPewU',
+				'typeid' => '4',
+				'dataid' => '0',
+				'submitted_by' => '',
+				'description' => 'No Impact Landing',
+			),
+			11 => 
+			array (
+				'id' => '14',
+				'url' => 'ffUQu-lYanE',
+			'title' => 'PewPewUniversity - a lesson on Jump Cancels (JC)',
+				'update_date' => '2015-04-13 00:07:25',
+				'score' => '0',
+				'credit' => 'PewPewU',
+				'typeid' => '4',
+				'dataid' => '0',
+				'submitted_by' => '',
+				'description' => 'Use Jump Cancels to speed up your grabs and smash attacks',
+			),
+			12 => 
+			array (
+				'id' => '15',
+				'url' => 'mMlKbBGPalw',
+				'title' => 'PewPewUniversity: a lesson on Applying Jump Cancels',
+				'update_date' => '2015-04-13 00:07:58',
+				'score' => '0',
+				'credit' => 'pewpewu',
+				'typeid' => '4',
+				'dataid' => '0',
+				'submitted_by' => '',
+				'description' => 'A quick tutorial on how to implement Jump Cancels',
+			),
+			13 => 
+			array (
+				'id' => '16',
+				'url' => 'lFKymA7cOlY',
+				'title' => 'PewPewUniversity - a lesson on Ledge Mechanics',
+				'update_date' => '2015-04-13 00:08:49',
+				'score' => '0',
+				'credit' => 'PewPewU',
+				'typeid' => '4',
+				'dataid' => '0',
+				'submitted_by' => '',
+				'description' => 'Learn how to use the ledge to your advantage!',
+			),
+			14 => 
+			array (
+				'id' => '17',
+				'url' => 'cHdGq9n7euM',
+				'title' => 'PewPewUniversity - a lesson on Fox Trot',
+				'update_date' => '2015-04-13 00:09:38',
+				'score' => '0',
+				'credit' => 'PewPewU',
+				'typeid' => '4',
+				'dataid' => '0',
+				'submitted_by' => '',
+				'description' => 'Learn the benefits of using a Fox Trot to properly space your character',
+			),
+			15 => 
+			array (
+				'id' => '18',
+				'url' => '6NraGXDMuVw',
+				'title' => 'PewPewUniversity - a lesson on Cactuar Dash',
+				'update_date' => '2015-04-13 00:12:56',
+				'score' => '0',
+				'credit' => 'PewPewUniversity',
+				'typeid' => '4',
+				'dataid' => '0',
+				'submitted_by' => '',
+				'description' => 'PewPewU demonstrating how to use run canceling to dash efficiently',
+			),
+			16 => 
+			array (
+				'id' => '19',
+				'url' => 'GyaBMhRquZA',
+				'title' => 'PewPewUniversity - a lesson on Edge Cancel',
+				'update_date' => '2015-04-13 00:13:34',
+				'score' => '0',
+				'credit' => 'PewPewU',
+				'typeid' => '4',
+				'dataid' => '0',
+				'submitted_by' => '',
+				'description' => 'Learn how to optimize your aerial attacks with Edge Canceling',
+			),
+			17 => 
+			array (
+				'id' => '20',
+				'url' => 'aHcobQHiyYU',
+				'title' => 'PewPewUniversity: a lesson on Shine Turnaround',
+				'update_date' => '2015-04-13 00:14:12',
+				'score' => '0',
+				'credit' => 'PewPewU',
+				'typeid' => '4',
+				'dataid' => '0',
+				'submitted_by' => '',
+				'description' => 'Learn how to use use Shine to gain advantages as Fox and Falco',
+			),
+			18 => 
+			array (
+				'id' => '21',
+				'url' => 'FIGE-68RTDo',
+				'title' => 'PewPewUniversity - Auto Cancel Aerial',
+				'update_date' => '2015-04-13 00:15:04',
+				'score' => '0',
+				'credit' => 'PewPewU',
+				'typeid' => '4',
+				'dataid' => '0',
+				'submitted_by' => '',
+				'description' => 'Use Auto Canceling to speed up your aerial approach game!',
+			),
+			19 => 
+			array (
+				'id' => '22',
+				'url' => 'hjHTHYa_x1c',
+				'title' => 'PewPewUniversity - Weight Class vs Fall Speed',
+				'update_date' => '2015-04-13 00:15:50',
+				'score' => '0',
+				'credit' => 'PewPewU',
+				'typeid' => '4',
+				'dataid' => '0',
+				'submitted_by' => '',
+				'description' => 'PewPewU describes some game mechanics in great detail! Great for new players.',
+			),
+			20 => 
+			array (
+				'id' => '23',
+				'url' => 'DNXPMf2UOck',
+				'title' => 'PewPewUniversity - Wall Tech',
+				'update_date' => '2015-04-13 00:16:41',
+				'score' => '0',
+				'credit' => 'PewPewU',
+				'typeid' => '4',
+				'dataid' => '0',
+				'submitted_by' => '',
+				'description' => 'Watch and learn how to effectively use a wall to do some stylish things',
+			),
+			21 => 
+			array (
+				'id' => '24',
+				'url' => '-LdZxzGjywE',
+				'title' => 'Hax combo video',
+				'update_date' => '2015-04-13 00:32:48',
+				'score' => '0',
+				'credit' => 'GRsmash',
+				'typeid' => '5',
+				'dataid' => '0',
+				'submitted_by' => '',
+				'description' => 'The top 10 Hax Falcon combos. Enjoy the super fast, technical gameplay.',
+			),
+			22 => 
+			array (
+				'id' => '25',
+				'url' => 'HfuVQN5cwy0',
+				'title' => '[Marth] Neutral Game Tutorial - SSBM',
+				'update_date' => '2015-04-13 00:38:06',
+				'score' => '0',
+				'credit' => 'SSBM Tutorials',
+				'typeid' => '1',
+				'dataid' => '0',
+				'submitted_by' => '',
+				'description' => 'SSBM Tutorials video guide introducing the neutral game.',
+			),
+			23 => 
+			array (
+				'id' => '26',
+				'url' => '4n4s5yB7ZkE',
+			'title' => 'Advanced How To Play (SSBM) Part 1',
+				'update_date' => '2015-04-13 00:39:56',
+				'score' => '0',
+				'credit' => 'Wak017',
+				'typeid' => '1',
+				'dataid' => '0',
+				'submitted_by' => '',
+				'description' => 'A great introduction into Technical SSBM.',
+			),
+			24 => 
+			array (
+				'id' => '27',
+				'url' => 'xiZLs2doK8E',
+			'title' => 'Advanced How To Play (SSBM) Part 2',
+				'update_date' => '2015-04-13 00:40:57',
+				'score' => '0',
+				'credit' => 'Wak017',
+				'typeid' => '1',
+				'dataid' => '0',
+				'submitted_by' => '',
+				'description' => 'Part 2 of the introductory series',
+			),
+			25 => 
+			array (
+				'id' => '28',
+				'url' => 'PFmGIOcWdsM',
+			'title' => 'Advanced How To Play (SSBM) Part 3',
+				'update_date' => '2015-04-13 00:41:35',
+				'score' => '0',
+				'credit' => 'Wak017',
+				'typeid' => '1',
+				'dataid' => '0',
+				'submitted_by' => '',
+				'description' => 'The final installment of this intro series',
+			),
+			26 => 
+			array (
+				'id' => '29',
+				'url' => 'vXgpGBbh5r8',
+				'title' => 'How Fast Is Melee?',
+				'update_date' => '2015-04-13 00:43:15',
+				'score' => '0',
+				'credit' => 'Acryte',
+				'typeid' => '1',
+				'dataid' => '0',
+				'submitted_by' => '',
+				'description' => 'A technique video demonstrating the speed at which Melee can be played',
+			),
+			27 => 
+			array (
+				'id' => '30',
+				'url' => 's63pPeyWasw',
+			'title' => '739 Mew2King Edgeguards (With Marth)',
+				'update_date' => '2015-04-13 00:45:28',
+				'score' => '0',
+				'credit' => 'Ben Burdett',
+				'typeid' => '3',
+				'dataid' => '0',
+				'submitted_by' => '',
+				'description' => 'Enjoy this endless video of edgeguards with Marth, and just maybe you\'ll be able to pull them off when needed',
+			),
+			28 => 
+			array (
+				'id' => '31',
+				'url' => 'n6vqWxTku8I',
+				'title' => 'The Legend of FalcoMaster3000',
+				'update_date' => '2015-04-13 00:48:08',
+				'score' => '0',
+				'credit' => 'Super Smash Bros University',
+				'typeid' => '3',
+				'dataid' => '0',
+				'submitted_by' => '',
+				'description' => 'A masked vigilante showed up at a smash bros meetup with a ski mask and sunglasses. He didn\'t say a word for 9 entire hours, beat everyone there and won the bracket, gave a thumbs up and left without saying a word.',
+			),
+		));
+	}
+
+}
