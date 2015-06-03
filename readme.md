@@ -11,10 +11,7 @@ update database config
 Run `php artisan migrate` to create database migration 
 Run `php artisan db:seed` to run seed
 
-###running
+###Serve
 serve the application with `php artisan serve`
 Might also need MAMP to run the mysql database backend
 
-### License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT)
