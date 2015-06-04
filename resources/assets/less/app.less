@@ -2,7 +2,105 @@
 
 @btn-font-weight: 300;
 @font-family-sans-serif: "Roboto", Helvetica, Arial, sans-serif;
+@header-font: "Advent Pro";
+@body-font: "Quicksand";
+@paragraph-font: "Noto Sans";
+
+
+@body-background-color: #2E4172;
+@container-background-color: #226666;
+@body-font-color: #ffffff;
+@border-color: #39d2a2;
+@well-color: #333333;
+
+@brand-color: #39d2a2;
+@navbar-link-color: #ffffff;
+
+@link-color: #ffffff;
 
 body, label, .checkbox label {
 	font-weight: 300;
+	color: @body-font-color;
 }
+
+body {
+	background-color: @body-background-color;
+}
+
+.container {
+	background-color: @container-background-color;
+}
+a {
+	text-decoration: none;
+	color: @link-color;
+	&:hover {
+		text-decoration: none;
+		color: fade(@link-color, 80);
+	}
+}
+
+/*
+ *
+ *	Font Stuff
+ *
+ */
+ h1 {
+	 font-family: @header-font;
+	 font-size: 32px;
+ }
+ h2 {
+	 
+ }
+ h3 {
+	 
+ }
+ p {
+	 
+ }
+ /*
+ *
+ *	Navbar Stuff
+ *
+ */
+ .navbar-default {
+	 background-color: @well-color;
+	 border: none;
+	 .navbar-nav > li > a {
+		 color: @navbar-link-color;
+		 &:hover {
+			 color: fade(@navbar-link-color, 70);
+		 }
+	 }
+	 .navbar-brand {
+		 color: @brand-color;
+	 }
+ }
+/*
+ *
+ *	Sidebar Stuff
+ *
+ */
+ #sidebar {
+	 padding-left: 0px;
+	 padding-right: 0px;
+	 h1 {
+		 text-align: center;
+		 padding: 15px;
+	 }
+	 ul {
+		 padding-left: 0px;
+		 list-style-type: none;
+		 margin-bottom: 0px;
+		 li {
+			 padding: 20px;
+			 font-family: "Roboto";
+			 background-color: @well-color;
+			 
+			 
+			 &:not(:last-child) {
+				 border-bottom: 3px solid @border-color;
+			 }
+		 }
+	 }
+	 border-right: 2px solid @border-color;
+ }

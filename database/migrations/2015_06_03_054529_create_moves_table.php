@@ -16,7 +16,6 @@ class CreateMovesTable extends Migration {
 		{
 			$table->integer('id', true);
 			$table->string('name', 35);
-			$table->string('description', 90);
 		});
 	}
 

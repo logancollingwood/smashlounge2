@@ -1,4 +1,5 @@
 <?php namespace App\Http\Controllers;
+Use App\Char;
 
 class CharController extends Controller {
 
@@ -30,5 +31,9 @@ class CharController extends Controller {
 	{
 		return view('character');
 	}
-
+	
+	public function getAll() {
+		$chars = Char::all();
+		return $chars;
+	}
 }

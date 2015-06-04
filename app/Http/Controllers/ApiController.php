@@ -41,12 +41,15 @@ class ApiController extends Controller {
 	
 	
 	public function char($id) {
-		
+		$char = Char::find($id);
+		return $char;
 	}
+	
 	public function tech($id) {
 		$tech = Tech::find($id);
 		return $tech;
 	}
+	
 	public function vod($id) {
 		
 	}

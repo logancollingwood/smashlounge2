@@ -894,12 +894,12 @@ textarea {
   line-height: inherit;
 }
 a {
-  color: #337ab7;
+  color: #ffffff;
   text-decoration: none;
 }
 a:hover,
 a:focus {
-  color: #23527c;
+  color: #d9d9d9;
   text-decoration: underline;
 }
 a:focus {
@@ -3034,7 +3034,7 @@ fieldset[disabled] .btn-danger.active {
   background-color: #ffffff;
 }
 .btn-link {
-  color: #337ab7;
+  color: #ffffff;
   font-weight: normal;
   border-radius: 0;
 }
@@ -3054,7 +3054,7 @@ fieldset[disabled] .btn-link {
 }
 .btn-link:hover,
 .btn-link:focus {
-  color: #23527c;
+  color: #d9d9d9;
   text-decoration: underline;
   background-color: transparent;
 }
@@ -3618,7 +3618,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .nav .open > a:hover,
 .nav .open > a:focus {
   background-color: #eeeeee;
-  border-color: #337ab7;
+  border-color: #ffffff;
 }
 .nav .nav-divider {
   height: 1px;
@@ -4335,7 +4335,7 @@ fieldset[disabled] .navbar-inverse .btn-link:focus {
   padding: 6px 12px;
   line-height: 1.42857143;
   text-decoration: none;
-  color: #337ab7;
+  color: #ffffff;
   background-color: #ffffff;
   border: 1px solid #dddddd;
   margin-left: -1px;
@@ -4355,7 +4355,7 @@ fieldset[disabled] .navbar-inverse .btn-link:focus {
 .pagination > li > span:hover,
 .pagination > li > a:focus,
 .pagination > li > span:focus {
-  color: #23527c;
+  color: #d9d9d9;
   background-color: #eeeeee;
   border-color: #dddddd;
 }
@@ -4550,7 +4550,7 @@ a.badge:focus {
 }
 .list-group-item.active > .badge,
 .nav-pills > .active > a > .badge {
-  color: #337ab7;
+  color: #ffffff;
   background-color: #ffffff;
 }
 .list-group-item > .badge {
@@ -4619,7 +4619,7 @@ a.badge:focus {
 a.thumbnail:hover,
 a.thumbnail:focus,
 a.thumbnail.active {
-  border-color: #337ab7;
+  border-color: #ffffff;
 }
 .thumbnail .caption {
   padding: 9px;
@@ -6230,4 +6230,75 @@ body,
 label,
 .checkbox label {
   font-weight: 300;
+  color: #ffffff;
 }
+body {
+  background-color: #2e4172;
+}
+.container {
+  background-color: #226666;
+}
+a {
+  text-decoration: none;
+  color: #ffffff;
+}
+a:hover {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.8);
+}
+/*
+ *
+ *	Font Stuff
+ *
+ */
+h1 {
+  font-family: "Advent Pro";
+  font-size: 32px;
+}
+/*
+ *
+ *	Navbar Stuff
+ *
+ */
+.navbar-default {
+  background-color: #333333;
+  border: none;
+}
+.navbar-default .navbar-nav > li > a {
+  color: #ffffff;
+}
+.navbar-default .navbar-nav > li > a:hover {
+  color: rgba(255, 255, 255, 0.7);
+}
+.navbar-default .navbar-brand {
+  color: #39d2a2;
+}
+/*
+ *
+ *	Sidebar Stuff
+ *
+ */
+#sidebar {
+  padding-left: 0px;
+  padding-right: 0px;
+  border-right: 2px solid #39d2a2;
+}
+#sidebar h1 {
+  text-align: center;
+  padding: 15px;
+}
+#sidebar ul {
+  padding-left: 0px;
+  list-style-type: none;
+  margin-bottom: 0px;
+}
+#sidebar ul li {
+  padding: 20px;
+  font-family: "Roboto";
+  background-color: #333333;
+}
+#sidebar ul li:not(:last-child) {
+  border-bottom: 3px solid #39d2a2;
+}
+
+/*# sourceMappingURL=app.css.map */

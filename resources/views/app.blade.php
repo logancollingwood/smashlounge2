@@ -10,7 +10,8 @@
 	
 	<!-- Fonts -->
 	<link href='//fonts.googleapis.com/css?family=Roboto:400,300' rel='stylesheet' type='text/css'>
-
+	<link href='http://fonts.googleapis.com/css?family=Noto+Sans|Quicksand|Advent+Pro' rel='stylesheet' type='text/css'>
+		
 	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
 	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
 	<!--[if lt IE 9]>
@@ -52,11 +53,29 @@
 			</div>
 		</div>
 	</nav>
-
-	@yield('content')
+		
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-2 col-md-3" id="sidebar">
+				<h1> <a href="{{ url('/') }}"> smashlounge </a> </h1>
+				<ul>
+					<li><a href="{{ url('/') }}">Home</a></li>
+					<li><a href="{{ url('/techs') }}">Techs</a></li>
+					<li><a href="{{ url('/chars') }}">Chars</a></li>
+					<li><a href="{{ url('/guides') }}">Guides</a></li>
+					<li><a href="{{ url('/vods') }}">Vods</a></li>
+					<li><a href="{{ url('/groups') }}">Groups</a></li>
+				</ul>
+			</div>
+			<div class="col-sm-8 col-md-9" id="main">
+				@yield('content')
+			</div>
+		</div>
+	</div>
 
 	<!-- Scripts -->
 	<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 	<script src="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.1/js/bootstrap.min.js"></script>
+	<script src="{{ asset('/js/app.js') }}"></script>
 </body>
 </html>
