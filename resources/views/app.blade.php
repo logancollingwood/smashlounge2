@@ -57,7 +57,7 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-sm-2 col-md-3" id="sidebar">
-				<h1> <a href="{{ url('/') }}"> smashlounge </a> </h1>
+				<h1> <a href="{{ url('/') }}"> smash</a> </h1>
 				<ul>
 					<li><a href="{{ url('/') }}">Home</a></li>
 					<li><a href="{{ url('/techs') }}">Techs</a></li>
