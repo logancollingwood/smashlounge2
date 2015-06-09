@@ -15,13 +15,38 @@ Route::model('groups', 'Group');
 
 Route::get('/', 'HomeController@index');
 
-Route::get('tech/{name}', 'TechController@index');
 
-Route::get('char/{name}', 'CharController@index');
+/*
+|--------------------------------------------------------------------------
+| Resource Modules
+| Techniques 	-- Tech Controller
+| Characters 	-- Char Controller
+| Vods 			-- Vod Controller
+| Groups	 	-- Group Controller
+|
+| Can view all generated routes by running:
+|
+| 	php artisan route:list 
+| 
+| from the project directory.
+|--------------------------------------------------------------------------
+*/
 
-Route::get('vod/{id}', 'VodController@index');
+Route::resource('techs', 'TechController');
+Route::resource('chars', 'CharController');
+Route::resource('vods', 'VodController');
+Route::resource('groups', 'GroupController');
 
-Route::get('group/{id}', 'GroupController@index');
+
+// This allows us to pass in objects to the controllers
+Route::bind('techs', function($value, $route) {
+	return App\Tech::where("tech", $value)->first();
+});
+
+Route::bind('chars', function($value, $route) {
+	return App\Char::where("name", $value)->first();
+});
+
 
 /*
 |--------------------------------------------------------------------------

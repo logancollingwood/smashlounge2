@@ -27,9 +27,20 @@ class TechController extends Controller {
 	 *
 	 * @return Response
 	 */
-	public function index($name)
-	{
-		return view('tech');
+	public function index() {
+		$techs = Tech::all();
+		$data = [ 'techs'=> $techs ];
+		return view('modules/tech', $data);
+	}
+	
+	public function show(Tech $tech) {
+		/* this logic seems to be bonkers */
+		/* The route seems to be passing a collection
+			of all the techniques. Need to debug
+		*/
+		
+		$data = ['tech' => $tech ];
+		return view('modules/showTech', $data);
 	}
 	
 	public function getAll() {
