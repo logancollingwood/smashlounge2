@@ -7,20 +7,20 @@
 
 @btn-font-weight: 300;
 @font-family-sans-serif: "Roboto", Helvetica, Arial, sans-serif;
-@header-font: "Advent Pro";
+@header-font: "Raleway";
 @body-font: "Quicksand";
 @paragraph-font: "Noto Sans";
 
 @base: #18ad90;
 @highlight: #1abc9c;
 
-@body-background-color: #2E4172;
+@body-background-color: #2a2a2a;
 @container-background-color: #226666;
 @body-font-color: #ffffff;
-@border-color: #39d2a2;
+
 @well-color: #333333;
 
-@brand-color: #39d2a2;
+
 @navbar-link-color: #ffffff;
 
 @link-color: #ffffff;
@@ -76,7 +76,7 @@ a {
 		 }
 	 }
 	 .navbar-brand {
-		 color: @brand-color;
+		 color: @highlight;
 	 }
  }
 /*
@@ -85,6 +85,7 @@ a {
  *
  */
  #sidebar {
+	 position: sticky;
 	 background-color: fade(#555555, 90);
 	 padding-left: 0px;
 	 padding-right: 0px;
@@ -103,26 +104,31 @@ a {
 			 
 			 
 			 &:not(:last-child) {
-				 border-bottom: 3px solid @border-color;
+				 border-bottom: 2px solid @highlight;
 			 }
 		 }
 	 }
-	 border-right: 2px solid @border-color;
+	 border-right: 2px solid @highlight;
  }
+ 
+ 
  #main {
 	 padding-left: 0px;
 	 padding-right: 0px;
-	 background-color: @container-background-color;
  }
  
  
  header {
+	 background-color: @highlight;
 	 padding: 20px;
 	 padding-top: 40px;
 	 text-align: center;
-	 border-bottom: 1px solid @border-color;
+	 border-bottom: 1px solid @highlight;
  }
  
  content {
-	 
+	 background-color: @well-color;
+	 display: block;
+	 padding-top: 20px;
+	 margin: 0 auto;
  }

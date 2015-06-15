@@ -6604,7 +6604,7 @@ label,
   color: #ffffff;
 }
 body {
-  background-color: #2e4172;
+  background-color: #2a2a2a;
 }
 a {
   text-decoration: none;
@@ -6620,7 +6620,7 @@ a:hover {
  *
  */
 h1 {
-  font-family: "Advent Pro";
+  font-family: "Raleway";
   font-size: 32px;
 }
 /*
@@ -6639,7 +6639,7 @@ h1 {
   color: rgba(255, 255, 255, 0.7);
 }
 .navbar-default .navbar-brand {
-  color: #39d2a2;
+  color: #1abc9c;
 }
 /*
  *
@@ -6647,10 +6647,12 @@ h1 {
  *
  */
 #sidebar {
+  position: -webkit-sticky;
+  position: sticky;
   background-color: rgba(85, 85, 85, 0.9);
   padding-left: 0px;
   padding-right: 0px;
-  border-right: 2px solid #39d2a2;
+  border-right: 2px solid #1abc9c;
 }
 #sidebar h1 {
   text-align: center;
@@ -6667,18 +6669,24 @@ h1 {
   background-color: #333333;
 }
 #sidebar ul li:not(:last-child) {
-  border-bottom: 3px solid #39d2a2;
+  border-bottom: 2px solid #1abc9c;
 }
 #main {
   padding-left: 0px;
   padding-right: 0px;
-  background-color: #226666;
 }
 header {
+  background-color: #1abc9c;
   padding: 20px;
   padding-top: 40px;
   text-align: center;
-  border-bottom: 1px solid #39d2a2;
+  border-bottom: 1px solid #1abc9c;
+}
+content {
+  background-color: #333333;
+  display: block;
+  padding-top: 20px;
+  margin: 0 auto;
 }
 
 /*# sourceMappingURL=app.css.map */
