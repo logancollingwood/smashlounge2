@@ -81,6 +81,6 @@
 	<script src="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.1/js/bootstrap.min.js"></script>
 	
 	<!-- application minified js -->
-	<script src="{{ asset('/js/compiled/all.js') }}"></script>
+	<script src="{{ asset('/js/compiled/app.js') }}"></script>
 </body>
 </html>

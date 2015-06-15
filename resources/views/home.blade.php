@@ -7,7 +7,7 @@
 @section('content')
 <div class="box">
 	<header>
-	A compendium for acquiring ultimate smash knowledge. Check out an example page to get going
+	Smashlounge is a compendium for acquiring ultimate smash knowledge. Check out an example page to get going
 	</header>
 	
 	<content>

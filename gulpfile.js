@@ -20,6 +20,6 @@ elixir(function(mix) {
 
 gulp.task('scripts', function () {
     return gulp.src('./public/js/scripts/*.js')
-    .pipe(concat('all.js'))
+    .pipe(concat('app.js'))
     .pipe(gulp.dest('./public/js/compiled/'));
 });

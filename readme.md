@@ -15,3 +15,6 @@ Run `php artisan db:seed` to run seed
 serve the application with `php artisan serve`
 Might also need MAMP to run the mysql database backend
 
+###Gulp Tasks
+All raw scripts are placed in `public/js/scripts`. Running `gulp scripts` will run a gulp
+task which will compile scripts and place the minfied, combined file in `public/js/compiled/app.js`.
