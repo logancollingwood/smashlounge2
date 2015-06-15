@@ -6226,6 +6226,377 @@ button.close {
     display: none !important;
   }
 }
+.panel-body {
+  overflow: hidden;
+}
+.panel-default .panel-heading {
+  font-family: 'roboto';
+  background-color: #555555;
+  color: #ffffff;
+  text-align: center;
+  font-size: 24px;
+}
+.panel-default .panel-heading a {
+  color: #18ad90;
+}
+.panel-default .panel-heading a:hover {
+  color: #1abc9c;
+}
+.panel-default .panel-heading .button {
+  color: #fafafa;
+}
+.panel-default .panel-heading .button:hover {
+  color: #fafafa;
+}
+.panel-default .panel-body {
+  background-color: #444444;
+  text-align: center;
+}
+.panel-default .panel-body .streamGame {
+  font-family: 'Raleway';
+}
+.panel-default .panel-body p {
+  color: #ffffff;
+}
+.panel-default .panel-footer {
+  font-family: 'Raleway';
+  color: #ffffff;
+  background-color: #555555;
+  text-align: center;
+}
+.panel-default .streams {
+  color: #ffffff;
+}
+.panel-default .streams a {
+  color: #ffffff;
+  transition: .5s all ease;
+}
+.panel-default .streams a:hover {
+  color: #1abc9c;
+}
+.theaterGif {
+  background-color: transparent;
+}
+.theaterGif .panel-heading {
+  background-color: transparent;
+  text-align: center;
+}
+.theaterGif .panel-heading a {
+  font-size: 13px;
+  color: #fff;
+}
+.theaterGif .panel-heading a:hover {
+  font-size: 13px;
+  color: #eee;
+}
+.theaterGif .panel-body {
+  overflow: visible;
+  max-height: 40%;
+}
+.theaterGif .panel-footer {
+  background-color: transparent;
+  overflow: visible;
+  max-height: 40%;
+  margin-bottom: 5%;
+}
+.theaterGif .panel-footer a {
+  color: #fff;
+}
+.theaterGif .panel-footer a:hover {
+  color: #1abc9c;
+}
+.theaterGif .panel-footer .upvotecount {
+  color: #fff;
+}
+.theaterGif .CtrlBox {
+  background-color: #fff;
+}
+.theaterGif .gfyVid {
+  box-shadow: 3px 26px 81px 10px rgba(255, 255, 255, 0.5);
+}
+/*
+    standard gfycat container
+*/
+.gfyTainer {
+  border-radius: 5px;
+  background-color: rgba(26, 188, 156, 0.5);
+  padding: 15px;
+  margin-bottom: 30px;
+}
+.gfyTainer {
+  position: relative;
+}
+.gfyTainer:before,
+.gfyTainer:after {
+  z-index: -1;
+  position: absolute;
+  content: "";
+  bottom: 15px;
+  left: 10px;
+  width: 50%;
+  top: 80%;
+  max-width: 300px;
+  background: #777;
+  box-shadow: 0 15px 10px #777;
+  -webkit-transform: rotate(-3deg);
+  -ms-transform: rotate(-3deg);
+  transform: rotate(-3deg);
+}
+.gfyTainer:after {
+  -webkit-transform: rotate(3deg);
+  -ms-transform: rotate(3deg);
+  transform: rotate(3deg);
+  right: 10px;
+  left: auto;
+}
+.voteBlock {
+  color: #fff;
+  text-align: center;
+}
+.voteBlock a {
+  transition: 1s;
+  color: #fff;
+}
+.voteBlock a.SL {
+  transition: 1s;
+  color: #1abc9c;
+}
+.voteBlock a:hover {
+  color: #1abc9c;
+}
+.voteBlock .exNum {
+  font-family: 'Quicksand';
+  color: #fff;
+  font-size: 24px;
+}
+.voteBlock .exNum :after {
+  content: " ";
+  border-bottom-style: dotted;
+  border-bottom-color: #fff;
+  border-bottom-width: 2px;
+  display: table-cell;
+  width: 200px;
+}
+.gfyTainer .CtrlBox {
+  background-color: #fff;
+}
+.gfyTainer .gfyFooter {
+  margin-top: 5%;
+  color: #fff;
+  font-family: 'Roboto';
+  text-align: center;
+}
+.controller {
+  width: 100%;
+}
+.charDataGfy .gfyVid {
+  max-height: 250px;
+}
+/* ======================================== \
+ ========== OBVIOUS BUTTONS CSS ===========
+\========================================= */
+/**
+ * Obvious Buttons 0.1
+ * https://github.com/skidding/obvious-buttons
+ *
+ * (c) 2014+ Ovidiu Cherecheș
+ * http://skidding.mit-license.org
+ */
+.button {
+  font-family: 'Raleway';
+  text-transform: lowercase;
+  display: block;
+  text-align: center;
+  cursor: pointer;
+  border: none;
+  height: 40px;
+  padding: 0 14px;
+  border-radius: 5px;
+  box-shadow: inset 0 -3px 0 0 rgba(0, 0, 0, 0.15);
+  font-size: 18px;
+  line-height: 37px;
+  -webkit-transition-property: background-color;
+  -webkit-transition-duration: 0.2s;
+  -webkit-transition-timing-function: linear;
+  -moz-transition-property: background-color;
+  -moz-transition-duration: 0.2s;
+  -moz-transition-timing-function: linear;
+  -ms-transition-property: background-color;
+  -ms-transition-duration: 0.2s;
+  -ms-transition-timing-function: linear;
+  -o-transition-property: background-color;
+  -o-transition-duration: 0.2s;
+  -o-transition-timing-function: linear;
+  transition-property: background-color;
+  transition-duration: 0.2s;
+  transition-timing-function: linear;
+  background: #fafafa;
+  color: #222222;
+}
+.button i {
+  padding-right: 10px;
+  line-height: 37px;
+}
+.button:active,
+.button:active i {
+  line-height: 40px;
+}
+.button.button-primary,
+.button.button-info,
+.button.button-success,
+.button.button-warning,
+.button.button-danger,
+.button.button-inverse {
+  box-shadow: inset 0 -3px 0 0 rgba(0, 0, 0, 0.2);
+}
+.button:hover,
+.button:focus {
+  background: #e6e6e6;
+  color: #222222;
+}
+.button.button-primary {
+  background: #0088cc;
+  color: #fafafa;
+}
+.button.button-primary:hover,
+.button.button-primary:focus {
+  background: #006da3;
+  color: #fafafa;
+}
+.button.button-info {
+  background: #36a99c;
+  color: #fafafa;
+}
+.button.button-info:hover,
+.button.button-info:focus {
+  background: #2c8a7f;
+  color: #fafafa;
+}
+.button.button-success {
+  background: #2db380;
+  color: #fafafa;
+}
+.button.button-success:hover,
+.button.button-success:focus {
+  background: #259269;
+  color: #fafafa;
+}
+.button.button-warning {
+  background: #faa732;
+  color: #fafafa;
+}
+.button.button-warning:hover,
+.button.button-warning:focus {
+  background: #f9960a;
+  color: #fafafa;
+}
+.button.button-danger {
+  background: #da4f49;
+  color: #fafafa;
+}
+.button.button-danger:hover,
+.button.button-danger:focus {
+  background: #d0312a;
+  color: #fafafa;
+}
+.button.button-inverse {
+  background: #363636;
+  color: #fafafa;
+}
+.button.button-inverse:hover,
+.button.button-inverse:focus {
+  background: #222222;
+  color: #fafafa;
+}
+.button span {
+  pointer-events: none;
+}
+.button:hover {
+  text-decoration: none;
+}
+.button:focus {
+  text-decoration: none;
+  outline: none;
+}
+.button:active {
+  box-shadow: none !important;
+}
+.button-small {
+  height: 30px;
+  padding: 0 10px;
+  border-radius: 4px;
+  box-shadow: inset 0 -2px 0 0 rgba(0, 0, 0, 0.15);
+  font-size: 14px;
+  line-height: 28px;
+}
+.button-small i {
+  padding-right: 10px;
+  line-height: 28px;
+}
+.button-small:active,
+.button-small:active i {
+  line-height: 30px;
+}
+.button-small.button-primary,
+.button-small.button-info,
+.button-small.button-success,
+.button-small.button-warning,
+.button-small.button-danger,
+.button-small.button-inverse {
+  box-shadow: inset 0 -2px 0 0 rgba(0, 0, 0, 0.2);
+}
+.button-large {
+  height: 50px;
+  padding: 0 18px;
+  border-radius: 6px;
+  box-shadow: inset 0 -4px 0 0 rgba(0, 0, 0, 0.15);
+  font-size: 22px;
+  line-height: 46px;
+}
+.button-large i {
+  padding-right: 10px;
+  line-height: 46px;
+}
+.button-large:active,
+.button-large:active i {
+  line-height: 50px;
+}
+.button-large.button-primary,
+.button-large.button-info,
+.button-large.button-success,
+.button-large.button-warning,
+.button-large.button-danger,
+.button-large.button-inverse {
+  box-shadow: inset 0 -4px 0 0 rgba(0, 0, 0, 0.2);
+}
+.button-xlarge {
+  height: 60px;
+  padding: 0 22px;
+  border-radius: 7px;
+  box-shadow: inset 0 -5px 0 0 rgba(0, 0, 0, 0.15);
+  font-size: 26px;
+  line-height: 55px;
+}
+.button-xlarge i {
+  padding-right: 10px;
+  line-height: 55px;
+}
+.button-xlarge:active,
+.button-xlarge:active i {
+  line-height: 60px;
+}
+.button-xlarge.button-primary,
+.button-xlarge.button-info,
+.button-xlarge.button-success,
+.button-xlarge.button-warning,
+.button-xlarge.button-danger,
+.button-xlarge.button-inverse {
+  box-shadow: inset 0 -5px 0 0 rgba(0, 0, 0, 0.2);
+}
+.button-inline {
+  display: inline-block;
+  vertical-align: middle;
+}
 body,
 label,
 .checkbox label {
@@ -6234,9 +6605,6 @@ label,
 }
 body {
   background-color: #2e4172;
-}
-.container {
-  background-color: #226666;
 }
 a {
   text-decoration: none;
@@ -6279,6 +6647,7 @@ h1 {
  *
  */
 #sidebar {
+  background-color: rgba(85, 85, 85, 0.9);
   padding-left: 0px;
   padding-right: 0px;
   border-right: 2px solid #39d2a2;
@@ -6299,6 +6668,17 @@ h1 {
 }
 #sidebar ul li:not(:last-child) {
   border-bottom: 3px solid #39d2a2;
+}
+#main {
+  padding-left: 0px;
+  padding-right: 0px;
+  background-color: #226666;
+}
+header {
+  padding: 20px;
+  padding-top: 40px;
+  text-align: center;
+  border-bottom: 1px solid #39d2a2;
 }
 
 /*# sourceMappingURL=app.css.map */

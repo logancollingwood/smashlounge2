@@ -1,4 +1,9 @@
 @import "bootstrap/bootstrap";
+@import "util/_panels";
+@import "util/_gifcontainers";
+@import "util/_buttons";
+
+
 
 @btn-font-weight: 300;
 @font-family-sans-serif: "Roboto", Helvetica, Arial, sans-serif;
@@ -6,6 +11,8 @@
 @body-font: "Quicksand";
 @paragraph-font: "Noto Sans";
 
+@base: #18ad90;
+@highlight: #1abc9c;
 
 @body-background-color: #2E4172;
 @container-background-color: #226666;
@@ -27,9 +34,6 @@ body {
 	background-color: @body-background-color;
 }
 
-.container {
-	background-color: @container-background-color;
-}
 a {
 	text-decoration: none;
 	color: @link-color;
@@ -81,6 +85,7 @@ a {
  *
  */
  #sidebar {
+	 background-color: fade(#555555, 90);
 	 padding-left: 0px;
 	 padding-right: 0px;
 	 h1 {
@@ -103,4 +108,21 @@ a {
 		 }
 	 }
 	 border-right: 2px solid @border-color;
+ }
+ #main {
+	 padding-left: 0px;
+	 padding-right: 0px;
+	 background-color: @container-background-color;
+ }
+ 
+ 
+ header {
+	 padding: 20px;
+	 padding-top: 40px;
+	 text-align: center;
+	 border-bottom: 1px solid @border-color;
+ }
+ 
+ content {
+	 
  }

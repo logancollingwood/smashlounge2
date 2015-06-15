@@ -3,6 +3,7 @@ use App\Tech;
 use App\Char;
 use App\Group;
 use App\Vod;
+use App\SmashGifs;
 
 class ApiController extends Controller {
 
@@ -57,4 +58,8 @@ class ApiController extends Controller {
 		
 	}
 
+	public function smashgifs() {
+		$smashGif = new SmashGifs();
+		return $smashGif->gif;
+	}
 }

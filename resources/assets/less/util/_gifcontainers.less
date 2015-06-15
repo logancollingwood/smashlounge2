@@ -1,0 +1,134 @@
+.theaterGif {
+    background-color: transparent;
+}
+
+.theaterGif .panel-heading {
+    background-color: transparent;
+    text-align: center;
+}
+.theaterGif .panel-heading a {
+    font-size: 13px;
+    color: #fff;
+}
+.theaterGif .panel-heading a:hover {
+    font-size: 13px;
+    color: #eee;
+}
+.theaterGif .panel-body {
+    overflow: visible;
+    max-height: 40%;
+}
+.theaterGif .panel-footer {
+    background-color: transparent;
+    overflow: visible;
+    max-height: 40%;
+    margin-bottom: 5%;
+}
+.theaterGif .panel-footer a {
+    color: #fff;
+    &:hover {
+        color: @highlight;
+    }
+}
+.theaterGif .panel-footer .upvotecount {
+    color: #fff;
+}
+.theaterGif .CtrlBox {
+    background-color: #fff;
+}
+.theaterGif .gfyVid {
+    -webkit-box-shadow: 3px 26px 81px 10px rgba(255,255,255,0.50);
+    -moz-box-shadow: 3px 26px 81px 10px rgba(255,255,255,0.50);
+    box-shadow: 3px 26px 81px 10px rgba(255,255,255,0.50);
+}
+
+
+/*
+    standard gfycat container
+*/
+.gfyTainer {
+    border-radius: 5px;
+    background-color: rgba(26, 188, 156, .5);
+    padding: 15px;
+    margin-bottom: 30px;
+}
+.gfyTainer
+{
+  position: relative;
+}
+.gfyTainer:before, .gfyTainer:after
+{
+  z-index: -1;
+  position: absolute;
+  content: "";
+  bottom: 15px;
+  left: 10px;
+  width: 50%;
+  top: 80%;
+  max-width:300px;
+  background: #777;
+  -webkit-box-shadow: 0 15px 10px #777;
+  -moz-box-shadow: 0 15px 10px #777;
+  box-shadow: 0 15px 10px #777;
+  -webkit-transform: rotate(-3deg);
+  -moz-transform: rotate(-3deg);
+  -o-transform: rotate(-3deg);
+  -ms-transform: rotate(-3deg);
+  transform: rotate(-3deg);
+}
+.gfyTainer:after
+{
+  -webkit-transform: rotate(3deg);
+  -moz-transform: rotate(3deg);
+  -o-transform: rotate(3deg);
+  -ms-transform: rotate(3deg);
+  transform: rotate(3deg);
+  right: 10px;
+  left: auto;
+}
+
+
+.voteBlock {
+    color: #fff;
+    text-align: center;
+}
+.voteBlock a {
+    transition: 1s;
+    color: #fff;
+}
+.voteBlock a.SL {
+    transition: 1s;
+    color: @highlight;
+}
+.voteBlock a:hover {
+    color: @highlight;
+}
+.voteBlock .exNum {
+    font-family: 'Quicksand';
+    color: #fff;
+    font-size: 24px;
+}
+.voteBlock .exNum :after {
+      content: " ";
+      border-bottom-style: dotted;
+      border-bottom-color: #fff;
+      border-bottom-width:2px;
+      display:table-cell;
+      width:200px;
+}
+.gfyTainer .CtrlBox {
+    background-color: #fff;
+}
+.gfyTainer .gfyFooter {
+    margin-top: 5%;
+    color: #fff;
+    font-family: 'Roboto';
+    text-align: center;
+}
+.controller {
+    width: 100%;
+}
+
+.charDataGfy .gfyVid {
+    max-height:250px;
+}

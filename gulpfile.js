@@ -1,4 +1,7 @@
+var gulp = require('gulp');
 var elixir = require('laravel-elixir');
+
+var concat = require('gulp-concat');
 
 /*
  |--------------------------------------------------------------------------
@@ -13,4 +16,10 @@ var elixir = require('laravel-elixir');
 
 elixir(function(mix) {
     mix.less('app.less');
+});
+
+gulp.task('scripts', function () {
+    return gulp.src('./public/js/scripts/*.js')
+    .pipe(concat('all.js'))
+    .pipe(gulp.dest('./public/js/compiled/'));
 });
