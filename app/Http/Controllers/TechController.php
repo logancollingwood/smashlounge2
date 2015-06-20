@@ -38,8 +38,8 @@ class TechController extends Controller {
 		/* The route seems to be passing a collection
 			of all the techniques. Need to debug
 		*/
-		
-		$data = ['tech' => $tech ];
+		$gifs = $tech->getGifs();
+		$data = ['tech' => $tech , 'gifs' => $gifs];
 		return view('modules/showTech', $data);
 	}
 	

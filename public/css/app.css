@@ -6704,5 +6704,11 @@ content {
   padding-top: 20px;
   margin: 0 auto;
 }
+.listAll {
+  margin: 0 auto;
+  text-align: center;
+  font-size: 22px;
+  font-family: "Raleway";
+}
 
 /*# sourceMappingURL=app.css.map */
