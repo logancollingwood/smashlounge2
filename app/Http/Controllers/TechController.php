@@ -11,7 +11,7 @@ class TechController extends Controller {
 	| This is the controller for displaying the technique page
 	|
 	*/
-	private $viewDir = "modules/tech";
+	private $viewDir = "modules.techs";
 
 	/**
 	 * Create a new controller instance.
@@ -31,7 +31,7 @@ class TechController extends Controller {
 	public function index() {
 		$techs = Tech::all();
 		$data = [ 'techs'=> $techs ];
-		return view($this->viewDir, $data);
+		return view($this->viewDir . ".tech", $data);
 	}
 	
 	public function show(Tech $tech) {
@@ -41,7 +41,7 @@ class TechController extends Controller {
 		*/
 		$gifs = $tech->getGifs();
 		$data = ['tech' => $tech , 'gifs' => $gifs];
-		return view('modules/showTech', $data);
+		return view($this->viewDir . ".showTech", $data);
 	}
 	
 	public function getAll() {

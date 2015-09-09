@@ -17,7 +17,7 @@ class HomeController extends Controller {
 	//   Holds the folder link within resources/views where the blade view lives.
 	//	this allows us to further organize our views into a models subdirectory.
 
-	private $viewDir = "home";
+	private $viewDir = "modules.home";
 
 	/**
 	 * Create a new controller instance.
@@ -37,10 +37,8 @@ class HomeController extends Controller {
 	public function index()
 	{	
 		//could be optimized, should be fine with sub 40 entries
-		$tech = Tech::all()->random(1);
-		
-		$data = [ 'home'=> "" ];
-		return view($this->viewDir, $data);
+
+		return view($this->viewDir . ".home");
 	}
 
 }

@@ -10,6 +10,10 @@ class Gifs extends Model {
 	
 	
 	public function printGfy() {
-		echo "<img class='gfyitem' data-expand=true data-id=$this->url />";
+		echo '<div class="gfyTainer">';
+			echo '<div class="row">';
+				echo "<img class='gfyitem' data-expand=true data-id=$this->url />";
+			echo '</div>';
+		echo '</div>';
 	}
 }

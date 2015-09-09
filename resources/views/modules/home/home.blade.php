@@ -1,9 +1,5 @@
 @extends('app')
 
-@section('page-includes') 
-		
-@endsection
-
 @section('content')
 <div class="box">
 	<header>
@@ -16,14 +12,11 @@
 			<div class="col-md-10 col-md-offset-1">
 				<div class="panel-default randomPanel">
 					<div class="panel-heading">
-						<h2> {{ $home->tech->name or 'RandomSlot' }} </h2>					
+						<h2>  </h2>					
 					</div>
 					<div class="panel-body">
-						<p> {{ $home->tech->description or 'lorem ipsun' }} <p>
-					</div>
-					<div class="panel-footer">
-						<a href="{{ }}"></a>			
-					</div>				
+						<p>  <p>
+					</div>					
 				</div>
 			</div>
 		</div>

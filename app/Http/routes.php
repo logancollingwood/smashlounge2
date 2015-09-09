@@ -33,19 +33,19 @@ Route::get('/', 'HomeController@index');
 */
 
 Route::resource('techs', 'TechController');
-Route::resource('chars', 'CharController');
-Route::resource('vods', 'VodController');
-Route::resource('groups', 'GroupController');
-
-
-// This allows us to pass in objects to the controllers
 Route::bind('techs', function($value, $route) {
 	return App\Tech::where("tech", $value)->first();
 });
 
+Route::resource('chars', 'CharController');
 Route::bind('chars', function($value, $route) {
 	return App\Char::where("name", $value)->first();
 });
+
+Route::resource('vods', 'VodController');
+Route::resource('groups', 'GroupController');
+
+
 
 
 /*
