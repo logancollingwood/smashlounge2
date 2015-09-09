@@ -7,7 +7,11 @@ an external API as well as a more modular interface.
 Run composer install
 
 update environment
+copy .env.example to .env and configure
+
+run `sudo npm install` to install node dependencies
 update database config
+
 Run `php artisan migrate` to create database migration 
 Run `php artisan db:seed` to run seed
 

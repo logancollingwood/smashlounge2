@@ -1,13 +1,14 @@
 @extends('app')
 
-@section('includes') 
+@section('page-includes') 
 		
 @endsection
 
 @section('content')
 <div class="box">
 	<header>
-	Smashlounge is a compendium for acquiring ultimate smash knowledge. Check out an example page to get going
+	<h1>Smashlounge</h1>
+	<p>Learn something about Super Smash Brothers Melee for the Nintendo Gamecube <i class="fa fa-trademark"></i></p>
 	</header>
 	
 	<content>

@@ -4,6 +4,7 @@ var global;
 function drawRandomGif() {
   $.getJSON("/api/smashgifs", function( data ) {
 
+    console.time("randomSmashGif");
     var found = data['data'];
 
     var item;
@@ -39,6 +40,14 @@ function drawRandomGif() {
     $("#randomSlot").append("<div class='panel-heading'>" + panelHeading + "</div><div class='panel-body'>" + panelBody + "</div><div class='panel-footer'>" + panelFooter + "</div>");
     spawned = true;
     gfyCollection.init();
+  }).done(function() {
+    console.debug( "Successfully grabbed a gif from r/smashbros" );
+  })
+  .fail(function() {
+    console.debug( "Unable to grab gif from r/smashbros" );
+  })
+  .always(function() {
+    console.timeEnd("randomSmashGif");
   });
 }
 
