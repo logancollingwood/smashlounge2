@@ -1,8 +1,4 @@
-
 @import "bootstrap/bootstrap";
-
-@black: #000000;
-@white: #ffffff;
 
 /* Defines some styles for various containers */
 @import "util/_panels";
@@ -24,6 +20,8 @@
 
 @base: #18ad90;
 @highlight: #1abc9c;
+@black: #000000;
+@white: #ffffff;
 
 @body-background-color: #2a2a2a;
 @container-background-color: #226666;

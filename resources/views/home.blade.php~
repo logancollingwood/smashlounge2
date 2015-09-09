@@ -20,10 +20,7 @@
 					</div>
 					<div class="panel-body">
 						<p> {{ $home->tech->description or 'lorem ipsun' }} <p>
-					</div>
-					<div class="panel-footer">
-						<a href="{{ }}"></a>			
-					</div>				
+					</div>					
 				</div>
 			</div>
 		</div>

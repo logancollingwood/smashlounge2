@@ -4,8 +4,7 @@ an external API as well as a more modular interface.
 
 ##Installation
 {( will be filled in )}
-Run 
-`composer install`
+Run composer install
 
 update environment
 copy .env.example to .env and configure

@@ -6,7 +6,9 @@
     overflow: hidden;
 }
 .panel-default {
-
+    h2 {
+      color: @black;
+    }
     .panel-heading {
       font-family: 'roboto';
       background-color: @panel-dark;
