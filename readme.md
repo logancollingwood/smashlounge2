@@ -3,18 +3,15 @@ This repository is the directory for all future development on SmashLounge. Sign
 an external API as well as a more modular interface. 
 
 ##Installation
-{( will be filled in )}
-Run 
-`composer install`
+--Run `composer install` to install php libraries. These external dependencies can be found in composer.json.
 
-update environment
-copy .env.example to .env and configure
+--Update .env.example and fill in with local mysql credentials. Once this is done, save as .env.
 
-run `sudo npm install` to install node dependencies
-update database config
+--Run `sudo npm install` to install node dependencies
 
-Run `php artisan migrate` to create database migration 
-Run `php artisan db:seed` to run seed
+--Create database `smashlounge` or whatever you want to call it (just update .env)
+--Run `php artisan migrate` to create database migration 
+--Run `php artisan db:seed` to run seed
 
 ###Serve
 serve the application with `php artisan serve`
