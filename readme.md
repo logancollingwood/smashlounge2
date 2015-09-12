@@ -1,6 +1,5 @@
-### Smashlounge 2
-This repository is the directory for all future development on SmashLounge. Signficant work will be put in building 
-an external API as well as a more modular interface. 
+# Smashlounge 2
+All smashlounge development lives here. Smashlounge serves to deliver high-quality smash data and provide a rich API for modifying, flagging, moderating, and delivering quality smash knowledge.
 
 ##Installation
 1. Run `composer install` to install php libraries. These external dependencies can be found in composer.json.
@@ -11,11 +10,11 @@ an external API as well as a more modular interface.
 
 4. Create database `smashlounge` or whatever you want to call it (just update .env)
 5. Run `php artisan migrate` to create database migration 
-6. Run `php artisan db:seed` to run seed
+6. Run `php artisan db:seed` to run seed with example data
+7. Serve the database using mysql
 
 ###Serve
-serve the application with `php artisan serve`
-Might also need MAMP to run the mysql database backend
+The ideal setup for self-hosting a dev server is using Virtualbox Vagrant, and to run a *AMP server with a static IP to host. It is best to share a folder with the VM, and modify apache so that it serves from the shared file. That way, you can develop on the host OS and just use the VM for hosting a clean webserver.
 
 ###Gulp Tasks
 All raw scripts are placed in `public/js/scripts`. Running `gulp scripts` will run a gulp
