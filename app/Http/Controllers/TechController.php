@@ -12,7 +12,7 @@ class TechController extends Controller {
 	|
 	*/
 	private $viewDir = "modules.techs";
-
+	private $columns = 3;
 	/**
 	 * Create a new controller instance.
 	 *
@@ -30,7 +30,8 @@ class TechController extends Controller {
 	 */
 	public function index() {
 		$techs = Tech::all();
-		$data = [ 'techs'=> $techs ];
+
+		$data = [ 'techs'=> $techs, 'columns' => $this->columns ];
 		return view($this->viewDir . ".tech", $data);
 	}
 	

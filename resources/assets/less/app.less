@@ -14,6 +14,9 @@
 @import "sizes/_tablet";
 @import "sizes/_desktop";
 
+/* page specific less */
+@import "page/homepage";
+@import "page/techlist.less";
 
 
 @btn-font-weight: 300;
@@ -30,7 +33,7 @@
 @body-font-color: #ffffff;
 
 @well-color: #333333;
-
+@grey: #526974;
 
 @navbar-link-color: #ffffff;
 
@@ -46,12 +49,20 @@ body {
 }
 
 a {
+
 	text-decoration: none;
 	color: @link-color;
 	&:hover {
 		text-decoration: none;
 		color: fade(@link-color, 80);
 	}
+	.list {
+		font-size: 24px;
+	}
+}
+
+a.list {
+	font-size: 24px;
 }
 
 /*
@@ -62,6 +73,7 @@ a {
  h1 {
 	 font-family: @header-font;
 	 font-size: 32px;
+	 text-transform: uppercase;
  }
  h2 {
 	 font-family: @paragraph-font;
@@ -92,6 +104,10 @@ a {
 		 color: @highlight;
 	 }
  }
+
+#content {
+	margin-top: 90px;
+}
 /*
  *
  *	Sidebar Stuff
@@ -142,8 +158,9 @@ a {
  content {
 	 background-color: @well-color;
 	 display: block;
-	 padding-top: 20px;
+	 padding: 20px;
 	 margin: 0 auto;
+
  }
  
 .listAll {
@@ -152,3 +169,12 @@ a {
  	font-size: 22px;
  	font-family: @header-font;
  }
+
+
+.no-margin {
+	margin: 0px;
+}
+
+.affix-top,.affix{
+	position: static;
+}

@@ -1,21 +1,20 @@
-@extends('app')
+@extends('application')
 
 @section('content')
 
 	<header>
-		{{ $tech->tech }}
-		<h2> {{ $tech->description }} </h2>
+		<h1> {{ $tech->tech }} </h1>
+		<p> {{ $tech->description }} </p>
 		<p>  {{ $tech->inputs }} </p>
 	</header>
 	
 	<content>
-		
-
-				@each('showGif', $gifs, 'gif')
-
-				@foreach ($gifs as $gif)
-				   {{ $gif->printGfy() }}
+			<div class="row no-margin">
+				@foreach($gifs as $gif)
+					@include('gif')
 				@endforeach
+				
+			</div>
 
 	</content>
 

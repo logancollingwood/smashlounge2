@@ -6246,6 +6246,9 @@ button.close {
 .panel-body {
   overflow: hidden;
 }
+.panel-default {
+  margin-bottom: 15px;
+}
 .panel-default .panel-heading {
   font-family: 'roboto';
   background-color: #555555;
@@ -6366,6 +6369,9 @@ button.close {
   transform: rotate(3deg);
   right: 10px;
   left: auto;
+}
+.gif {
+  width: 100%;
 }
 .voteBlock {
   color: #fff;
@@ -6635,6 +6641,21 @@ h1 {
     font-size: 32px;
   }
 }
+/* page specific less */
+#homepage .counter {
+  background-color: transparent;
+}
+.listitem {
+  padding: 5px;
+  margin: 5px;
+  border: 2px solid #526974;
+}
+.listitem:hover {
+  background-color: rgba(51, 51, 51, 0.01);
+}
+.counter {
+  background-color: transparent;
+}
 body,
 label,
 .checkbox label {
@@ -6652,6 +6673,12 @@ a:hover {
   text-decoration: none;
   color: rgba(255, 255, 255, 0.8);
 }
+a .list {
+  font-size: 24px;
+}
+a.list {
+  font-size: 24px;
+}
 /*
  *
  *	Font Stuff
@@ -6660,6 +6687,7 @@ a:hover {
 h1 {
   font-family: "Raleway";
   font-size: 32px;
+  text-transform: uppercase;
 }
 h2 {
   font-family: "Noto Sans";
@@ -6682,6 +6710,9 @@ h2 {
 }
 .navbar-default .navbar-brand {
   color: #1abc9c;
+}
+#content {
+  margin-top: 90px;
 }
 /*
  *
@@ -6727,7 +6758,7 @@ header {
 content {
   background-color: #333333;
   display: block;
-  padding-top: 20px;
+  padding: 20px;
   margin: 0 auto;
 }
 .listAll {
@@ -6735,6 +6766,13 @@ content {
   text-align: center;
   font-size: 22px;
   font-family: "Raleway";
+}
+.no-margin {
+  margin: 0px;
+}
+.affix-top,
+.affix {
+  position: static;
 }
 
 /*# sourceMappingURL=app.css.map */

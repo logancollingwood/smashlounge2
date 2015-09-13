@@ -2,6 +2,7 @@ var gulp = require('gulp');
 var elixir = require('laravel-elixir');
 
 var concat = require('gulp-concat');
+var uglify = require('gulp-uglify');
 
 /*
  |--------------------------------------------------------------------------
@@ -21,5 +22,6 @@ elixir(function(mix) {
 gulp.task('scripts', function () {
     return gulp.src('./public/js/scripts/*.js')
     .pipe(concat('app.js'))
+    .pipe(uglify())
     .pipe(gulp.dest('./public/js/compiled/'));
 });

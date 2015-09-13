@@ -23,6 +23,7 @@ Route::get('/', 'HomeController@index');
 | Characters 	-- Char Controller
 | Vods 			-- Vod Controller
 | Groups	 	-- Group Controller
+| Submit        -- Submit Controller
 |
 | Can view all generated routes by running:
 |
@@ -45,7 +46,7 @@ Route::bind('chars', function($value, $route) {
 Route::resource('vods', 'VodController');
 Route::resource('groups', 'GroupController');
 
-
+Route::resource('submit', 'SubmitController');
 
 
 /*

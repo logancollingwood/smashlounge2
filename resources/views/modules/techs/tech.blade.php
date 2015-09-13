@@ -1,4 +1,4 @@
-@extends('app')
+@extends('application')
 
 @section('content')
 <div class="content">
@@ -7,21 +7,26 @@
 	</header>
 	
 	<content>
-		<table class="listAll">
+		<div class="row">
 			@for ($i = 0; $i < count($techs); $i++)
-			    <tr>
-					<td class="pull-left">
-						<span class="badge">{{ $i }} </span>
-					</td>
-					<td>
-						<a href="{{ route('techs.show', $techs[$i]->tech) }}">
-							{{ $techs[$i]->tech }}
-						</a>
-					</td>
-				</tr>
+				@if ($i % $columns == $columns)
+					</div>
+					<div class="row">
+				@endif
+			    <div class="col-md-{{12/$columns}}">
+			    	<div class="listitem">
+
+							<span class="badge counter">{{ $i + 1 }} </span>
+
+							<a href="{{ route('techs.show', $techs[$i]->tech) }}" class="list">
+								{{ $techs[$i]->tech }}
+							</a>
+
+					</div>
+				</div>
 
 			@endfor
-			
+		</div>
 			
 		</table>
 	</content>
