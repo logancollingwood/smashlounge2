@@ -11,7 +11,8 @@ All smashlounge development lives here. Smashlounge serves to deliver high-quali
 4. Create database `smashlounge` or whatever you want to call it (just update .env)
 5. Run `php artisan migrate` to create database migration 
 6. Run `php artisan db:seed` to run seed with example data
-7. Serve the database using mysql
+7. Serve the database using mysql, and configure apache2 virtualhosts to point to where you want to store the application (with virtualbox this will be where you mount the shared folder).
+8. Run `sudo service apache2 restart` to restart apache (on Ubuntu)
 
 ###Serve
 The ideal setup for self-hosting a dev server is using Virtualbox Vagrant, and to run a *AMP server with a static IP to host. It is best to share a folder with the VM, and modify apache so that it serves from the shared file. That way, you can develop on the host OS and just use the VM for hosting a clean webserver. 
