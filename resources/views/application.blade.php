@@ -66,6 +66,7 @@
 					<li><a href="{{ url('/vods') }}">Vods</a></li>
 					<li><a href="{{ url('/groups') }}">Groups</a></li>
 					<li><a href="{{ url('/submit') }}">Submit</a></li>
+					<li><a href="{{ url('/api/doc') }}">API</a></li>
 				</ul>
 			</div>
 			<div class="col-sm-8 col-md-9" id="main">

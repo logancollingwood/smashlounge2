@@ -31,7 +31,6 @@
 			@endfor
 		</div>
 			
-		</table>
 	</content>
 </div>
 @endsection

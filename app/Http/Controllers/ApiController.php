@@ -9,10 +9,10 @@ class ApiController extends Controller {
 
 	/*
 	|--------------------------------------------------------------------------
-	| Char Controller
+	| Api Controller
 	|--------------------------------------------------------------------------
 	|
-	| This is for the character display page
+	| This is for the forward facing API
 	|
 	*/
 
@@ -37,7 +37,17 @@ class ApiController extends Controller {
 	}
 	
 	public function docs() {
-		return view('apidoc');
+		
+		$api = 
+			array(
+				"name" => "group",
+				"methods" => array("get" => "returns all groups")
+			);
+
+
+		$data = [ "api"=> $api ];
+
+		return view('modules.api.doc', $data);
 	}
 	
 	
