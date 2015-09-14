@@ -14,7 +14,10 @@ All smashlounge development lives here. Smashlounge serves to deliver high-quali
 7. Serve the database using mysql
 
 ###Serve
-The ideal setup for self-hosting a dev server is using Virtualbox Vagrant, and to run a *AMP server with a static IP to host. It is best to share a folder with the VM, and modify apache so that it serves from the shared file. That way, you can develop on the host OS and just use the VM for hosting a clean webserver.
+The ideal setup for self-hosting a dev server is using Virtualbox Vagrant, and to run a *AMP server with a static IP to host. It is best to share a folder with the VM, and modify apache so that it serves from the shared file. That way, you can develop on the host OS and just use the VM for hosting a clean webserver. 
+
+(**NOTE**)
+NPM has a known lack of support for shared folders on VirtualBox. This is because the shared folder does not support symlinks, which causes issues for npm. Because of this, you may encounter issues with gulp, and other npm dependencies. However, there are workarounds for this.
 
 ###Gulp Tasks
 All raw scripts are placed in `public/js/scripts`. Running `gulp scripts` will run a gulp
