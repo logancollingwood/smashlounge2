@@ -9392,7 +9392,7 @@ class GifsTableSeeder extends Seeder {
 			281 => 
 			array (
 				'id' => '1906',
-				'typeid' => '3',
+				'typeid' => '99',
 				'dataid' => '119',
 				'source' => '',
 				'submittedby' => '0',
@@ -9404,7 +9404,7 @@ class GifsTableSeeder extends Seeder {
 			282 => 
 			array (
 				'id' => '1907',
-				'typeid' => '3',
+				'typeid' => '99',
 				'dataid' => '119',
 				'source' => '',
 				'submittedby' => '0',
