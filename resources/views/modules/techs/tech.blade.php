@@ -3,18 +3,14 @@
 @section('content')
 <div class="content">
 	<header>
-		Explore our growing database of smash techniques.
+		<h2>Explore our growing database of smash techniques.</h2>
 	</header>
 	
 	<content>
-		<div class="row">
+		<ul class="specList scene_element scene_element--fadeinup scene_element--fadeinright-wide">
 			@for ($i = 0; $i < count($techs); $i++)
-				@if ($i % $columns == $columns)
-					</div>
-					<div class="row">
-				@endif
-			    <div class="col-md-{{12/$columns}}">
-			    	<div class="listitem">
+
+			    	<li class="listitem">
 
 							<span class="badge counter">{{ $i + 1 }} </span>
 
@@ -22,13 +18,10 @@
 								{{ $techs[$i]->tech }}
 							</a>
 
-					</div>
-				</div>
+					</li>
 
 			@endfor
-		</div>
-			
-		</table>
+		</ul>
 	</content>
 </div>
 @endsection

@@ -59,17 +59,17 @@
 			<div class="col-sm-2 col-md-3" id="sidebar">
 				<h1> <a href="{{ url('/') }}"> sl </a> </h1>
 				<ul>
-					<li><a href="{{ url('/') }}">Home</a></li>
-					<li><a href="{{ url('/techs') }}">Techs</a></li>
-					<li><a href="{{ url('/chars') }}">Chars</a></li>
-					<li><a href="{{ url('/guides') }}">Guides</a></li>
-					<li><a href="{{ url('/vods') }}">Vods</a></li>
-					<li><a href="{{ url('/groups') }}">Groups</a></li>
-					<li><a href="{{ url('/submit') }}">Submit</a></li>
-					<li><a href="{{ url('/api/doc') }}">API</a></li>
+					<li class="{{ Request::path() == '/' ? 'active' : ''}}"><a href="{{ url('/') }}">Home</a></li>
+					<li class="{{ strpos(Request::path(), 'techs') === 0 ? 'active' : ''}}"><a href="{{ url('/techs') }}">Techs</a></li>
+					<li class="{{ strpos(Request::path(), 'chars') === 0 ? 'active' : ''}}"><a href="{{ url('/chars') }}">Chars</a></li>
+					<li class="{{ strpos(Request::path(), 'guides') === 0 ? 'active' : ''}}"><a href="{{ url('/guides') }}">Guides</a></li>
+					<li class="{{ strpos(Request::path(), 'vods') === 0 ? 'active' : ''}}"><a href="{{ url('/vods') }}">Vods</a></li>
+					<li class="{{ strpos(Request::path(), 'groups') === 0 ? 'active' : ''}}"><a href="{{ url('/groups') }}">Groups</a></li>
+					<li class="{{ strpos(Request::path(), 'submit') === 0 ? 'active' : ''}}"><a href="{{ url('/submit') }}">Submit</a></li>
+					<li class="{{ strpos(Request::path(), 'api') === 0 ? 'active' : ''}}"><a href="{{ url('/api/doc') }}">API</a></li>
 				</ul>
 			</div>
-			<div class="col-sm-8 col-md-9" id="main">
+			<div class="col-sm-8 col-md-9 m-scene" id="main">
 				@yield('content')
 			</div>
 		</div>
@@ -81,6 +81,7 @@
 	
 	<!-- application minified js -->
 	<script src="{{ asset('/js/compiled/app.js') }}"></script>
+	<script src="{{ asset('/js/scripts/randomGfycat.js') }}"></script>
 	<script>
 	 (function(d, t) {
 	    var g = d.createElement(t),

@@ -12,7 +12,7 @@
 				
 				@if ($i % $columns == $columns)
 		</div>
-		<div class="row">
+		<div class="row ">
 				@endif
 			    <div class="col-md-{{12/$columns}}">
 			    	<div class="listitem">

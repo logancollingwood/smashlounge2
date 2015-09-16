@@ -227,7 +227,7 @@ class TechsTableSeeder extends Seeder {
 			array (
 				'id' => '34',
 				'tech' => 'Edge Hog',
-				'description' => 'Grabbing the ledge so other characters canâ€™t grab it.',
+				'description' => 'Grabbing the ledge so other characters can\'t grab it.',
 				'smashwiki' => 'www.ssbwiki.com/Edge-hogging',
 				'inputs' => '',
 			),

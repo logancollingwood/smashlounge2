@@ -18,7 +18,7 @@ class HomeController extends Controller {
 	//	this allows us to further organize our views into a models subdirectory.
 
 	private $viewDir = "modules.home";
-	private $randTechCount = 3;
+	private $randTechCount = 1;
 	
 	/**
 	 * Create a new controller instance.
@@ -39,8 +39,9 @@ class HomeController extends Controller {
 	{	
 
 		$techs = Tech::orderByRaw("RAND()")->get();
-
-		$data = [ 'techs'=> $techs, 'randCount' => $this->randTechCount  ];
+		$gifs = $techs[0]->getGifs();
+		$gif = $gifs[0];
+		$data = [ 'techs'=> $techs, 'gif' => $gif, 'randCount' => $this->randTechCount  ];
 
 		return view($this->viewDir . ".homepage", $data);
 	}

@@ -8,6 +8,9 @@
 @import "util/_panels";
 @import "util/_gifcontainers";
 @import "util/_buttons";
+@import "util/keyframes";
+@import "util/pageTransitions";
+
 
 /* Handles media queries for different size devices */
 @import "sizes/_phone";
@@ -16,6 +19,7 @@
 
 /* page specific less */
 @import "page/homepage";
+@import "page/char.less";
 @import "page/techlist.less";
 
 
@@ -33,6 +37,8 @@
 @body-font-color: #ffffff;
 
 @well-color: #333333;
+@well-color-dark: #222222;
+
 @grey: #526974;
 
 @navbar-link-color: #ffffff;
@@ -130,17 +136,22 @@ a.list {
 			 padding: 20px;
 			 font-family: "Roboto";
 			 background-color: @well-color;
-			 
-			 
+			 text-align: right;
 			 &:not(:last-child) {
 				 border-bottom: 2px solid @highlight;
 			 }
+		 }
+		 li.active {
+			 	background-color: @well-color-dark;
+			 	-webkit-box-shadow: inset 0px 49px 38px -37px rgba(0,0,0,0.75);
+				-moz-box-shadow: inset 0px 49px 38px -37px rgba(0,0,0,0.75);
+				box-shadow: inset 0px 49px 38px -37px rgba(0,0,0,0.75);
 		 }
 	 }
 	 border-right: 2px solid @highlight;
  }
  
- 
+
  #main {
 	 padding-left: 0px;
 	 padding-right: 0px;
@@ -177,4 +188,26 @@ a.list {
 
 .affix-top,.affix{
 	position: static;
+}
+
+
+//used for generic pages
+ul.specList {
+    list-style: none;
+    -moz-column-count: 3;
+    -moz-column-gap: 1em;
+    -webkit-column-count: 3;
+    -webkit-column-gap: 1em;
+}
+.listitem {
+	padding: 5px;
+	margin: 5px;
+	border: 2px solid @grey;
+	&:hover {
+		background-color: fade(@well-color, 1)
+	}
+}
+
+.counter {
+	background-color: transparent;
 }
