@@ -8,56 +8,28 @@
 	</header>
 	
 	<content id="homepage">
-		<div class="row">
-
-			<div class="col-md-4">
-				<a class="twitter-timeline" href="https://twitter.com/thesmashlounge" data-widget-id="585544387632967681">Tweets by @thesmashlounge</a>
-				<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-			</div>
+		<div class="row no-margin">
 
 			<div class="col-md-8">
 				<div class="row">
-					@for ($i = 0; $i < $randCount; $i++)
-						<div class="panel-default randomPanel gifcard scene_element scene_element--fadeinup">
-							<div class="panel-heading">
+					@foreach ($techs as $tech)
+						
+						@include('modules.cards.tech.showtechcard')
 
-									<span class="badge counter">{{ $i + 1 }} </span>
-									<a href="{{ route('techs.show', $techs[$i]->tech) }}" class="list">{{ $techs[$i]->tech }}</a>
-				
-							</div>
-							<div class="panel-body">
-								<div class="row">
-									<div class="col-md-4 carddescription">
-										{{ $techs[$i]->description }}
-									</div>
-									<div class="col-md-8 cardgif">
-										@for ($j = 0; $j < 1; $j++)
-											<img class='gfyitem' data-expand=true data-id= {{ $gif->url}} />
-										@endfor
-									</div>
-								</div>
-
-								<p class="technique">  <p>
-							</div>					
-						</div>
-					@endfor
+					@endforeach
 				</div>
 				<div class="row">
 					streamer
 				</div>
 			</div>
 
+			<div class="col-md-4">
+				<a class="twitter-timeline" href="https://twitter.com/thesmashlounge" data-widget-id="585544387632967681">Tweets by @thesmashlounge</a>
+				<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+			</div>
 
 		</div>
-		<!-- 
-		<div class="row">
-			<div class="col-md-8 col-md-offset-2">
-				
-				<div id='randomSlot' class='panel gifTainer theaterGif'>
-				</div>
-			</div>
-		</div>
-		-->
+
 	</content>
 	
 </div>

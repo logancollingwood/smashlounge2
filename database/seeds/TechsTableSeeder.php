@@ -235,7 +235,7 @@ class TechsTableSeeder extends Seeder {
 			array (
 				'id' => '35',
 				'tech' => 'Run Cancel',
-				'description' => 'During a characterâ€™s running animation, holding down will cancel the run into a crouch.',
+				'description' => 'During a character\'s running animation, holding down will cancel the run into a crouch.',
 				'smashwiki' => 'www.ssbwiki.com/Dash-canceling#Crouching_.28Melee_only.29',
 				'inputs' => '',
 			),

@@ -64,8 +64,10 @@ class ApiController extends Controller {
 	public function vod($id) {
 		
 	}
-	public function group($id) {
-		
+
+	public function allGroups() {
+		$groups = Group::all();
+		return $groups;
 	}
 
 	public function smashgifs() {

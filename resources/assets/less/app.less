@@ -21,7 +21,7 @@
 @import "page/homepage";
 @import "page/char.less";
 @import "page/techlist.less";
-
+@import "page/card.less";
 
 @btn-font-weight: 300;
 @font-family-sans-serif: "Roboto", Helvetica, Arial, sans-serif;
@@ -52,6 +52,14 @@ body, label, .checkbox label {
 
 body {
 	background-color: @body-background-color;
+}
+
+footer {
+
+    bottom: 0;
+    width: 100%;
+    height: 30px;
+    background-color: @well-color-dark;
 }
 
 a {
@@ -124,6 +132,7 @@ a.list {
 	 background-color: fade(#555555, 90);
 	 padding-left: 0px;
 	 padding-right: 0px;
+	 
 	 h1 {
 		 text-align: center;
 		 padding: 15px;
@@ -132,23 +141,24 @@ a.list {
 		 padding-left: 0px;
 		 list-style-type: none;
 		 margin-bottom: 0px;
+	 	 //border-right: 2px solid @highlight;
 		 li {
 			 padding: 20px;
 			 font-family: "Roboto";
-			 background-color: @well-color;
+			 background-color: fade(#555555, 90);
 			 text-align: right;
 			 &:not(:last-child) {
 				 border-bottom: 2px solid @highlight;
 			 }
 		 }
 		 li.active {
-			 	background-color: @well-color-dark;
+			 	background-color:  @well-color;
 			 	-webkit-box-shadow: inset 0px 49px 38px -37px rgba(0,0,0,0.75);
 				-moz-box-shadow: inset 0px 49px 38px -37px rgba(0,0,0,0.75);
 				box-shadow: inset 0px 49px 38px -37px rgba(0,0,0,0.75);
 		 }
 	 }
-	 border-right: 2px solid @highlight;
+
  }
  
 
@@ -210,4 +220,22 @@ ul.specList {
 
 .counter {
 	background-color: transparent;
+}
+
+
+
+/*
+ * Map Canvas
+ *
+ */
+#map-canvas {
+    height: 250px;
+    margin-bottom: 25px;
+    border-radius: 5px;
+}
+@media (min-width: 768px) {
+	#map-canvas {
+	    height: 500px;
+	    margin-bottom: 25px;
+	}
 }

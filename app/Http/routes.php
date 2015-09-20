@@ -69,15 +69,27 @@ Route::get('api/chars/', 'CharController@getAll');
 Route::get('api/chars/{id}', 'ApiController@char');
 
 
+Route::get('api/groups/all', 'GroupController@getAll');
+
 
 /*
-
-Route::get('/api/char/{id}', 'ApiController@char');
-
-Route::get('/api/vod/{id}', 'ApiController@vod');
-
-Route::get('/api/group/{id}', 'ApiController@group');
+|--------------------------------------------------------------------------
+| Card Routes
+|--------------------------------------------------------------------------
+|
+| These are cards that can be pulled into OBS streaming software to display
+| realtime statistics and information on things in our database.
+|
 */
+
+
+Route::get('card/tech/{tech}', 'TechCardController@index');
+Route::bind('card/tech/{tech}', function($value, $route) {
+	return App\Tech::where("tech", $value)->first();
+});
+
+
+
 
 Route::controllers([
 	'auth' => 'Auth\AuthController',

@@ -3,6 +3,7 @@
 @section('content')
 <div class="content">
 	<header>
+		<h1> character guides </h1>
 		Learn some character specific content.
 	</header>
 	
@@ -11,8 +12,8 @@
 			@for ($i = 0; $i < count($chars); $i++)
 				
 				@if ($i % $columns == $columns)
-		</div>
-		<div class="row ">
+					</div>
+					<div class="row ">
 				@endif
 			    <div class="col-md-{{12/$columns}}">
 			    	<div class="listitem">

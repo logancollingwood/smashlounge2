@@ -21,7 +21,10 @@
 		<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
 		<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
 	<![endif]-->
-	@yield('')
+
+
+
+
 </head>
 <body>
 	<nav class="navbar navbar-default navbar-fixed-top">
@@ -38,6 +41,7 @@
 
 			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 				<ul class="nav navbar-nav navbar-right">
+					<li><a href="{{ url('/about/') }}">About</a></li>
 					@if (Auth::guest())
 						<li><a href="{{ url('/auth/login') }}">Login</a></li>
 						<li><a href="{{ url('/auth/register') }}">Register</a></li>
@@ -56,8 +60,10 @@
 		
 	<div class="container" id="content">
 		<div class="row">
-			<div class="col-sm-2 col-md-3" id="sidebar">
-				<h1> <a href="{{ url('/') }}"> sl </a> </h1>
+			<div class="col-sm-2 col-md-2" id="sidebar">
+				<div id="sidebarBrand" style="display: none;">
+					<h1> <a href="{{ url('/') }}"> TSL </a> </h1>
+				</div>
 				<ul>
 					<li class="{{ Request::path() == '/' ? 'active' : ''}}"><a href="{{ url('/') }}">Home</a></li>
 					<li class="{{ strpos(Request::path(), 'techs') === 0 ? 'active' : ''}}"><a href="{{ url('/techs') }}">Techs</a></li>
@@ -69,12 +75,18 @@
 					<li class="{{ strpos(Request::path(), 'api') === 0 ? 'active' : ''}}"><a href="{{ url('/api/doc') }}">API</a></li>
 				</ul>
 			</div>
-			<div class="col-sm-8 col-md-9 m-scene" id="main">
+			<div class="col-sm-8 col-md-10 m-scene" id="main">
 				@yield('content')
 			</div>
 		</div>
 	</div>
-
+	<!--
+	<footer>
+		<div class="container">
+			copywright sl 2015
+		</div>
+	</footer>
+	-->
 	<!-- Scripts -->
 	<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 	<script src="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.1/js/bootstrap.min.js"></script>
@@ -82,13 +94,9 @@
 	<!-- application minified js -->
 	<script src="{{ asset('/js/compiled/app.js') }}"></script>
 	<script src="{{ asset('/js/scripts/randomGfycat.js') }}"></script>
-	<script>
-	 (function(d, t) {
-	    var g = d.createElement(t),
-	        s = d.getElementsByTagName(t)[0];
-	    g.src = 'http://assets.gfycat.com/js/gfyajax-0.517d.js';
-	    s.parentNode.insertBefore(g, s);
-	}(document, 'script'));
-	</script>
+	<script src="{{ asset('/js/scripts/app.js') }}"></script>
+	<script type="text/javascript" src="{{ asset('/js/util/smoothStateHandler.js') }}"></script>
+
+	@yield('includes')
 </body>
 </html>

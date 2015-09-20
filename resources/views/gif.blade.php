@@ -7,7 +7,7 @@
 				controller
 			</div>
 			 <div class="col-md-8 col-sm-9">
-				<img class='gfyitem' data-expand=true data-id= {{ $gif->url}} />
+				<img class='gfyitem fa fa-spinner fa-spin' data-expand=true data-id= {{ $gif->url}} />
 				<div class="gfyFooter">
 					<div class="gfyDescription">{{ $gif->description or 'No Description'}}</div>
 					

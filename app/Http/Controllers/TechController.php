@@ -36,10 +36,7 @@ class TechController extends Controller {
 	}
 	
 	public function show(Tech $tech) {
-		/* this logic seems to be bonkers */
-		/* The route seems to be passing a collection
-			of all the techniques. Need to debug
-		*/
+		
 		$gifs = $tech->getGifs();
 		$data = ['tech' => $tech , 'gifs' => $gifs];
 		return view($this->viewDir . ".showTech", $data);

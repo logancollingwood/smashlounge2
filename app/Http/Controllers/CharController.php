@@ -38,10 +38,7 @@ class CharController extends Controller {
 	}
 
 	public function show(Char $char) {
-		/* this logic seems to be bonkers */
-		/* The route seems to be passing a collection
-			of all the techniques. Need to debug
-		*/
+
 		$gifs = $char->getGifs();
 		$data = ['char' => $char , 'gifs' => $gifs];
 		return view($this->viewDir . ".showChar", $data);
