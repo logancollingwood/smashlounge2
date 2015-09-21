@@ -51,8 +51,9 @@ class GroupController extends Controller {
 
 	public function getAll() {
 		$groups = Group::all();
-		return $groups;
+		return $this->decodeResults($groups);
 	}
+
 
 	public function getByRegion($region) {
 	    switch ($region) {
@@ -73,5 +74,51 @@ class GroupController extends Controller {
 		        break;
 		    }
 		$groups = Group::where('region', '=', $regionKey);
+	}
+	
+	private function decodeResults($groups) {
+		foreach ($groups as $group) {
+			switch($group["game"]) {
+				case "0": 
+					$group["game"] = "All Titles";
+					break;
+				case "1": 
+					$group["game"] = "Smash 64";
+					break;
+				case "2": 
+					$group["game"] = "Melee";
+					break;
+				case "3";
+					$group["game"] = "Brawl";
+					break;
+				case "4";
+					$group["game"] = "PM";
+					break;
+				case "5";
+					$group["game"] = "Smash 4";
+					break;
+			}
+			switch ($group["region"]) {
+			    case "1":
+			        $group["region"] = "North Atlantic";
+			        break;
+			    case "2":
+			    	$group["region"] = "South Atlantic";
+			        break;
+			    case "3":
+			   	    $group["region"] = "Mid West";
+			        break;
+			    case "4":
+			    	$group["region"] = "Southwest";
+			        break;
+			    case "5":
+			    	$group["region"] = "West Coast";
+			        break;
+			    case "6":
+			    	$group["region"] = "International";
+			    	break;
+		    }
+		}
+		return $groups;
 	}
 }

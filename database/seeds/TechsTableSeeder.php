@@ -219,7 +219,7 @@ class TechsTableSeeder extends Seeder {
 			array (
 				'id' => '33',
 				'tech' => 'Aerial Interrupt',
-			'description' => 'Use an aerial attack in a way that causes you to land on a platform which would not have happened without the aerial attack. The reason is a downward shift of your characterâ€™s environment collision box (ECB) bound to the attack or, more specifically, your characterâ€™s bone alignment on a given frame.',
+			'description' => 'Use an aerial attack in a way that causes you to land on a platform which would not have happened without the aerial attack. The reason is a downward shift of your character\'s environment collision box (ECB) bound to the attack or, more specifically, your character\'s bone alignment on a given frame.',
 				'smashwiki' => 'www.ssbwiki.com/Aerial_interrupt',
 				'inputs' => '',
 			),

@@ -6257,10 +6257,10 @@ button.close {
   font-size: 24px;
 }
 .panel-default .panel-heading a {
-  color: #1abc9c;
+  color: #6d4fcf;
 }
 .panel-default .panel-heading a:hover {
-  color: #18ad90;
+  color: #5331c0;
 }
 .panel-default .panel-heading .button {
   color: #fafafa;
@@ -6293,7 +6293,7 @@ button.close {
           transition: .5s all ease;
 }
 .panel-default .streams a:hover {
-  color: #1abc9c;
+  color: #6d4fcf;
 }
 .theaterGif {
   background-color: transparent;
@@ -6324,7 +6324,7 @@ button.close {
   color: #fff;
 }
 .theaterGif .panel-footer a:hover {
-  color: #1abc9c;
+  color: #6d4fcf;
 }
 .theaterGif .panel-footer .upvotecount {
   color: #fff;
@@ -6335,12 +6335,15 @@ button.close {
 .theaterGif .gfyVid {
   box-shadow: 3px 26px 81px 10px rgba(255, 255, 255, 0.5);
 }
+.gfyVid {
+  border: 1px solid #666666;
+}
 /*
     standard gfycat container
 */
 .gfyTainer {
   border-radius: 5px;
-  background-color: rgba(26, 188, 156, 0.5);
+  background-color: #444;
   padding: 15px;
   margin-bottom: 30px;
 }
@@ -6385,10 +6388,10 @@ button.close {
 .voteBlock a.SL {
   -webkit-transition: 1s;
           transition: 1s;
-  color: #1abc9c;
+  color: #6d4fcf;
 }
 .voteBlock a:hover {
-  color: #1abc9c;
+  color: #6d4fcf;
 }
 .voteBlock .exNum {
   font-family: 'Quicksand';
@@ -6625,6 +6628,12 @@ button.close {
 .button-inline {
   display: inline-block;
   vertical-align: middle;
+}
+.gm-style .gm-style-iw {
+  color: #000000;
+}
+.gm-style .gm-style-iw a {
+  color: #000000;
 }
 /*!
 Animate.css - http://daneden.me/animate
@@ -9542,10 +9551,25 @@ h1 {
   padding-left: 8%;
 }
 .gifcard .panel-heading .name {
+  color: #ffffff;
   font-size: 24px;
+}
+.gifcard .panel-heading .name:hover {
+  color: highlight;
 }
 .gifcard .panel-body .description {
   padding-top: 20px;
+  text-align: left;
+  margin-bottom: 10px;
+}
+.gifcard .panel-body .description .brand {
+  bottom: 10px;
+  position: fixed;
+}
+@media (min-width: 768px) {
+  .gifcard .panel-body .description {
+    margin-bottom: 0px;
+  }
 }
 body,
 label,
@@ -9606,10 +9630,15 @@ h2 {
   color: rgba(255, 255, 255, 0.7);
 }
 .navbar-default .navbar-brand {
-  color: #1abc9c;
+  color: #6d4fcf;
 }
 #content {
-  margin-top: 90px;
+  margin-top: 0px;
+}
+@media (min-width: 768px) {
+  #content {
+    margin-top: 50px;
+  }
 }
 /*
  *
@@ -9617,11 +9646,9 @@ h2 {
  *
  */
 #sidebar {
-  position: -webkit-sticky;
-  position: sticky;
-  background-color: rgba(85, 85, 85, 0.9);
   padding-left: 0px;
   padding-right: 0px;
+  height: 50px;
 }
 #sidebar h1 {
   text-align: center;
@@ -9633,28 +9660,48 @@ h2 {
   margin-bottom: 0px;
 }
 #sidebar ul li {
-  padding: 20px;
-  font-family: "Roboto";
   background-color: rgba(85, 85, 85, 0.9);
+  display: inline-block;
+  padding: 20px;
+}
+#sidebar ul li a {
+  display: block;
+  font-family: "Roboto";
   text-align: right;
 }
 #sidebar ul li:not(:last-child) {
-  border-bottom: 2px solid #1abc9c;
+  border-bottom: 2px solid #6d4fcf;
+}
+#sidebar ul li:hover {
+  background-color: #333333;
 }
 #sidebar ul li.active {
   background-color: #333333;
-  box-shadow: inset 0px 49px 38px -37px rgba(0, 0, 0, 0.75);
+}
+#map-canvas {
+  height: 250px;
+  margin-bottom: 25px;
+  border-radius: 5px;
+}
+@media (min-width: 768px) {
+  #sidebar {
+    height: auto;
+    padding-top: 0px;
+  }
+  #sidebar ul li {
+    display: block;
+  }
 }
 #main {
   padding-left: 0px;
   padding-right: 0px;
 }
 header {
-  background-color: #1abc9c;
+  background-color: #6d4fcf;
   padding: 20px;
   padding-top: 40px;
   text-align: center;
-  border-bottom: 1px solid #1abc9c;
+  border-bottom: 1px solid #6d4fcf;
 }
 content {
   background-color: #333333;

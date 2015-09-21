@@ -17,6 +17,11 @@
 						@include('modules.cards.tech.showtechcard')
 
 					@endforeach
+					@foreach ($chars as $char)
+						
+						@include('modules.cards.char.showcharcard')
+
+					@endforeach
 				</div>
 				<div class="row">
 					streamer

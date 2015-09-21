@@ -1,5 +1,6 @@
 <?php namespace App\Http\Controllers;
 Use App\Tech;
+Use App\Char;
 
 class HomeController extends Controller {
 
@@ -18,7 +19,7 @@ class HomeController extends Controller {
 	//	this allows us to further organize our views into a models subdirectory.
 
 	private $viewDir = "modules.home";
-	private $randTechCount = 2;
+	private $randTechCount = 1;
 	
 	/**
 	 * Create a new controller instance.
@@ -39,14 +40,20 @@ class HomeController extends Controller {
 	{	
 
 		$alltechs = Tech::orderByRaw("RAND()")->get();
+		$allchars = Char::orderByRaw("RAND()")->get();
 
 		for ($i = 0; $i < $this->randTechCount; $i++) {
 			$techs[] = $alltechs[$i];
+			$chars[] = $allchars[$i];
 		}
 
-		$data = [ 'techs' => $techs ];
+		$data = [ 'techs' => $techs, 'chars' => $chars ];
 
 		return view($this->viewDir . ".homepage", $data);
+	}
+
+	public function soon() {
+		return view("welcome");
 	}
 
 }

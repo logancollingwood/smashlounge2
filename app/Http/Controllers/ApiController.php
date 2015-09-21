@@ -65,11 +65,6 @@ class ApiController extends Controller {
 		
 	}
 
-	public function allGroups() {
-		$groups = Group::all();
-		return $groups;
-	}
-
 	public function smashgifs() {
 		$smashGif = new SmashGifs();
 		return $smashGif->gif;

@@ -1900,8 +1900,8 @@ class LocalsTableSeeder extends Seeder {
 				'region' => '1',
 				'profileid' => 'www.facebook.com/groups/SmashWichita/',
 				'name' => 'Super Smash Bros. 4 Wichita',
-				'latitude' => '0.0000000',
-				'longitude' => '0.0000000',
+				'latitude' => '37.6889',
+				'longitude' => '97.3361',
 				'game' => '5',
 			),
 			189 => 

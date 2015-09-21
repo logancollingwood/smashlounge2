@@ -5,7 +5,7 @@ $(function() {
     var $sidebar   = $("#sidebar"), 
         $window    = $(window),
         offset     = $sidebar.offset(),
-        topPadding = 90;
+        topPadding = 50;
 
     $window.scroll(function() {
       if ($(window).width() > 768) {

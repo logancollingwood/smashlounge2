@@ -7,21 +7,31 @@
 	</header>
 	
 	<content>
-		<ul class="specList scene_element scene_element--fadeinup scene_element--fadeinright-wide">
+
+		<div class="row">
 			@for ($i = 0; $i < count($techs); $i++)
+				
+				@if ($i % $columns == $columns)
+					</div>
+					<div class="row ">
+				@endif
+			    <div class="col-md-{{12/$columns}}">
+			    	<div class="listitem">
 
-			    	<li class="listitem">
-
-							<span class="badge counter">{{ $i + 1 }} </span>
+							<span class="badge counter">{{ $i+1 }} </span>
 
 							<a href="{{ route('techs.show', $techs[$i]->tech) }}" class="list">
 								{{ $techs[$i]->tech }}
 							</a>
 
-					</li>
+
+
+					</div>
+				</div>
 
 			@endfor
-		</ul>
+		</div>
+
 	</content>
 </div>
 @endsection

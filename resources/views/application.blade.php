@@ -1,3 +1,13 @@
+<!--
+
+Smashlounge is built for the community, by the community.
+
+All tools used on this site are for non-commercial purposes.
+Questions?
+  smashlounge@gmail.com
+
+-->
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -27,6 +37,7 @@
 
 </head>
 <body>
+	<!--
 	<nav class="navbar navbar-default navbar-fixed-top">
 		<div class="container-fluid">
 			<div class="navbar-header">
@@ -57,7 +68,7 @@
 			</div>
 		</div>
 	</nav>
-		
+		-->
 	<div class="container" id="content">
 		<div class="row">
 			<div class="col-sm-2 col-md-2" id="sidebar">

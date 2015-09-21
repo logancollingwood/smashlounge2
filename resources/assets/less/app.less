@@ -4,10 +4,35 @@
 @black: #000000;
 @white: #ffffff;
 
+
+@btn-font-weight: 300;
+@font-family-sans-serif: "Roboto", Helvetica, Arial, sans-serif;
+@header-font: "Raleway";
+@body-font: "Quicksand";
+@paragraph-font: "Noto Sans";
+
+@base: #5331C0;
+@highlight: #6D4FCF;
+
+@body-background-color: #2a2a2a;
+@container-background-color: #226666;
+@body-font-color: #ffffff;
+
+@well-color: #333333;
+@well-color-dark: #222222;
+@grey: #526974;
+@gfyborder: #666666;
+
+@navbar-link-color: #ffffff;
+
+@link-color: #ffffff;
+
+
 /* Defines some styles for various containers */
 @import "util/_panels";
 @import "util/_gifcontainers";
 @import "util/_buttons";
+@import "util/_maps";
 @import "util/keyframes";
 @import "util/pageTransitions";
 
@@ -23,27 +48,7 @@
 @import "page/techlist.less";
 @import "page/card.less";
 
-@btn-font-weight: 300;
-@font-family-sans-serif: "Roboto", Helvetica, Arial, sans-serif;
-@header-font: "Raleway";
-@body-font: "Quicksand";
-@paragraph-font: "Noto Sans";
 
-@base: #18ad90;
-@highlight: #1abc9c;
-
-@body-background-color: #2a2a2a;
-@container-background-color: #226666;
-@body-font-color: #ffffff;
-
-@well-color: #333333;
-@well-color-dark: #222222;
-
-@grey: #526974;
-
-@navbar-link-color: #ffffff;
-
-@link-color: #ffffff;
 
 body, label, .checkbox label {
 	font-weight: 300;
@@ -120,19 +125,22 @@ a.list {
  }
 
 #content {
-	margin-top: 90px;
+	margin-top: 0px;
 }
+ @media (min-width: 768px) {
+ 	#content {
+ 		margin-top: 50px;
+ 	}
+ }
 /*
  *
  *	Sidebar Stuff
  *
  */
  #sidebar {
-	 position: sticky;
-	 background-color: fade(#555555, 90);
 	 padding-left: 0px;
 	 padding-right: 0px;
-	 
+	 height: 50px;
 	 h1 {
 		 text-align: center;
 		 padding: 15px;
@@ -143,23 +151,46 @@ a.list {
 		 margin-bottom: 0px;
 	 	 //border-right: 2px solid @highlight;
 		 li {
+	 		 background-color: fade(#555555, 90);
+		 	 display: inline-block;
 			 padding: 20px;
-			 font-family: "Roboto";
-			 background-color: fade(#555555, 90);
-			 text-align: right;
+			 a {
+			 	display: block;
+			 	font-family: "Roboto";
+			 	text-align: right;
+			 }
 			 &:not(:last-child) {
 				 border-bottom: 2px solid @highlight;
+			 }
+			 &:hover {
+			 	background-color:  @well-color;
 			 }
 		 }
 		 li.active {
 			 	background-color:  @well-color;
-			 	-webkit-box-shadow: inset 0px 49px 38px -37px rgba(0,0,0,0.75);
-				-moz-box-shadow: inset 0px 49px 38px -37px rgba(0,0,0,0.75);
-				box-shadow: inset 0px 49px 38px -37px rgba(0,0,0,0.75);
+			 	//-webkit-box-shadow: inset 0px 49px 38px -37px rgba(0,0,0,0.75);
+				//-moz-box-shadow: inset 0px 49px 38px -37px rgba(0,0,0,0.75);
+				//box-shadow: inset 0px 49px 38px -37px rgba(0,0,0,0.75);
 		 }
 	 }
 
  }
+ #map-canvas {
+    height: 250px;
+    margin-bottom: 25px;
+    border-radius: 5px;
+}
+@media (min-width: 768px) {
+	#sidebar {
+		height: auto;
+		padding-top: 0px;
+		ul {
+			li {
+				display: block;
+			}
+		}
+	}
+}	
  
 
  #main {
@@ -183,6 +214,7 @@ a.list {
 	 margin: 0 auto;
 
  }
+
  
 .listAll {
 	margin: 0 auto;

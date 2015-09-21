@@ -6,16 +6,34 @@
 		padding-left: 8%;
 
 		.name {
+			color: @white;
 			font-size: 24px;
+			&:hover {
+				color: highlight;
+			}
 		}
 	}
 
 	.panel-body {
 		.description {
 			padding-top: 20px;
+			text-align: left;
+			margin-bottom: 10px;
+
+			.brand {
+				bottom: 10px;
+				position: fixed;
+			}
 		}
 		.cardgif {
 
+		}
+	}
+	@media (min-width: 768px) {
+		.panel-body {
+			.description {
+				margin-bottom: 0px;
+			}
 		}
 	}
 }
