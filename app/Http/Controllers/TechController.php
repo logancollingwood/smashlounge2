@@ -1,5 +1,5 @@
 <?php namespace App\Http\Controllers;
-Use App\Tech;
+use App\Tech;
 
 class TechController extends Controller {
 

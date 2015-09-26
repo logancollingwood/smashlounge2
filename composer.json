@@ -1,7 +1,7 @@
 {
 	"name": "smashlounge2",
 	"description": "A rework of the smashlounge framework",
-	"keywords": ["framework", "laravel"],
+	"keywords": ["framework", "eSports", "info"],
 	"license": "MIT",
 	"type": "project",
 	"require": {
@@ -31,7 +31,7 @@
 	"repositories": [
 	    {
 	        "type": "git",
-	        "url": "git@github.com:jamisonvalenta/Laravel-4-Generators.git"
+	        "url": "git@github.com:logancollingwood/smashlounge2.git"
 	    }
 	],
 	"scripts": {

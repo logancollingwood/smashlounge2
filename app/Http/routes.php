@@ -6,6 +6,7 @@ Route::model('techs', 'Tech');
 Route::model('chars', 'Char');
 Route::model('vods', 'Vod');
 Route::model('groups', 'Group');
+Route::model('players', 'Player');
 
 /*
 |--------------------------------------------------------------------------
@@ -41,6 +42,11 @@ Route::bind('techs', function($value, $route) {
 Route::resource('chars', 'CharController');
 Route::bind('chars', function($value, $route) {
 	return App\Char::where("name", $value)->first();
+});
+
+Route::resource('players', 'PlayerController');
+Route::bind('players', function($value, $route) {
+	return App\Player::where("name", $value)->first();
 });
 
 Route::resource('vods', 'VodController');

@@ -2,7 +2,7 @@
 
 use App\Http\Requests;
 use App\Http\Controllers\Controller;
-Use App\Tech;
+use App\Tech;
 
 use Illuminate\Http\Request;
 

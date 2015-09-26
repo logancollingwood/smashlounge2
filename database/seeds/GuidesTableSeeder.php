@@ -2,7 +2,7 @@
 
 use Illuminate\Database\Seeder;
 
-class AttacksTableSeeder extends Seeder {
+class GuidesTableSeeder extends Seeder {
 
 	/**
 	 * Auto generated seed file

@@ -1,7 +1,8 @@
 <?php namespace App\Http\Controllers;
-use App\Char;
 
-class CharController extends Controller {
+use App\Player;
+
+class PlayerController extends Controller {
 
 	/*
 	|--------------------------------------------------------------------------
@@ -11,8 +12,9 @@ class CharController extends Controller {
 	| This is for the character display page
 	|
 	*/
-	private $viewDir = "modules.chars";
+	private $viewDir = "modules.players";
 	private $columns = 3;
+
 
 	/**
 	 * Create a new controller instance.
@@ -31,21 +33,21 @@ class CharController extends Controller {
 	 */
 	public function index()
 	{
-		$chars = Char::orderBy('tierdata')->get();
+		$players = Player::orderBy('rank')->get();
+		$data = [ 'players'=> $players, 'columns' => $this->columns ];
 
-		$data = [ 'chars'=> $chars, 'columns' => $this->columns ];
-		return view($this->viewDir . ".char", $data);
+		return view($this->viewDir . '.index', $data);
 	}
 
-	public function show(Char $char) {
+	public function show(Player $player) {
 
-		$gifs = $char->getGifs();
-		$data = ['char' => $char , 'gifs' => $gifs];
-		return view($this->viewDir . ".showChar", $data);
+		$data = ['player' => $player];
+		
+		return view($this->viewDir . '.show', $data);
 	}
 
 	public function getAll() {
-		$chars = Char::all();
+
 		return $chars;
 	}
 }
