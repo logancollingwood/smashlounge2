@@ -13,7 +13,7 @@ class CharController extends Controller {
 	*/
 	private $viewDir = "modules.chars";
 	private $columns = 3;
-
+	private $gifs = [];
 	/**
 	 * Create a new controller instance.
 	 *
@@ -41,11 +41,12 @@ class CharController extends Controller {
 
 		$gifs = $char->getGifs();
 		$data = ['char' => $char , 'gifs' => $gifs];
-		return view($this->viewDir . ".showChar", $data);
+		return view($this->viewDir . ".show", $data);
 	}
 
 	public function getAll() {
 		$chars = Char::all();
 		return $chars;
 	}
+
 }

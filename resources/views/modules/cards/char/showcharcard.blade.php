@@ -13,9 +13,9 @@
 
 			</div>
 			<div class="col-md-8 cardgif">
-				
-					<img class='gfyitem' data-perimeter=true data-expand=true data-id= {{ $char->getGifs()[0]->url }} />
-
+					@if(isset($char->getGifs()[0]))
+						<img class='gfyitem' data-perimeter=true data-expand=true data-id= {{ $char->getGifs()[0]->url }} />
+					@endif
 			</div>
 		</div>
 

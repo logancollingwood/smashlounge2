@@ -48,6 +48,12 @@ class GroupController extends Controller {
 		return view($this->viewDir . '.index');
 	}
 
+	public function show(Group $group) {
+		$data = [ 'group' => $group ];
+
+		return view($this->viewDir . '.show', $data);
+	}
+
 
 	public function getAll() {
 		$groups = Group::all();
@@ -78,47 +84,52 @@ class GroupController extends Controller {
 	
 	private function decodeResults($groups) {
 		foreach ($groups as $group) {
-			switch($group["game"]) {
-				case "0": 
-					$group["game"] = "All Titles";
-					break;
-				case "1": 
-					$group["game"] = "Smash 64";
-					break;
-				case "2": 
-					$group["game"] = "Melee";
-					break;
-				case "3";
-					$group["game"] = "Brawl";
-					break;
-				case "4";
-					$group["game"] = "PM";
-					break;
-				case "5";
-					$group["game"] = "Smash 4";
-					break;
-			}
-			switch ($group["region"]) {
-			    case "1":
-			        $group["region"] = "North Atlantic";
-			        break;
-			    case "2":
-			    	$group["region"] = "South Atlantic";
-			        break;
-			    case "3":
-			   	    $group["region"] = "Mid West";
-			        break;
-			    case "4":
-			    	$group["region"] = "Southwest";
-			        break;
-			    case "5":
-			    	$group["region"] = "West Coast";
-			        break;
-			    case "6":
-			    	$group["region"] = "International";
-			    	break;
-		    }
+			$group = $this->decodeGroup($group);
 		}
 		return $groups;
+	}
+
+	function decodeGroup(Group $group) {
+		switch($group["game"]) {
+			case "0": 
+				$group["game"] = "All Titles";
+				break;
+			case "1": 
+				$group["game"] = "Smash 64";
+				break;
+			case "2": 
+				$group["game"] = "Melee";
+				break;
+			case "3";
+				$group["game"] = "Brawl";
+				break;
+			case "4";
+				$group["game"] = "PM";
+				break;
+			case "5";
+				$group["game"] = "Smash 4";
+				break;
+		}
+		switch ($group["region"]) {
+		    case "1":
+		        $group["region"] = "North Atlantic";
+		        break;
+		    case "2":
+		    	$group["region"] = "South Atlantic";
+		        break;
+		    case "3":
+		   	    $group["region"] = "Mid West";
+		        break;
+		    case "4":
+		    	$group["region"] = "Southwest";
+		        break;
+		    case "5":
+		    	$group["region"] = "West Coast";
+		        break;
+		    case "6":
+		    	$group["region"] = "International";
+		    	break;
+	    }
+	    return $group;
 	}
 }

@@ -62,7 +62,7 @@ $(document).ready(function() {
 
       var latLng = new google.maps.LatLng(data.latitude, data.longitude);
 
-      var html = "<b>" + data.name + "</b><br/>";
+      var html = "<b><a href='/groups/" + data.name  + "'>" + data.name + "</a></b><br/>";
       html += data.game + "<br/>";
       html += "<a href='" + data.profileid + "'>Facebook" + "</a><br/>"; 
       html += data.region + "<br/>";

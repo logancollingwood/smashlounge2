@@ -49,8 +49,16 @@ Route::bind('players', function($value, $route) {
 	return App\Player::where("name", $value)->first();
 });
 
+Route::resource('guides', 'GuidesController');
+Route::bind('guides', function($value, $route) {
+	return App\Guide::where("name", $value)->first();
+});
+
 Route::resource('vods', 'VodController');
 Route::resource('groups', 'GroupController');
+Route::bind('groups', function($value, $route) {
+	return App\Group::where("name", $value)->first();
+});
 
 Route::resource('submit', 'SubmitController');
 

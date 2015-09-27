@@ -4,7 +4,7 @@
 
 	<header class="">
 		<h1 class="scene_element scene_element--fadeinup scene_element--delayed"> {{ $char->name }} <img src=" {{ asset('img/pixel/' . str_replace(' ', '', $char->name) . 'HeadSSBM.png') }}"></img> </h1>
-		<p class="scene_element scene_element--fadeinup">  {{ $char->guide }} </p>
+		<p class="scene_element scene_element--fadeinup">  {{ $char->author }} </p>
 		<div class="chardetail  scene_element scene_element--fadeinup">
 			<p class="rank">  
 				<label> rank </label> 

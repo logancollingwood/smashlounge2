@@ -44,8 +44,10 @@ class HomeController extends Controller {
 
 		for ($i = 0; $i < $this->randTechCount; $i++) {
 			$techs[] = $alltechs[$i];
+
 			$chars[] = $allchars[$i];
 		}
+
 
 		$data = [ 'techs' => $techs, 'chars' => $chars ];
 

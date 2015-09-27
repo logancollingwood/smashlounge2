@@ -1,7 +1,7 @@
 <?php
 
-use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
+use Illuminate\Database\Migrations\Migration;
 
 class CreateGuidesTable extends Migration {
 
@@ -14,11 +14,24 @@ class CreateGuidesTable extends Migration {
 	{
 		Schema::create('guides', function(Blueprint $table)
 		{
-			$table->integer('id', true);
-			$table->integer('charid');
+			$table->increments('id');
+			/*
+				0 for tech guide
+				1 for char guide
+			*/
+			$table->string('name');
+
+			$table->integer('typeid');
+			$table->integer('dataid');
+			$table->string('description');
+
+			$table->string('author');
+
+			$table->timestamps();
+			$table->longText('guide');
+			
 		});
 	}
-
 
 	/**
 	 * Reverse the migrations.
