@@ -20,6 +20,10 @@ class HomeController extends Controller {
 
 	private $viewDir = "modules.home";
 	private $randTechCount = 1;
+	private $streamCount = 3;
+
+	// Consider making $clientid global? or pull from database?
+	private $twitchclientId = 'j0p7hrbz0zec4a3vwfgrvau6nmw5e68'; 
 	
 	/**
 	 * Create a new controller instance.
@@ -42,6 +46,12 @@ class HomeController extends Controller {
 		$alltechs = Tech::orderByRaw("RAND()")->get();
 		$allchars = Char::orderByRaw("RAND()")->get();
 
+		/** Gather twitch streams **/
+		$activeStreams = $this->getGameStreams('Super Smash Bros');
+		$streams = [];
+		for ($i = 0; $i < $this->streamCount; $i++) {
+			$streams[] = $activeStreams[$i];
+		}
 		for ($i = 0; $i < $this->randTechCount; $i++) {
 			$techs[] = $alltechs[$i];
 
@@ -49,13 +59,63 @@ class HomeController extends Controller {
 		}
 
 
-		$data = [ 'techs' => $techs, 'chars' => $chars ];
+		$data = [ 'techs' => $techs, 'chars' => $chars, 'streams' => $streams ];
 
 		return view($this->viewDir . ".homepage", $data);
 	}
 
 	public function soon() {
 		return view("welcome");
+	}
+
+
+	/** Functions **/
+
+	/**
+	 * Checks active streams for a specific game
+	 * @param  string $game The game whose active streams we're looking for
+	 * @return array, boolean = false       If there active streams, returns array, if not, returns false.
+	 */
+	public function getGameStreams($game = '') {
+		$streamsArray = [];
+		$queryString = urlencode($game);
+		$file = "https://api.twitch.tv/kraken/search/streams?q=" . $queryString;
+		
+		// File Check
+		if ($file) {
+			$json_array = json_decode(file_get_contents($file), true);
+
+			if ($json_array['streams'] != NULL) {
+				foreach ($json_array['streams'] as $stream) {
+					$streamsArray[] = $stream;
+				}
+
+				// Return active streams
+				return $streamsArray;
+			} else {
+				// No active streams
+				return false;
+			}		
+		} else {
+			// Error in finding the file
+			return false;
+		}
+	}
+
+	/**
+	 * Checks if channel is live
+	 * @param  string $username Twitch username
+	 * @return boolean          Whether or not the stream is live
+	 */
+	public function streamIsLive($username = '') {
+		$file = "https://api.twitch.tv/kraken/streams?channel=$username";
+		$json_array = json_decode(file_get_contents($file), true);
+
+		if (empty($json_array['streams'])) {
+			return false;
+		} else {
+			return true;
+		}
 	}
 
 }

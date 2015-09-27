@@ -6635,6 +6635,45 @@ button.close {
 .gm-style .gm-style-iw a {
   color: #000000;
 }
+/*
+    Streams
+*/
+.streamUnit {
+  padding-bottom: 20px;
+}
+.streamUnit .streamTitle {
+  text-align: left;
+  font-size: 20px;
+  padding-left: 10px;
+  font-family: "Roboto", Helvetica, Arial, sans-serif;
+  padding-bottom: 20px;
+}
+.streamUnit .streamDetails {
+  margin-top: 10%;
+}
+.streamUnit:not(:last-child) {
+  border-bottom: 2px solid #6d4fcf;
+  margin-bottom: 20px;
+}
+.streamer .streamerText {
+  font-size: 20px;
+  font-family: 'Raleway';
+}
+.streamImg {
+  border-radius: 15px;
+  position: absolute;
+  width: 30px;
+  left: 0px;
+  margin-left: 40px;
+}
+.streamImg img {
+  width: 30px;
+  border-radius: 15px;
+}
+.gameTitle {
+  border-left: 1px solid #eee;
+  margin-left: 10px;
+}
 /*!
 Animate.css - http://daneden.me/animate
 Licensed under the MIT license - http://opensource.org/licenses/MIT
