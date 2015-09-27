@@ -33,7 +33,7 @@ Questions?
 	<![endif]-->
 
 
-
+	@yield('twittercard')
 
 </head>
 <body>
