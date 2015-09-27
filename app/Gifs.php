@@ -8,4 +8,10 @@ class Gifs extends Model {
 	
 	protected $table = 'gifs';
 	
+	public function queryGfycat() {
+		$url = "http://gfycat.com/cajax/get/" . $this->url;
+		$result = file_get_contents($url);
+		
+		return $result;
+	}
 }

@@ -38,7 +38,13 @@ class TechController extends Controller {
 	public function show(Tech $tech) {
 		
 		$gifs = $tech->getGifs();
-		$data = ['tech' => $tech , 'gifs' => $gifs];
+
+		if (isset($gifs[0])) $twitterGif = json_decode($gifs[0]->queryGfycat());
+		else $twitterGif = [];
+		
+		//dd($twitterGif);
+
+		$data = ['tech' => $tech , 'gifs' => $gifs, 'twitterGif' => $twitterGif];
 		return view($this->viewDir . ".showTech", $data);
 	}
 	
