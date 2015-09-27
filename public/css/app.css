@@ -9658,16 +9658,20 @@ h2 {
   padding-left: 0px;
   list-style-type: none;
   margin-bottom: 0px;
+  border-left: 2px solid #6d4fcf;
 }
 #sidebar ul li {
   background-color: rgba(85, 85, 85, 0.9);
   display: inline-block;
-  padding: 20px;
 }
 #sidebar ul li a {
   display: block;
   font-family: "Roboto";
-  text-align: right;
+  text-align: center;
+  padding: 12.5px;
+}
+#sidebar ul li:first-child {
+  border-top: 2px solid #6d4fcf;
 }
 #sidebar ul li:not(:last-child) {
   border-bottom: 2px solid #6d4fcf;
@@ -9676,6 +9680,23 @@ h2 {
   background-color: #333333;
 }
 #sidebar ul li.active {
+  background-color: #333333;
+}
+#sidebar ul li.two-column {
+  background-color: rgba(85, 85, 85, 0.9);
+  display: inline-block;
+  width: 100%;
+  margin-bottom: -6px;
+}
+#sidebar ul li.two-column a {
+  width: 50%;
+  float: left;
+  display: inline;
+}
+#sidebar ul li.two-column a:hover {
+  background-color: #333333;
+}
+#sidebar ul li.two-column a.active {
   background-color: #333333;
 }
 #map-canvas {
@@ -9721,6 +9742,9 @@ content {
 .affix-top,
 .affix {
   position: static;
+}
+.border-right {
+  border-right: 2px solid #6d4fcf;
 }
 ul.specList {
   list-style: none;

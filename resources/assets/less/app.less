@@ -149,15 +149,19 @@ a.list {
 		 padding-left: 0px;
 		 list-style-type: none;
 		 margin-bottom: 0px;
-	 	 //border-right: 2px solid @highlight;
+	 	 border-left: 2px solid @highlight;
 		 li {
 	 		 background-color: fade(#555555, 90);
 		 	 display: inline-block;
-			 padding: 20px;
+			 
 			 a {
 			 	display: block;
 			 	font-family: "Roboto";
-			 	text-align: right;
+			 	text-align: center;
+			 	padding: 12.5px;
+			 }
+			 &:first-child {
+				 border-top: 2px solid @highlight;
 			 }
 			 &:not(:last-child) {
 				 border-bottom: 2px solid @highlight;
@@ -171,6 +175,23 @@ a.list {
 			 	//-webkit-box-shadow: inset 0px 49px 38px -37px rgba(0,0,0,0.75);
 				//-moz-box-shadow: inset 0px 49px 38px -37px rgba(0,0,0,0.75);
 				//box-shadow: inset 0px 49px 38px -37px rgba(0,0,0,0.75);
+		 }
+		 li.two-column {
+		 	background-color: fade(#555555, 90);
+		 	display: inline-block;
+		 	width: 100%;
+		 	margin-bottom: -6px;
+		 	a {
+		 		width: 50%;
+		 		float: left;
+		 		display: inline;
+				&:hover {
+					background-color:  @well-color;
+				}
+		 	}
+		 	a.active {
+		 		background-color:  @well-color;
+		 	}
 		 }
 	 }
 
@@ -231,7 +252,9 @@ a.list {
 .affix-top,.affix{
 	position: static;
 }
-
+.border-right {
+	border-right: 2px solid @highlight;
+}
 
 //used for generic pages
 ul.specList {
@@ -272,3 +295,4 @@ ul.specList {
 	    margin-bottom: 25px;
 	}
 }
+

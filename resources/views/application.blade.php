@@ -81,9 +81,18 @@ Questions?
 					<li class="{{ strpos(Request::path(), 'chars') === 0 ? 'active' : ''}}"><a href="{{ url('/chars') }}">Chars</a></li>
 					<li class="{{ strpos(Request::path(), 'guides') === 0 ? 'active' : ''}}"><a href="{{ url('/guides') }}">Guides</a></li>
 					<li class="{{ strpos(Request::path(), 'vods') === 0 ? 'active' : ''}}"><a href="{{ url('/vods') }}">Vods</a></li>
-					<li class="{{ strpos(Request::path(), 'groups') === 0 ? 'active' : ''}}"><a href="{{ url('/groups') }}">Groups</a></li>
-					<li class="{{ strpos(Request::path(), 'submit') === 0 ? 'active' : ''}}"><a href="{{ url('/submit') }}">Submit</a></li>
-					<li class="{{ strpos(Request::path(), 'api') === 0 ? 'active' : ''}}"><a href="{{ url('/api/doc') }}">API</a></li>
+
+					<li class="hidden-xs {{ strpos(Request::path(), 'groups') === 0 ? 'active' : ''}}"><a href="{{ url('/groups') }}">Groups</a></li>
+
+					<li class="two-column">
+						<a class="hidden-xs border-right {{ strpos(Request::path(), 'submit') === 0 ? 'active' : ''}}"href="{{ url('/submit') }}">Submit</a>
+						<a class="hidden-xs {{ strpos(Request::path(), 'api') === 0 ? 'active' : ''}}" href="{{ url('/api/doc') }}">API</a>
+					</li>
+
+					<li class="hidden-sm hidden-md hidden-lg">
+						<a><i class="fa fa-list fa-1x"></i></a>
+        			</li>
+
 				</ul>
 			</div>
 			<div class="col-sm-8 col-md-10 m-scene" id="main">
