@@ -6,7 +6,7 @@
 	<meta name="twitter:site" content="@thesmashlounge">
 	<meta name="twitter:title" content="{{ $tech->tech }}">
 	<meta name="twitter:description" content="{{ $tech->description }}">
-	<meta name="twitter:image" content="https://thumbs.gfycat.com/{{ $twitterGif->gfyItem->gfyId }}-poster.jpg">
+	<meta name="twitter:image" content="https://thumbs.gfycat.com/{{ $gifs[0]->url }}-poster.jpg">
 
 	<meta name="twitter:player" content="https://gfycat.com/ifrt/{{ $twitterGif->gfyItem->gfyId }}">
 	<meta name="twitter:player:width" content="1280">
