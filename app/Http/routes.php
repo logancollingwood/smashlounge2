@@ -36,28 +36,44 @@ Route::get('/', 'HomeController@index');
 
 Route::resource('techs', 'TechController');
 Route::bind('techs', function($value, $route) {
-	return App\Tech::where("tech", $value)->first();
+	$tech = App\Tech::where("tech", $value)->first();
+	if ($tech == null) abort(404);
+	return $tech;
 });
 
 Route::resource('chars', 'CharController');
 Route::bind('chars', function($value, $route) {
-	return App\Char::where("name", $value)->first();
+	$char = App\Char::where("name", $value)->first();
+	if ($char == null) abort(404);
+	return $char;
 });
 
 Route::resource('players', 'PlayerController');
 Route::bind('players', function($value, $route) {
-	return App\Player::where("name", $value)->first();
+	$player = App\Player::where("name", $value)->first();
+	if ($player == null) abort(404);
+	return $player;
 });
 
 Route::resource('guides', 'GuidesController');
 Route::bind('guides', function($value, $route) {
-	return App\Guide::where("name", $value)->first();
+	$guide = App\Guide::where("name", $value)->first();
+	if ($guide == null) abort(404);
+	return $guide;
 });
 
 Route::resource('vods', 'VodController');
+Route::bind('vods', function($value, $route) {
+	$vod = App\Vod::where("title", $value)->first();
+	if ($vod == null) abort(404);
+	return $vod;
+});
+
 Route::resource('groups', 'GroupController');
 Route::bind('groups', function($value, $route) {
-	return App\Group::where("name", $value)->first();
+	$group = App\Group::where("name", $value)->first();
+	if ($group == null) abort(404);
+	return $group;
 });
 
 Route::resource('submit', 'SubmitController');

@@ -1,41 +1,27 @@
-<html>
-	<head>
-		<link href='//fonts.googleapis.com/css?family=Lato:100' rel='stylesheet' type='text/css'>
+@extends('application')
 
-		<style>
-			body {
-				margin: 0;
-				padding: 0;
-				width: 100%;
-				height: 100%;
-				color: #B0BEC5;
-				display: table;
-				font-weight: 100;
-				font-family: 'Lato';
-			}
+@section('content')
+<div class="box">
+	<header>
+	<h1 class="scene_element scene_element--fadeinup scene_element--delayed">404 </h1>
+	<p> Whoops! Looks like you followed a wrong link. </p>
+	</header>
+	
+	<content id="lost">
+		<div class="row" id="scene">
+            <div class="col-md-12">
+            	<img id="samus" src="{{ asset('img/404/tslsamus.png') }}"></img>
+                <img id="shot" src="{{ asset('/img/404/charged_shot.png') }}"></img>
+           </div>
+        </div>
 
-			.container {
-				text-align: center;
-				display: table-cell;
-				vertical-align: middle;
-			}
+	</content>
+	
+</div>
+@endsection
 
-			.content {
-				text-align: center;
-				display: inline-block;
-			}
-
-			.title {
-				font-size: 72px;
-				margin-bottom: 40px;
-			}
-		</style>
-	</head>
-	<body>
-		<div class="container">
-			<div class="content">
-				<div class="title">404 page not found.</div>
-			</div>
-		</div>
-	</body>
-</html>
+@section('includes')
+    <script src="{{ asset('/js/lib/jquery.transform2d.js') }}"></script>
+    <script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+	<script src="{{ asset('/js/page/404.js') }}"></script>
+@endsection

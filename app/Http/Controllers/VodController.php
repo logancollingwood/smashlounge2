@@ -1,5 +1,7 @@
 <?php namespace App\Http\Controllers;
 
+use App\Vod;
+
 class VodController extends Controller {
 
 	/*
@@ -10,6 +12,8 @@ class VodController extends Controller {
 	| This is for displaying vods
 	|
 	*/
+	private $viewDir = "modules.vods";
+	private $columns = 3;
 
 	/**
 	 * Create a new controller instance.
@@ -26,9 +30,18 @@ class VodController extends Controller {
 	 *
 	 * @return Response
 	 */
-	public function index()
-	{
-		return view('vods');
+	public function index() {
+		$vods = Vod::all();
+
+		$data = [ 'vods'=> $vods, 'columns' => $this->columns ];
+
+		return view($this->viewDir . ".index", $data);
+	}
+
+	public function show(Vod $vod) {
+		$data = [ 'vod' => $vod ];
+
+		return view($this->viewDir . '.show', $data);
 	}
 
 }

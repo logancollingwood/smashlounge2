@@ -3,9 +3,9 @@
 @section('content')
 
 	<header>
-		<h1> {{ $tech->tech }} </h1>
-		<p> {{ $tech->description }} </p>
-		<p>  {{ $tech->inputs }} </p>
+		<h1 class="scene_element scene_element--fadeinup scene_element--delayed"> {{ $tech->tech }} </h1>
+		<p class="scene_element scene_element--fadeinup">  {{ $tech->description }} </p>
+		<p class="scene_element scene_element--fadeinup">  {{ $tech->inputs }} </p>
 	</header>
 	
 	<content>
