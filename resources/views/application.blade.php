@@ -16,6 +16,7 @@ Questions?
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>smashlounge</title>
 
+	<!-- contains minified Twitter Bootstrap -->
 	<link href="{{ asset('/css/app.css') }}" rel="stylesheet">
 	
 	<!-- Fonts -->

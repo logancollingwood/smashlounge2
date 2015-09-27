@@ -11,9 +11,15 @@ class CharController extends Controller {
 	| This is for the character display page
 	|
 	*/
+	
 	private $viewDir = "modules.chars";
+
+	// number of columns for list page	
 	private $columns = 3;
+
 	private $gifs = [];
+	
+
 	/**
 	 * Create a new controller instance.
 	 *
@@ -25,7 +31,7 @@ class CharController extends Controller {
 	}
 
 	/**
-	 * Show the application dashboard to the user.
+	 * Show the character list page.
 	 *
 	 * @return Response
 	 */
@@ -37,6 +43,11 @@ class CharController extends Controller {
 		return view($this->viewDir . ".char", $data);
 	}
 
+	/**
+	 * Show the specific character page.
+	 *
+	 * @return Response
+	 */
 	public function show(Char $char) {
 
 		$gifs = $char->getGifs();
@@ -44,6 +55,11 @@ class CharController extends Controller {
 		return view($this->viewDir . ".show", $data);
 	}
 
+	/**
+	 * Grab all characters
+	 *
+	 * @return array(Char)
+	 */
 	public function getAll() {
 		$chars = Char::all();
 		return $chars;

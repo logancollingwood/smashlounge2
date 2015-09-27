@@ -11,8 +11,14 @@ class TechController extends Controller {
 	| This is the controller for displaying the technique page
 	|
 	*/
+	
+	// View Directory Path
+	
 	private $viewDir = "modules.techs";
+	
 	private $columns = 3;
+	
+
 	/**
 	 * Create a new controller instance.
 	 *
@@ -39,15 +45,28 @@ class TechController extends Controller {
 		
 		$gifs = $tech->getGifs();
 
-		if (isset($gifs[0])) $twitterGif = json_decode($gifs[0]->queryGfycat());
-		else $twitterGif = [];
+		/**
+		 * Grabs gif asset from gfyCat url so we can know if it's
+		 * using fat.gfycat or zippy.gfycat, etc
+		 * so we can give twitter the right links for
+		 * metadata timeline embedding
+		 */
+
+		if (isset($gifs[0])) 
+			$twitterGif = json_decode($gifs[0]->queryGfycat());
+		else 
+			$twitterGif = [];
 		
-		//dd($twitterGif);
 
 		$data = ['tech' => $tech , 'gifs' => $gifs, 'twitterGif' => $twitterGif];
 		return view($this->viewDir . ".showTech", $data);
 	}
 	
+	/**
+	 * Grab all techniques
+	 *
+	 * @return array(Tech)
+	 */
 	public function getAll() {
 		$techs = Tech::all();
 		return $techs;
