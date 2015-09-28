@@ -1,6 +1,6 @@
 <div class="panel-default randomPanel gifcard scene_element scene_element--fadeinup">
 	<div class="panel-heading">
-
+			<p class="cardlabel">tech</p>
 			<a class="name" href="{{ route('techs.show', $tech->tech) }}" class="list">{{ $tech->tech }}</a>
 
 	</div>
