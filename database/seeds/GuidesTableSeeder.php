@@ -19,8 +19,8 @@ class GuidesTableSeeder extends Seeder {
 			array (
 				'id' => '1',
 				'typeid' => '1',
-				'dataid' => '14', //marth
-				'author' => 'CLG | PEWPEWU',
+				'dataid' => '14', //author
+				'marth' => 'CLG | PEWPEWU',
 				'name' => 'Marth -- just the tip',
 				'description' => 'Learn how to be the best Marth in town',
 				'guide' => 'Spacing: '

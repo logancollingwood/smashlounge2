@@ -24,7 +24,7 @@
 			</p>
 		</div>
 			<!-- Nav tabs -->
-		  	<ul class="nav nav-tabs pills" role="tablist">
+		  	<ul class="nav nav-tabs pills scene_element scene_element--fadeinup" role="tablist">
 		    	<li role="presentation" class="active"><a href="#charGifs" aria-controls="charGifs" role="tab" data-toggle="tab">General</a></li>
 		    	<li role="presentation"><a href="#charData" aria-controls="charData" role="tab" data-toggle="tab">Data</a></li>
 		  	</ul>

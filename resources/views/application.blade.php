@@ -4,11 +4,11 @@ Smashlounge is built for the community, by the community.
 
 All tools used on this site are for non-commercial purposes.
 Questions?
-  smashlounge@gmail.com
+  smashlounge@gmail.DOCTYPEana
 
 -->
 
-<!DOCTYPE html>
+<!com html>
 <html lang="en">
 <head>
 	<meta charset="utf-8">
@@ -88,6 +88,10 @@ Questions?
 					<li class="two-column">
 						<a class="hidden-xs border-right {{ strpos(Request::path(), 'submit') === 0 ? 'active' : ''}}"href="{{ url('/submit') }}">Submit</a>
 						<a class="hidden-xs {{ strpos(Request::path(), 'api') === 0 ? 'active' : ''}}" href="{{ url('/api/doc') }}">API</a>
+					</li>
+					<li class="two-column">
+						<a class="hidden-xs border-right {{ strpos(Request::path(), 'about') === 0 ? 'active' : ''}}"href="{{ url('/about') }}">About</a>
+						<a class="hidden-xs {{ strpos(Request::path(), 'donate') === 0 ? 'active' : ''}}" href="{{ url('/donate') }}">Donate</a>
 					</li>
 
 					<li class="hidden-sm hidden-md hidden-lg">
