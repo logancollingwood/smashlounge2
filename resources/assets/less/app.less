@@ -20,7 +20,10 @@
 
 @well-color: #333333;
 @well-color-dark: #222222;
-@grey: #526974;
+
+@grey: #444444;
+@grey-dark: #222222;
+
 @gfyborder: #666666;
 
 @navbar-link-color: #ffffff;
@@ -313,4 +316,28 @@ ul.specList {
 		height: 160px;
 	}
 
+}
+
+ul.nav.nav-tabs.pills {
+
+	border-bottom: none;
+	text-align: center;
+	margin: 0 auto;
+	margin-top: 10px;
+
+	li {
+		display: inline-block;
+		float: none;
+		margin-bottom: 0px;
+		a {
+
+			background-color: @well-color;
+			color: @white;
+		}
+	}
+	li.active {
+		a {
+			border-bottom: 1px solid @white;
+		}
+	}
 }
