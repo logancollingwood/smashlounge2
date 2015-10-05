@@ -17,6 +17,7 @@ class PlayersTableSeeder extends Seeder {
 			array (
 				'id' => '1',
 				'name' => 'PewPewU',
+				'sponsor' => 'CLG',
 				'desc' => '',
 				'rank' => '10',
 				'garpr' => '53c646848ab65f6d52f2e09a',

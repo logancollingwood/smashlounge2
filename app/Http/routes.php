@@ -91,7 +91,7 @@ Route::resource('submit', 'SubmitController');
 
 Route::get('api/doc', 'ApiController@docs');
 Route::get('api/smashgifs', 'ApiController@smashgifs');
-Route::get('api/techs/', 'TechController@getAll');
+Route::get('api/techs/all', 'TechController@getAll');
 Route::get('api/techs/{id}', 'ApiController@tech');
 
 

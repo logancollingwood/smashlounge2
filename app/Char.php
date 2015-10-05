@@ -27,7 +27,7 @@ class Char extends Model {
 		
 		$datagifs = \DB::select( \DB::raw("SELECT * from attacks as a
 		  	INNER JOIN gifs as g ON g.dataid = a.id
-		    WHERE a.gameid=0 AND a.charid=:charid"), 
+		    WHERE a.gameid=0 AND a.charid=:charid AND g.typeid=1"), 
 			array(
 		   		'charid' => $this->id,
 		 	));

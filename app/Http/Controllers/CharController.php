@@ -55,6 +55,10 @@ class CharController extends Controller {
 		return view($this->viewDir . ".show", $data);
 	}
 
+	public function getDataGifs() {
+		
+	}
+
 	/**
 	 * Grab all characters
 	 *

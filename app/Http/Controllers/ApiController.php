@@ -15,6 +15,7 @@ class ApiController extends Controller {
 	| This is for the forward facing API
 	|
 	*/
+	private $viewDir = "modules.api";
 
 	/**
 	 * Create a new controller instance.
@@ -38,16 +39,25 @@ class ApiController extends Controller {
 	
 	public function docs() {
 		
-		$api = 
+		$api = array(
 			array(
-				"name" => "group",
-				"methods" => array("get" => "returns all groups")
-			);
+				"module" => "groups",
+				"action" => "GET",
+				"methods" => "/api/groups/all",
+				"description" => "retrieves a json formatted object containing all regional groups"
+			),
+			array(
+				"module" => "techs",
+				"action" => "GET",
+				"methods" => "/api/techs/all",
+				"description" => "retrieves a json formatted object containing all techniques currently in the database"
+			),
+		);
 
 
-		$data = [ "api"=> $api ];
+		$data = [ "api" => $api ];
 
-		return view('modules.api.doc', $data);
+		return view($this->viewDir . '.doc', $data);
 	}
 	
 	
