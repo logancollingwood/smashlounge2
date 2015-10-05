@@ -1,5 +1,6 @@
 <?php namespace App\Http\Controllers;
 
+use Kris\LaravelFormBuilder\FormBuilder;
 
 class SubmitController extends Controller {
 
@@ -29,11 +30,22 @@ class SubmitController extends Controller {
 	 *
 	 * @return Response
 	 */
-	public function index() {
+	public function index(FormBuilder $formBuilder) {
+		$gifform = $formBuilder->create('App\Forms\GifForm', [
+            'method' => 'POST',
+            'url' => route('submit.store')
+        ]);
 
-		return view($this->viewDir . ".submit");
+		return view($this->viewDir . ".index", compact('gifform'));
 	}
 	
+	public function store(FormBuilder $FormBuilder) {
+		$form = $formBuilder->create('App\Forms\GifForm');
+		if (!$form->isValid()) {
+            return redirect()->back()->withErrors($form->getErrors())->withInput();
+        }
+        //valid
 
+	}
 	
 }

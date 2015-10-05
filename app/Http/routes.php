@@ -7,6 +7,7 @@ Route::model('chars', 'Char');
 Route::model('vods', 'Vod');
 Route::model('groups', 'Group');
 Route::model('players', 'Player');
+Route::model('gif', 'Gifs');
 
 /*
 |--------------------------------------------------------------------------
@@ -119,7 +120,12 @@ Route::bind('card/tech/{tech}', function($value, $route) {
 });
 
 
-
+Route::resource('gifs', 'GifController');
+Route::bind('gifs', function($value, $route) {
+	$gif = App\Gifs::where("id", $value)->first();
+	if ($gif == null) abort(404);
+	return $gif;
+});
 
 Route::controllers([
 	'auth' => 'Auth\AuthController',

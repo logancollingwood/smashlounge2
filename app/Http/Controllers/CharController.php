@@ -51,7 +51,11 @@ class CharController extends Controller {
 	public function show(Char $char) {
 
 		$gifs = $char->getGifs();
-		$data = ['char' => $char , 'gifs' => $gifs];
+		$dataGifs = $char->getDataGifs();
+
+		
+
+		$data = ['char' => $char , 'gifs' => $gifs, 'dataGifs' => $dataGifs ];
 		return view($this->viewDir . ".show", $data);
 	}
 

@@ -38,7 +38,7 @@
 				
 			</div>
 			<div id="charData" class="row no-margin tab-pane">
-				@foreach($char->getDataGifs() as $gif)
+				@foreach($dataGifs as $gif)
 					
 						@include('gifs.gifdata')
 

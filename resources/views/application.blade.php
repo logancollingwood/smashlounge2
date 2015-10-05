@@ -89,8 +89,8 @@ Questions?
 						<a class="hidden-xs border-right {{ strpos(Request::path(), 'submit') === 0 ? 'active' : ''}}"href="{{ url('/submit') }}">Submit</a>
 						<a class="hidden-xs {{ strpos(Request::path(), 'api') === 0 ? 'active' : ''}}" href="{{ url('/api/doc') }}">API</a>
 					</li>
-					<li class="two-column">
-						<a class="hidden-xs border-right {{ strpos(Request::path(), 'about') === 0 ? 'active' : ''}}"href="{{ url('/about') }}">About</a>
+					<li class="two-column bottom">
+						<a class="hidden-xs {{ strpos(Request::path(), 'about') === 0 ? 'active' : ''}}"href="{{ url('/about') }}">About</a>
 						<a class="hidden-xs {{ strpos(Request::path(), 'donate') === 0 ? 'active' : ''}}" href="{{ url('/donate') }}">Donate</a>
 					</li>
 

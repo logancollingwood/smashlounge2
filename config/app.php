@@ -144,11 +144,11 @@ return [
 		'App\Providers\ConfigServiceProvider',
 		'App\Providers\EventServiceProvider',
 		'App\Providers\RouteServiceProvider',
-		
 		'Xethron\MigrationsGenerator\MigrationsGeneratorServiceProvider',
 		'Way\Generators\GeneratorsServiceProvider',
 		'Orangehill\Iseed\IseedServiceProvider',
-		//'Illuminate\Html\HtmlServiceProvider'
+		'Kris\LaravelFormBuilder\FormBuilderServiceProvider'
+
 	],
 
 	/*
@@ -196,8 +196,8 @@ return [
 		'URL'       => 'Illuminate\Support\Facades\URL',
 		'Validator' => 'Illuminate\Support\Facades\Validator',
 		'View'      => 'Illuminate\Support\Facades\View',
-		//'Form'=> 'Illuminate\Html\FormFacade',
-		//'HTML'=> 'Illuminate\Html\HtmlFacade'
+		'FormBuilder' => 'Kris\LaravelFormBuilder\Facades\FormBuilder'
+
 
 	],
 
