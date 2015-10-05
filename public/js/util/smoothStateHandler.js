@@ -1,7 +1,7 @@
 /*
   Dealing with smoothstate.js
 */
-
+/*
 $(function(){
   'use strict';
   var options = {
@@ -35,3 +35,4 @@ $(function(){
   smoothState = $('#main').smoothState(options).data('smoothState');
 
 });
+*/

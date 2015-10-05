@@ -38,7 +38,7 @@ Questions?
 
 </head>
 <body>
-	<!--
+	
 	<nav class="navbar navbar-default navbar-fixed-top">
 		<div class="container-fluid">
 			<div class="navbar-header">
@@ -69,7 +69,7 @@ Questions?
 			</div>
 		</div>
 	</nav>
-		-->
+		
 	<div class="container" id="content">
 		<div class="row">
 			<div class="col-sm-2 col-md-2" id="sidebar">
@@ -80,7 +80,7 @@ Questions?
 					<li class="{{ Request::path() == '/' ? 'active' : ''}}"><a href="{{ url('/') }}">Home</a></li>
 					<li class="{{ strpos(Request::path(), 'techs') === 0 ? 'active' : ''}}"><a href="{{ url('/techs') }}">Techs</a></li>
 					<li class="{{ strpos(Request::path(), 'chars') === 0 ? 'active' : ''}}"><a href="{{ url('/chars') }}">Chars</a></li>
-					<li class="{{ strpos(Request::path(), 'guides') === 0 ? 'active' : ''}}"><a href="{{ url('/guides') }}">Guides</a></li>
+					<!-- <li class="{{ strpos(Request::path(), 'guides') === 0 ? 'active' : ''}}"><a href="{{ url('/guides') }}">Guides</a></li> -->
 					<li class="{{ strpos(Request::path(), 'vods') === 0 ? 'active' : ''}}"><a href="{{ url('/vods') }}">Vods</a></li>
 
 					<li class="hidden-xs {{ strpos(Request::path(), 'groups') === 0 ? 'active' : ''}}"><a href="{{ url('/groups') }}">Groups</a></li>
@@ -118,9 +118,9 @@ Questions?
 	
 	<!-- application minified js -->
 	<script src="{{ asset('/js/compiled/app.js') }}"></script>
-	<script src="{{ asset('/js/scripts/randomGfycat.js') }}"></script>
-	<script src="{{ asset('/js/scripts/app.js') }}"></script>
-	<script type="text/javascript" src="{{ asset('/js/util/smoothStateHandler.js') }}"></script>
+	
+
+	<!-- <script type="text/javascript" src="{{ asset('/js/util/smoothStateHandler.js') }}"></script> -->
 
 	@yield('includes')
 </body>
