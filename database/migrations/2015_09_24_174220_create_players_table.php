@@ -16,6 +16,7 @@ class CreatePlayersTable extends Migration {
 		{
 			$table->increments('id');
 			$table->string('name');
+			$table->string('sponsor');
 			$table->string('desc');
 			$table->integer('rank');
 			$table->string('garpr');

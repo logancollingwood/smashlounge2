@@ -3,18 +3,17 @@
 @section('content')
 <div class="box">
 	<header>
-	<h1 class="scene_element scene_element--fadeinup scene_element--delayed"> {{ $player->name }}</h1>
+	<h1 class="scene_element scene_element--fadeinup scene_element--delayed"> 
+		@if ($player->sponsor) 
+			{{ $player->sponsor }} | 
+		@endif
+		{{ $player->name }}
+	</h1>
 	<p> {{ $player->desc }} </p>
 	<div class="chardetail  scene_element scene_element--fadeinup">
 			<p class="rank">  
 				<label> miom </label> 
 				{{ $player->rank }} 
-			</p>
-			<p class="weight"> 
-				<label>
-					sponsor
-				</label>
-				{{-- $player->sponsor --}} 
 			</p>
 			<p class="fallspeed">
 				<label>

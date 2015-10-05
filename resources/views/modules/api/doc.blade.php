@@ -8,9 +8,11 @@
 	</header>
 	
 	<content>
-		@for ($i = 0; $i < count($api); $i++)
+
+		@foreach($api as $spec)
 			@include('modules.api.spec')
-		@endfor
+			<hr>
+		@endforeach
 	</content>
 </div>
 @endsection

@@ -25,7 +25,7 @@ class DatabaseSeeder extends Seeder {
 		$this->call('LocalsTableSeeder');
 		$this->call('MovesTableSeeder');
 		$this->call('TechsTableSeeder');
-		$this->call('UserinfoTableSeeder');
+		//$this->call('UserinfoTableSeeder');
 		$this->call('VodsTableSeeder');
 		$this->call('VodvotesTableSeeder');
 		$this->call('PlayersTableSeeder');

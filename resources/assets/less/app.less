@@ -29,7 +29,7 @@
 @navbar-link-color: #ffffff;
 
 @link-color: #ffffff;
-
+@link-hover: #b3a2e7;
 
 /* Defines some styles for various containers */
 @import "util/_panels";
@@ -77,7 +77,7 @@ a {
 	color: @link-color;
 	&:hover {
 		text-decoration: none;
-		color: fade(@link-color, 80);
+		color: @link-hover;
 	}
 	.list {
 		font-size: 24px;

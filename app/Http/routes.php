@@ -1,5 +1,9 @@
 <?php
 
+Route::controllers([
+	'auth' => 'Auth\AuthController',
+	'password' => 'Auth\PasswordController',
+]);
 
 // Provide controller methods with object instead of ID
 Route::model('techs', 'Tech');
@@ -77,8 +81,8 @@ Route::bind('groups', function($value, $route) {
 	return $group;
 });
 
-Route::resource('submit', 'SubmitController');
 
+Route::resource('moderate', 'ModerateController');
 
 /*
 |--------------------------------------------------------------------------
@@ -92,7 +96,7 @@ Route::resource('submit', 'SubmitController');
 
 Route::get('api/doc', 'ApiController@docs');
 Route::get('api/smashgifs', 'ApiController@smashgifs');
-Route::get('api/techs/', 'TechController@getAll');
+Route::get('api/techs/all', 'TechController@getAll');
 Route::get('api/techs/{id}', 'ApiController@tech');
 
 
@@ -101,6 +105,12 @@ Route::get('api/chars/{id}', 'ApiController@char');
 
 
 Route::get('api/groups/all', 'GroupController@getAll');
+
+Route::get('submit/', 'SubmitController@index');
+Route::post('submit/gif/', 'SubmitController@gif');
+Route::post('submit/group/', 'SubmitController@group');
+Route::post('submit/tech/', 'SubmitController@group');
+Route::post('submit/vod/', 'SubmitController@vod');
 
 
 /*
@@ -127,7 +137,3 @@ Route::bind('gifs', function($value, $route) {
 	return $gif;
 });
 
-Route::controllers([
-	'auth' => 'Auth\AuthController',
-	'password' => 'Auth\PasswordController',
-]);
