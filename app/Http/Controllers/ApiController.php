@@ -38,11 +38,14 @@ class ApiController extends Controller {
 	
 	public function docs() {
 		
-		$api = 
+		$api = array(
 			array(
-				"name" => "group",
-				"methods" => array("get" => "returns all groups")
-			);
+				"action" => "get",
+				"module" => "groups",
+				"methods" => "getAll",
+				"description" => "returns all groups"
+			),
+		);
 
 
 		$data = [ "api"=> $api ];
