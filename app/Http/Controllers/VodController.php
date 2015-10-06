@@ -37,7 +37,7 @@ class VodController extends Controller {
 
 		//initializes an array with 1 vod per 6 categories for display on the home page
 		foreach ($this->vodcategories as $key => $name) {
-			$vods = Vod::whereRaw('typeid = ?', [$key])->first();
+			$vods = Vod::whereRaw('typeid = ?', [$key])->orderByRaw("RAND()")->first();
 			
 			$allVods[$name] = $vods;
 		}
