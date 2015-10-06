@@ -80,6 +80,7 @@ class GroupController extends Controller {
 		        break;
 		    }
 		$groups = Group::where('region', '=', $regionKey);
+		return $groups;
 	}
 	
 	private function decodeResults($groups) {

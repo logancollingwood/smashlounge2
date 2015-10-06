@@ -1,7 +1,6 @@
 <?php namespace App\Http\Controllers;
 
 use App\Vod;
-
 class VodController extends Controller {
 
 	/*
@@ -14,7 +13,8 @@ class VodController extends Controller {
 	*/
 	private $viewDir = "modules.vods";
 	private $columns = 3;
-
+	private $vodcategories = array(1 => "Techniques", 2 => "Matches", 3 => "Entertainment", 4 => "PewPewUniversity", 5 => "Combos", 6 => "Teams");
+	private $categories = array("Techniques", "Matches", "Entertainment", "PewPewUniversity", "Combos", "Teams");
 	/**
 	 * Create a new controller instance.
 	 *
@@ -31,9 +31,19 @@ class VodController extends Controller {
 	 * @return Response
 	 */
 	public function index() {
+		\DB::connection()->enableQueryLog();
 		$vods = Vod::all();
+		$allVods = array();
 
-		$data = [ 'vods'=> $vods, 'columns' => $this->columns ];
+		//initializes an array with 1 vod per 6 categories for display on the home page
+		foreach ($this->vodcategories as $key => $name) {
+			$vods = Vod::whereRaw('typeid = ?', [$key])->first();
+			
+			$allVods[$name] = $vods;
+		}
+
+
+		$data = [ 'vods'=> $allVods, 'columns' => $this->columns, 'categories' => $this->categories ];
 
 		return view($this->viewDir . ".index", $data);
 	}
