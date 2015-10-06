@@ -1,5 +1,6 @@
 <?php namespace App\Http\Controllers;
 
+use App\Submissions\SubmissionGif;
 use Kris\LaravelFormBuilder\FormBuilder;
 
 class SubmitController extends Controller {
@@ -33,19 +34,31 @@ class SubmitController extends Controller {
 	public function index(FormBuilder $formBuilder) {
 		$gifform = $formBuilder->create('App\Forms\GifForm', [
             'method' => 'POST',
-            'url' => route('submit.store')
+            'url' => route('submit.gif')
         ]);
 
 		return view($this->viewDir . ".index", compact('gifform'));
 	}
 	
-	public function store(FormBuilder $FormBuilder) {
-		$form = $formBuilder->create('App\Forms\GifForm');
+	public function storeGif(FormBuilder $FormBuilder) {
+
+		$form = $FormBuilder->create('App\Forms\GifForm');
+
 		if (!$form->isValid()) {
             return redirect()->back()->withErrors($form->getErrors())->withInput();
         }
-        //valid
 
+        //valid
+        $submission = new SubmissionGif;
+
+        $submission->url = $form->fields["url"];
+        $submission->source = $form->fields["source"];
+        $submission->description = $form->fields["description"];
+
+        $submission->typeid = $form->fields["techSelector"];
+        $submission->typeid = $form->fields["techSelector"];
+        dd($submission);
+        //$submission->save();
 	}
 	
 }

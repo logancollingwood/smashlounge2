@@ -6260,7 +6260,7 @@ button.close {
   color: #6d4fcf;
 }
 .panel-default .panel-heading a:hover {
-  color: #5331c0;
+  color: #b3a2e7;
 }
 .panel-default .panel-heading .button {
   color: #fafafa;
@@ -6289,11 +6289,9 @@ button.close {
 }
 .panel-default .streams a {
   color: #ffffff;
-  -webkit-transition: .5s all ease;
-          transition: .5s all ease;
 }
 .panel-default .streams a:hover {
-  color: #6d4fcf;
+  color: #b3a2e7;
 }
 .theaterGif {
   background-color: transparent;
@@ -9637,6 +9635,12 @@ label,
 body {
   background-color: #2a2a2a;
 }
+.navbar-fixed-top {
+  right: 0 !important;
+  width: 30%;
+  left: auto;
+  width: auto;
+}
 footer {
   bottom: 0;
   width: 100%;
@@ -9649,7 +9653,7 @@ a {
 }
 a:hover {
   text-decoration: none;
-  color: rgba(255, 255, 255, 0.8);
+  color: #b3a2e7;
 }
 a .list {
   font-size: 24px;
@@ -9670,6 +9674,20 @@ h1 {
 h2 {
   font-family: "Noto Sans";
   font-size: 22px;
+}
+.bg-color-theme {
+  background-color: #5331c0;
+}
+/*
+  * Buttons
+  *
+  */
+.btn.btn-primary {
+  background-color: #5331c0;
+  border: 3px solid #5331c0;
+}
+.btn.btn-primary:hover {
+  background-color: rgba(83, 49, 192, 0.8);
 }
 /*
  *
@@ -9758,10 +9776,11 @@ h2 {
 #sidebar ul li.two-column.bottom {
   background-color: #444444;
   text-transform: lowercase;
+  box-shadow: inset 0px 15px 15px -8px rgba(0, 0, 0, 0.75);
 }
 #sidebar ul li.two-column.bottom a {
   padding: 5px;
-  padding-top: 12px;
+  padding-top: 20px;
   font-family: "Roboto", Helvetica, Arial, sans-serif;
   font-size: 13px;
 }
@@ -9772,6 +9791,9 @@ h2 {
 #sidebar ul li.two-column.bottom a:last-child {
   padding-right: 10px;
   text-align: right;
+}
+#sidebar ul li.two-column.bottom a:hover {
+  background-color: transparent;
 }
 #map-canvas {
   height: 250px;

@@ -147,8 +147,8 @@ return [
 		'Xethron\MigrationsGenerator\MigrationsGeneratorServiceProvider',
 		'Way\Generators\GeneratorsServiceProvider',
 		'Orangehill\Iseed\IseedServiceProvider',
-		'Kris\LaravelFormBuilder\FormBuilderServiceProvider'
-
+		'Kris\LaravelFormBuilder\FormBuilderServiceProvider',
+		'Zizaco\Entrust\EntrustServiceProvider'
 	],
 
 	/*
@@ -196,7 +196,8 @@ return [
 		'URL'       => 'Illuminate\Support\Facades\URL',
 		'Validator' => 'Illuminate\Support\Facades\Validator',
 		'View'      => 'Illuminate\Support\Facades\View',
-		'FormBuilder' => 'Kris\LaravelFormBuilder\Facades\FormBuilder'
+		'FormBuilder' => 'Kris\LaravelFormBuilder\Facades\FormBuilder',
+		'Entrust' => 'Zizaco\Entrust\EntrustFacade'
 
 
 	],

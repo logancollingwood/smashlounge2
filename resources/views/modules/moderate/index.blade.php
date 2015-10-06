@@ -16,17 +16,19 @@
               <li><a href='#group' role='tab' data-toggle='tab' class='tabz' data-id="group">Regional Group</a></li>
             </ul>
 
-            @foreach ($submissions as $key => $data)
-            	@if($key == 'gifs')
-            		@include('modules.moderate.giftable')
-            	@elseif ($key == 'groups')
-            		@include('modules.moderate.grouptable')
-            	@elseif ($key == 'techs')
-            		@include('modules.moderate.techstable')
-            	@elseif ($key == 'vods')
-            		@include('modules.moderate.vodstable')
-            	@endif
-            @endforeach
+            <div class='tab-content'>
+              @foreach ($submissions as $key => $data)
+              	@if($key == 'gifs')
+              		@include('modules.moderate.giftable')
+              	@elseif ($key == 'groups')
+              		@include('modules.moderate.grouptable')
+              	@elseif ($key == 'techs')
+              		@include('modules.moderate.techstable')
+              	@elseif ($key == 'vods')
+              		@include('modules.moderate.vodstable')
+              	@endif
+              @endforeach
+            </div>
 		</div>
 			
 	</content>

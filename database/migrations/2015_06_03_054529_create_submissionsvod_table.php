@@ -20,6 +20,7 @@ class CreateSubmissionsvodTable extends Migration {
 			$table->string('credit', 160);
 			$table->integer('typeid');
 			$table->string('description', 260);
+			$table->timestamps();
 		});
 	}
 

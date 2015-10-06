@@ -12,6 +12,7 @@ class GifForm extends Form
             ->add('techSelector', 'select')
             ->add('url', 'text')
             ->add('description', 'text')
-            ->add('source', 'text');
+            ->add('source', 'text')
+            ->add('submit', 'submit');
     }
 }

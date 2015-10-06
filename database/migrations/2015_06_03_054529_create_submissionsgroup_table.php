@@ -21,6 +21,7 @@ class CreateSubmissionsgroupTable extends Migration {
 			$table->float('longitude', 10, 0);
 			$table->integer('region')->default(0);
 			$table->integer('game')->default(0);
+			$table->timestamps();
 		});
 	}
 

@@ -20,6 +20,7 @@ class CreateSubmissionsTable extends Migration {
 			$table->string('description', 300);
 			$table->integer('pageid');
 			$table->integer('dataid');
+			$table->timestamps();
 		});
 	}
 

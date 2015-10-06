@@ -18,6 +18,7 @@ class CreateSubmissionstechTable extends Migration {
 			$table->string('name', 90);
 			$table->string('description', 650);
 			$table->string('ssbwiki', 180);
+			$table->timestamps();
 		});
 	}
 

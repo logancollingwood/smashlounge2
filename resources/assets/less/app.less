@@ -11,6 +11,7 @@
 @body-font: "Quicksand";
 @paragraph-font: "Noto Sans";
 
+@base-dark: #3c238a;
 @base: #5331C0;
 @highlight: #6D4FCF;
 
@@ -62,7 +63,12 @@ body, label, .checkbox label {
 body {
 	background-color: @body-background-color;
 }
-
+.navbar-fixed-top {
+	right: 0 !important;
+	width: 30%;
+	left: auto;
+	width: auto;
+}
 footer {
 
     bottom: 0;
@@ -109,6 +115,26 @@ a.list {
  p {
 	 
  }
+
+ .bg-color-theme {
+ 	background-color: @base;
+ }
+
+ /*
+  * Buttons
+  *
+  */
+  .btn {
+  	&.btn-primary {
+  		background-color: @base;
+  		border: 3px solid @base;
+  		&:hover {
+  			background-color: fade(@base, 80);
+  		}
+  	}
+  }
+
+
  /*
  *
  *	Navbar Stuff
@@ -199,9 +225,12 @@ a.list {
 		 li.two-column.bottom {
 		 	background-color: @grey;
 		 	text-transform: lowercase;
+		 	-webkit-box-shadow: inset 0px 15px 15px -8px rgba(0,0,0,0.75);
+			-moz-box-shadow: inset 0px 15px 15px -8px rgba(0,0,0,0.75);
+			box-shadow: inset 0px 15px 15px -8px rgba(0,0,0,0.75);
 		 	a {
 		 		padding: 5px;
-		 		padding-top: 12px;
+		 		padding-top: 20px;
 		 		font-family: @font-family-sans-serif;
 		 		font-size: 13px;
 		 		&:first-child {
@@ -212,6 +241,9 @@ a.list {
 		 		&:last-child {
 		 			padding-right: 10px;
 		 			text-align: right;
+		 		}
+		 		&:hover {
+		 			background-color: transparent;
 		 		}
 		 	}
 		 }

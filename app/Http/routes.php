@@ -81,7 +81,7 @@ Route::bind('groups', function($value, $route) {
 	return $group;
 });
 
-
+Entrust::routeNeedsRole('moderate*', 'moderator', Redirect::to('/'));
 Route::resource('moderate', 'ModerateController');
 
 /*
@@ -107,7 +107,12 @@ Route::get('api/chars/{id}', 'ApiController@char');
 Route::get('api/groups/all', 'GroupController@getAll');
 
 Route::get('submit/', 'SubmitController@index');
-Route::post('submit/gif/', 'SubmitController@gif');
+
+Route::post('submit/gif/', [
+    'uses' => 'SubmitController@storeGif',
+    'as' => 'submit.gif'
+]);
+
 Route::post('submit/group/', 'SubmitController@group');
 Route::post('submit/tech/', 'SubmitController@group');
 Route::post('submit/vod/', 'SubmitController@vod');

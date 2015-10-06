@@ -27,6 +27,7 @@ class CreateSubmissionstournamentTable extends Migration {
 			$table->integer('attending');
 			$table->string('location', 50);
 			$table->string('host', 65);
+			$table->timestamps();
 		});
 	}
 
