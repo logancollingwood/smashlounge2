@@ -5,6 +5,8 @@ use App\Http\Controllers\Controller;
 
 use Illuminate\Http\Request;
 use App\Gifs;
+use App\Char;
+use App\Tech;
 
 class GifController extends Controller {
 

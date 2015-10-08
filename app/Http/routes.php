@@ -94,18 +94,6 @@ Route::resource('moderate', 'ModerateController');
 */
 
 
-Route::get('api/doc', 'ApiController@docs');
-Route::get('api/smashgifs', 'ApiController@smashgifs');
-Route::get('api/techs/all', 'TechController@getAll');
-Route::get('api/techs/{id}', 'ApiController@tech');
-
-
-Route::get('api/chars/', 'CharController@getAll');
-Route::get('api/chars/{id}', 'ApiController@char');
-
-
-Route::get('api/groups/all', 'GroupController@getAll');
-
 Route::get('submit/', 'SubmitController@index');
 
 
@@ -130,25 +118,40 @@ Route::post('submit/vod/', [
 
 /*
 |--------------------------------------------------------------------------
-| Card Routes
+| Card and API Routes
 |--------------------------------------------------------------------------
 |
-| These are cards that can be pulled into OBS streaming software to display
-| realtime statistics and information on things in our database.
+| These are the routes for the OBS cards and raw JSON dumps
 |
 */
 
 
-Route::get('card/tech/{tech}', 'TechCardController@index');
+Route::get('card/tech/{tech}', 'TechController@card');
 Route::bind('card/tech/{tech}', function($value, $route) {
 	return App\Tech::where("tech", $value)->first();
 });
 
 
-Route::resource('gifs', 'GifController');
-Route::bind('gifs', function($value, $route) {
+Route::resource('gifs/id/{id}', 'ApiController@gif');
+//Route::resource('gifs/tech/{id}', 'GifController@api');
+//Route::resource('gifs/char/{id}', 'GifController@api');
+
+Route::bind('gifs/', function($value, $route) {
 	$gif = App\Gifs::where("id", $value)->first();
 	if ($gif == null) abort(404);
 	return $gif;
 });
+
+
+Route::get('api/doc', 'ApiController@docs');
+Route::get('api/smashgifs', 'ApiController@smashgifs');
+Route::get('api/techs/all', 'TechController@getAll');
+Route::get('api/techs/{id}', 'ApiController@tech');
+
+
+Route::get('api/chars/', 'CharController@getAll');
+Route::get('api/chars/{id}', 'ApiController@char');
+
+
+Route::get('api/groups/all', 'GroupController@getAll');
 

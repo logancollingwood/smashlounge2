@@ -61,6 +61,14 @@ class TechController extends Controller {
 		$data = ['tech' => $tech , 'gifs' => $gifs, 'twitterGif' => $twitterGif];
 		return view($this->viewDir . ".showTech", $data);
 	}
+
+	public function card(Tech $tech) {
+		$gifs = $tech->getGifs();
+
+		$data = ['tech' => $tech , 'gifs' => $gifs];
+
+		return view("modules.cards.tech.showtechcard", $data);
+	}
 	
 	/**
 	 * Grab all techniques

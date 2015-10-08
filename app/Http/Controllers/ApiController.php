@@ -1,5 +1,6 @@
 <?php namespace App\Http\Controllers;
 use App\Tech;
+use App\Gifs;
 use App\Char;
 use App\Group;
 use App\Vod;
@@ -63,7 +64,17 @@ class ApiController extends Controller {
 		$tech = Tech::find($id);
 		return $tech;
 	}
-	
+
+	public function gif(Gifs $gif) {
+		return $gif;
+	}
+	public function charGifs(Char $char) {
+
+	}
+	public function techGifs(Char $char) {
+
+	}
+
 	public function vod($id) {
 		
 	}
