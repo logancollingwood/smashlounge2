@@ -11,9 +11,9 @@
 @body-font: "Quicksand";
 @paragraph-font: "Noto Sans";
 
-@base-dark: #3c238a;
-@base: #5331C0;
-@highlight: #6D4FCF;
+@base-dark: #1f7f67;
+@base: #2cb693;
+@highlight: #1abc9c;
 
 @body-background-color: #2a2a2a;
 @container-background-color: #226666;
@@ -30,7 +30,7 @@
 @navbar-link-color: #ffffff;
 
 @link-color: #ffffff;
-@link-hover: #b3a2e7;
+@link-hover: #46e5c6;
 
 /* Defines some styles for various containers */
 @import "util/_panels";
@@ -225,9 +225,6 @@ a.list {
 		 li.two-column.bottom {
 		 	background-color: @grey;
 		 	text-transform: lowercase;
-		 	-webkit-box-shadow: inset 0px 15px 15px -8px rgba(0,0,0,0.75);
-			-moz-box-shadow: inset 0px 15px 15px -8px rgba(0,0,0,0.75);
-			box-shadow: inset 0px 15px 15px -8px rgba(0,0,0,0.75);
 		 	a {
 		 		padding: 5px;
 		 		padding-top: 20px;
@@ -280,6 +277,9 @@ a.list {
 	 padding-top: 40px;
 	 text-align: center;
 	 border-bottom: 1px solid @highlight;
+	 &.texture {
+		background-image: url(/img/assets/bg_texture.png);
+	 }
  }
  
  content {
