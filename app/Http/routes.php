@@ -124,6 +124,17 @@ Route::post('submit/vod/', [
 | These are the routes for the OBS cards and raw JSON dumps
 |
 */
+Route::get('api/doc', 'ApiController@docs');
+Route::get('api/smashgifs', 'ApiController@smashgifs');
+Route::get('api/techs/all', 'TechController@getAll');
+Route::get('api/techs/{id}', 'ApiController@tech');
+
+
+Route::get('api/chars/', 'CharController@getAll');
+Route::get('api/chars/{id}', 'ApiController@char');
+
+
+Route::get('api/groups/all', 'GroupController@getAll');
 
 
 Route::get('card/tech/{tech}', 'TechController@card');
@@ -143,15 +154,4 @@ Route::bind('gifs/', function($value, $route) {
 });
 
 
-Route::get('api/doc', 'ApiController@docs');
-Route::get('api/smashgifs', 'ApiController@smashgifs');
-Route::get('api/techs/all', 'TechController@getAll');
-Route::get('api/techs/{id}', 'ApiController@tech');
-
-
-Route::get('api/chars/', 'CharController@getAll');
-Route::get('api/chars/{id}', 'ApiController@char');
-
-
-Route::get('api/groups/all', 'GroupController@getAll');
 
