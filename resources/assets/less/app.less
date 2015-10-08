@@ -94,6 +94,9 @@ a.list {
 	font-size: 24px;
 }
 
+form {
+	padding-top: 30px;
+}
 /*
  *
  *	Font Stuff
@@ -179,7 +182,7 @@ a.list {
 		 padding-left: 0px;
 		 list-style-type: none;
 		 margin-bottom: 0px;
-	 	 border-left: 2px solid @highlight;
+	 	 border-left: 0px;
 		 li {
 	 		 background-color: fade(#555555, 90);
 		 	 display: inline-block;
@@ -190,11 +193,8 @@ a.list {
 			 	text-align: center;
 			 	padding: 12.5px;
 			 }
-			 &:first-child {
-				 border-top: 2px solid @highlight;
-			 }
 			 &:not(:last-child) {
-				 border-bottom: 2px solid @highlight;
+				 border-bottom: 2px solid @base-dark;
 			 }
 			 &:hover {
 			 	background-color:  @well-color;
@@ -257,8 +257,15 @@ a.list {
 		height: auto;
 		padding-top: 0px;
 		ul {
+			border-left: 2px solid @highlight;
 			li {
 				display: block;
+				&:first-child {
+					 border-top: 2px solid @highlight;
+				}
+				&:not(:last-child) {
+					border-bottom: 2px solid @highlight;
+			 	}
 			}
 		}
 	}

@@ -32,21 +32,13 @@ class TechsTableSeeder extends Seeder {
 			),
 			2 => 
 			array (
-				'id' => '20',
-				'tech' => 'Directional Influence',
-				'description' => 'Changing the angle of trajectory with the analog stick while being hit.',
-				'smashwiki' => 'http://www.ssbwiki.com/Directional_influence',
-			'inputs' => '(Direction)[hold] after being hit',
-			),
-			3 => 
-			array (
 				'id' => '4',
 				'tech' => 'L Cancel',
 				'description' => 'A technique that allows characters to act faster than usual when landing in the middle of an aerial attack.',
 				'smashwiki' => 'http://www.ssbwiki.com/L-canceling',
 			'inputs' => '(L or R or Z) within 7 frames of landing ',
 			),
-			4 => 
+			3 => 
 			array (
 				'id' => '5',
 				'tech' => 'Short hop',
@@ -54,7 +46,7 @@ class TechsTableSeeder extends Seeder {
 				'smashwiki' => 'http://www.ssbwiki.com/Short_hop',
 			'inputs' => '(QUICK Jump)',
 			),
-			5 => 
+			4 => 
 			array (
 				'id' => '6',
 				'tech' => 'Ledge Hop',
@@ -62,7 +54,7 @@ class TechsTableSeeder extends Seeder {
 				'smashwiki' => 'http://www.ssbwiki.com/Edge_hopping',
 			'inputs' => '(Down or Back) , (Jump)',
 			),
-			6 => 
+			5 => 
 			array (
 				'id' => '7',
 				'tech' => 'Pivot',
@@ -70,7 +62,7 @@ class TechsTableSeeder extends Seeder {
 				'smashwiki' => 'http://www.ssbwiki.com/Pivoting',
 			'inputs' => '(Left) , (Right) or vice versa.',
 			),
-			7 => 
+			6 => 
 			array (
 				'id' => '8',
 				'tech' => 'Wall Jump',
@@ -78,15 +70,7 @@ class TechsTableSeeder extends Seeder {
 				'smashwiki' => 'http://www.ssbwiki.com/Wall_jump',
 			'inputs' => '(Away from wall) upon touching.',
 			),
-			8 => 
-			array (
-				'id' => '19',
-				'tech' => 'Tech',
-				'description' => 'Used to quickly recover from a falling animation before landing. You can choose to tech neutral, right roll, or left roll.',
-				'smashwiki' => 'http://www.ssbwiki.com/tech',
-			'inputs' => '(L or R or Z) upon landing',
-			),
-			9 => 
+			7 => 
 			array (
 				'id' => '10',
 				'tech' => 'Crouch Cancel',
@@ -94,7 +78,7 @@ class TechsTableSeeder extends Seeder {
 				'smashwiki' => 'http://www.ssbwiki.com/Crouch_cancel',
 			'inputs' => '(CROUCH) before impending attack.',
 			),
-			10 => 
+			8 => 
 			array (
 				'id' => '11',
 				'tech' => 'Dash Dance',
@@ -102,7 +86,7 @@ class TechsTableSeeder extends Seeder {
 				'smashwiki' => 'http://www.ssbwiki.com/Dash-dancing',
 			'inputs' => '(Left), (Right)',
 			),
-			11 => 
+			9 => 
 			array (
 				'id' => '12',
 				'tech' => 'Meteor Cancel',
@@ -110,7 +94,7 @@ class TechsTableSeeder extends Seeder {
 				'smashwiki' => 'http://www.ssbwiki.com/Meteor_smash#Meteor_cancelling',
 			'inputs' => '(Jump or Up B) after being hit',
 			),
-			12 => 
+			10 => 
 			array (
 				'id' => '13',
 				'tech' => 'Ledge Stall',
@@ -118,7 +102,7 @@ class TechsTableSeeder extends Seeder {
 				'smashwiki' => 'http://www.ssbwiki.com/Ledgestall',
 			'inputs' => '(Character Dependent)',
 			),
-			13 => 
+			11 => 
 			array (
 				'id' => '16',
 				'tech' => 'Wall Tech',
@@ -126,7 +110,7 @@ class TechsTableSeeder extends Seeder {
 				'smashwiki' => 'http://www.ssbwiki.com/tech#Wall_tech',
 			'inputs' => '(L or R) before landing in falling animation',
 			),
-			14 => 
+			12 => 
 			array (
 				'id' => '17',
 				'tech' => 'Jump Canceled Grab',
@@ -134,13 +118,29 @@ class TechsTableSeeder extends Seeder {
 				'smashwiki' => 'http://www.ssbwiki.com/Jump-canceled_grab',
 			'inputs' => '(Jump) followed immediately by (Z)',
 			),
-			15 => 
+			13 => 
 			array (
 				'id' => '18',
 				'tech' => 'Jump Canceled Up Smash',
 			'description' => 'A jump-canceled up smash (JC up-smash) is a technique where a character interrupts a dash or run with a jump, which itself is then jump-canceled with an up-smash.',
 				'smashwiki' => '',
 			'inputs' => '(Jump) followed immediately by (Up Smash)',
+			),
+			14 => 
+			array (
+				'id' => '19',
+				'tech' => 'Tech',
+				'description' => 'Used to quickly recover from a falling animation before landing. You can choose to tech neutral, right roll, or left roll.',
+				'smashwiki' => 'http://www.ssbwiki.com/tech',
+			'inputs' => '(L or R or Z) upon landing',
+			),
+			15 => 
+			array (
+				'id' => '20',
+				'tech' => 'Directional Influence',
+				'description' => 'Changing the angle of trajectory with the analog stick while being hit.',
+				'smashwiki' => 'http://www.ssbwiki.com/Directional_influence',
+			'inputs' => '(Direction)[hold] after being hit',
 			),
 			16 => 
 			array (
@@ -238,6 +238,14 @@ class TechsTableSeeder extends Seeder {
 				'description' => 'During a character\'s running animation, holding down will cancel the run into a crouch.',
 				'smashwiki' => 'www.ssbwiki.com/Dash-canceling#Crouching_.28Melee_only.29',
 				'inputs' => '',
+			),
+			28 => 
+			array (
+				'id' => '36',
+				'tech' => 'V Cancel',
+				'description' => 'V-canceling is the act of reducing the X & Y knockback velocity of a received attack by 5%. The player receiving the attack must be in the air when the collision between the hitbox and hurtbox occurs. The receiving player must press the L or R button fully within 3 frames of the attack.',
+				'smashwiki' => 'http://www.ssbwiki.com/V-cancelling',
+			'inputs' => '(L or R) within 3 frames',
 			),
 		));
 	}

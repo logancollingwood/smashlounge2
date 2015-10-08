@@ -1,7 +1,10 @@
 <?php namespace App\Http\Controllers;
 
 use App\Submissions\SubmissionGif;
-use Kris\LaravelFormBuilder\FormBuilder;
+use App\Submissions\SubmissionVod;
+use Illuminate\Http\Request;
+use App\Tech;
+use App\Char;
 
 class SubmitController extends Controller {
 
@@ -31,34 +34,67 @@ class SubmitController extends Controller {
 	 *
 	 * @return Response
 	 */
-	public function index(FormBuilder $formBuilder) {
-		$gifform = $formBuilder->create('App\Forms\GifForm', [
-            'method' => 'POST',
-            'url' => route('submit.gif')
-        ]);
+	public function index() {
 
-		return view($this->viewDir . ".index", compact('gifform'));
+		$techs = Tech::all();
+		$techSelect = array();
+		foreach ($techs as $tech) {
+			$techSelect[$tech->id] = $tech->tech;
+		}
+
+		$chars = Char::all();
+		$charsSelect = array();
+		foreach ($chars as $char) {
+			$charsSelect[$char->id] = $char->name;
+		}
+
+		$data = ['techs' => $techSelect, 'chars' => $charsSelect];
+
+		return view($this->viewDir . ".index", $data);
 	}
 	
-	public function storeGif(FormBuilder $FormBuilder) {
+	public function storeGif(Request $request) {
+		$name = $request->input('giftype');
+		$submission = new SubmissionGif;
 
-		$form = $FormBuilder->create('App\Forms\GifForm');
+		//submitting tech gif
+		if ($name == "T") {
+			$input = $request->only('giftech', 'gifurl', 'gifdescription', 'gifsource');
+			$submission->pageid = 0;
+			$submission->dataid = $input["giftech"];
+		} else if ($name == "C") {
+			$submission->pageid = 1;
+			$input = $request->only('gifchar', 'gifurl', 'gifdescription', 'gifsource');
+			$submission->dataid = $input["gifchar"];
+		} else {
+			error(500);
+		}
 
-		if (!$form->isValid()) {
-            return redirect()->back()->withErrors($form->getErrors())->withInput();
-        }
+		$submission->url = $input["gifurl"];
+		$submission->description = $input["gifdescription"];
+		$submission->source = $input["gifsource"];
+		$submission->save();
 
-        //valid
-        $submission = new SubmissionGif;
+		return redirect('submit/#gif')->with('message', 'Gif submitted successfully!');
+	}
 
-        $submission->url = $form->fields["url"];
-        $submission->source = $form->fields["source"];
-        $submission->description = $form->fields["description"];
+	public function storeVod(Request $request) {
+		$input = $request->all();
 
-        $submission->typeid = $form->fields["techSelector"];
-        $submission->typeid = $form->fields["techSelector"];
-        dd($submission);
-        //$submission->save();
+		$submission = new SubmissionVod;
+		$submission->url = $input["vodurl"];
+		$submission->description = $input["voddescription"];
+		$submission->title = $input["vodtitle"];
+		$submission->credit = $input["vodsource"];
+		$submission->save();
+
+		return redirect('submit/#vod')->with('message', 'Vod submitted successfully!');
+	}
+	public function storeGroup() {
+
+	}
+	public function storeTech() {
+
 	}
 	
 }

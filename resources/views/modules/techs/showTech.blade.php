@@ -31,7 +31,7 @@
 	<content>
 			<div class="row no-margin">
 				@foreach($gifs as $gif)
-					@include('gif')
+					@include('gifs.gif')
 				@endforeach
 				
 			</div>

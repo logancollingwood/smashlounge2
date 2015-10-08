@@ -15,7 +15,7 @@ class CreateSubmissionsTable extends Migration {
 		Schema::create('submissions', function(Blueprint $table)
 		{
 			$table->integer('id', true);
-			$table->string('url', 90);
+			$table->string('url', 300);
 			$table->string('source', 30);
 			$table->string('description', 300);
 			$table->integer('pageid');

@@ -9391,30 +9391,6 @@ class GifsTableSeeder extends Seeder {
 			),
 			281 => 
 			array (
-				'id' => '1906',
-				'typeid' => '99',
-				'dataid' => '119',
-				'source' => '',
-				'submittedby' => '0',
-				'url' => 'LividZanyAllosaurus',
-				'description' => '',
-				'update_date' => '2015-03-17 12:42:15',
-				'score' => '0',
-			),
-			282 => 
-			array (
-				'id' => '1907',
-				'typeid' => '99',
-				'dataid' => '119',
-				'source' => '',
-				'submittedby' => '0',
-				'url' => 'OilyBeneficialAmurratsnake',
-				'description' => '',
-				'update_date' => '2015-03-17 12:42:15',
-				'score' => '0',
-			),
-			283 => 
-			array (
 				'id' => '1908',
 				'typeid' => '3',
 				'dataid' => '60',
@@ -9425,7 +9401,7 @@ class GifsTableSeeder extends Seeder {
 				'update_date' => '2015-03-31 18:49:15',
 				'score' => '0',
 			),
-			284 => 
+			282 => 
 			array (
 				'id' => '1910',
 				'typeid' => '2',
@@ -9437,7 +9413,7 @@ class GifsTableSeeder extends Seeder {
 				'update_date' => '2015-04-06 20:39:24',
 				'score' => '0',
 			),
-			285 => 
+			283 => 
 			array (
 				'id' => '1911',
 				'typeid' => '3',
@@ -9449,7 +9425,7 @@ class GifsTableSeeder extends Seeder {
 				'update_date' => '2015-04-23 08:01:36',
 				'score' => '0',
 			),
-			286 => 
+			284 => 
 			array (
 				'id' => '1912',
 				'typeid' => '0',

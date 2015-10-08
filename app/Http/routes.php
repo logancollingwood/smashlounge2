@@ -108,14 +108,24 @@ Route::get('api/groups/all', 'GroupController@getAll');
 
 Route::get('submit/', 'SubmitController@index');
 
+
 Route::post('submit/gif/', [
     'uses' => 'SubmitController@storeGif',
     'as' => 'submit.gif'
 ]);
+Route::post('submit/group/', [
+    'uses' => 'SubmitController@storeGroup',
+    'as' => 'submit.group'
+]);
+Route::post('submit/tech/', [
+    'uses' => 'SubmitController@storeTech',
+    'as' => 'submit.tech'
+]);
+Route::post('submit/vod/', [
+    'uses' => 'SubmitController@storeVod',
+    'as' => 'submit.vod'
+]);
 
-Route::post('submit/group/', 'SubmitController@group');
-Route::post('submit/tech/', 'SubmitController@group');
-Route::post('submit/vod/', 'SubmitController@vod');
 
 
 /*
