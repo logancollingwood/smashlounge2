@@ -118,4 +118,33 @@ class HomeController extends Controller {
 		}
 	}
 
+	public function about() {
+		$team = array(
+			0 => array(
+				'name' => 'Logan Collingwood',
+				'twitter' =>'__logan_c__',
+				'role' => 'CoFounder - Lead Developer'
+			),
+			1 => array(
+				'name' => 'Kevin Toy',
+				'twitter' =>'CLG_PewPewU',
+				'role' => 'CoFounder - Knowledge'
+			),
+			2 => array(
+				'name' => 'Marco Salazar',
+				'twitter' =>'Marceux',
+				'role' => 'Advisor' 
+			),
+			3 => array(
+				'name' => 'Boback Vakili',
+				'twitter' =>'boba_ck',
+				'role' => 'Graphics' 
+			)
+		);
+		$data = [ 'team' => $team, 'columns' => 2 ];
+		return view("modules.about.index", $data);
+	}
+	public function donate() {
+		return view("modules.donate.index");
+	}
 }

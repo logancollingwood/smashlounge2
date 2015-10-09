@@ -9,6 +9,7 @@
 	        <th>Approve</th>
 	        <th>Deny</th>
       	</tr>
+
       	@foreach ($data as $row)
             <tr class="submission" data-id="{{ $row->id }}">
               <td>
@@ -22,10 +23,10 @@
               <td>
                 @if ($row->pageid == 0)
                      <p>Technique Gif</p>
-                      {-- $row->techName --}
+                     <p>{{ $row->getTechName() }} </p>
                 @else
                     <p>Character Gif</p>
-                    <p>{-- $row->charName --}</p>
+                    <p>{{ $row->getCharName() }}</p>
                 @endif
 
               </td>

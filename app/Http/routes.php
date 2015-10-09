@@ -20,8 +20,8 @@ Route::model('gif', 'Gifs');
 */
 
 Route::get('/', 'HomeController@index');
-
-
+Route::get('/about', 'HomeController@about');
+Route::get('/donate', 'HomeController@donate');
 /*
 |--------------------------------------------------------------------------
 | Resource Modules
@@ -143,7 +143,7 @@ Route::bind('card/tech/{tech}', function($value, $route) {
 });
 
 
-Route::resource('gifs/id/{id}', 'ApiController@gif');
+
 //Route::resource('gifs/tech/{id}', 'GifController@api');
 //Route::resource('gifs/char/{id}', 'GifController@api');
 

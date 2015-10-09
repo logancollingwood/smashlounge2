@@ -30,7 +30,9 @@ class ModerateController extends Controller {
 		$submissions["groups"] = SubmissionGroup::all();
 		$submissions["techs"] = SubmissionTech::all();
 		$submissions["vods"] = SubmissionVod::all();
-		
+		foreach ($submissions["gifs"] as $submission) {
+			$submission->url = $submission->grabGfyName();
+		}
 
 		$data = [ "submissions" => $submissions ];
 		return view($this->viewDir . ".index", $data);

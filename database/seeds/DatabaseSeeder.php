@@ -30,6 +30,9 @@ class DatabaseSeeder extends Seeder {
 		$this->call('VodvotesTableSeeder');
 		$this->call('PlayersTableSeeder');
 		$this->call('GuidesTableSeeder');
+		$this->call('RoleUserTableSeeder');
+		$this->call('RolesTableSeeder');
+		$this->call('UsersTableSeeder');
 	}
 
 }

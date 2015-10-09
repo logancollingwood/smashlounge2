@@ -25,7 +25,7 @@ Questions?
 	<!-- Font Awesome -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 	
-	<link rel='shortcut icon' href='/img/favicon.ico'>
+	<link rel='shortcut icon' href="{{ asset('/img/assets/favicon.ico') }}">
 		
 	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
 	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -40,6 +40,7 @@ Questions?
 </head>
 <body>
 	
+	@if (Auth::user()->hasRole('moderator'))
 	<nav class="navbar navbar-default navbar-fixed-top hidden-sm hidden-md">
 		<div class="container-fluid">
 			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
@@ -51,6 +52,7 @@ Questions?
 						<li class="dropdown">
 							<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">{{ Auth::user()->name }} <span class="caret"></span></a>
 							<ul class="dropdown-menu" role="menu">
+								<li><a href="{{ url('/moderate') }}">Moderate</a></li>
 								<li><a href="{{ url('/auth/logout') }}">Logout</a></li>
 							</ul>
 						</li>
@@ -59,7 +61,7 @@ Questions?
 			</div>
 		</div>
 	</nav>
-		
+	@endif
 	<div class="container" id="content">
 		<div class="row">
 			<div class="col-sm-2 col-md-2" id="sidebar">

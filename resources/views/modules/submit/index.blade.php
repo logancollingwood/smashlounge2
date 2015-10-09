@@ -31,17 +31,17 @@
                     <div class="form-group">
                         {!! Form::label('Type') !!}
                         {!! Form::select('giftype', array('T' => 'Tech', 'C' => 'Character'), 
-                                'default', array('id' => 'gifType')); 
+                                'default', array('class' => 'form-control', 'id' => 'gifType')); 
                         !!}
                     </div>
 
                     <div id="techList" class="form-group">
                         {!! Form::label('Tech') !!}
-                         {!! Form::select('giftech', $techs); !!}
+                         {!! Form::select('giftech', $techs, 'default', array('class'=>'form-control')); !!}
                     </div>
                     <div id="charList" class="form-group">
                         {!! Form::label('Char') !!}
-                        {!! Form::select('gifchar', $chars); !!}
+                        {!! Form::select('gifchar', $chars, 'default', array('class'=>'form-control')); !!}
                     </div>
                     <div class="row">
                         <div class="col-md-6">
@@ -55,7 +55,7 @@
                             </div>
                             <div class="form-group">
                                 {!! Form::label('Description') !!}
-                                {!! Form::text('gifdescription', null, 
+                                {!! Form::textarea('gifdescription', null, 
                                     array('required', 
                                           'class'=>'form-control', 
                                           'placeholder'=>'PPU destroys his competition')) !!}
@@ -63,7 +63,7 @@
 
                             <div class="form-group">
                                 {!! Form::label('Source') !!}
-                                {!! Form::textarea('gifsource', null, 
+                                {!! Form::text('gifsource', null, 
                                     array('required', 
                                           'class'=>'form-control', 
                                           'placeholder'=>'Big House 5 or URL to vod')) !!}
@@ -104,7 +104,7 @@
                     
                     <div class="form-group">
                         {!! Form::label('Vod Description') !!}
-                        {!! Form::text('voddescription', null, 
+                        {!! Form::textarea('voddescription', null, 
                             array('required', 
                                   'class'=>'form-control',
                                   'placeholder'=>'HAPPY FEET')) !!}
@@ -112,7 +112,7 @@
 
                     <div class="form-group">
                         {!! Form::label('source') !!}
-                        {!! Form::textarea('vodsource', null, 
+                        {!! Form::text('vodsource', null, 
                             array('class'=>'form-control',
                                    'placeholder'=>'wombo combro')) !!}
                     </div>
@@ -138,7 +138,7 @@
 
                     <div class="form-group">
                         {!! Form::label('Tech Description') !!}
-                        {!! Form::text('techdescription', null, 
+                        {!! Form::textarea('techdescription', null, 
                             array('required', 
                                   'class'=>'form-control',
                                   'placeholder'=>'A movement technique ... ')) !!}
@@ -146,7 +146,7 @@
 
                     <div class="form-group">
                         {!! Form::label('Tech Wiki') !!}
-                        {!! Form::textarea('techwiki', null, 
+                        {!! Form::text('techwiki', null, 
                             array('class'=>'form-control',
                                    'placeholder'=>'http://www.ssbwiki.com/Tech')) !!}
                     </div>
