@@ -79,6 +79,14 @@ class TechController extends Controller {
 		$techs = Tech::all();
 		return $techs;
 	}
+
+	public function api_all() {
+		$techs = Tech::all();
+		foreach ($techs as $tech) {
+			$tech->gifs = $tech->getGifs();
+		}
+		return $techs;
+	}
 	
 	
 }

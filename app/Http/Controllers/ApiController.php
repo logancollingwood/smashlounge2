@@ -43,8 +43,16 @@ class ApiController extends Controller {
 			array(
 				"action" => "get",
 				"module" => "groups",
-				"methods" => "getAll",
-				"description" => "returns all groups"
+				"endpoint" => "/api/groups/all",
+				"description" => "returns all groups",
+				"format" => "JSON"
+			),
+			array(
+				"action" => "get",
+				"module" => "techs",
+				"endpoint" => "/api/techs/all",
+				"description" => "returns all techniques, as well as associated gifs for each technique",
+				"format" => "JSON"
 			),
 		);
 

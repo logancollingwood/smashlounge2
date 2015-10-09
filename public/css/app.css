@@ -6239,6 +6239,7 @@ button.close {
   color: #ffffff;
   text-align: center;
   font-size: 24px;
+  background-image: url(http://www.transparenttextures.com/patterns/brushed-alum.png);
 }
 .panel-default .panel-heading a {
   color: #1abc9c;
@@ -9550,6 +9551,7 @@ h1 {
 }
 .gifcard .panel-heading {
   text-align: left;
+  background-image: url(http://www.transparenttextures.com/patterns/brushed-alum.png);
 }
 .gifcard .panel-heading p.cardlabel {
   margin-left: 10px;
@@ -9561,9 +9563,6 @@ h1 {
   color: #ffffff;
   font-size: 24px;
   margin-left: 6%;
-}
-.gifcard .panel-heading .name:hover {
-  color: highlight;
 }
 .gifcard .panel-body .description {
   padding-top: 20px;
