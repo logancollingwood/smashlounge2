@@ -143,15 +143,16 @@ Route::bind('card/tech/{tech}', function($value, $route) {
 });
 
 
-Route::resource('gifs/id/{id}', 'ApiController@gif');
+//Route::resource('gifs/id/{id}', 'ApiController@gif');
 //Route::resource('gifs/tech/{id}', 'GifController@api');
 //Route::resource('gifs/char/{id}', 'GifController@api');
 
+/*
 Route::bind('gifs/', function($value, $route) {
 	$gif = App\Gifs::where("id", $value)->first();
 	if ($gif == null) abort(404);
 	return $gif;
 });
-
+*/
 
 
