@@ -67,8 +67,10 @@ Route::bind('guides', function($value, $route) {
 	return $guide;
 });
 
-Route::get('vods/{type}', 'VodController@type');
+
 Route::resource('vods', 'VodController');
+Route::get('vods/{type}', 'VodController@type');
+
 Route::bind('vods', function($value, $route) {
 	$vod = App\Vod::where("title", $value)->first();
 	if ($vod == null) abort(404);
