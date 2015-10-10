@@ -17,10 +17,8 @@
 
 						@if ($vod->source && filter_var($vod->source, FILTER_VALIDATE_URL))
 							<a href="{{ $vod->source }}">source</a>
-						@elseif ($vod->source != "")
+						@else ($vod->source != "")
 							courtesy of {{ $vod->source }}
-						@else 
-							no source
 						@endif
 
 					</div>
