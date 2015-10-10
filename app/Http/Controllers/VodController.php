@@ -54,4 +54,15 @@ class VodController extends Controller {
 		return view($this->viewDir . '.show', $data);
 	}
 
+	public function type($id) {
+		$typestr = array_search(strtolower($id),array_map('strtolower', $this->vodcategories)); ;
+
+		if (!$typestr) exit(404);
+
+		$vods = Vod::whereRaw('typeid = ?', [$typestr])->get();
+		
+		$data = ['vods' => $vods, 'typestr' => $id];
+		return view($this->viewDir . '.type', $data);
+	}
+
 }

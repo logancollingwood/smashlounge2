@@ -21,7 +21,8 @@
 				
 			    <div class="col-md-{{12/$columns}}">
 			    	<div class="listitem">
-			    			<p> {{ $categories[$i] }} </p>
+			    			<h2 style="text-align:center"><a href="{{ url('/vods/' . $categories[$i]) }}"> {{ $categories[$i] }} </a></h2>
+			    			<hr>
 							<span class="badge counter">{{ $i+1 }} </span>
 							<a href="{{ route('vods.show', $vods[$categories[$i]]->title) }}" class="list">
 								{{ $vods[$categories[$i]]->title }}
