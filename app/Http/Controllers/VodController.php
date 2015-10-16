@@ -48,7 +48,14 @@ class VodController extends Controller {
 		return view($this->viewDir . ".index", $data);
 	}
 
-	public function show($vod) {
+	public function show($title) {
+		$title = urldecode($title);
+		//dd($vod);
+		$vod = Vod::where('title', '=', $title)->first();
+		if ($vod == null)
+			exit(404);
+
+		//dd($vod);
 		$data = [ 'vod' => $vod ];
 
 		return view($this->viewDir . '.show', $data);
