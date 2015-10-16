@@ -48,7 +48,7 @@ class VodController extends Controller {
 		return view($this->viewDir . ".index", $data);
 	}
 
-	public function show(Vod $vod) {
+	public function show($vod) {
 		$data = [ 'vod' => $vod ];
 
 		return view($this->viewDir . '.show', $data);

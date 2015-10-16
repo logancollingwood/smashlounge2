@@ -68,7 +68,11 @@ Route::bind('guides', function($value, $route) {
 });
 
 
-Route::resource('vods', 'VodController');
+Route::get('vods/', 'VodController@index');
+Route::get('vods/show/{slug}', function($slug) {
+	return 'VodController@show';
+});
+
 Route::get('vods/{type}', 'VodController@type');
 
 Route::bind('vods', function($value, $route) {
@@ -129,13 +133,12 @@ Route::post('submit/vod/', [
 */
 Route::get('api/doc', 'ApiController@docs');
 Route::get('api/smashgifs', 'ApiController@smashgifs');
+
 Route::get('api/techs/all', 'TechController@api_all');
 Route::get('api/techs/{id}', 'ApiController@tech');
 
-
-Route::get('api/chars/', 'CharController@getAll');
+Route::get('api/chars/all', 'CharController@getAll');
 Route::get('api/chars/{id}', 'ApiController@char');
-
 
 Route::get('api/groups/all', 'GroupController@getAll');
 
