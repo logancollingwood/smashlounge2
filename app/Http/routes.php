@@ -69,9 +69,7 @@ Route::bind('guides', function($value, $route) {
 
 
 Route::get('vods/', 'VodController@index');
-Route::get('vods/show/{slug}', function($slug) {
-	return view('VodController@show');
-});
+Route::get('vods/show/{slug}', 'VodController@show');
 
 Route::get('vods/{type}', 'VodController@type');
 
