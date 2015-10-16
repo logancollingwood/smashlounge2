@@ -90,10 +90,10 @@ class SubmitController extends Controller {
 
 		return redirect('submit/#vod')->with('message', 'Vod submitted successfully!');
 	}
-	public function storeGroup() {
+	public function storeGroup(Request $request) {
 
 	}
-	public function storeTech() {
+	public function storeTech(Request $request) {
 
 	}
 	
