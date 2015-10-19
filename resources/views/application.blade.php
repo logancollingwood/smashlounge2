@@ -21,6 +21,8 @@ Questions?
 	
 	<!-- Fonts -->
 	<link href='http://fonts.googleapis.com/css?family=Noto+Sans|Quicksand|Advent+Pro|Roboto:400,300' rel='stylesheet' type='text/css'>
+	<!-- new fonts -->
+	<link href='https://fonts.googleapis.com/css?family=Lato|Work+Sans|Roboto' rel='stylesheet' type='text/css'>
 	
 	<!-- Font Awesome -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">

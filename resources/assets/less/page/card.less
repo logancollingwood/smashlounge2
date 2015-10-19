@@ -2,18 +2,29 @@
 
 	.panel-heading {
 		text-align: left;
+
+		//borders
+		border-radius: 0px;
 		p.cardlabel {
 			margin-left: 10px;
 			font-size: 55%;
 			display: inline;
 			text-transform: uppercase;
+			font-family: @body-font, @font-stack;
+			padding-right: 10px;
+			border-right: 1px solid @white;
 		}
 		.name {
+			font-family: @header-font, @font-stack;
 			color: @white;
 			font-size: 24px;
-			margin-left: 6%;
+			margin-left: 15px;
+			text-transform: uppercase;
+			&:hover {
+				color: @panel-head-link-color;
+			}
 		}
-		background-image: url(http://www.transparenttextures.com/patterns/brushed-alum.png);
+
 	}
 
 	.panel-body {

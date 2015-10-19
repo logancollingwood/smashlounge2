@@ -6,24 +6,30 @@
 
 
 @btn-font-weight: 300;
-@font-family-sans-serif: "Roboto", Helvetica, Arial, sans-serif;
-@header-font: "Raleway";
-@body-font: "Quicksand";
-@paragraph-font: "Noto Sans";
+
+@font-stack: Helvetica, Arial, sans-serif;
+@header-font: "Lato";
+@body-font: "Roboto";
+@paragraph-font: "Work Sans";
 
 @base-dark: #1f7f67;
 @base: #2cb693;
 @highlight: #1abc9c;
 
-@body-background-color: #2a2a2a;
-@container-background-color: #226666;
 @body-font-color: #ffffff;
 
-@well-color: #333333;
-@well-color-dark: #222222;
+@well-color: #2d2d2d;
+@well-color-dark: #555555;
 
-@grey: #444444;
-@grey-dark: #222222;
+@panel-dark: #252525;
+@panel-light: #363636;
+@panel-head-link-color: @highlight;
+
+@li-color: #333333;
+@li-hover-color: #444444;
+
+@grey: #606060;
+@grey-dark: #474747;
 
 @gfyborder: #666666;
 
@@ -31,6 +37,11 @@
 
 @link-color: #ffffff;
 @link-hover: #46e5c6;
+
+@body-color: #141414;
+@body-image-url: url('/img/assets/bg.jpg');
+
+@content-color: fade(#141414, 65%);
 
 /* Defines some styles for various containers */
 @import "util/_panels";
@@ -41,11 +52,6 @@
 @import "util/keyframes";
 @import "util/pageTransitions";
 
-
-/* Handles media queries for different size devices */
-@import "sizes/_phone";
-@import "sizes/_tablet";
-@import "sizes/_desktop";
 
 /* page specific less */
 @import "page/homepage";
@@ -61,7 +67,14 @@ body, label, .checkbox label {
 }
 
 body {
-	background-color: @body-background-color;
+	background-color: @body-color;
+	background-size: cover;
+	background-attachment: fixed
+}
+@media (min-width: 768px) {
+ 	body {
+		background-image: @body-image-url;
+ 	}
 }
 .navbar-fixed-top {
 	right: 0 !important;
@@ -184,7 +197,7 @@ form {
 		 margin-bottom: 0px;
 	 	 border-left: 0px;
 		 li {
-	 		 background-color: fade(#555555, 90);
+	 		 background-color: @li-color;
 		 	 display: inline-block;
 			 
 			 a {
@@ -201,13 +214,12 @@ form {
 			 }
 		 }
 		 li.active {
-			 	background-color:  @well-color;
+			 	background-color:  @content-color;
 			 	//-webkit-box-shadow: inset 0px 49px 38px -37px rgba(0,0,0,0.75);
 				//-moz-box-shadow: inset 0px 49px 38px -37px rgba(0,0,0,0.75);
 				//box-shadow: inset 0px 49px 38px -37px rgba(0,0,0,0.75);
 		 }
 		 li.two-column {
-		 	background-color: fade(#555555, 90);
 		 	display: inline-block;
 		 	width: 100%;
 		 	a {
@@ -215,15 +227,15 @@ form {
 		 		float: left;
 		 		display: inline;
 				&:hover {
-					background-color:  @well-color;
+					background-color:  @li-hover-color;
 				}
 		 	}
 		 	a.active {
-		 		background-color:  @well-color;
+		 		background-color:  @content-color;
 		 	}
 		 }
 		 li.two-column.bottom {
-		 	background-color: @grey;
+		 	background-color: @li-color;
 		 	text-transform: lowercase;
 		 	a {
 		 		padding: 5px;
@@ -290,7 +302,7 @@ form {
  }
  
  content {
-	 background-color: @well-color;
+	 background-color: @content-color;
 	 display: block;
 	 padding: 20px;
 	 margin: 0 auto;
