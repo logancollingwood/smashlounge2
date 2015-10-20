@@ -32,17 +32,40 @@
 	
 	<content class="tab-content">
 			<div id="charGifs" class="row no-margin tab-pane active">
-				@foreach($gifs as $gif)
-					@include('gifs.gif')
-				@endforeach
-				
+				<div class="row">
+					@foreach($gifs as $gif)
+						@include('gifs.gif')
+					@endforeach
+				</div>
+				<div class="row">
+					@include('modules.submit.panel')
+				</div>
 			</div>
 			<div id="charData" class="row no-margin tab-pane">
-				@foreach($dataGifs as $gif)
-					
-						@include('gifs.gifdata')
 
+				@foreach($dataGifs as $data)
+						<div class="row">
+							<div class="col-md-4 col-md-offset-4">
+								<h1> {{ $data["name"] }} </h1>
+							</div>
+						</div>
+						<div class="row">
+								@for ($i = 0; $i < count($data["gifs"]); $i++)
+									<?php $gif = $data["gifs"][$i] ?>
+
+									@if ($i % $dataColumns == 0)
+										</div>
+										<div class="row">
+									@endif
+
+							    	@include('gifs.gifdata')
+
+								@endfor
+
+							
+						</div>
 				@endforeach
+
 			</div>
 	</content>
 

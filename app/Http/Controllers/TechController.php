@@ -58,7 +58,7 @@ class TechController extends Controller {
 			$twitterGif = [];
 		
 
-		$data = ['tech' => $tech , 'gifs' => $gifs, 'twitterGif' => $twitterGif];
+		$data = ['tech' => $tech, 'gifs' => $gifs, 'twitterGif' => $twitterGif, 'submitDir' => "gif"];
 		return view($this->viewDir . ".showTech", $data);
 	}
 

@@ -1,8 +1,8 @@
-<div class="col-md-4">
+<div class="col-md-{{12/$dataColumns}}">
 	<div class="gfyTainer">
 		<div class="row">
 			 <div class="col-md-12 col-sm-9">
-				<img class='gfyitem' data-expand=true data-id= {{ $gif->url}} />
+				<img class="gfyitem" data-expand="true" data-id= {{ $gif->url}} />
 				<div class="gfyFooter">
 					<div class="gfyDescription">{{ $gif->description or 'No Description'}}</div>
 					

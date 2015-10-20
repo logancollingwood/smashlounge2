@@ -22,6 +22,14 @@ class Char extends Model {
 
 	public function getDataGifs() {
 
+		$moves = array();
+		$moves[0]['name'] = "Special Moves";
+		$moves[1]['name'] = "Jabs";
+		$moves[2]['name'] = "Tilts";
+		$moves[3]['name'] = "Smash Attacks";
+		$moves[4]['name'] = "Aerials";
+		$moves[5]['name'] = "Ground Options";
+		$moves[6]['name'] = "Defensive Options";
 
 		/* Raw Query -- works well considering our deeply structured attack-gif-char schema relationship */
 		
@@ -30,9 +38,13 @@ class Char extends Model {
 		    WHERE a.gameid=0 AND a.charid=:charid AND g.typeid=1"), 
 			array(
 		   		'charid' => $this->id,
-		 	));
-	
-		return $datagifs;
+	 	));
+
+		foreach ($datagifs as $gif) {
+			$moves[$gif->movetype]['gifs'][] = $gif;
+		}
+
+		return $moves;
 	}
 
 	public function gifs() {

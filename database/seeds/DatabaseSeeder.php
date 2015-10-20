@@ -30,9 +30,11 @@ class DatabaseSeeder extends Seeder {
 		$this->call('VodvotesTableSeeder');
 		$this->call('PlayersTableSeeder');
 		$this->call('GuidesTableSeeder');
-		$this->call('RoleUserTableSeeder');
-		$this->call('RolesTableSeeder');
+
+		//This seeds with a basic moderator role, my login, and adds me as a moderator
 		$this->call('UsersTableSeeder');
+		$this->call('RolesTableSeeder');
+		$this->call('RoleUserTableSeeder');
 	}
 
 }

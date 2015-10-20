@@ -2,6 +2,7 @@
 
 use App\Submissions\SubmissionGif;
 use App\Submissions\SubmissionVod;
+use App\Submissions\SubmissionTech;
 use Illuminate\Http\Request;
 use App\Tech;
 use App\Char;
@@ -94,7 +95,20 @@ class SubmitController extends Controller {
 
 	}
 	public function storeTech(Request $request) {
+		$input = $request->all();
 
+		if ($input["techname"] == "" || $input["techdescription"] == "" || $input["techwiki"] == "") {
+			return redirect('submit/#tech')->with('message', 'You forgot some fields!');
+		}
+		
+		$submission = new SubmissionTech;
+		$submission->name = $input["techname"];
+		$submission->description = $input["techdescription"];
+		$submission->ssbwiki = $input["techwiki"];
+
+		$submission->save();
+
+		return redirect('submit/#vod')->with('message', 'Tech submitted successfully!');
 	}
 	
 }

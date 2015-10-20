@@ -18,7 +18,8 @@ class CharController extends Controller {
 	private $columns = 3;
 
 	private $gifs = [];
-	
+
+	private $moves = ["Special Moves", "Jabs", "Tilts", "Smash Attacks", "Aerials", "Ground Options", "Defensive Options"];
 
 	/**
 	 * Create a new controller instance.
@@ -55,7 +56,7 @@ class CharController extends Controller {
 
 		
 
-		$data = ['char' => $char , 'gifs' => $gifs, 'dataGifs' => $dataGifs ];
+		$data = ['char' => $char , 'gifs' => $gifs, 'dataGifs' => $dataGifs, 'dataColumns' => 3, 'submitDir' => "gif"];
 		return view($this->viewDir . ".show", $data);
 	}
 

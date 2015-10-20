@@ -46,7 +46,7 @@
                     <div class="row">
                         <div class="col-md-6">
                             <div class="form-group" style="width: 50%; display:inline;">
-                                {!! Form::label('URL') !!}
+                                {!! Form::label('URL (a valid gfy will appear on the right)') !!}
                                 {!! Form::text('gifurl', null, 
                                     array('required',
                                           'id' => 'gifurl',
@@ -177,8 +177,8 @@
                     </div>
 
                     <div class="form-group">
-                        {!! Form::label('FaceBook Link') !!}
-                        {!! Form::textarea('groupfb', null, 
+                        {!! Form::label('Facebook Link') !!}
+                        {!! Form::text('groupfb', null, 
                             array('required', 
                                   'class'=>'form-control')) !!}
                     </div>

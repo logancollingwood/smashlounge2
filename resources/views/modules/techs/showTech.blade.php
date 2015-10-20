@@ -35,7 +35,9 @@
 				@endforeach
 				
 			</div>
-
+			<div class="row no-margin">
+				@include('modules.submit.panel')
+			</div>
 	</content>
 
 @endsection
