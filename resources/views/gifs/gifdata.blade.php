@@ -4,7 +4,7 @@
 			 <div class="col-md-12 col-sm-9">
 				<img class="gfyitem" data-expand="true" data-id= {{ $gif->url}} />
 				<div class="gfyFooter">
-					<div class="gfyDescription">{{ $gif->description or 'No Description'}}</div>
+					<div class="gfyDescription"><a href="/attack/{{$gif->attack_id}}">{{ $gif->description or 'No Description'}}</a></div>
 					
 					<div class="gfySource">
 

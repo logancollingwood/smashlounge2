@@ -139,6 +139,8 @@ Route::get('api/chars/all', 'CharController@getAll');
 Route::get('api/chars/{id}', 'ApiController@char');
 
 Route::get('api/groups/all', 'GroupController@getAll');
+Route::get('api/attack/{id}', 'AttackController@apiShow');
+Route::get('api/attack/char/{id}', 'AttackController@apiShowChar');
 
 
 Route::get('card/tech/{tech}', 'TechController@card');
@@ -148,3 +150,19 @@ Route::bind('card/tech/{tech}', function($value, $route) {
 
 
 
+/*
+|--------------------------------------------------------------------------
+| Editing/Updating routes
+|--------------------------------------------------------------------------
+|
+| These are the routes for the OBS cards and raw JSON dumps
+|
+*/
+Route::get('update/attack/{attack}', 'AttackController@update');
+Route::get('update/attack/char/{charid}', 'AttackController@updateChar');
+
+Route::get('update/gif/{gifid}', 'TechController@card');
+Route::get('update/char/{charid}', 'CharController@update');
+Route::get('update/tech/{techid}', 'TechController@update');
+
+Route::resource('attack', 'AttackController', ['only' => ['edit', 'update', 'show']]);

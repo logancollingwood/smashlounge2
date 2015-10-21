@@ -54,7 +54,6 @@ class CharController extends Controller {
 		$gifs = $char->getGifs();
 		$dataGifs = $char->getDataGifs();
 
-		
 
 		$data = ['char' => $char , 'gifs' => $gifs, 'dataGifs' => $dataGifs, 'dataColumns' => 3, 'submitDir' => "gif"];
 		return view($this->viewDir . ".show", $data);

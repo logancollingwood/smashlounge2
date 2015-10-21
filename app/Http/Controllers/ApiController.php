@@ -54,6 +54,20 @@ class ApiController extends Controller {
 				"description" => "returns all techniques, as well as associated gifs for each technique",
 				"format" => "JSON"
 			),
+			array(
+				"action" => "get",
+				"module" => "attacks",
+				"endpoint" => "/api/attack/1",
+				"description" => "Retrieves an attack (specified by ID)",
+				"format" => "JSON"
+			),
+			array(
+				"action" => "get",
+				"module" => "attacks",
+				"endpoint" => "/api/attack/char/1",
+				"description" => "Retrieves all attacks for a specific character (specified by character ID)",
+				"format" => "JSON"
+			),
 		);
 
 
