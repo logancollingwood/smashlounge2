@@ -69,8 +69,8 @@
       </div>
 
 
-      <div class='row'>
-       <h1>Thank you <span class="glyphicon glyphicon-heart gray hvr-icon-grow"></span></h1>
+      <div class='row' style="text-align:center">
+       <h1>Thank you <span class="glyphicon glyphicon-heart gray hvr-grow"></span></h1>
         <br>
 
         <div class="col-md-6 col-md-offset-3" style="text-align:center;">

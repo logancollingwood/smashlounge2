@@ -97,16 +97,30 @@ Questions?
 			</div>
 			<div class="col-sm-8 col-md-10 m-scene" id="main">
 				@yield('content')
+				<footer>
+						<div class="row">
+							<div class="col-xs-6 col-sm-6">
+								 <i class="fa fa-heart-o hvr-pop heart"></i><a href="/about"> tsl</a>
+							</div>
+							<div class="col-xs-6 col-sm-6">
+								<ul>
+									<li>
+										<a href="mailto:smashlounge@gmail.com"><i class="fa fa-envelope fa"></i></a>
+									</li>
+									<li>
+										<a href="https://www.twitter.com/thesmashlounge"><i class="fa fa-twitter"></i></a>
+									</li>
+									<li>
+										<a href="https://www.facebook.com/smashlounge"><i class="fa fa-facebook"></i></a>
+									</li>
+								</ul>
+							</div>
+						</div>
+				</footer>
 			</div>
 		</div>
 	</div>
-	<!--
-	<footer>
-		<div class="container">
-			copywright sl 2015
-		</div>
-	</footer>
-	-->
+	
 	<!-- Scripts -->
 	<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 	<script src="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.1/js/bootstrap.min.js"></script>

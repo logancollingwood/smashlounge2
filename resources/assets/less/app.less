@@ -42,6 +42,7 @@
 @body-image-url: url('/img/assets/bg.jpg');
 
 @content-color: fade(#141414, 65%);
+@footer-color: fade(#333333, 80%);
 
 /* Defines some styles for various containers */
 @import "util/_panels";
@@ -84,10 +85,34 @@ body {
 }
 footer {
 
+	border-top: 1px solid @white;
+	padding: 15px;
     bottom: 0;
     width: 100%;
-    height: 30px;
-    background-color: @well-color-dark;
+    height: 50px;
+    background-color: @footer-color;
+    ul {
+    	float: right;
+	    li {
+	    	float: left;
+	    	&:not(:first-child) {
+	    	    padding-left: 10px;
+	    	}
+	    	&:not(:last-child) {
+	    	    padding-right: 10px;
+	    		border-right: 1px solid @white;
+	    	}
+	    }
+    }
+    .label {
+    	display: inline;
+    	border-right: 1px solid @white;
+    }
+    .heart {
+    	&:hover {
+    		color: #fe2aa9;
+    	}
+    }
 }
 
 a {
@@ -321,7 +346,9 @@ form {
 .no-margin {
 	margin: 0px;
 }
-
+.top-gradient-box {
+    background: linear-gradient(to bottom, #999 0, #ffffff 10px, #ffffff 100%);
+}
 .affix-top,.affix{
 	position: static;
 }
@@ -410,3 +437,6 @@ ul.nav.nav-tabs.pills {
 		}
 	}
 }
+
+
+

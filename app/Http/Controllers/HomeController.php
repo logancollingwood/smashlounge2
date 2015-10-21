@@ -122,7 +122,7 @@ class HomeController extends Controller {
 		$team = array(
 			0 => array(
 				'name' => 'Logan Collingwood',
-				'twitter' =>'__logan_c__',
+				'twitter' =>'__loganc',
 				'role' => 'CoFounder - Lead Developer'
 			),
 			1 => array(
