@@ -809,7 +809,7 @@ class LocalsTableSeeder extends Seeder {
 				'id' => '81',
 				'region' => '3',
 				'profileid' => 'https://www.facebook.com/groups/271575972914386/',
-				'name' => 'Kentucky/Ohio/Indiana',
+				'name' => 'Kentucky-Ohio-Indiana',
 				'latitude' => '38.7883450',
 				'longitude' => '-84.5507810',
 				'game' => '0',

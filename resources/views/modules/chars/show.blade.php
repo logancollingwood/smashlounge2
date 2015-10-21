@@ -50,17 +50,19 @@
 							</div>
 						</div>
 						<div class="row">
+							@if (isset($data["gifs"]))
 								@for ($i = 0; $i < count($data["gifs"]); $i++)
-									<?php $gif = $data["gifs"][$i]; ?>
+										<?php $gif = $data["gifs"][$i]; ?>
 
-									@if ($i % $dataColumns == 0)
-										</div>
-										<div class="row">
-									@endif
+										@if ($i % $dataColumns == 0)
+											</div>
+											<div class="row">
+										@endif
 
 							    	@include('gifs.gifdata')
 
 								@endfor
+							@endif
 
 							
 						</div>
