@@ -51,7 +51,7 @@
 						</div>
 						<div class="row">
 								@for ($i = 0; $i < count($data["gifs"]); $i++)
-									<?php $gif = $data["gifs"][$i] ?>
+									<?php $gif = $data["gifs"][$i]; ?>
 
 									@if ($i % $dataColumns == 0)
 										</div>
