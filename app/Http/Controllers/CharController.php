@@ -67,6 +67,9 @@ class CharController extends Controller {
 	 */
 	public function getAll() {
 		$chars = Char::all();
+		foreach ($chars as $char){
+			$char->gifs = $char->getGifs();
+		}
 		return $chars;
 	}
 

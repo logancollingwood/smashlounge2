@@ -19,7 +19,9 @@ class CreateCharinfoTable extends Migration {
 			$table->integer('tierdata')->nullable();
 			$table->string('weight', 11);
 			$table->string('fallspeed', 11);
+			$table->boolean('walljump');
 			$table->string('guide', 500);
+			$table->integer('game');
 		});
 	}
 

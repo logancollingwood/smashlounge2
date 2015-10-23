@@ -56,6 +56,13 @@ class ApiController extends Controller {
 			),
 			array(
 				"action" => "get",
+				"module" => "chars",
+				"endpoint" => "/api/chars/all",
+				"description" => "returns all characters, as well as associated gifs for each character",
+				"format" => "JSON"
+			),
+			array(
+				"action" => "get",
 				"module" => "attacks",
 				"endpoint" => "/api/attack/1",
 				"description" => "Retrieves an attack (specified by ID)",
