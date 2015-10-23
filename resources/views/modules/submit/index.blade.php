@@ -160,35 +160,54 @@
             </div>
 
             <div class='tab-pane' id='group'>
-                    {!! Form::open(array('route' => 'submit.group', 'class' => 'form')) !!}
+                <div class="row">
+                    <div class="col-md-6">
 
-                    <div class="form-group">
-                        {!! Form::label('lat') !!}
-                        {!! Form::text('grouplat', null, 
-                            array('required', 
-                                  'class'=>'form-control')) !!}
+                        <h3> Click on the map to pin your group </h3>
+                        {!! Form::open(array('route' => 'submit.group', 'class' => 'form')) !!}
+                        <div class="form-group">
+                            {!! Form::label('name') !!}
+                            {!! Form::text('groupname', null, 
+                                array('required', 
+                                      'class'=>'form-control')) !!}
+                        </div>
+
+                        <div class="form-group">
+                            {!! Form::label('lat') !!}
+                            {!! Form::text('grouplat', null, 
+                                array('required', 
+                                      'class'=>'form-control',
+                                      'id'=>'group_lat',
+                                      'readonly'=>'readonly')) !!}
+                        </div>
+
+                        <div class="form-group">
+                            {!! Form::label('long') !!}
+                            {!! Form::text('grouplong', null, 
+                                array('required', 
+                                      'class'=>'form-control',
+                                      'id'=>'group_long',
+                                      'readonly'=>'readonly')) !!}
+                        </div>
+
+                        <div class="form-group">
+                            {!! Form::label('Facebook Link') !!}
+                            {!! Form::text('groupfb', null, 
+                                array('required', 
+                                      'class'=>'form-control')) !!}
+                        </div>
+
+                        <div class="form-group">
+                            {!! Form::submit('Submit!', 
+                              array('class'=>'btn btn-primary')) !!}
+                        </div>
+
+                        {!! Form::close() !!}
                     </div>
-
-                    <div class="form-group">
-                        {!! Form::label('long') !!}
-                        {!! Form::text('grouplong', null, 
-                            array('required', 
-                                  'class'=>'form-control')) !!}
+                    <div class="col-md-6">
+                        <div id="map-submit-canvas"/></div>
                     </div>
-
-                    <div class="form-group">
-                        {!! Form::label('Facebook Link') !!}
-                        {!! Form::text('groupfb', null, 
-                            array('required', 
-                                  'class'=>'form-control')) !!}
-                    </div>
-
-                    <div class="form-group">
-                        {!! Form::submit('Submit!', 
-                          array('class'=>'btn btn-primary')) !!}
-                    </div>
-
-                    {!! Form::close() !!}
+                </div>
             </div>
             <!-- coming soon 
             <div class='tab-pane' id='guide'>
@@ -201,5 +220,8 @@
 @endsection
 
 @section('includes')
+    <script type="text/javascript"
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDqmaEEEbIm2Iln3ieqGdtfzVLi6AzHA1Q&sensor=true">
+    </script>
     <script type="text/javascript" src="{{ asset('/js/page/submit.js') }}"></script>
 @endsection

@@ -3,6 +3,8 @@
 use App\Submissions\SubmissionGif;
 use App\Submissions\SubmissionVod;
 use App\Submissions\SubmissionTech;
+use App\Submissions\SubmissionGroup;
+
 use Illuminate\Http\Request;
 use App\Tech;
 use App\Char;
@@ -19,6 +21,7 @@ class SubmitController extends Controller {
 	*/
 	private $viewDir = "modules.submit";
 	private $columns = 3;
+	
 
 	/**
 	 * Create a new controller instance.
@@ -92,7 +95,23 @@ class SubmitController extends Controller {
 		return redirect('submit/#vod')->with('message', 'Vod submitted successfully!');
 	}
 	public function storeGroup(Request $request) {
+		$input = $request->all();
 
+		//dd($input);
+		if ($input["grouplat"] == "" || $input["grouplong"] == "") {
+			return redirect('submit/#group')->with('message', 'Please specify a latitude and longitude for your submission');
+		}
+		$submission = new SubmissionGroup;
+		
+
+		$submission->name = $input["groupname"];
+		$submission->facebook = $input["groupfb"];
+		$submission->latitude = $input["grouplat"];
+		$submission->longitude = $input["grouplong"];
+
+		$submission->save();
+
+		return redirect('submit/#vod')->with('message', 'Group submitted successfully!');
 	}
 	public function storeTech(Request $request) {
 		$input = $request->all();

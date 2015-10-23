@@ -16,7 +16,7 @@ class CreateSubmissionsgroupTable extends Migration {
 		{
 			$table->integer('id', true);
 			$table->string('name', 130);
-			$table->string('fb', 290);
+			$table->string('facebook', 290);
 			$table->float('latitude', 10, 0);
 			$table->float('longitude', 10, 0);
 			$table->integer('region')->default(0);

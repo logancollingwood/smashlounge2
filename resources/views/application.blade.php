@@ -73,7 +73,9 @@ Questions?
 				</div>
 				<ul>
 					<li class="{{ Request::path() == '/' ? 'active' : ''}}"><a href="{{ url('/') }}">Home</a></li>
-					<li class="{{ strpos(Request::path(), 'techs') === 0 ? 'active' : ''}}"><a href="{{ url('/techs') }}">Techs</a></li>
+					<li class="{{ strpos(Request::path(), 'techs') === 0 ? 'active' : ''}}">
+						<a href="{{url('/techs/')}}" data-target="#techs">Techs</a>
+					</li>
 					<li class="{{ strpos(Request::path(), 'chars') === 0 ? 'active' : ''}}"><a href="{{ url('/chars') }}">Chars</a></li>
 					<!-- <li class="{{ strpos(Request::path(), 'guides') === 0 ? 'active' : ''}}"><a href="{{ url('/guides') }}">Guides</a></li> -->
 					<li class="{{ strpos(Request::path(), 'vods') === 0 ? 'active' : ''}}"><a href="{{ url('/vods') }}">Vods</a></li>
@@ -84,10 +86,7 @@ Questions?
 						<a class="hidden-xs border-right {{ strpos(Request::path(), 'submit') === 0 ? 'active' : ''}}"href="{{ url('/submit') }}">Submit</a>
 						<a class="hidden-xs {{ strpos(Request::path(), 'api') === 0 ? 'active' : ''}}" href="{{ url('/api/doc') }}">API</a>
 					</li>
-					<li class="two-column bottom">
-						<a class="hidden-xs {{ strpos(Request::path(), 'about') === 0 ? 'active' : ''}}"href="{{ url('/about') }}">About</a>
-						<a class="hidden-xs {{ strpos(Request::path(), 'donate') === 0 ? 'active' : ''}}" href="{{ url('/donate') }}">Donate</a>
-					</li>
+					
 
 					<li class="hidden-sm hidden-md hidden-lg">
 						<a><i class="fa fa-list fa-1x"></i></a>
@@ -104,6 +103,12 @@ Questions?
 							</div>
 							<div class="col-xs-6 col-sm-6">
 								<ul>
+									<li>
+										<a href="/about">about</a>
+									</li>
+									<li>
+										<a href="/donate">support</a>
+									</li>
 									<li>
 										<a href="mailto:smashlounge@gmail.com"><i class="fa fa-envelope fa"></i></a>
 									</li>
@@ -132,5 +137,6 @@ Questions?
 	<!-- <script type="text/javascript" src="{{ asset('/js/util/smoothStateHandler.js') }}"></script> -->
 
 	@yield('includes')
+	
 </body>
 </html>

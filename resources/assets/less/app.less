@@ -94,6 +94,7 @@ footer {
     ul {
     	float: right;
 	    li {
+	    	height: 100%;
 	    	float: left;
 	    	&:not(:first-child) {
 	    	    padding-left: 10px;
@@ -101,6 +102,9 @@ footer {
 	    	&:not(:last-child) {
 	    	    padding-right: 10px;
 	    		border-right: 1px solid @white;
+	    	}
+	    	i {
+	    		margin-top: 3px;
 	    	}
 	    }
     }
@@ -230,6 +234,11 @@ form {
 			 	font-family: "Roboto";
 			 	text-align: center;
 			 	padding: 12.5px;
+			 }
+			 a.expandlink {
+			 	display: inline;
+			 	padding: 5px;
+			 	font-size: 10px;
 			 }
 			 &:not(:last-child) {
 				 border-bottom: 2px solid @base-dark;

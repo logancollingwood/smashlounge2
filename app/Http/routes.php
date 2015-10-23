@@ -103,18 +103,22 @@ Route::get('submit/', 'SubmitController@index');
 
 
 Route::post('submit/gif/', [
+	'before' => 'csrf',
     'uses' => 'SubmitController@storeGif',
     'as' => 'submit.gif'
 ]);
 Route::post('submit/group/', [
+	'before' => 'csrf',
     'uses' => 'SubmitController@storeGroup',
     'as' => 'submit.group'
 ]);
 Route::post('submit/tech/', [
+	'before' => 'csrf',
     'uses' => 'SubmitController@storeTech',
     'as' => 'submit.tech'
 ]);
 Route::post('submit/vod/', [
+	'before' => 'csrf',
     'uses' => 'SubmitController@storeVod',
     'as' => 'submit.vod'
 ]);
