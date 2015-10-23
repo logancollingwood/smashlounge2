@@ -4,7 +4,7 @@
 <div class="box">
 	<header class="texture">
 	<h1 class="scene_element scene_element--fadeinup scene_element--delayed">Smashlounge</h1>
-	<p> Learn something about Smash, get involved, win your pools </p>
+	<p> </p>
 	</header>
 	
 	<content id="homepage">

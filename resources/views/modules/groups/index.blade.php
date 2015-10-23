@@ -17,7 +17,8 @@
 			</div>
 		</div>
 		<div class="row" id="group-container">
-
+			<?php $submitDir = "group"; ?>
+			@include('modules.submit.panel')
 		</div>
 	</content>
 
