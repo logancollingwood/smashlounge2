@@ -97,13 +97,12 @@ class SubmitController extends Controller {
 	public function storeGroup(Request $request) {
 		$input = $request->all();
 
-		//dd($input);
+		//return if lat and long are not set by js map input
 		if ($input["grouplat"] == "" || $input["grouplong"] == "") {
 			return redirect('submit/#group')->with('message', 'Please specify a latitude and longitude for your submission');
 		}
-		$submission = new SubmissionGroup;
-		
 
+		$submission = new SubmissionGroup;
 		$submission->name = $input["groupname"];
 		$submission->facebook = $input["groupfb"];
 		$submission->latitude = $input["grouplat"];

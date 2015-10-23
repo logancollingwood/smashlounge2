@@ -58,7 +58,7 @@ class AttackController extends Controller {
 		
 		$data = ['attack' => $attack, 'attrs' => $attack->getAttributes() ];
 
-		return view($this->viewDir . ".edit", $data);
+		return view($this->viewDir . ".show", $data);
 		//dd($attack);
 	}
 
