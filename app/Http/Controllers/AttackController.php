@@ -4,6 +4,8 @@ use App\Http\Requests;
 use App\Http\Controllers\Controller;
 use App\Attack;
 use App\Char;
+use App\Gifs;
+use Input;
 use Illuminate\Http\Request;
 
 class AttackController extends Controller {
@@ -84,11 +86,27 @@ class AttackController extends Controller {
 		//
 		$attack = Attack::find($id);
 		if ($attack == null) return error(404);
+		//dd($attack);
 
+		$gif = Gifs::find($attack->gifid);
+		//dd($gif);
 		//append on the charname
 		$attack->charname = Char::find($attack->charid)->name;
-		
-		$data = ['attack' => $attack];
+		$fields = array(
+			'charid', 'gameid', 'description', 
+			'active_start', 'active_end', 'hit_start',
+			'hit_end', 'iasa', 
+			'second_window_start', 'second_window_end',
+			'charge_frame', 'invincible_start', 
+			'invincible_end', 'landlag', 'lcancel',
+			'auto_cancelable', 'auto_cancel_start',
+			'auto_cancel_end', 'grab_start', 'grab_end',
+			'lag_on_release', 'reflection_lag', 'jcable', 'grounded'
+		);
+
+
+
+		$data = ['attack' => $attack, 'fields' => $fields, 'gif' => $gif];
 		//dd($attack);
 
 		return view($this->viewDir . ".edit", $data);
@@ -121,20 +139,17 @@ class AttackController extends Controller {
 	 */
 	public function update($id)
 	{
-		//
+		
 		$attack = Attack::findOrFail($id);
 
-	    $this->validate($request, [
-	        'attack_id' => 'required'
-	    ]);
+	   	if ($attack->update(Input::all())) {
+	   		return Redirect::back()
+	   				-with('message', 'Whoops!')
+	   				->withInput();
+	   	}
 
-	    $input = $request->all();
 
-	    $attack->fill($input)->save();
-
-	    Session::flash('flash_message', 'Attack successfully updated!');
-
-	    return redirect()->back();
+	    return redirect('attack/$id')->with('message', 'Attack submitted successfully!');
 	}
 
 	/**

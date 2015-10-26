@@ -135,7 +135,6 @@ return [
 		'Illuminate\Translation\TranslationServiceProvider',
 		'Illuminate\Validation\ValidationServiceProvider',
 		'Illuminate\View\ViewServiceProvider',
-		 Collective\Html\HtmlServiceProvider::class,
 		/*
 		 * Application Service Providers...
 		 */
@@ -197,9 +196,7 @@ return [
 		'Validator' => 'Illuminate\Support\Facades\Validator',
 		'View'      => 'Illuminate\Support\Facades\View',
 		'FormBuilder' => 'Kris\LaravelFormBuilder\Facades\FormBuilder',
-		'Entrust' => 'Zizaco\Entrust\EntrustFacade',
-		'Form' => Collective\Html\FormFacade::class,
-      	'Html' => Collective\Html\HtmlFacade::class,
+		'Entrust' => 'Zizaco\Entrust\EntrustFacade'
 
 	],
 

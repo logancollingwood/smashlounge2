@@ -6,4 +6,6 @@ class Attack extends Model {
 
 	//
 	protected $table = 'attacks';
+
+	protected $guarded = array();
 }

@@ -153,6 +153,7 @@ Route::bind('card/tech/{tech}', function($value, $route) {
 });
 
 
+Route::resource('attack', 'AttackController');
 
 /*
 |--------------------------------------------------------------------------
@@ -169,4 +170,3 @@ Route::get('update/gif/{gifid}', 'TechController@card');
 Route::get('update/char/{charid}', 'CharController@update');
 Route::get('update/tech/{techid}', 'TechController@update');
 
-Route::resource('attack', 'AttackController', ['only' => ['edit', 'update', 'show']]);

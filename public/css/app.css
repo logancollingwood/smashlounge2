@@ -6343,6 +6343,20 @@ button.close {
 .gfyTainer .gfyFooter.data {
   text-align: left;
 }
+.gfyTainer .gfyFooter.data .banner {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  border-bottom: 1px solid #ffffff;
+  padding-bottom: 10px;
+}
+.gfyTainer .gfyFooter.data .banner .name {
+  font-size: 25px;
+  display: block;
+}
+.gfyTainer .gfyFooter.data .banner .tip {
+  font-size: 12px;
+  display: inline;
+}
 .gfyTainer .CtrlBox {
   background-color: #fff;
 }

@@ -34,8 +34,6 @@ class CreateAttacksTable extends Migration {
 
 			$table->integer('iasa');
 
-			$table->integer('second_start');
-
 			$table->integer('second_window_start');
 			$table->integer('second_window_end');
 
@@ -49,7 +47,7 @@ class CreateAttacksTable extends Migration {
 
 			$table->boolean('auto_cancelable');
 			$table->integer('auto_cancel_start');
-			$table->integer('atuo_cancel_end');
+			$table->integer('auto_cancel_end');
 
 			$table->integer('grab_start');
 			$table->integer('grab_end');
