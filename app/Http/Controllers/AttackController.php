@@ -6,6 +6,7 @@ use App\Attack;
 use App\Char;
 use App\Gifs;
 use Input;
+use Redirect;
 use Illuminate\Http\Request;
 
 class AttackController extends Controller {
@@ -142,14 +143,15 @@ class AttackController extends Controller {
 		
 		$attack = Attack::findOrFail($id);
 
-	   	if ($attack->update(Input::all())) {
+	   	if (!$attack->update(Input::all())) {
 	   		return Redirect::back()
-	   				-with('message', 'Whoops!')
+	   				->with('message', 'Whoops!')
 	   				->withInput();
 	   	}
 
-
-	    return redirect('attack/$id')->with('message', 'Attack submitted successfully!');
+		return Redirect::back()
+			   				->with('message', 'Successfully updated!')
+			   				->withInput();
 	}
 
 	/**
