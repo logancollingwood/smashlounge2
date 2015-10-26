@@ -5,25 +5,21 @@
 	<header>
 		<h1> {{$attack->charname}}: {{ $attack->description }}</h1>
 		<p>  {{ $attack->description }} </p>
+		@if(Session::has('flash_message'))
+		    <div class="alert alert-success">
+		        {{ Session::get('flash_message') }}
+		    </div>
+		@endif
 	</header>
 	
 	<content>
 		<div class="row">
-			<table class="table">
-				<thead>
-					<tr>
-						<th> property </th>
-						<th> value </th>
-					</tr>
-					@foreach ($attrs as $key=>$val) 
-						<tr>
-							<td>{{ $key }}</td>
-							<td>{{ $val }}</td>
-						</tr>
-					@endforeach
-				</thead>
+			 {{ Form::model($attack, array('route' => 'attack.update', $attack->id)) }} 
+			 	
+			 	{{ Form::label('email', 'Email') }}
+        		{{ Form::email('email') }}  
 
-			</table>
+			 {{	Form::close() }}
 		</div>
 			
 	</content>

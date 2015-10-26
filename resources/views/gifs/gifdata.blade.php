@@ -3,9 +3,16 @@
 		<div class="row">
 			 <div class="col-md-12 col-sm-9">
 				<img class="gfyitem" data-expand="true" data-id= {{ $gif->url}} />
-				<div class="gfyFooter">
-					<div class="gfyDescription"><a href="/attack/{{$gif->attack_id}}">{{ $gif->description or 'No Description'}}</a></div>
+				<div class="gfyFooter data">
 					
+					<div class="gfyDescription"><a href="/attack/{{$gif->attack_id}}">{{ $gif->description or 'No Description'}}</a></div>
+					<div class="active">active {{$gif->active_start}} &#8211; {{$gif->active_end}}</div>
+					<div class="jc">jump cancelable: {{ ($gif->jcable) ? 'true' : 'false' }} </div>
+					<div class="lc">l cancelable: {{ ($gif->lcancel) ? 'true' : 'false'}} </div>
+					<div class="iasa">interruptable as soon as {{$gif->iasa}} </div>
+
+					<div class="tip"><a href="/attack/{{$gif->attack_id}}">(more)</a></div>
+
 					<div class="gfySource">
 
 						@if ($gif->source && filter_var($gif->source, FILTER_VALIDATE_URL))

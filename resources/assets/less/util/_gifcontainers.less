@@ -55,11 +55,27 @@
     background-color: @well-color;
     padding: 15px;
     margin-bottom: 30px;
+    position: relative;
+    .gfyDescription {
+        margin-top: 20px;
+    }
+    .gfyFooter {
+        margin-top: 5%;
+        color: #fff;
+        font-family: 'Roboto';
+        text-align: center;
+        &.data {
+            text-align: left;
+        }
+    }
+    .CtrlBox {
+        background-color: #fff;
+    }
+    .gfySource {
+        margin-top: 15px;
+    }
 }
-.gfyTainer
-{
-  position: relative;
-}
+
 
 .gif {
   width: 100%;
@@ -68,44 +84,24 @@
 .voteBlock {
     color: #fff;
     text-align: center;
+    a {
+        transition: 1s;
+        color: #fff;
+        &.SL {
+            transition: 1s;
+            color: @highlight;
+        }
+    }
+    a:hover {
+        color:@highlight;
+    }
+    .exNum {
+        color: #fff;
+        font-size: 24px;
+    }
 }
-.voteBlock a {
-    transition: 1s;
-    color: #fff;
-}
-.voteBlock a.SL {
-    transition: 1s;
-    color: @highlight;
-}
-.voteBlock a:hover {
-    color: @highlight;
-}
-.voteBlock .exNum {
-    font-family: 'Quicksand';
-    color: #fff;
-    font-size: 24px;
-}
-.voteBlock .exNum :after {
-      content: " ";
-      border-bottom-style: dotted;
-      border-bottom-color: #fff;
-      border-bottom-width:2px;
-      display:table-cell;
-      width:200px;
-}
-.gfyTainer .CtrlBox {
-    background-color: #fff;
-}
-.gfyTainer .gfyFooter {
-    margin-top: 5%;
-    color: #fff;
-    font-family: 'Roboto';
-    text-align: center;
-}
+
 .controller {
     width: 100%;
 }
 
-.charDataGfy .gfyVid {
-    max-height:250px;
-}

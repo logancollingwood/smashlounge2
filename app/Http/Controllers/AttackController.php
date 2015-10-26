@@ -122,6 +122,19 @@ class AttackController extends Controller {
 	public function update($id)
 	{
 		//
+		$attack = Attack::findOrFail($id);
+
+	    $this->validate($request, [
+	        'attack_id' => 'required'
+	    ]);
+
+	    $input = $request->all();
+
+	    $attack->fill($input)->save();
+
+	    Session::flash('flash_message', 'Attack successfully updated!');
+
+	    return redirect()->back();
 	}
 
 	/**

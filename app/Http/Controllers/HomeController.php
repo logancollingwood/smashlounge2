@@ -123,22 +123,32 @@ class HomeController extends Controller {
 			0 => array(
 				'name' => 'Logan Collingwood',
 				'twitter' =>'__loganc',
-				'role' => 'CoFounder - Lead Developer'
+				'role' => 'CoFounder - Lead Developer',
+				'img'	=> 'lc'
 			),
 			1 => array(
 				'name' => 'Kevin Toy',
 				'twitter' =>'CLG_PewPewU',
-				'role' => 'CoFounder - Knowledge'
+				'role' => 'CoFounder - Knowledge',
+				'img'	=> 'kt'
 			),
 			2 => array(
 				'name' => 'Marco Salazar',
 				'twitter' =>'Marceux',
-				'role' => 'Advisor' 
+				'role' => 'Advisor',
+				'img'	=> 'ms' 
 			),
 			3 => array(
 				'name' => 'Boback Vakili',
 				'twitter' =>'boba_ck',
-				'role' => 'Graphics' 
+				'role' => 'Graphics',
+				'img'	=> 'bv'
+			),
+			4 => array(
+				'name' => 'Daniel Pagharion',
+				'twitter' =>'dannypaguiao',
+				'role' => 'Programming',
+				'img'	=> 'dp'
 			)
 		);
 		$data = [ 'team' => $team, 'columns' => 2 ];

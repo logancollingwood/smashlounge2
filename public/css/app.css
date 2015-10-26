@@ -6329,9 +6329,25 @@ button.close {
   background-color: #2d2d2d;
   padding: 15px;
   margin-bottom: 30px;
-}
-.gfyTainer {
   position: relative;
+}
+.gfyTainer .gfyDescription {
+  margin-top: 20px;
+}
+.gfyTainer .gfyFooter {
+  margin-top: 5%;
+  color: #fff;
+  font-family: 'Roboto';
+  text-align: center;
+}
+.gfyTainer .gfyFooter.data {
+  text-align: left;
+}
+.gfyTainer .CtrlBox {
+  background-color: #fff;
+}
+.gfyTainer .gfySource {
+  margin-top: 15px;
 }
 .gif {
   width: 100%;
@@ -6352,32 +6368,11 @@ button.close {
   color: #1abc9c;
 }
 .voteBlock .exNum {
-  font-family: 'Quicksand';
   color: #fff;
   font-size: 24px;
 }
-.voteBlock .exNum :after {
-  content: " ";
-  border-bottom-style: dotted;
-  border-bottom-color: #fff;
-  border-bottom-width: 2px;
-  display: table-cell;
-  width: 200px;
-}
-.gfyTainer .CtrlBox {
-  background-color: #fff;
-}
-.gfyTainer .gfyFooter {
-  margin-top: 5%;
-  color: #fff;
-  font-family: 'Roboto';
-  text-align: center;
-}
 .controller {
   width: 100%;
-}
-.charDataGfy .gfyVid {
-  max-height: 250px;
 }
 /* ======================================== \
  ========== OBVIOUS BUTTONS CSS ===========
@@ -9550,6 +9545,77 @@ Copyright (c) 2014 Daniel Eden
 @media (min-width: 768px) {
   .gifcard .panel-body .description {
     margin-bottom: 0px;
+  }
+}
+.aboutpanel {
+  border: 1px solid #ffffff;
+  margin: 15px;
+  width: 585px;
+  height: 300px;
+  position: relative;
+}
+.aboutpanel .info {
+  position: absolute;
+  bottom: 0px;
+  background-color: rgba(45, 45, 45, 0.75);
+  width: 100%;
+  padding: 15px;
+}
+.aboutpanel .info .role {
+  bottom: 20px;
+}
+.aboutpanel .info .name {
+  font-family: "Lato", Helvetica, Arial, sans-serif;
+  font-size: 32px;
+  display: block;
+}
+.aboutpanel .info .twitter {
+  position: absolute;
+  right: 15px;
+}
+.aboutpanel.lc {
+  background-image: url('/img/profiles/lc.jpg');
+  max-width: 100%;
+  max-height: 100%;
+  background-repeat: no-repeat;
+}
+.aboutpanel.kt {
+  background-image: url('/img/profiles/kt.jpg');
+  max-width: 100%;
+  max-height: 100%;
+  background-repeat: no-repeat;
+}
+.aboutpanel.bv {
+  background-image: url('/img/profiles/bv.jpg');
+  max-width: 100%;
+  max-height: 100%;
+  background-repeat: no-repeat;
+}
+.aboutpanel.ms {
+  background-image: url('/img/profiles/ms.jpeg');
+  max-width: 100%;
+  max-height: 100%;
+  background-repeat: no-repeat;
+}
+.aboutpanel.dp {
+  background-image: url('/img/profiles/dp.jpg');
+  max-width: 100%;
+  max-height: 100%;
+  background-repeat: no-repeat;
+}
+@media (min-width: 768px) {
+  .aboutpanel {
+    width: 425px;
+  }
+}
+@media (min-width: 992px) {
+  .aboutpanel {
+    width: 425px;
+  }
+}
+@media (min-width: 1200px) {
+  .aboutpanel {
+    width: 450px;
   }
 }
 body,

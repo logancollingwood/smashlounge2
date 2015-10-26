@@ -1,0 +1,77 @@
+.aboutpanel {
+	border: 1px solid @white;
+	margin: 15px;
+	width: 585px;
+	height: 300px;
+	position: relative;
+
+	.info {
+		position: absolute;
+		bottom: 0px;
+		background-color: fade(@well-color, 75%);
+		width: 100%;
+		padding: 15px;
+		.role {
+			bottom: 20px;
+
+		}
+		.name {
+			font-family: @header-font, @font-stack;
+			font-size: 32px;
+			display: block;
+		}
+		.twitter {
+			position: absolute;
+			right: 15px;
+		}
+	}
+
+	&.lc {
+		background-image: url('/img/profiles/lc.jpg');
+		max-width: 100%;
+		max-height: 100%;
+		background-repeat: no-repeat;
+	}
+	&.kt {
+		background-image: url('/img/profiles/kt.jpg');
+		max-width: 100%;
+		max-height: 100%;
+		background-repeat: no-repeat;
+	}
+	&.bv {
+		background-image: url('/img/profiles/bv.jpg');
+		max-width: 100%;
+		max-height: 100%;
+		background-repeat: no-repeat;
+	}
+	&.ms {
+		background-image: url('/img/profiles/ms.jpeg');
+		max-width: 100%;
+		max-height: 100%;
+		background-repeat: no-repeat;
+	}
+	&.dp {
+		background-image: url('/img/profiles/dp.jpg');
+		max-width: 100%;
+		max-height: 100%;
+		background-repeat: no-repeat;
+	}
+}
+
+@media (min-width: 768px) {
+ 	.aboutpanel {
+		width: 425px;
+ 	}
+}
+
+@media (min-width: 992px) {
+ 	.aboutpanel {
+		width: 425px;
+ 	}
+}
+
+@media (min-width: 1200px) {
+ 	.aboutpanel {
+		width: 450px;
+ 	}
+}
