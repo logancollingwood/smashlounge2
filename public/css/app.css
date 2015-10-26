@@ -9524,6 +9524,20 @@ Copyright (c) 2014 Daniel Eden
 .chardetail label {
   font-size: 12px;
 }
+ul.dataAnchor {
+  background-color: #2d2d2d;
+  padding: 5px;
+  margin-top: 15px;
+  list-style-type: none;
+  font-family: "Work Sans", Helvetica, Arial, sans-serif;
+}
+ul.dataAnchor li {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+ul.dataAnchor li:not(:last-child) {
+  border-bottom: 1px solid #ffffff;
+}
 .gifcard .panel-heading {
   text-align: left;
   border-radius: 0px;
@@ -9950,6 +9964,7 @@ ul.nav.nav-tabs.pills {
   text-align: center;
   margin: 0 auto;
   margin-top: 10px;
+  margin-bottom: -27px;
 }
 ul.nav.nav-tabs.pills li {
   display: inline-block;
@@ -9962,7 +9977,8 @@ ul.nav.nav-tabs.pills li a {
   color: #ffffff;
 }
 ul.nav.nav-tabs.pills li.active a {
-  border-bottom: 1px solid #ffffff;
+  border: none;
+  border-bottom: 5px solid #555555;
 }
 
 /*# sourceMappingURL=app.css.map */

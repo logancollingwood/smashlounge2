@@ -1,7 +1,7 @@
 <div class="col-md-12">
 	<div class="gfyTainer">
 		<div class="row">
-			<div class="col-md-4 col-sm-2 voteBlock">
+			<div class="col-md-4 col-sm-3 voteBlock">
 				<div class="gfyDescription">{{ $gif->description or 'No Description'}}</div>
 					
 					<div class="gfySource">

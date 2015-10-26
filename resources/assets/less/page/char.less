@@ -19,3 +19,19 @@
 		font-size: 12px;
 	}
 }
+
+
+ul.dataAnchor {
+	background-color: @well-color;
+	padding: 5px;
+	margin-top: 15px;
+	list-style-type: none;
+	font-family: @paragraph-font, @font-stack;
+	li {
+		padding-top: 10px;
+		padding-bottom: 10px;
+		&:not(:last-child) {
+    		border-bottom: 1px solid @white;
+    	}
+	}
+}

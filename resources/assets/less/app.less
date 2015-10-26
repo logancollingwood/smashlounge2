@@ -430,7 +430,7 @@ ul.nav.nav-tabs.pills {
 	text-align: center;
 	margin: 0 auto;
 	margin-top: 10px;
-
+	margin-bottom: -27px;
 	li {
 		display: inline-block;
 		float: none;
@@ -439,11 +439,16 @@ ul.nav.nav-tabs.pills {
 			border-radius: 8px 8px 0px 0px;
 			background-color: @well-color;
 			color: @white;
+			&:hover {
+				
+			}
 		}
 	}
 	li.active {
+
 		a {
-			border-bottom: 1px solid @white;
+			border: none;
+			border-bottom: 5px solid @well-color-dark;
 		}
 	}
 }

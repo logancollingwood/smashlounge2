@@ -26,7 +26,7 @@
 			<!-- Nav tabs -->
 		  	<ul class="nav nav-tabs pills scene_element scene_element--fadeinup" role="tablist">
 		    	<li role="presentation" class="active"><a href="#charGifs" aria-controls="charGifs" role="tab" data-toggle="tab">General</a></li>
-		    	<li role="presentation"><a href="#charData" aria-controls="charData" role="tab" data-toggle="tab">Data</a></li>
+		    	<li role="presentation"><a href="#charData" aria-controls="charData" role="tab" data-toggle="tab">Attacks</a></li>
 		  	</ul>
 	</header>
 	
@@ -41,32 +41,44 @@
 					@include('modules.submit.panel')
 				</div>
 			</div>
-			<div id="charData" class="row no-margin tab-pane">
-
-				@foreach($dataGifs as $data)
+			<div id="charData" class="tab-pane">
+				<div class="row no-margin">
+					<div class="col-md-10">
 						<div class="row">
-							<div class="col-md-4 col-md-offset-4">
-								<h1> {{ $data["name"] }} </h1>
-							</div>
-						</div>
-						<div class="row">
-							@if (isset($data["gifs"]))
-								@for ($i = 0; $i < count($data["gifs"]); $i++)
-										<?php $gif = $data["gifs"][$i]; ?>
+							@foreach($dataGifs as $data)
+									<div class="row">
+										<div class="col-md-4 col-md-offset-4">
+											<h1 id="{{$data["name"]}}"> {{ $data["name"] }} </h1>
+										</div>
+									</div>
+									<div class="row">
+										@if (isset($data["gifs"]))
+											@for ($i = 0; $i < count($data["gifs"]); $i++)
+													<?php $gif = $data["gifs"][$i]; ?>
 
-										@if ($i % $dataColumns == 0)
-											</div>
-											<div class="row">
+													@if ($i % $dataColumns == 0)
+														</div>
+														<div class="row">
+													@endif
+
+										    	@include('gifs.gifdata')
+
+											@endfor
 										@endif
 
-							    	@include('gifs.gifdata')
-
-								@endfor
-							@endif
-
-							
+										
+									</div>
+							@endforeach
 						</div>
-				@endforeach
+					</div>
+					<div class="col-md-2">
+						<ul class="dataAnchor">
+							@foreach($moves as $move) 
+								<li><a href="#{{$move}}">{{$move}}</a></li>
+							@endforeach
+						</ul>
+					</div>
+				</div>
 
 			</div>
 	</content>
