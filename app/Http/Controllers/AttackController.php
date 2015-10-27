@@ -94,14 +94,16 @@ class AttackController extends Controller {
 		//append on the charname
 		$attack->charname = Char::find($attack->charid)->name;
 		$fields = array(
-			'charid', 'gameid', 'description', 
+			'charid', 'gameid', 'description',
+			'total_frames', 
 			'active_start', 'active_end', 'hit_start',
-			'hit_end', 'iasa', 
-			'second_window_start', 'second_window_end',
+			'hit_end', 'hit_second_start', 
+			'hit_second_end', 'iasa',
 			'charge_frame', 'invincible_start', 
 			'invincible_end', 'landlag', 'lcancel',
 			'auto_cancelable', 'auto_cancel_start',
 			'auto_cancel_end', 'grab_start', 'grab_end',
+			'reflects', 'reflect_start', 'reflect_end',
 			'lag_on_release', 'reflection_lag', 'jcable', 'grounded'
 		);
 

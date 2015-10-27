@@ -25,18 +25,19 @@ class CreateAttacksTable extends Migration {
 			$table->integer('links_from');
 			$table->integer('movetype');
 
+			$table->integer('total_frames');
+
 			// -- new shit -- \\
 			$table->integer('active_start');
 			$table->integer('active_end');
 
 			$table->integer('hit_start');
 			$table->integer('hit_end');
+			$table->integer('hit_second_start');
+			$table->integer('hit_second_end');
 
 			$table->integer('iasa');
-
-			$table->integer('second_window_start');
-			$table->integer('second_window_end');
-
+			
 			$table->integer('charge_frame');
 
 			$table->integer('invincible_start');
@@ -53,12 +54,17 @@ class CreateAttacksTable extends Migration {
 			$table->integer('grab_end');
 			
 			$table->integer('lag_on_release');
+
+			$table->boolean('reflects');
+			$table->integer('reflect_start');
+			$table->integer('reflect_end');
 			$table->integer('reflection_lag');
 
 			$table->boolean('jcable');
 
 			$table->boolean('grounded');
 
+			$table->string('misc');
 
 			$table->timestamps();
 		});
