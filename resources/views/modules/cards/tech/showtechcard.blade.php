@@ -8,7 +8,7 @@
 		<div class="row">
 			<div class="col-md-4 description">
 				<div class="row no-margin">
-					<p> {{ $tech->description }} </p>
+					{{ $tech->description }} 
 				</div>
 
 			</div>

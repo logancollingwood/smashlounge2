@@ -12,6 +12,13 @@
 
 			<div class="col-md-8">
 				<div class="row">
+					<div class="well message">
+						<p class="heading"> MOTD: </p>
+						<p> Thanks for checking out the new site! Take a look at the new character frame data,
+						and be sure to direct any feedback to us on Twitter! </p>
+					</div>
+					@include('modules.cards.home.smashgif')
+
 					@foreach ($techs as $tech)
 						
 						@include('modules.cards.tech.showtechcard')
@@ -44,4 +51,8 @@
 	</content>
 	
 </div>
+@endsection
+
+@section('includes')
+	<script src="{{ asset('/js/page/homepage.js') }}"></script>
 @endsection

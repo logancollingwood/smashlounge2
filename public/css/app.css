@@ -5531,7 +5531,7 @@ button.close {
 .tooltip-inner {
   max-width: 200px;
   padding: 3px 8px;
-  color: #ffffff;
+  color: #777777;
   text-align: center;
   text-decoration: none;
   background-color: #000000;
@@ -6313,7 +6313,7 @@ button.close {
   color: #fff;
 }
 .theaterGif .CtrlBox {
-  background-color: #fff;
+  background-color: #bbb;
 }
 .theaterGif .gfyVid {
   box-shadow: 3px 26px 81px 10px rgba(255, 255, 255, 0.5);
@@ -9516,15 +9516,30 @@ Copyright (c) 2014 Daniel Eden
   font-size: 32px;
 }
 .chardetail .rank {
+  border-right: 1px solid #ffffff;
   margin-right: 10px;
 }
 .chardetail .weight {
+  border-right: 1px solid #ffffff;
   margin-right: 10px;
 }
 .chardetail label {
   font-size: 12px;
 }
+.data-heading {
+  font-size: 32px;
+  font-family: "Lato", Helvetica, Arial, sans-serif;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #ffffff;
+  padding-bottom: 10px;
+  margin-top: 10px;
+}
+.data .updated {
+  color: #777777;
+  margin-top: 5px;
+}
 ul.dataAnchor {
+  border-radius: 5px;
   background-color: #2d2d2d;
   padding: 5px;
   margin-top: 15px;
@@ -9560,6 +9575,10 @@ ul.dataAnchor li:not(:last-child) {
 }
 .gifcard .panel-heading .name:hover {
   color: #1abc9c;
+}
+.gifcard .panel-heading .next-gif {
+  display: inline;
+  float: right;
 }
 .gifcard .panel-body .description {
   padding-top: 20px;
@@ -9979,6 +9998,13 @@ ul.nav.nav-tabs.pills li a {
 ul.nav.nav-tabs.pills li.active a {
   border: none;
   border-bottom: 5px solid #555555;
+}
+.well.message {
+  background-color: #000000;
+}
+.well.message .heading {
+  font-size: 10px;
+  font-family: "Work Sans", Helvetica, Arial, sans-serif;
 }
 
 /*# sourceMappingURL=app.css.map */

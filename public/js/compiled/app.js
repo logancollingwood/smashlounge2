@@ -27,15 +27,17 @@ $(function() {
 
     });
     
-    $window.scroll(function() {
-      if ($(window).width() > 768) {
-        if($window.scrollTop() > anchorOff.top) {
-          $dataAnchor.css(
-            "margin-top", $window.scrollTop() - anchorOff.top + 30
-          );
+    if (anchorOff != undefined) {
+      $window.scroll(function() {
+        if ($(window).width() > 768) {
+          if($window.scrollTop() > anchorOff.top) {
+            $dataAnchor.css(
+              "margin-top", $window.scrollTop() - anchorOff.top + 30
+            );
+          }
         }
-      }
-    });
+      });
+    }
 });
   /**
    * Request Animation Frame polyfill
@@ -171,7 +173,7 @@ var gfyObject = function (gfyElem) {
     var optExpand; // Option: will video grow to fill space
     var optTitle; // Option: display title on hover over
     var optCtrls = true; // Option: add controls to bottom right corner
-    var optAutoplay = false; // Option: automatically play video when loaded
+    var optAutoplay = true; // Option: automatically play video when loaded
     // references to each html element
     var ctrlBox;
     var ctrlPausePlay;

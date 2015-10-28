@@ -15,6 +15,10 @@ class SmashGifs {
 		$this->gif = $children[$rand];
 		return $this;
 	}
+
+	public function __api() {
+		return $this;
+	}
 	
 	//
 	protected $table = 'techs';

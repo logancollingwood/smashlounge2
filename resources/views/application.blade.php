@@ -42,7 +42,6 @@ Questions?
 </head>
 <body>
 	@if (Auth::check()) 
-		@if (Auth::user()->hasRole('moderator'))
 		<nav class="navbar navbar-default navbar-fixed-top hidden-sm hidden-md">
 			<div class="container-fluid">
 				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
@@ -54,7 +53,7 @@ Questions?
 							<li class="dropdown">
 								<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">{{ Auth::user()->name }} <span class="caret"></span></a>
 								<ul class="dropdown-menu" role="menu">
-									<li><a href="{{ url('/moderate') }}">Moderate</a></li>
+									@if (Auth::user()->hasRole('moderator'))<li><a href="{{ url('/moderate') }}">Moderate</a></li>@endif
 									<li><a href="{{ url('/auth/logout') }}">Logout</a></li>
 								</ul>
 							</li>
@@ -63,8 +62,8 @@ Questions?
 				</div>
 			</div>
 		</nav>
-		@endif
 	@endif
+	
 	<div class="container" id="content">
 		<div class="row">
 			<div class="col-sm-2 col-md-2" id="sidebar">

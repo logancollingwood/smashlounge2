@@ -15,12 +15,14 @@
 					weight
 				</label>
 				{{ $char->weight }} 
+				<label>heaviest</label>
 			</p>
 			<p class="fallspeed">
 				<label>
 					fallspeed
 				</label>
 				{{ $char->fallspeed }} 
+				<label>fastest</label>
 			</p>
 		</div>
 			<!-- Nav tabs -->
@@ -47,23 +49,27 @@
 						<div class="row">
 							@foreach($dataGifs as $data)
 									<div class="row">
-										<div class="col-md-4 col-md-offset-4">
-											<h1 id="{{$data["name"]}}"> {{ $data["name"] }} </h1>
+										<div class="col-md-12">
+											<div class="data-heading" id="{{$data["name"]}}"> {{ $data["name"] }} </div>
 										</div>
 									</div>
 									<div class="row">
 										@if (isset($data["gifs"]))
-											@for ($i = 0; $i < count($data["gifs"]); $i++)
-													<?php $gif = $data["gifs"][$i]; ?>
+											@if (count($data["gifs"]) == 0)
+												<p> No data gifs </p>
+											@else
+												@for ($i = 0; $i < count($data["gifs"]); $i++)
+														<?php $gif = $data["gifs"][$i]; ?>
 
-													@if ($i % $dataColumns == 0)
-														</div>
-														<div class="row">
-													@endif
+														@if ($i % $dataColumns == 0)
+															</div>
+															<div class="row">
+														@endif
 
-										    	@include('gifs.gifdata')
+											    	@include('gifs.gifdata')
 
-											@endfor
+												@endfor
+											@endif
 										@endif
 
 										

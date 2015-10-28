@@ -146,7 +146,6 @@ Route::get('api/groups/all', 'GroupController@getAll');
 Route::get('api/attack/{id}', 'AttackController@apiShow');
 Route::get('api/attack/char/{id}', 'AttackController@apiShowChar');
 
-
 Route::get('card/tech/{tech}', 'TechController@card');
 Route::bind('card/tech/{tech}', function($value, $route) {
 	return App\Tech::where("tech", $value)->first();
@@ -154,6 +153,7 @@ Route::bind('card/tech/{tech}', function($value, $route) {
 
 
 Route::resource('attack', 'AttackController');
+Entrust::routeNeedsRole('attack/*/edit', 'moderator', Redirect::to('/'));
 
 /*
 |--------------------------------------------------------------------------

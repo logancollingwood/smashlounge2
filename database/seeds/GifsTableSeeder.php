@@ -9437,6 +9437,18 @@ class GifsTableSeeder extends Seeder {
 				'update_date' => '2015-04-23 08:17:09',
 				'score' => '0',
 			),
+			285 => 
+			array (
+				'id' => '1913',
+				'typeid' => '2',
+				'dataid' => '36',
+				'source' => 'Kadano',
+				'submittedby' => '0',
+				'url' => 'FailingOfficialAfricanharrierhawk',
+				'description' => 'Demonstrating the benefits of V Canceling. Notice the left character does a V Cancel, and thus survives Fox\'s up smash. ',
+				'update_date' => '2015-10-26 14:57:49',
+				'score' => '0',
+			),
 		));
 	}
 

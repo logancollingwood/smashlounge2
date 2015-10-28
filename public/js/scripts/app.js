@@ -27,13 +27,15 @@ $(function() {
 
     });
     
-    $window.scroll(function() {
-      if ($(window).width() > 768) {
-        if($window.scrollTop() > anchorOff.top) {
-          $dataAnchor.css(
-            "margin-top", $window.scrollTop() - anchorOff.top + 30
-          );
+    if (anchorOff != undefined) {
+      $window.scroll(function() {
+        if ($(window).width() > 768) {
+          if($window.scrollTop() > anchorOff.top) {
+            $dataAnchor.css(
+              "margin-top", $window.scrollTop() - anchorOff.top + 30
+            );
+          }
         }
-      }
-    });
+      });
+    }
 });

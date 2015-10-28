@@ -1,6 +1,7 @@
 <?php namespace App\Http\Controllers;
 use App\Tech;
 use App\Char;
+use App\SmashGifs;
 
 class HomeController extends Controller {
 
@@ -57,7 +58,6 @@ class HomeController extends Controller {
 
 			$chars[] = $allchars[$i];
 		}
-
 
 		$data = [ 'techs' => $techs, 'chars' => $chars, 'streams' => $streams ];
 
@@ -157,4 +157,6 @@ class HomeController extends Controller {
 	public function donate() {
 		return view("modules.donate.index");
 	}
+
+
 }

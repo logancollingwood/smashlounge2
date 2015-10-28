@@ -23,6 +23,15 @@ class RolesTableSeeder extends Seeder {
 				'created_at' => '0000-00-00 00:00:00',
 				'updated_at' => '0000-00-00 00:00:00',
 			),
+			1 => 
+			array (
+				'id' => '2',
+				'name' => 'contributor',
+				'display_name' => 'contributor',
+				'description' => 'For editing frame data',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
+			)
 		));
 	}
 

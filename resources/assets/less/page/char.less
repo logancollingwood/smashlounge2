@@ -5,11 +5,11 @@
 		font-size: 32px;
 	}
 	.rank {
-
+		border-right: 1px solid @white;
 		margin-right: 10px;
 	}
 	.weight {
-
+		border-right: 1px solid @white;
 		margin-right: 10px;
 	}
 	.fallspeed {
@@ -20,8 +20,22 @@
 	}
 }
 
-
+.data-heading {
+	font-size: 32px;
+	font-family: @header-font, @font-stack;
+	margin-bottom: 20px;
+	border-bottom: 1px solid @white;
+	padding-bottom: 10px;
+	margin-top: 10px;
+}
+.data {
+	.updated {
+		color: @tooltip-color;
+		margin-top: 5px;
+	}
+}
 ul.dataAnchor {
+	border-radius: 5px;
 	background-color: @well-color;
 	padding: 5px;
 	margin-top: 15px;
