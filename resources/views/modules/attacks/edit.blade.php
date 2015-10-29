@@ -15,17 +15,21 @@
 	<content>
 
 		<div class="row">
-			<div class="col-md-6">
+			<div class="col-md-12">
 				{!! Form::model($attack, array('route' => array('attack.update', $attack->id), 'class'=>'form')) !!}
 				 	
 				 	<input type="hidden" name="_method" value="PATCH">
-
-				 	@foreach($fields as $field)
-					 	<div class="form-group">
-					 		{!! Form::label($field) !!}
-		        			{!! Form::text($field, null, array('class'=>'form-control')) !!}  
-		        		</div>
-	        		@endforeach
+				 	<div class="row">
+					 	@foreach($fields as $field)
+						 	<div class="col-md-6">
+							 	<div class="form-group">
+							 		{!! Form::label($field) !!}
+							 		
+				        			{!! Form::text($field, null, array('class'=>'form-control')) !!}  
+				        		</div>
+			        		</div>
+		        		@endforeach
+	        		</div>
 
 	                <div class="form-group">
 	                    {!! Form::submit('Submit!', 

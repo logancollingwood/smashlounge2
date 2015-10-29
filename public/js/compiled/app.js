@@ -7,6 +7,7 @@ $(function() {
         $window    = $(window),
         offset     = $sidebar.offset(),
         anchorOff  = $dataAnchor.offset(),
+        ANIMATE_TIME   = 300,
         topPadding = 50;
 
     $window.scroll(function() {
@@ -15,14 +16,14 @@ $(function() {
             $sidebar.css(
               "margin-top", $window.scrollTop() - offset.top + topPadding
             );
-            $("#sidebarBrand").show();
+            $("#sidebarBrand").show(ANIMATE_TIME, 'linear');
         } else {
             $sidebar.css("margin-top", 0);
-            $("#sidebarBrand").hide();
+            $("#sidebarBrand").hide(ANIMATE_TIME, 'linear');
         }
       } else {
           $sidebar.css("margin-top", 0);
-          $("#sidebarBrand").hide();
+          $("#sidebarBrand").hide(ANIMATE_TIME, 'linear');
       }
 
     });

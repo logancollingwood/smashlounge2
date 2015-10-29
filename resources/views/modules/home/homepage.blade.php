@@ -12,10 +12,13 @@
 
 			<div class="col-md-8">
 				<div class="row">
-					<div class="well message">
-						<p class="heading"> MOTD: </p>
-						<p> Thanks for checking out the new site! Take a look at the new character frame data,
-						and be sure to direct any feedback to us on Twitter! </p>
+					<div class="well message"  role="alert">
+						<p class="heading"> 
+							MOTD: 
+						</p>
+						<p> Thanks for checking out the new site! Take a look at the new character frame data by going to chars > character > attacks! 
+							We're also recruiting any content/submission moderators who'd like to help us build the best smash database ever.</p>
+
 					</div>
 					@include('modules.cards.home.smashgif')
 

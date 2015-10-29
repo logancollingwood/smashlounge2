@@ -42,7 +42,7 @@ Questions?
 </head>
 <body>
 	@if (Auth::check()) 
-		<nav class="navbar navbar-default navbar-fixed-top hidden-sm hidden-md">
+		<nav class="navbar navbar-default navbar-fixed-top hidden-xs hidden-md">
 			<div class="container-fluid">
 				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 					<ul class="nav navbar-nav navbar-right">
@@ -68,7 +68,7 @@ Questions?
 		<div class="row">
 			<div class="col-sm-2 col-md-2" id="sidebar">
 				<div id="sidebarBrand" style="display: none;">
-					<h1> <a href="{{ url('/') }}"> TSL </a> </h1>
+					<h1> <a href="{{ url('/') }}"> SL </a> </h1>
 				</div>
 				<ul>
 					<li class="{{ Request::path() == '/' ? 'active' : ''}}"><a href="{{ url('/') }}">Home</a></li>

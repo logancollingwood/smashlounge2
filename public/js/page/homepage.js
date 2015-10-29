@@ -5,7 +5,7 @@ function drawRandomGif() {
   $.getJSON("/api/smashgifs", function( data ) {
 
     var found = data['data'];
-    console.debug(found);
+    
 
     var item;
     var spawned = false;

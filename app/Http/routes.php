@@ -133,6 +133,7 @@ Route::post('submit/vod/', [
 | These are the routes for the OBS cards and raw JSON dumps
 |
 */
+
 Route::get('api/doc', 'ApiController@docs');
 Route::get('api/smashgifs', 'ApiController@smashgifs');
 
@@ -169,4 +170,3 @@ Route::get('update/attack/char/{charid}', 'AttackController@updateChar');
 Route::get('update/gif/{gifid}', 'TechController@card');
 Route::get('update/char/{charid}', 'CharController@update');
 Route::get('update/tech/{techid}', 'TechController@update');
-
