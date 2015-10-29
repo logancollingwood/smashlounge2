@@ -9992,10 +9992,11 @@ ul.nav.nav-tabs.pills li {
 }
 ul.nav.nav-tabs.pills li a {
   border-radius: 8px 8px 0px 0px;
-  background-color: #2d2d2d;
+  background-color: rgba(20, 20, 20, 0.3);
   color: #ffffff;
 }
 ul.nav.nav-tabs.pills li.active a {
+  background-color: #2d2d2d;
   border: none;
   border-bottom: 2px solid #555555;
 }

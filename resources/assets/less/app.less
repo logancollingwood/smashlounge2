@@ -43,6 +43,8 @@
 @body-image-url: url('/img/assets/bg.jpg');
 
 @content-color: fade(#141414, 65%);
+@tab-inactive-color: fade(#141414, 30%);
+
 @footer-color: fade(#333333, 80%);
 
 /* Defines some styles for various containers */
@@ -438,7 +440,7 @@ ul.nav.nav-tabs.pills {
 		margin-bottom: 0px;
 		a {
 			border-radius: 8px 8px 0px 0px;
-			background-color: @well-color;
+			background-color: @tab-inactive-color;
 			color: @white;
 			&:hover {
 				
@@ -446,8 +448,8 @@ ul.nav.nav-tabs.pills {
 		}
 	}
 	li.active {
-
 		a {
+			background-color: @well-color;
 			border: none;
 			border-bottom: 2px solid @well-color-dark;
 		}
