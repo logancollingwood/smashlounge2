@@ -9,21 +9,28 @@
 	
 	<content>
 		<div class="row">
-			<table class="table">
-				<thead>
-					<tr>
-						<th> property </th>
-						<th> value </th>
-					</tr>
-					@foreach ($attrs as $key=>$val) 
+			<div class="col-md-6">
+				<table class="table">
+					<thead>
 						<tr>
-							<td>{{ $key }}</td>
-							<td>{{ $val }}</td>
+							<th> property </th>
+							<th> value </th>
 						</tr>
-					@endforeach
-				</thead>
+						@foreach ($attrs as $key=>$val) 
+							<tr>
+								<td>{{ $key }}</td>
+								<td>{{ $val }}</td>
+							</tr>
+						@endforeach
+					</thead>
 
-			</table>
+				</table>
+			</div>
+			<div class="col-md-6">
+				<div class="dataAnchor">
+				<img class='gfyitem' data-expand=true data-id= {{ $gif->url}} />
+				</div>
+			</div>
 		</div>
 			
 	</content>

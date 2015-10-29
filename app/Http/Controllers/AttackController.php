@@ -59,7 +59,9 @@ class AttackController extends Controller {
 		$attack = Attack::find($id);
 		$attack->charname = Char::find($attack->charid)->name;
 		
-		$data = ['attack' => $attack, 'attrs' => $attack->getAttributes() ];
+		$gif = Gifs::find($attack->gif_id);
+
+		$data = ['attack' => $attack, 'attrs' => $attack->getAttributes(), 'gif' => $gif ];
 
 		return view($this->viewDir . ".show", $data);
 		//dd($attack);
