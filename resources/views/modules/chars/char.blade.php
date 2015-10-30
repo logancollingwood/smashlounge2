@@ -24,7 +24,7 @@
 								{{ $chars[$i]->name }}
 							</a>
 
-							<img class="pull-right" src=" {{ asset('img/pixel/' . str_replace(' ', '', $chars[$i]->name) . 'HeadSSBM.png') }}"></img>
+							<img class="pull-right charico" src=" {{ asset('img/pixel/' . str_replace(' ', '', $chars[$i]->name) . 'HeadSSBM.png') }}"></img>
 
 					</div>
 				</div>

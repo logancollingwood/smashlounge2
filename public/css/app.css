@@ -9515,16 +9515,19 @@ Copyright (c) 2014 Daniel Eden
   display: inline;
   font-size: 32px;
 }
-.chardetail .rank {
+.chardetail p:not(:last-child) {
+  padding-right: 10px;
   border-right: 1px solid #ffffff;
-  margin-right: 10px;
-}
-.chardetail .weight {
-  border-right: 1px solid #ffffff;
-  margin-right: 10px;
 }
 .chardetail label {
   font-size: 12px;
+}
+.chardetail .table tr:not(:last-child) {
+  border-bottom: 1px solid #ffffff;
+}
+.chardetail .table tr td {
+  border-top: none;
+  border-bottom: none;
 }
 .data-heading {
   font-size: 32px;
@@ -9552,6 +9555,9 @@ ul.dataAnchor li {
 }
 ul.dataAnchor li:not(:last-child) {
   border-bottom: 1px solid #ffffff;
+}
+.charico {
+  margin-top: 5px;
 }
 .gifcard .panel-heading {
   text-align: left;
@@ -9694,6 +9700,8 @@ footer {
   width: 100%;
   height: 50px;
   background-color: rgba(51, 51, 51, 0.8);
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
 }
 footer ul {
   float: right;
@@ -9749,6 +9757,11 @@ h1 {
 h2 {
   font-family: "Work Sans";
   font-size: 22px;
+}
+.vcenter {
+  display: inline-block;
+  vertical-align: middle;
+  float: none;
 }
 .bg-color-theme {
   background-color: #2cb693;

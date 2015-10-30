@@ -3,35 +3,40 @@
 @section('content')
 
 	<header class="">
-		<h1 class="scene_element scene_element--fadeinup scene_element--delayed"> {{ $char->name }} <img src=" {{ asset('img/pixel/' . str_replace(' ', '', $char->name) . 'HeadSSBM.png') }}"></img> </h1>
-		<p class="scene_element scene_element--fadeinup">  {{ $char->author }} </p>
-		<div class="chardetail  scene_element scene_element--fadeinup">
-			<p class="rank">  
-				<label> rank </label> 
-				{{ $char->tierdata }} 
-			</p>
-			<p class="weight"> 
-				<label>
-					weight
-				</label>
-				{{ $char->weight }} 
-				<label>heaviest</label>
-			</p>
-			<p class="fallspeed">
-				<label>
-					fallspeed
-				</label>
-				{{ $char->fallspeed }} 
-				<label>fastest</label>
-			</p>
+		<div class="row">
+			<div class="col-md-9">
+				<h1 class="scene_element scene_element--fadeinup scene_element--delayed"> {{ $char->name }} <img src=" {{ asset('img/pixel/' . str_replace(' ', '', $char->name) . 'HeadSSBM.png') }}"></img> </h1>
+			</div>
+			<div class="col-md-3 chardetail  scene_element scene_element--fadeinup">
+				<table class="table">
+					<tr>
+						<td> <label> rank </label> </td>
+						<td> {{ $char->tierdata }} </td>
+					</tr>
+					<tr>
+						<td> <label> weight </label> </td>
+						<td> {{ $char->weight }} heaviest </td>
+					</tr>
+					<tr>
+						<td> <label> fallspeed </label> </td>
+						<td> {{ $char->fallspeed }} fastest </td>
+					</tr>
+					@if($char->walljump)
+					<tr>
+						<td> <label> walljump </label> </td>
+						<td> available </td>
+					</tr>
+					@endif
+				</table>
+			</div>
 		</div>
-			<!-- Nav tabs -->
-		  	<ul class="nav nav-tabs pills scene_element scene_element--fadeinup" role="tablist">
-		    	<li role="presentation" class="active"><a href="#charGifsAnchor" aria-controls="charGifs" role="tab" data-toggle="tab">General</a></li>
-		    	<li role="presentation"><a href="#charDataAnchor" aria-controls="charData" role="tab" data-toggle="tab">Attacks</a></li>
-		  	</ul>
-		  	<div id="charGifs" hidden></div>
-		  	<div id="charData" hidden></div>
+		<!-- Nav tabs -->
+	  	<ul class="nav nav-tabs pills scene_element scene_element--fadeinup" role="tablist">
+	    	<li role="presentation" class="active"><a href="#charGifsAnchor" aria-controls="charGifs" role="tab" data-toggle="tab">General</a></li>
+	    	<li role="presentation"><a href="#charDataAnchor" aria-controls="charData" role="tab" data-toggle="tab">Attacks</a></li>
+	  	</ul>
+	  	<div id="charGifs" hidden></div>
+	  	<div id="charData" hidden></div>
 	</header>
 	
 	<content class="tab-content">

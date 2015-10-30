@@ -12,7 +12,7 @@ $(function() {
 
     $window.scroll(function() {
       if ($(window).width() > 768) {
-        if ($window.scrollTop() > offset.top) {
+        if ($window.scrollTop() > offset.top - topPadding) {
             $sidebar.css(
               "margin-top", $window.scrollTop() - offset.top + topPadding
             );
@@ -31,9 +31,13 @@ $(function() {
     if (anchorOff != undefined) {
       $window.scroll(function() {
         if ($(window).width() > 768) {
-          if($window.scrollTop() > anchorOff.top) {
+          if($window.scrollTop() > anchorOff.top - 30) {
             $dataAnchor.css(
               "margin-top", $window.scrollTop() - anchorOff.top + 30
+            );
+          } else {
+            $dataAnchor.css(
+              "margin-top", 0
             );
           }
         }
@@ -178,7 +182,7 @@ var gfyObject = function (gfyElem) {
     var optExpand; // Option: will video grow to fill space
     var optTitle; // Option: display title on hover over
     var optCtrls = true; // Option: add controls to bottom right corner
-    var optAutoplay = true; // Option: automatically play video when loaded
+    var optAutoplay = false; // Option: automatically play video when loaded
     // references to each html element
     var ctrlBox;
     var ctrlPausePlay;
@@ -543,6 +547,7 @@ var gfyObject = function (gfyElem) {
     }
     // When video is set to load paused, or when no playback controls are present, show a large Play button overlay.
     function drawPlayOverlay() {
+        //console.debug("drawing overlay");
         var ctx = overlayCanvas.getContext("2d");
         ctx.clearRect(0, 0, gfyWidth, gfyHeight);
         ctx.strokeStyle = "#ffffff";

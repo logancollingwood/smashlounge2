@@ -97,10 +97,10 @@ Questions?
 				@yield('content')
 				<footer>
 						<div class="row">
-							<div class="col-xs-6 col-sm-6">
+							<div class="col-xs-3 col-sm-6">
 								 <i class="fa fa-heart-o hvr-pop heart"></i><a href="/about"> tsl</a>
 							</div>
-							<div class="col-xs-6 col-sm-6">
+							<div class="col-xs-9 col-sm-6">
 								<ul>
 									<li>
 										<a href="/about">about</a>

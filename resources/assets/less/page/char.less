@@ -3,20 +3,24 @@
 	p {
 		display: inline;
 		font-size: 32px;
-	}
-	.rank {
-		border-right: 1px solid @white;
-		margin-right: 10px;
-	}
-	.weight {
-		border-right: 1px solid @white;
-		margin-right: 10px;
-	}
-	.fallspeed {
-
+		&:not(:last-child) {
+	    	    padding-right: 10px;
+	    		border-right: 1px solid @white;
+    	}
 	}
 	label {
 		font-size: 12px;
+	}
+	.table {
+		tr {
+			&:not(:last-child) {
+				border-bottom: 1px solid @white;
+			}
+			td {
+				border-top: none;
+				border-bottom: none;
+			}
+		}
 	}
 }
 
@@ -48,4 +52,9 @@ ul.dataAnchor {
     		border-bottom: 1px solid @white;
     	}
 	}
+}
+
+
+.charico {
+	margin-top: 5px;
 }
