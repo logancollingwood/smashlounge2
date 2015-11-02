@@ -21,8 +21,10 @@ class CreateGifsTable extends Migration {
 			$table->integer('submittedby');
 			$table->string('url', 300);
 			$table->string('description', 400);
-			$table->timestamp('update_date')->default(DB::raw('CURRENT_TIMESTAMP'));
+			
 			$table->integer('score');
+			$table->timestamps();
+
 		});
 	}
 

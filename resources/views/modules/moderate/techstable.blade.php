@@ -8,4 +8,22 @@
             <th>Deny</th>
       	</tr>
   	</table>
+
+  	@foreach ($data as $row)
+            <tr class="submission" data-id="{{ $row->id }}">
+              <td>
+                {{ $row->name }}
+              </td>
+              <td>
+                {{ $row->description }}
+              </td>
+              <td>
+                {{ $row->ssbwiki }}
+
+              </td>
+              
+              <td><a class="approve-link" href="#"><i class="fa fa-check-circle fa-3x"></i></a></td>
+              <td><a class="delete-link" href="#"><i class="fa fa-times-circle fa-3x"></i></a></td>
+            </tr>
+        @endforeach
 </div>

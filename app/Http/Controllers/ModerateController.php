@@ -11,6 +11,11 @@ use App\Submissions\SubmissionGroup;
 use App\Submissions\SubmissionTech;
 use App\Submissions\SubmissionVod;
 
+use App\Gifs;
+use App\Group;
+use App\Tech;
+use App\Vod;
+
 class ModerateController extends Controller {
 
 	private $viewDir = "modules.moderate";
@@ -101,6 +106,69 @@ class ModerateController extends Controller {
 	public function destroy($id)
 	{
 		//
+	}
+
+	public function approve(Request $request) {
+		$key = $request->input('key');
+		$id = $request->input('id');
+
+		if ($key == 'gif') {
+			$submission = SubmissionGif::findOrFail($id);
+			
+			$gif = new Gifs;
+			$gif->url = $submission->grabGfyName();
+			$gif->description = $submission->description;
+			$gif->dataid = $submission->dataid;
+			$gif->source = $submission->source;
+			
+			if ($submission->pageid == 0) {
+				$gif->typeid=2;
+			} else if ($submission->pageid == 1) {
+				$gif->typeid=0;
+			} else {
+				abort(500);
+			}
+
+			//ready to save and delete the submission
+			$gif->save();
+			$submission->delete();
+
+			return;
+
+		} else if ($key == 'group') {
+			$submission = SubmissionGroup::findOrFail($id);
+
+		} else if ($key == 'technique') {
+			$submission = SubmissionTech::findOrFail($id);
+		} else if ($key == 'vod') {
+			$submission = SubmissionVod::findOrFail($id);
+
+		} else {
+			abort(500);
+		}
+
+
+		echo "approved submission with key: $key and id: $id";
+	}
+
+	public function deny(Request $request) {
+		$key = $request->input('key');
+		$id = $request->input('id');
+
+		if ($key == 'gif') {
+			$submission = SubmissionGif::findOrFail($id);
+		} else if ($key == 'group') {
+			$submission = SubmissionGroup::findOrFail($id);
+		} else if ($key == 'technique') {
+			$submission = SubmissionTech::findOrFail($id);
+		} else if ($key == 'vod') {
+			$submission = SubmissionVod::findOrFail($id);
+		} else {
+			die(500);
+		}
+
+		$submission->delete();
+		echo "deleted submission with key: $key and id: $id";
 	}
 
 }

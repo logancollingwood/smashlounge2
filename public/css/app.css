@@ -9582,6 +9582,9 @@ ul.dataAnchor li:not(:last-child) {
 .gifcard .panel-heading .name:hover {
   color: #1abc9c;
 }
+.gifcard .panel-heading .name.sg {
+  font-size: 16px;
+}
 .gifcard .panel-heading .next-gif {
   display: inline;
   float: right;

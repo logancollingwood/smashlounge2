@@ -78,6 +78,7 @@ class AttackController extends Controller {
 
 		return $attacks;
 	}
+
 	/**
 	 * Show the form for editing the specified resource.
 	 *
@@ -89,10 +90,10 @@ class AttackController extends Controller {
 		//
 		$attack = Attack::find($id);
 		if ($attack == null) return error(404);
-		//dd($attack);
+
 
 		$gif = Gifs::find($attack->gifid);
-		//dd($gif);
+
 		//append on the charname
 		$attack->charname = Char::find($attack->charid)->name;
 		$fields = array(
@@ -112,8 +113,7 @@ class AttackController extends Controller {
 
 
 		$data = ['attack' => $attack, 'fields' => $fields, 'gif' => $gif];
-		//dd($attack);
-
+		
 		return view($this->viewDir . ".edit", $data);
 	}
 

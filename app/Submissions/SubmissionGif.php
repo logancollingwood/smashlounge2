@@ -11,12 +11,13 @@ class SubmissionGif extends Model {
 	public function grabGfyName () {
 	  $pattern = '/((https?:)?\/\/)?(.+?\.)?gfycat\.com\/(.+)/';
 	  $matches = array();
-	 
+	  
 	  preg_match ($pattern, $this->url, $matches);
+	  
 	  if (isset($matches[4])) 
 	  	return $matches[4];
 	  else 
-	  	return "Bad gfy URL: " . $this->url;
+	  	abort(500);
 	}
 
 	public function getTechName() {

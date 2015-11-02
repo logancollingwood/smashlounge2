@@ -122,7 +122,15 @@ Route::post('submit/vod/', [
     'uses' => 'SubmitController@storeVod',
     'as' => 'submit.vod'
 ]);
+Route::post('submit/add', [
+    'uses' => 'ModerateController@approve',
+    'as' => 'moderate.add'
+]);
 
+Route::post('submit/delete', [
+	'uses' => 'ModerateController@deny',
+    'as' => 'moderate.deny'
+]);
 
 
 /*
@@ -154,14 +162,16 @@ Route::bind('card/tech/{tech}', function($value, $route) {
 
 
 Route::resource('attack', 'AttackController');
-Entrust::routeNeedsRole('attack/*/edit', 'moderator', Redirect::to('/'));
+Entrust::routeNeedsRole('attack/*/edit', 'contributor', Redirect::to('/'));
+
+
 
 /*
 |--------------------------------------------------------------------------
 | Editing/Updating routes
 |--------------------------------------------------------------------------
 |
-| These are the routes for the OBS cards and raw JSON dumps
+| 
 |
 */
 Route::get('update/attack/{attack}', 'AttackController@update');

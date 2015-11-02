@@ -14,4 +14,16 @@ class Gifs extends Model {
 		
 		return $result;
 	}
+
+	public function grabGfyName () {
+	  $pattern = '/((https?:)?\/\/)?(.+?\.)?gfycat\.com\/(.+)/';
+	  $matches = array();
+	  
+	  preg_match ($pattern, $this->url, $matches);
+	  
+	  if (isset($matches[4])) 
+	  	return $matches[4];
+	  else 
+	  	return "Bad gfy URL: " . $this->url;
+	}
 }
