@@ -17,6 +17,27 @@
 			</div>
 		</div>
 		<div class="row" id="group-container">
+		@foreach($regions as $region) 
+			<h1> {{ $region }} </h1>
+
+			
+
+			<?php $scenes = $groups[$region] ?>
+
+			@foreach ($scenes as $scene) 
+				@yield('modules.cards.scenes.table')
+				 {{ $scene->name }}
+				
+			@endforeach
+
+		@endforeach
+
+		@foreach($regions as $region) 
+			
+
+		@endforeach
+		</div>
+		<div class="row">
 			<?php $submitDir = "group"; ?>
 			@include('modules.submit.panel')
 		</div>

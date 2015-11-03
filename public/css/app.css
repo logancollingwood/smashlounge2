@@ -10018,6 +10018,8 @@ ul.nav.nav-tabs.pills li.active a {
 }
 .well.message {
   background-color: #000000;
+  border-color: #1abc9c;
+  border-width: 3px;
 }
 .well.message .heading {
   font-size: 10px;

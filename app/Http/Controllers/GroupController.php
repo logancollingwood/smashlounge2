@@ -39,13 +39,14 @@ class GroupController extends Controller {
 	public function index()
 	{
 		$groups = array();
+
 		foreach ($this->regions as $region) {
-			$groups[] = $this->getByRegion($region);
+			$groups[$region] = $this->getByRegion($region);
 		}
 
-		$data = [ 'groups' => $groups ];
+		$data = [ 'regions' => $this->regions, 'groups' => $groups ];
 
-		return view($this->viewDir . '.index');
+		return view($this->viewDir . '.index', $data);
 	}
 
 	public function show(Group $group) {
@@ -79,7 +80,7 @@ class GroupController extends Controller {
 		        $regionKey = 5;
 		        break;
 		    }
-		$groups = Group::where('region', '=', $regionKey);
+		$groups = Group::where('region', '=', $regionKey)->get();
 		return $groups;
 	}
 	
