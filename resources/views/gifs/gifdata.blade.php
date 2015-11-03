@@ -15,8 +15,8 @@
 							@endif
 						@endif
 					</div>
-
-					@if ($gif->updated_at > 0)
+					
+					@if ($gif->attack_updated_at > 1)
 						@if($gif->total_frames != 0)
 							<div class="total-frames">{{$gif->total_frames}} total frames</div>
 						@endif
@@ -49,7 +49,6 @@
 						@if($gif->iasa)
 							<div class="iasa">interruptable as soon as {{$gif->iasa}} </div>
 						@endif
-
 
 						<div class="updated">updated {{ date('m/d/Y', strtotime($gif->updated_at)) }}</div>
 					@else

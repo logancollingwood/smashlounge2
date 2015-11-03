@@ -33,7 +33,7 @@ class Char extends Model {
 
 		/* Raw Query -- works well considering our deeply structured attack-gif-char schema relationship */
 		
-		$datagifs = \DB::select( \DB::raw("SELECT *, a.id as attack_id from attacks as a
+		$datagifs = \DB::select( \DB::raw("SELECT *, a.id as attack_id, a.updated_at as attack_updated_at from attacks as a
 		  	INNER JOIN gifs as g ON g.dataid = a.id
 		    WHERE a.gameid=0 AND a.charid=:charid AND g.typeid=1"), 
 			array(
