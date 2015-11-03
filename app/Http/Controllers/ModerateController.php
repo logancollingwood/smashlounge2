@@ -138,11 +138,47 @@ class ModerateController extends Controller {
 		} else if ($key == 'group') {
 			$submission = SubmissionGroup::findOrFail($id);
 
+			$group = new Group;
+			$group->name = $submission->name;
+
+			$group->profileid = $submission->facebook;
+			
+			$group->latitude = $submission->latitude;
+			$group->longitude = $submission->longitude;
+
+			$group->region = $submission->region;
+			$group->game = $submission->game;
+
+			//$group->save();
+			//$submission->delete();
+
 		} else if ($key == 'technique') {
 			$submission = SubmissionTech::findOrFail($id);
+
+			$technique = new Tech;
+			$technique->tech = $submission->name;
+			$technique->ssbwiki = $submission->ssbwiki;
+			$technique->description = $submission->description;
+
+
+			//$technique->save();
+			//$submission->delete();
+
 		} else if ($key == 'vod') {
 			$submission = SubmissionVod::findOrFail($id);
+			$vod = new Vod;
 
+			$vod->title = $submission->title;
+			$vod->url = $submission->url;
+			$vod->description = $submission->description;
+			$vod->source = $submission->credit;
+			
+			$vod->typeid= $submission->typeid;
+			$vod->dataid = $submission->dataid;
+
+
+			//$vod->save();
+			//$submission->delete();
 		} else {
 			abort(500);
 		}

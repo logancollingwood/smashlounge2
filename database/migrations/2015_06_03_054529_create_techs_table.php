@@ -19,6 +19,7 @@ class CreateTechsTable extends Migration {
 			$table->string('description', 400);
 			$table->string('smashwiki', 260);
 			$table->string('inputs', 100);
+			$table->timestamps();
 		});
 	}
 

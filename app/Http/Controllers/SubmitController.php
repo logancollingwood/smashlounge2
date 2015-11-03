@@ -107,6 +107,8 @@ class SubmitController extends Controller {
 		$submission->facebook = $input["groupfb"];
 		$submission->latitude = $input["grouplat"];
 		$submission->longitude = $input["grouplong"];
+		$submission->game = $input["groupgame"];
+		$submission->region = $input["groupregion"];
 
 		$submission->save();
 

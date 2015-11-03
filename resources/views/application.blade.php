@@ -133,7 +133,7 @@ Questions?
 	<script src="{{ asset('/js/compiled/app.js') }}"></script>
 	
 
-	<!-- <script type="text/javascript" src="{{ asset('/js/util/smoothStateHandler.js') }}"></script> -->
+	<script type="text/javascript" src="{{ asset('/js/util/smoothStateHandler.js') }}"></script> 
 
 	@yield('includes')
 	

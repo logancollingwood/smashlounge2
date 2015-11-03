@@ -173,6 +173,20 @@
                         </div>
 
                         <div class="form-group">
+                        {!! Form::label('Game') !!}
+                        {!! Form::select('groupgame', array('1' => '64', '2' => 'Melee', '3' => 'SSBB', '4' => 'SSB PM', '5' => 'Smash 4'), 
+                                'default', array('class' => 'form-control', 'id' => 'groupgame')); 
+                        !!}
+                        </div>
+
+                        <div class="form-group">
+                        {!! Form::label('Region') !!}
+                        {!! Form::select('groupregion', array('1' => 'North Atlantic', '2' => 'South Atlantic', '3' => 'Mid West', '4' => 'Southwest', '5' => 'West Coast', '6' => 'International'), 
+                                'default', array('class' => 'form-control', 'id' => 'groupregion')); 
+                        !!}
+                        </div>
+
+                        <div class="form-group">
                             {!! Form::label('lat') !!}
                             {!! Form::text('grouplat', null, 
                                 array('required', 
