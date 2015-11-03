@@ -10025,5 +10025,8 @@ ul.nav.nav-tabs.pills li.active a {
   font-size: 10px;
   font-family: "Work Sans", Helvetica, Arial, sans-serif;
 }
+.button i {
+  padding-right: 0px;
+}
 
 /*# sourceMappingURL=app.css.map */

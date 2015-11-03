@@ -33,7 +33,7 @@ function drawRandomGif() {
 
     
     //<a class="button button-inline button-large button-info" href=characters/' .  urlencode($randomLink) . '>'.'<span><i class="fa fa-share-alt"></i>' . $randomLink . '</span></a>
-    panelHeading = "<a class='button button-inline button-small button-info' id='drawgif'>&nbsp;<i class='fa fa-random'></i></a><br>"; 
+    panelHeading = "<a class='button button-inline button-small button-info' id='drawgif'><i class='fa fa-random'></i></a><br>"; 
     var panelBody = "<img id='smashgify' class='gfyitem' data-expand=true data-autoplay=true data-id='" + m[4] + "' />";
     var panelFooter = "<span class='randGifDesc pull-left'><a href='" + permalink + "'>" +  title + "</a></span><span class='upvotecount pull-right'><small>upvotes: </small>" + score + "</span>";
     var link = '<a href="' + permalink + '">link</a>'; 
