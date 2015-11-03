@@ -28,6 +28,8 @@ return [
 		'secret' => '',
 		'region' => 'us-east-1',
 	],
+	
+	'postmark' => '146dd331-8e43-429a-8a0a-f24bdda6101f',
 
 	'stripe' => [
 		'model'  => 'App\User',
