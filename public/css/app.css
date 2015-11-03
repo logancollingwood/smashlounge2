@@ -9550,8 +9550,8 @@ ul.dataAnchor {
   font-family: "Work Sans", Helvetica, Arial, sans-serif;
 }
 ul.dataAnchor li {
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
 }
 ul.dataAnchor li:not(:last-child) {
   border-bottom: 1px solid #ffffff;

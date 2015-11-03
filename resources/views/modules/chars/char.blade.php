@@ -3,8 +3,8 @@
 @section('content')
 <div class="content">
 	<header>
-		<h1> character guides </h1>
-		Learn some character specific content.
+		<h1 class="scene_element scene_element--fadeinup scene_element--delayed">Character guides</h1>
+		<p class="scene_element scene_element--fadeinup">Learn some character specific content</p>
 	</header>
 	
 	<content>

@@ -3,7 +3,8 @@
 @section('content')
 <div class="content">
 	<header>
-		<h2>Explore our growing database of smash techniques.</h2>
+		<h1 class="scene_element scene_element--fadeinup scene_element--delayed">Techniques</h1>
+		<p class="scene_element scene_element--fadeinup">Explore our growing database of smash techniques.</p>
 	</header>
 	
 	<content>
