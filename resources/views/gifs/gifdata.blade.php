@@ -1,7 +1,7 @@
-<div class="col-md-{{12/$dataColumns}}">
+<div class="col-md-{{12/$dataColumns}} col-xs-6">
 	<div class="gfyTainer">
 		<div class="row">
-			 <div class="col-md-12 col-sm-9">
+			 <div class="col-md-12 col-sm-12">
 				<img class="gfyitem" data-expand="true" data-id= {{ $gif->url}} />
 				<div class="gfyFooter data">
 					
