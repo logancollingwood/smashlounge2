@@ -17,8 +17,16 @@ class CreateAttacksTable extends Migration {
 			$table->integer('id', true);
 			$table->integer('charid');
 			$table->integer('gameid');
+			$table->integer('game_ver');
 			$table->integer('gif_id');
 			
+			$table->integer('input_type');
+			$table->integer('input_dir');
+
+			$table->integer('seq_num');
+			$table->integer('seq_dir');
+
+
 			$table->string('description', 450);
 			$table->string('inputs', 450);
 			$table->integer('links_to');
@@ -35,6 +43,10 @@ class CreateAttacksTable extends Migration {
 			$table->integer('hit_end');
 			$table->integer('hit_second_start');
 			$table->integer('hit_second_end');
+			$table->integer('hit_third_start');
+			$table->integer('hit_third_end');
+			$table->integer('hit_fourth_start');
+			$table->integer('hit_fourth_end');
 
 			$table->integer('iasa');
 			
