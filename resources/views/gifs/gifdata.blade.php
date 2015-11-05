@@ -2,7 +2,11 @@
 	<div class="gfyTainer">
 		<div class="row">
 			 <div class="col-md-12 col-sm-12">
-				<img class="gfyitem" data-expand="true" data-id= {{ $gif->url}} />
+			 	@if ($gif)
+					<img class="gfyitem" data-expand="true" data-id= {{ $gif->url}} />
+				@else
+					<p> No Gif yet! </p>
+				@endif
 				<div class="gfyFooter data">
 					
 					<div class="banner">
