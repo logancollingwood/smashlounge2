@@ -5843,7 +5843,7 @@ class AttacksTableSeeder extends Seeder {
 				'grounded' => '0',
 				'misc' => '',
 				'created_at' => '0000-00-00 00:00:00',
-				'updated_at' => '0000-00-00 00:00:00',
+				'updated_at' => '2015-11-09 00:00:00',
 			),
 			119 => 
 			array (
@@ -5941,7 +5941,7 @@ class AttacksTableSeeder extends Seeder {
 				'grounded' => '0',
 				'misc' => '',
 				'created_at' => '0000-00-00 00:00:00',
-				'updated_at' => '0000-00-00 00:00:00',
+				'updated_at' => '2015-11-09 00:00:00',
 			),
 			121 => 
 			array (
@@ -5990,7 +5990,7 @@ class AttacksTableSeeder extends Seeder {
 				'grounded' => '0',
 				'misc' => '',
 				'created_at' => '0000-00-00 00:00:00',
-				'updated_at' => '0000-00-00 00:00:00',
+				'updated_at' => '2015-11-09 00:00:00',
 			),
 			122 => 
 			array (
@@ -6921,7 +6921,7 @@ class AttacksTableSeeder extends Seeder {
 				'grounded' => '0',
 				'misc' => '',
 				'created_at' => '0000-00-00 00:00:00',
-				'updated_at' => '0000-00-00 00:00:00',
+				'updated_at' => '2015-11-09 16:18:29',
 			),
 			141 => 
 			array (
@@ -6939,7 +6939,7 @@ class AttacksTableSeeder extends Seeder {
 				'links_to' => '0',
 				'links_from' => '0',
 				'movetype' => '5',
-				'total_frames' => '0',
+				'total_frames' => '40',
 				'active_start' => '0',
 				'active_end' => '0',
 				'hit_start' => '0',
@@ -6959,8 +6959,8 @@ class AttacksTableSeeder extends Seeder {
 				'auto_cancelable' => '0',
 				'auto_cancel_start' => '0',
 				'auto_cancel_end' => '0',
-				'grab_start' => '0',
-				'grab_end' => '0',
+				'grab_start' => '12',
+				'grab_end' => '13',
 				'lag_on_release' => '0',
 				'reflects' => '0',
 				'reflect_start' => '0',
@@ -6970,7 +6970,7 @@ class AttacksTableSeeder extends Seeder {
 				'grounded' => '0',
 				'misc' => '',
 				'created_at' => '0000-00-00 00:00:00',
-				'updated_at' => '0000-00-00 00:00:00',
+				'updated_at' => '2015-11-09 16:19:06',
 			),
 			142 => 
 			array (
@@ -6988,7 +6988,7 @@ class AttacksTableSeeder extends Seeder {
 				'links_to' => '0',
 				'links_from' => '0',
 				'movetype' => '5',
-				'total_frames' => '0',
+				'total_frames' => '30',
 				'active_start' => '0',
 				'active_end' => '0',
 				'hit_start' => '0',
@@ -7008,8 +7008,8 @@ class AttacksTableSeeder extends Seeder {
 				'auto_cancelable' => '0',
 				'auto_cancel_start' => '0',
 				'auto_cancel_end' => '0',
-				'grab_start' => '0',
-				'grab_end' => '0',
+				'grab_start' => '7',
+				'grab_end' => '8',
 				'lag_on_release' => '0',
 				'reflects' => '0',
 				'reflect_start' => '0',
@@ -7019,7 +7019,7 @@ class AttacksTableSeeder extends Seeder {
 				'grounded' => '0',
 				'misc' => '',
 				'created_at' => '0000-00-00 00:00:00',
-				'updated_at' => '0000-00-00 00:00:00',
+				'updated_at' => '2015-11-09 16:14:28',
 			),
 			143 => 
 			array (

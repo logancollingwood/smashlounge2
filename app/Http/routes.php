@@ -107,6 +107,11 @@ Route::post('submit/gif/', [
     'uses' => 'SubmitController@storeGif',
     'as' => 'submit.gif'
 ]);
+Route::post('submit/data/', [
+	'before' => 'csrf',
+    'uses' => 'SubmitController@storeData',
+    'as' => 'submit.data'
+]);
 Route::post('submit/group/', [
 	'before' => 'csrf',
     'uses' => 'SubmitController@storeGroup',

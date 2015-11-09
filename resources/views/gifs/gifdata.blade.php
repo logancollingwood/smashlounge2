@@ -54,6 +54,10 @@
 							<div class="iasa">interruptable as soon as {{$gif->iasa}} </div>
 						@endif
 
+						@if($gif->grab_start)
+							<div class="grab">grab active {{$gif->grab_start}} &#45; {{ $gif->grab_end }} </div>
+						@endif
+
 						<div class="updated">updated {{ date('m/d/Y', strtotime($gif->attack_updated_at)) }}</div>
 					@else
 						<p> Frame data has not yet been submitted for this attack. </p>
