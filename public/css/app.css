@@ -9567,96 +9567,107 @@ ul.dataAnchor li:not(:last-child) {
 .charico {
   margin-top: 5px;
 }
+@media (min-width: 992px) {
+  .row.charheader {
+    margin-right: -20px;
+  }
+  .chardetail {
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+  }
+}
 /* This is gonna get messy */
-.row {
+.row.charheader {
   background-position-x: 0;
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: 170px;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
 }
-.row h1.char {
+.row.charheader h1.char {
   font-size: 55px;
   margin-top: 10%;
 }
-.row img {
+.row.charheader img {
   margin-bottom: 15px;
 }
-.row.fox {
+.row.charheader.fox {
   background-image: url('/img/chars/fox-banner.png');
 }
-.row.falco {
+.row.charheader.falco {
   background-image: url('/img/chars/falco-banner.png');
 }
-.row.mario {
+.row.charheader.mario {
   background-image: url('/img/chars/mario-banner.png');
 }
-.row.yoshi {
+.row.charheader.yoshi {
   background-image: url('/img/chars/yoshi-banner.png');
 }
-.row.donkeykong {
+.row.charheader.donkeykong {
   background-image: url('/img/chars/donkeykong-banner.png');
 }
-.row.link {
+.row.charheader.link {
   background-image: url('/img/chars/link-banner.png');
 }
-.row.samus {
+.row.charheader.samus {
   background-image: url('/img/chars/samus-banner.png');
 }
-.row.marth {
+.row.charheader.marth {
   background-image: url('/img/chars/marth-banner.png');
 }
-.row.sheik {
+.row.charheader.sheik {
   background-image: url('/img/chars/sheik-banner.png');
 }
-.row.jigglypuff {
+.row.charheader.jigglypuff {
   background-image: url('/img/chars/jigglypuff-banner.png');
 }
-.row.peach {
+.row.charheader.peach {
   background-image: url('/img/chars/peach-banner.png');
 }
-.row.kirby {
+.row.charheader.kirby {
   background-image: url('/img/chars/kirby-banner.png');
 }
-.row.pikachu {
+.row.charheader.pikachu {
   background-image: url('/img/chars/pikachu-banner.png');
 }
-.row.captainfalcon {
+.row.charheader.captainfalcon {
   background-image: url('/img/chars/captainfalcon-banner.png');
 }
-.row.ness {
+.row.charheader.ness {
   background-image: url('/img/chars/ness-banner.png');
 }
-.row.bowser {
+.row.charheader.bowser {
   background-image: url('/img/chars/bowser-banner.png');
 }
-.row.drmario {
+.row.charheader.drmario {
   background-image: url('/img/chars/drmario-banner.png');
 }
-.row.zelda {
+.row.charheader.zelda {
   background-image: url('/img/chars/zelda-banner.png');
 }
-.row.ganondorf {
+.row.charheader.ganondorf {
   background-position-y: 0px;
   background-image: url('/img/chars/ganondorf-banner.png');
 }
-.row.younglink {
+.row.charheader.younglink {
   background-image: url('/img/chars/younglink-banner.png');
 }
-.row.mewtwo {
+.row.charheader.mewtwo {
   background-image: url('/img/chars/mewtwo-banner.png');
 }
-.row.pichu {
+.row.charheader.pichu {
   background-image: url('/img/chars/pichu-banner.png');
 }
-.row.iceclimbers {
+.row.charheader.iceclimbers {
   background-image: url('/img/chars/iceclimbers-banner.png');
 }
-.row.mrgameandwatch {
+.row.charheader.mrgameandwatch {
   background-image: url('/img/chars/mrgameandwatch-banner.png');
 }
-.row.roy {
+.row.charheader.roy {
   background-image: url('/img/chars/roy-banner.png');
 }
-.row.luigi {
+.row.charheader.luigi {
   background-image: url('/img/chars/luigi-banner.png');
 }
 .gifcard .panel-heading {

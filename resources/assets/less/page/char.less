@@ -62,11 +62,23 @@ ul.dataAnchor {
 	margin-top: 5px;
 }
 
+@media (min-width: 992px) {
+	.row.charheader {
+	    margin-right: -20px;
+	}
+	.chardetail {
+    	border-top-right-radius: 0px;
+	    border-bottom-right-radius: 0px;
+	}
+}
 /* This is gonna get messy */
-.row {
+.row.charheader {
 	background-position-x: 0;
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: 170px;
+    
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
 	h1.char {
 		font-size: 55px;
 		margin-top: 10%;

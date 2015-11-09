@@ -3,7 +3,7 @@
 @section('content')
 
 	<header class="texture">
-		<div class="row {{strtolower(preg_replace('/[^A-Za-z0-9]/', '',$char->name))}}">
+		<div class="row charheader {{strtolower(preg_replace('/[^A-Za-z0-9]/', '',$char->name))}}">
 			<div class="col-md-7 col-md-offset-2">
 
 				<h1 class="scene_element scene_element--fadeinup scene_element--delayed char"> 
