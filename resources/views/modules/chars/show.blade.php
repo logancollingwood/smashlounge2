@@ -2,10 +2,14 @@
 
 @section('content')
 
-	<header class="">
+	<header class="{{strtolower(preg_replace('/[^A-Za-z0-9]/', '',$char->name))}}">
 		<div class="row">
-			<div class="col-md-9">
-				<h1 class="scene_element scene_element--fadeinup scene_element--delayed"> {{ $char->name }} <img src=" {{ asset('img/pixel/' . str_replace(' ', '', $char->name) . 'HeadSSBM.png') }}"></img> </h1>
+			<div class="col-md-7 col-md-offset-2">
+
+				<h1 class="scene_element scene_element--fadeinup scene_element--delayed char"> 
+					<img src=" {{ asset('img/pixel/' . str_replace(' ', '', $char->name) . 'HeadSSBM.png') }}"></img>
+					{{ $char->name }}  
+				</h1>
 			</div>
 			<div class="col-md-3 chardetail  scene_element scene_element--fadeinup">
 				<table class="table">
