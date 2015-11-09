@@ -74,7 +74,7 @@ class TechsTableSeeder extends Seeder {
 			array (
 				'id' => '10',
 				'tech' => 'Crouch Cancel',
-				'description' => 'By crouching before getting hit by an attack, some aspect of the attack will be weakened. Both knockback and hitstun will be lessened.',
+				'description' => 'By crouching before getting hit by an attack, some aspects of the attack will be weakened. Both knockback and hitstun will be lessened.',
 				'smashwiki' => 'http://www.ssbwiki.com/Crouch_cancel',
 			'inputs' => '(CROUCH) before impending attack.',
 			),
