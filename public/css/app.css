@@ -9657,6 +9657,9 @@ header.mrgameandwatch {
 header.roy {
   background-image: url('/img/chars/roy-banner.png');
 }
+header.luigi {
+  background-image: url('/img/chars/luigi-banner.png');
+}
 .gifcard .panel-heading {
   text-align: left;
   border-radius: 0px;
