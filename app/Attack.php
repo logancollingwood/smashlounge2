@@ -20,6 +20,15 @@ class Attack extends Model {
 						'2' => 'forward', '3' => 'down',
 						'4' => 'back', '5' => 'n/a'];
 
+	/* Mutates input dir to readable string */
+	public function getInputDirAttribute($value) {
+		return $this->attackdir[$this->input_dir];
+	}
+
+	/* Mutates input type to readable string */
+	public function getInputTypeAttribute($value) {
+		return $this->attacktype[$this->input_type];
+	}
 
 	public function getCharAttacks($id) {
 		$attacks = Attack::whereRaw('charid = ?', [$id])->get();		
