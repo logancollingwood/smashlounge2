@@ -73,11 +73,11 @@ Questions?
 				<ul>
 					<li class="{{ Request::path() == '/' ? 'active' : ''}}"><a href="{{ url('/') }}">Home</a></li>
 					<li class="{{ strpos(Request::path(), 'techs') === 0 ? 'active' : ''}}">
-						<a href="{{url('/techs/')}}" data-target="#techs">Techs</a>
+						<a href="{{url('/techs/')}}" data-target="#techs">Techniques</a>
 					</li>
-					<li class="{{ strpos(Request::path(), 'chars') === 0 ? 'active' : ''}}"><a href="{{ url('/chars') }}">Chars</a></li>
+					<li class="{{ strpos(Request::path(), 'chars') === 0 ? 'active' : ''}}"><a href="{{ url('/chars') }}">Characters</a></li>
 					<!-- <li class="{{ strpos(Request::path(), 'guides') === 0 ? 'active' : ''}}"><a href="{{ url('/guides') }}">Guides</a></li> -->
-					<li class="{{ strpos(Request::path(), 'vods') === 0 ? 'active' : ''}}"><a href="{{ url('/vods') }}">Vods</a></li>
+					<li class="{{ strpos(Request::path(), 'vods') === 0 ? 'active' : ''}}"><a href="{{ url('/vods') }}">Videos</a></li>
 
 					<li class="hidden-xs {{ strpos(Request::path(), 'groups') === 0 ? 'active' : ''}}"><a href="{{ url('/groups') }}">Groups</a></li>
 
