@@ -22,12 +22,12 @@ class Attack extends Model {
 
 	/* Mutates input dir to readable string */
 	public function getInputDirAttribute($value) {
-		return $this->attackdir[$this->input_dir];
+		return $this->attackdir[$value];
 	}
 
 	/* Mutates input type to readable string */
 	public function getInputTypeAttribute($value) {
-		return $this->attacktype[$this->input_type];
+		return $this->attacktype[$value];
 	}
 
 	public function getCharAttacks($id) {
