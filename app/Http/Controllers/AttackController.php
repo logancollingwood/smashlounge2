@@ -16,6 +16,16 @@ class AttackController extends Controller {
 	// number of columns for list page	
 	private $columns = 3;
 
+	private $attacktype = ['1' => 'aerial', '2' => 'smash',
+					   '3' => 'tilt', '4' => 'special',
+					   '5' => 'jab', '6' => 'dash',
+					   '7' => 'grab', '8' => 'dodge',
+					   '9' => 'roll', '10' => 'throw',
+					   '11' => 'taunt' ];
+
+	private $attackdir = ['0' => 'neutral', '1' => 'up',
+						'2' => 'forward', '3' => 'down',
+						'4' => 'back', '5' => 'n/a'];
 
 	/**
 	 * Display a listing of the resource.
@@ -74,9 +84,17 @@ class AttackController extends Controller {
 		return $attack;
 	}
 	public function apiShowChar($id) {
-		$attacks = Attack::where('charid', '=', $id)->get();
+		$json = [
+					'id' => $id,
+					'charname' => Char::find($id)->name
+		];
+		foreach($this->attacktype as $typeid => $typestr) {
+			$attacks[$typestr] = Attack::whereRaw('charid = ? and input_type = ?', [$id, $typeid ])->get();
+		}
+		
+		$json['attacks'] = $attacks;
 
-		return $attacks;
+		return $json;
 	}
 
 	/**

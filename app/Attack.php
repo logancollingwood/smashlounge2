@@ -25,6 +25,10 @@ class Attack extends Model {
 		return $this->attackdir[$value];
 	}
 
+	public function getCharidAttribute($value) {
+		return Char::find($value)->name;
+	}
+
 	/* Mutates input type to readable string */
 	public function getInputTypeAttribute($value) {
 		return $this->attacktype[$value];
