@@ -39,7 +39,7 @@ $(function() {
             $dataAnchor.css(
               "margin-top", 0
             );
-          }
+          }2
         }
       });
     }
