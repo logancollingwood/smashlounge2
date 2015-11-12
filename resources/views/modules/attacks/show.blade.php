@@ -3,7 +3,7 @@
 @section('content')
 <div class="content">
 	<header>
-		<h1> {{$attack->charname}}: {{ $attack->description }}</h1>
+		<h1> {{$attack->charid}}: {{ $attack->description }}</h1>
 		<p>  {{ $attack->description }} </p>
 	</header>
 	

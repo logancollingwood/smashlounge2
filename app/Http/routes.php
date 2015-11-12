@@ -62,7 +62,7 @@ Route::bind('players', function($value, $route) {
 
 Route::resource('guides', 'GuidesController');
 Route::bind('guides', function($value, $route) {
-	$guide = App\Guide::where("name", $value)->first();
+	$guide = App\Guide::where("slug", $value)->first();
 	if ($guide == null) abort(404);
 	return $guide;
 });

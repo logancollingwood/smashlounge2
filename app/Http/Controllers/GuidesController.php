@@ -2,7 +2,9 @@
 
 use App\Http\Requests;
 use App\Http\Controllers\Controller;
+
 use App\Guide;
+use App\GuideBody;
 
 use Illuminate\Http\Request;
 
@@ -55,7 +57,9 @@ class GuidesController extends Controller {
 	public function show(Guide $guide)
 	{
 		//
-		$data = [ 'guide'=> $guide ];
+		$body = GuideBody::orderBy('section_num')->where('guideid', $guide->id);
+		$data = [ 'guide'=> $guide, 'body' => $body ];
+
 		return view($this->viewDir . '.show', $data);
 	}
 

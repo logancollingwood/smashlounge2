@@ -24,11 +24,13 @@
 
 							<span class="badge counter">{{ $i+1 }} </span>
 
-							<a href="{{ route('guides.show', $guides[$i]->name) }}" class="list">
+							<a href="{{ route('guides.show', $guides[$i]->slug) }}" class="list">
 								{{ $guides[$i]->name }}
 							</a>
 
-							<p class="pull-right"> by {{ $guides[$i]->author }} </p>
+							<p class="pull-right"> by {{ $guides[$i]->author1_sponsor }}:
+								{{ $guides[$i]->author1_name }} 
+							</p>
 
 
 

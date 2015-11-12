@@ -20,15 +20,21 @@ class CreateGuidesTable extends Migration {
 				1 for char guide
 			*/
 			$table->string('name');
-
+			$table->string('slug');
 			$table->integer('typeid');
 			$table->integer('dataid');
 			$table->string('description');
 
-			$table->string('author');
+			$table->string('author1_sponsor');
+			$table->string('author1_name');
+			$table->string('author1_twitter');
+
+			$table->string('author2_sponsor');
+			$table->string('author2_name');
+			$table->string('author2_twitter');
 
 			$table->timestamps();
-			$table->longText('guide');
+			
 			
 		});
 	}
