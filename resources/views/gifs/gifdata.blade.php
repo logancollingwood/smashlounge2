@@ -3,7 +3,7 @@
 		<div class="row">
 			 <div class="col-md-12 col-sm-12">
 			 	@if ($gif)
-					<img class="gfyitem" data-expand="true" data-id= {{ $gif->url}} />
+					<img class="gfyitem" data-autoplay=false data-expand="true" data-id= {{ $gif->url}} />
 				@else
 					<p> No Gif yet! </p>
 				@endif

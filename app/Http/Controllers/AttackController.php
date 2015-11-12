@@ -108,10 +108,17 @@ class AttackController extends Controller {
 		$attack = Attack::find($id);
 		if ($attack == null) return error(404);
 
+		$typeSelect = array();
+		foreach ($this->attacktype as $id => $name) {
+			$typeSelect[$id] = $name;
+		}
+		$dirSelect = array();
+		foreach ($this->attackdir as $id => $name) {
+			$dirSelect[$id] = $name;
+		}
+		$gif = Gifs::find($attack->gif_id);
 
-		$gif = Gifs::find($attack->gifid);
-
-		$fields = array('gameid', 'description',
+		$fields = array('description',
 			'total_frames', 
 			'active_start', 'active_end', 'hit_start',
 			'hit_end', 'hit_second_start', 
@@ -123,10 +130,10 @@ class AttackController extends Controller {
 			'reflects', 'reflect_start', 'reflect_end',
 			'lag_on_release', 'reflection_lag', 'jcable', 'grounded'
 		);
+		$moveType = 
 
 
-
-		$data = ['attack' => $attack, 'fields' => $fields, 'gif' => $gif];
+		$data = ['attack' => $attack, 'types' => $typeSelect, 'dirs' => $dirSelect, 'fields' => $fields, 'gif' => $gif];
 		
 		return view($this->viewDir . ".edit", $data);
 	}
