@@ -111,8 +111,7 @@ class AttackController extends Controller {
 
 		$gif = Gifs::find($attack->gifid);
 
-		$fields = array(
-			'charid', 'gameid', 'description',
+		$fields = array('gameid', 'description',
 			'total_frames', 
 			'active_start', 'active_end', 'hit_start',
 			'hit_end', 'hit_second_start', 
@@ -159,7 +158,7 @@ class AttackController extends Controller {
 	 */
 	public function update($id)
 	{
-		
+		//dd(Input::all());
 		$attack = Attack::findOrFail($id);
 
 	   	if (!$attack->update(Input::all())) {
