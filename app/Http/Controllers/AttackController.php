@@ -111,8 +111,6 @@ class AttackController extends Controller {
 
 		$gif = Gifs::find($attack->gifid);
 
-		//append on the charname
-		$attack->charname = Char::find($attack->charid)->name;
 		$fields = array(
 			'charid', 'gameid', 'description',
 			'total_frames', 
