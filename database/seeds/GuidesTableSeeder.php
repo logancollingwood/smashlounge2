@@ -20,10 +20,13 @@ class GuidesTableSeeder extends Seeder {
 				'id' => '1',
 				'typeid' => '1',
 				'dataid' => '14', //marth
-				'author' => 'CLG | PEWPEWU',
+				'author1_sponsor' => 'clg',
+				'author1_name' => 'pewpewu',
+				'author1_twitter' => 'clg_pewpewu',
+				'slug' => 'clgppumarth',
 				'name' => 'Marth -- just the tip',
-				'description' => 'Learn how to be the best Marth in town',
-				'guide' => 'Spacing: '
+				'description' => 'Learn how to be the best Marth in town'
+				
 			)
 		));
 	}
