@@ -17,7 +17,7 @@
 					@endif
 				@endif
 				</p>
-				@if ($attack->updated_at > 1)
+				@if ($attack->attack_updated_at > 1)
 					<div class="updated">updated {{ date('m/d/Y', strtotime($gif->attack_updated_at)) }}</div>
 				@else
 					<div class="updated">No data. If you'd like to become a moderator, message us on twitter</div>
