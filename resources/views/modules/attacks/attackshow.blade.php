@@ -14,19 +14,25 @@
 			<p>{{ $attack->total_frames }}</p>
 		</div>
 	</div>
-	
+
+	@if($attack->jcable)
 	<div class="col-md-4">
 	 	<div class="data-group">
 			<label>jcable</label>
 			<p>{{ $attack->jcable }}</p>
 		</div>
 	</div>
+	@endif
+
+	@if($attack->grounded == 1)
 	<div class="col-md-4">
 	 	<div class="data-group">
 	 		<label>grounded</label>
 			<p>{{ $attack->grounded }}</p> 
 		</div>
 	</div>
+	@endif
+
 	<div class="col-md-4">
 	 	<div class="data-group">
 			<label>active</label>

@@ -4,12 +4,26 @@
 <div class="content">
 	<header class="charheader {{strtolower(preg_replace('/[^A-Za-z0-9]/', '',$attack->charid))}}">
 		<div class="row">
+
 			<div class="col-md-7 col-md-offset-2 scene_element scene_element--fadeinup scene_element--delayed">
 				<h1 class="char"> 
 					<img src=" {{ asset('img/pixel/' . str_replace(' ', '', $attack->charid) . 'HeadSSBM.png') }}"></img>
 					{{ $attack->charid  }}
 				</h1>
-				<a href="/attack/{{$attack->id}}">  {{ $attack->input_dir }} {{ $attack->input_type }} @if(!$attack->grounded) (air) @endif </a>
+				
+				<a href="/attack/{{$attack->id}}"> 
+					{{ $attack->input_dir }} : {{ $attack->input_type }}  
+					@if(!$attack->grounded) 
+						(air) 
+					@endif 
+
+				</a>
+
+				@if(Session::has('message'))
+		             <div class="alert-box success">
+		                 <h2>{{ Session::get('message') }}</h2>
+		             </div>
+		        @endif
 			</div>
 			
 	    </div>
