@@ -93,7 +93,7 @@ Questions?
 
 				</ul>
 			</div>
-			<div class="col-sm-8 col-md-10 m-scene" id="main">
+			<div class="col-sm-10 col-md-10 m-scene" id="main">
 				@yield('content')
 				<footer>
 						<div class="row">

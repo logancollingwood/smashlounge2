@@ -15,7 +15,7 @@
 					</div>
 			</div>
 			 <div class="col-md-8 col-sm-9">
-				<img class='gfyitem' data-expand=true data-id= {{ $gif->url}} />
+				<img class='gfyitem' data-autoplay=false data-expand=true data-id= {{ $gif->url}} />
 			</div>
 		</div>
 	</div>

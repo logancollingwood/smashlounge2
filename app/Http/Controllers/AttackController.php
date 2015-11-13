@@ -108,28 +108,20 @@ class AttackController extends Controller {
 		$attack = Attack::find($id);
 		if ($attack == null) return error(404);
 
-
-		$gif = Gifs::find($attack->gifid);
-
-		//append on the charname
-		$attack->charname = Char::find($attack->charid)->name;
-		$fields = array(
-			'charid', 'gameid', 'description',
-			'total_frames', 
-			'active_start', 'active_end', 'hit_start',
-			'hit_end', 'hit_second_start', 
-			'hit_second_end', 'iasa',
-			'charge_frame', 'invincible_start', 
-			'invincible_end', 'landlag', 'lcancel',
-			'auto_cancelable', 'auto_cancel_start',
-			'auto_cancel_end', 'grab_start', 'grab_end',
-			'reflects', 'reflect_start', 'reflect_end',
-			'lag_on_release', 'reflection_lag', 'jcable', 'grounded'
-		);
+		$typeSelect = array();
+		foreach ($this->attacktype as $id => $name) {
+			$typeSelect[$id] = $name;
+		}
+		$dirSelect = array();
+		foreach ($this->attackdir as $id => $name) {
+			$dirSelect[$id] = $name;
+		}
+		
+		$gif = Gifs::find($attack->gif_id);
 
 
 
-		$data = ['attack' => $attack, 'fields' => $fields, 'gif' => $gif];
+		$data = ['attack' => $attack, 'types' => $typeSelect, 'dirs' => $dirSelect, 'gif' => $gif];
 		
 		return view($this->viewDir . ".edit", $data);
 	}

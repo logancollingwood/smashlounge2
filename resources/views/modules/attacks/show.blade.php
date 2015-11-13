@@ -2,33 +2,52 @@
 
 @section('content')
 <div class="content">
-	<header>
-		<h1> {{$attack->charid}}: {{ $attack->description }}</h1>
-		<p>  {{ $attack->description }} </p>
+	<header class="charheader {{strtolower(preg_replace('/[^A-Za-z0-9]/', '',$attack->charid))}}">
+		<div class="row">
+			<div class="col-md-7 col-md-offset-2 scene_element scene_element--fadeinup scene_element--delayed">
+				<h1 class="char"> 
+					<img src=" {{ asset('img/pixel/' . str_replace(' ', '', $attack->charid) . 'HeadSSBM.png') }}"></img>
+					<a href="/chars/{{ $attack->charid  }}">{{ $attack->charid  }} </a>
+				</h1>
+				<p> {{ $attack->input_dir }} {{ $attack->input_type }} @if(!$attack->grounded) (air) @endif
+
+		        @if (Auth::check()) 
+					@if (Auth::user()->hasRole('contributor'))
+					<a href="/attack/{{$attack->id}}/edit"><small>(edit)</small></a>
+					@endif
+				@endif
+				</p>
+				
+				@if(strtotime($attack->updated_at) > 1)
+					<div class="updated">updated {{ date('m/d/Y', strtotime($attack->updated_at) ) }}</div>
+				@else
+					<div class="updated">No data. If you'd like to become a moderator, message us on twitter</div>
+				@endif
+			</div>
+	    </div>
 	</header>
 	
-	<content>
+	<content class="data">
 		<div class="row">
-			<div class="col-md-6">
-				<table class="table">
-					<thead>
-						<tr>
-							<th> property </th>
-							<th> value </th>
-						</tr>
-						@foreach ($attrs as $key=>$val) 
-							<tr>
-								<td>{{ $key }}</td>
-								<td>{{ $val }}</td>
-							</tr>
-						@endforeach
-					</thead>
-
-				</table>
+			<div class="col-md-7">
+				@if(strtotime($attack->updated_at) > 1)
+					@include('modules.attacks.attackshow')
+				@endif
 			</div>
-			<div class="col-md-6">
+			<div class="col-md-5">
 				<div class="dataAnchor">
-				<img class='gfyitem' data-expand=true data-id= {{ $gif->url}} />
+				<img class='gfyitem' data-autoplay=true data-expand=true data-id= {{ $gif->url}} />
+				<ul>
+					<li><a href="#general">general</a></li>
+					<li><a href="#invincible">invincible</a></li>
+					<li><a href="#lag">lag</a></li>
+					@if($attack->auto_cancelable)
+						<li><a href="#autocancel">autocancel</a></li>
+					@endif
+					@if($attack->grab_start != 0)
+						<li><a href="#grab">grab</a></li>
+					@endif
+				</ul>
 				</div>
 			</div>
 		</div>

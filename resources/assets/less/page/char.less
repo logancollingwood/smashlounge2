@@ -41,7 +41,7 @@
 		margin-top: 5px;
 	}
 }
-ul.dataAnchor {
+.dataAnchor {
 	border-radius: 5px;
 	background-color: @well-color;
 	padding: 5px;
@@ -54,6 +54,10 @@ ul.dataAnchor {
 		&:not(:last-child) {
     		border-bottom: 1px solid @white;
     	}
+	}
+	ul {
+		margin-top: 10px;
+		list-style-type: none;
 	}
 }
 
@@ -78,7 +82,7 @@ header.charheader {
 	background-position-y: 60%;
     background-repeat: no-repeat;
     background-size: 170px;
-    
+    min-height: 270px;
     
 	h1.char {
 		font-size: 55px;

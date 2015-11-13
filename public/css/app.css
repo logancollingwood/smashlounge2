@@ -9549,7 +9549,7 @@ Copyright (c) 2014 Daniel Eden
   color: #777777;
   margin-top: 5px;
 }
-ul.dataAnchor {
+.dataAnchor {
   border-radius: 5px;
   background-color: #2d2d2d;
   padding: 5px;
@@ -9557,12 +9557,16 @@ ul.dataAnchor {
   list-style-type: none;
   font-family: "Work Sans", Helvetica, Arial, sans-serif;
 }
-ul.dataAnchor li {
+.dataAnchor li {
   padding-top: 5px;
   padding-bottom: 5px;
 }
-ul.dataAnchor li:not(:last-child) {
+.dataAnchor li:not(:last-child) {
   border-bottom: 1px solid #ffffff;
+}
+.dataAnchor ul {
+  margin-top: 10px;
+  list-style-type: none;
 }
 .charico {
   margin-top: 5px;
@@ -9582,6 +9586,7 @@ header.charheader {
   background-position-y: 60%;
   background-repeat: no-repeat;
   background-size: 170px;
+  min-height: 270px;
 }
 header.charheader h1.char {
   font-size: 55px;
@@ -9783,6 +9788,31 @@ header.charheader.luigi {
   .aboutpanel {
     width: 450px;
   }
+}
+content.data h2 {
+  font-family: "Roboto", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  font-size: 24px;
+  padding-bottom: 10px;
+  margin-bottom: 25px;
+  border-bottom: 3px solid #ffffff;
+}
+content.data .data-group {
+  background-color: #2d2d2d;
+  text-align: center;
+}
+content.data .data-group label {
+  width: 100%;
+  font-size: 20px;
+  padding: 10px;
+  border-bottom: 1px solid #ffffff;
+  font-family: "Roboto", Helvetica, Arial, sans-serif;
+}
+content.data .data-group p {
+  padding: 20px;
+}
+content.data .data-group:hover {
+  background-color: #555555;
 }
 body,
 label,
@@ -10109,7 +10139,6 @@ ul.nav.nav-tabs.pills {
   text-align: center;
   margin: 0 auto;
   margin-top: 10px;
-  margin-bottom: -22px;
 }
 ul.nav.nav-tabs.pills li {
   display: inline-block;
@@ -10117,7 +10146,7 @@ ul.nav.nav-tabs.pills li {
   margin-bottom: 0px;
 }
 ul.nav.nav-tabs.pills li a {
-  border-radius: 8px 8px 0px 0px;
+  border-radius: 10px;
   background-color: rgba(20, 20, 20, 0.3);
   color: #ffffff;
 }
