@@ -17,8 +17,9 @@
 					@endif
 				@endif
 				</p>
-				@if ($attack->attack_updated_at > 1)
-					<div class="updated">updated {{ date('m/d/Y', strtotime($gif->attack_updated_at)) }}</div>
+				
+				@if(strtotime($attack->updated_at) > 1)
+					<div class="updated">updated {{ date('m/d/Y', strtotime($attack->updated_at) ) }}</div>
 				@else
 					<div class="updated">No data. If you'd like to become a moderator, message us on twitter</div>
 				@endif
@@ -29,7 +30,9 @@
 	<content class="data">
 		<div class="row">
 			<div class="col-md-7">
-				@include('modules.attacks.attackshow')
+				@if(strtotime($attack->updated_at) > 1)
+					@include('modules.attacks.attackshow')
+				@endif
 			</div>
 			<div class="col-md-5">
 				<div class="dataAnchor">
