@@ -1,3 +1,4 @@
+
 <h2> general </h2>
 	<div class="row">
  	<div class="col-md-6">
@@ -18,28 +19,27 @@
 	 	<div class="form-group">
 	 		{!! Form::label('input_type') !!}
 	 		
-			{!! Form::select('input_type', $types, $attack->input_type, array('class'=>'form-control')) !!}  
+			{!! Form::select('input_type', $types, array_search($attack->input_type, $types), array('class'=>'form-control')) !!}  
 		</div>
 	</div>
 	<div class="col-md-6">
 	 	<div class="form-group">
 	 		{!! Form::label('input_dir') !!}
-	 		
-			{!! Form::select('input_dir', $dirs, $attack->input_dir, array('class'=>'form-control')) !!}  
+			{!! Form::select('input_dir', $dirs, array_search($attack->input_dir, $dirs), array('class'=>'form-control')) !!}  
 		</div>
 	</div>
 	<div class="col-md-4">
 	 	<div class="form-group">
 	 		{!! Form::label('jcable') !!}
-	 		
-			{!! Form::checkbox('jcable', null, array('class'=>'form-control')) !!}  
+	 		{!! Form::hidden('jcable', false) !!}
+			{!! Form::checkbox('jcable', 1, $attack->jcable, array('class'=>'form-control')) !!}  
 		</div>
 	</div>
 	<div class="col-md-4">
 	 	<div class="form-group">
 	 		{!! Form::label('grounded') !!}
-	 		
-			{!! Form::checkbox('grounded', null, array('class'=>'form-control')) !!}  
+	 		{!! Form::hidden('grounded', false) !!}
+			{!! Form::checkbox('grounded', 1, $attack->grounded, array('class'=>'form-control')) !!}  
 		</div>
 	</div>
 
@@ -192,8 +192,8 @@
 	<div class="col-md-4">
 	 	<div class="form-group">
 	 		{!! Form::label('auto_cancelable') !!}
-	 		
-			{!! Form::checkbox('auto_cancelable', null, array('class'=>'form-control')) !!}  
+	 		{!! Form::hidden('auto_cancelable', false) !!}
+			{!! Form::checkbox('auto_cancelable', 1, null, array('class'=>'form-control')) !!}  
 		</div>
 	</div>
 	<div class="col-md-4">
@@ -235,8 +235,8 @@
 	<div class="col-md-3">
 	 	<div class="form-group">
 	 		{!! Form::label('reflects') !!}
-	 		
-			{!! Form::checkbox('reflects', null, array('class'=>'form-control')) !!}  
+	 		{!! Form::hidden('reflects', false) !!}
+			{!! Form::checkbox('reflects', 1, null, array('class'=>'form-control')) !!}  
 		</div>
 	</div>
 	<div class="col-md-3">

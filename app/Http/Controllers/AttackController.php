@@ -116,24 +116,12 @@ class AttackController extends Controller {
 		foreach ($this->attackdir as $id => $name) {
 			$dirSelect[$id] = $name;
 		}
+		
 		$gif = Gifs::find($attack->gif_id);
 
-		$fields = array('description',
-			'total_frames', 
-			'active_start', 'active_end', 'hit_start',
-			'hit_end', 'hit_second_start', 
-			'hit_second_end', 'iasa',
-			'charge_frame', 'invincible_start', 
-			'invincible_end', 'landlag', 'lcancel',
-			'auto_cancelable', 'auto_cancel_start',
-			'auto_cancel_end', 'grab_start', 'grab_end',
-			'reflects', 'reflect_start', 'reflect_end',
-			'lag_on_release', 'reflection_lag', 'jcable', 'grounded'
-		);
-		$moveType = 
 
 
-		$data = ['attack' => $attack, 'types' => $typeSelect, 'dirs' => $dirSelect, 'fields' => $fields, 'gif' => $gif];
+		$data = ['attack' => $attack, 'types' => $typeSelect, 'dirs' => $dirSelect, 'gif' => $gif];
 		
 		return view($this->viewDir . ".edit", $data);
 	}
@@ -165,7 +153,7 @@ class AttackController extends Controller {
 	 */
 	public function update($id)
 	{
-		//dd(Input::all());
+		
 		$attack = Attack::findOrFail($id);
 
 	   	if (!$attack->update(Input::all())) {
