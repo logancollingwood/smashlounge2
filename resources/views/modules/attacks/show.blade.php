@@ -10,7 +10,7 @@
 					<a href="/chars/{{ $attack->charid  }}">{{ $attack->charid  }} </a>
 				</h1>
 				
-				<p class="name"> {{ $attack->input_dir }} {{ $attack->input_type }} @if(!$attack->grounded) (air) @endif </p>
+				<p class="name"> {{ $attack->input_dir }} {{ $attack->input_type }}  </p>
 				@if (Auth::check()) 
 					@if (Auth::user()->hasRole('contributor'))
 						<p>

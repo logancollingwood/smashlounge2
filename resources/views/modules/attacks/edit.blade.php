@@ -8,7 +8,7 @@
 			<div class="col-md-7 col-md-offset-2 scene_element scene_element--fadeinup scene_element--delayed">
 				<h1 class="char"> 
 					<img src=" {{ asset('img/pixel/' . str_replace(' ', '', $attack->charid) . 'HeadSSBM.png') }}"></img>
-					{{ $attack->charid  }}
+					<a href="/chars/{{ $attack->charid  }}#charData">{{ $attack->charid  }} </a>
 				</h1>
 				
 				<a href="/attack/{{$attack->id}}"> 
