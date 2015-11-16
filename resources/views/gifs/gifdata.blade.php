@@ -34,6 +34,26 @@
 							@endif
 						@endif
 
+						@if($gif->hit_start && $gif->hit_end)
+							<div class="hit">hits {{$gif->hit_start}}-{{$gif->hit_end}}
+								@if($gif->hit_second_start)
+					 			,{{ $gif->hit_second_start }}-{{ $gif->hit_second_end }}
+					 			@endif
+
+					 			@if($gif->hit_third_start)
+					 				,{{ $gif->hit_third_start }}-{{ $gif->hit_third_end }}
+					 			@endif
+
+					 			@if($gif->hit_fourth_start)
+					 				,{{ $gif->hit_fourth_start }}-{{ $gif->hit_fourth_end }}
+								@endif
+							</div>
+						@endif
+
+						@if($gif->charge_frame) 
+							<div class="cf">can charge on frame {{ $gif->charge_frame }}</div>
+						@endif
+
 						@if($gif->jcable) 
 							<div class="jc">jump cancelable</div>
 						@endif
@@ -43,7 +63,7 @@
 						@endif
 
 						@if($gif->auto_cancelable) 
-							<div class="jc">auto cancelable</div>
+							<div class="jc">auto cancelable <{{$gif->auto_cancel_start}} {{$gif->auto_cancel_end}}></div>
 						@endif
 
 						@if($gif->reflects)
@@ -58,7 +78,11 @@
 							<div class="grab">grab active {{$gif->grab_start}} &#45; {{ $gif->grab_end }} </div>
 						@endif
 
-						<div class="updated">updated {{ date('m/d/Y', strtotime($gif->attack_updated_at)) }}</div>
+						@if($gif->invincible_start)
+							<div class="invincible">invincible {{$gif->invincible_start}} &#45; {{ $gif->invincible_end }} </div>
+						@endif
+
+						
 					@else
 						<p> Frame data has not yet been submitted for this attack. </p>
 					@endif
