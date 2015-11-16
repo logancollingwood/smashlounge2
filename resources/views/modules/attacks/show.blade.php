@@ -1,29 +1,30 @@
 @extends('application')
 
 @section('content')
-<div class="content">
+<div class="content data">
 	<header class="charheader {{strtolower(preg_replace('/[^A-Za-z0-9]/', '',$attack->charid))}}">
-		<div class="row">
-			<div class="col-md-7 col-md-offset-2 scene_element scene_element--fadeinup scene_element--delayed">
+		<div class="row scene_element scene_element--fadeinup ">
+			<div class="col-md-6 col-md-offset-2 detail">
 				<h1 class="char"> 
 					<img src=" {{ asset('img/pixel/' . str_replace(' ', '', $attack->charid) . 'HeadSSBM.png') }}"></img>
 					<a href="/chars/{{ $attack->charid  }}">{{ $attack->charid  }} </a>
 				</h1>
-				<p> {{ $attack->input_dir }} {{ $attack->input_type }} @if(!$attack->grounded) (air) @endif
-
-		        @if (Auth::check()) 
+				
+				<p class="name"> {{ $attack->input_dir }} {{ $attack->input_type }} @if(!$attack->grounded) (air) @endif </p>
+				@if (Auth::check()) 
 					@if (Auth::user()->hasRole('contributor'))
-					<a href="/attack/{{$attack->id}}/edit"><small>(edit)</small></a>
+						<p>
+							<a href="/attack/{{$attack->id}}/edit"><small>(edit)</small></a>
+						</p>
 					@endif
 				@endif
-				</p>
-				
 				@if(strtotime($attack->updated_at) > 1)
 					<div class="updated">updated {{ date('m/d/Y', strtotime($attack->updated_at) ) }}</div>
 				@else
 					<div class="updated">No data. If you'd like to become a moderator, message us on twitter</div>
 				@endif
 			</div>
+			
 	    </div>
 	</header>
 	
@@ -39,13 +40,20 @@
 				<img class='gfyitem' data-autoplay=true data-expand=true data-id= {{ $gif->url}} />
 				<ul>
 					<li><a href="#general">general</a></li>
-					<li><a href="#invincible">invincible</a></li>
+
+					{{-- always show lag --}}
 					<li><a href="#lag">lag</a></li>
+			
 					@if($attack->auto_cancelable)
 						<li><a href="#autocancel">autocancel</a></li>
 					@endif
+			
 					@if($attack->grab_start != 0)
 						<li><a href="#grab">grab</a></li>
+					@endif
+
+					@if($attack->reflect_start != 0)
+						<li><a href="#reflects">reflects</a></li>
 					@endif
 				</ul>
 				</div>

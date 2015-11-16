@@ -1,0 +1,25 @@
+.data {
+
+	.detail {
+		background-color: rgba(0, 0, 0, .55);
+		border-radius: 5px;
+		padding-bottom: 30px;
+	}
+	.char {
+		display: inline-block;
+	}
+	.name {
+		display: inline-block;
+		font-size: 20px;
+		font-family: 'Raleway', @font-stack;
+	}
+	.updated {
+		color: @white;
+	}
+}
+
+@media (min-width: 768px) {
+	.data .detail {
+		background-color: inherit;
+	}
+}
