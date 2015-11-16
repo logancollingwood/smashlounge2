@@ -1,6 +1,6 @@
-<h2> general </h2>
+	<h2> general </h2>
 	<div class="row">
- 	<div class="col-md-6">
+ 	<div class="col-md-5">
 	 	<div class="data-group">
 	 		<label>description</label>
 	 		
@@ -16,94 +16,114 @@
 	</div>
 
 	@if($attack->jcable)
-	<div class="col-md-4">
-	 	<div class="data-group">
-			<label>jcable</label>
-			<p>{{ $attack->jcable }}</p>
+		<div class="col-md-4">
+		 	<div class="data-group">
+				<label>jump cancelable</label>
+				<p>true</p>
+			</div>
 		</div>
-	</div>
 	@endif
 
 	@if($attack->grounded == 1)
-	<div class="col-md-4">
-	 	<div class="data-group">
-	 		<label>grounded</label>
-			<p>{{ $attack->grounded }}</p> 
+		<div class="col-md-4">
+		 	<div class="data-group">
+		 		<label>grounded</label>
+				<p>{{ $attack->grounded }}</p> 
+			</div>
 		</div>
-	</div>
+	@endif
+
+	@if($attack->active_start != 0)
+		<div class="col-md-4">
+		 	<div class="data-group">
+				<label>active</label>
+				<p>{{ $attack->active_start }} - {{ $attack->active_end }}</p>  
+			</div>
+		</div>
+	@endif
+
+	@if($attack->hit_start != 0 && $attack->hit_end != 0)
+		<div class="col-md-4">
+		 	<div class="data-group">
+		 		<label>hits from</label>
+		 		<p> {{ $attack->hit_start }}-{{ $attack->hit_end }}
+
+		 			@if($attack->hit_second_start)
+		 				,{{ $attack->hit_second_start }}-{{ $attack->hit_second_end }}
+		 			@endif
+
+		 			@if($attack->hit_third_start)
+		 				,{{ $attack->hit_third_start }}-{{ $attack->hit_third_end }}
+		 			@endif
+
+		 			@if($attack->hit_fourth_start)
+		 				,{{ $attack->hit_fourth_start }}-{{ $attack->hit_fourth_end }}
+					@endif
+			</div>
+		</div>
+	@endif
+
+	@if($attack->charge_frame != 0)
+		<div class="col-md-6">
+		 	<div class="data-group">
+		 		<label>iasa</label>
+				<p> {{ $attack->iasa }} </p>
+			</div>
+		</div>
+		<div class="col-md-12">
+		 	<div class="data-group">
+		 		<label>can charge on frame</label>
+				<p> {{ $attack->charge_frame }} </p>
+			</div>
+		</div>
 	@endif
 
 	<div class="col-md-4">
 	 	<div class="data-group">
-			<label>active</label>
-			<p>{{ $attack->active_start }} - {{ $attack->active_end }}</p>  
-		</div>
-	</div>
-	<div class="col-md-6">
-	 	<div class="data-group">
-	 		<label>hits from</label>
-	 		<p> {{ $attack->hit_start }}-{{ $attack->hit_end }}
+	 		<label>invincible</label>
 
-	 			@if($attack->hit_second_start)
-	 				,{{ $attack->hit_second_start }}-{{ $attack->hit_second_end }}
-	 			@endif
+	 		@if($attack->invincible_start != 0)
+	 			<p> {{ $attack->invincible_start }}-{{ $attack->invincible_end }} </p>
+	 		@else
+	 			<p> no invincible frames </p>
+	 		@endif
 
-	 			@if($attack->hit_third_start)
-	 				,{{ $attack->hit_third_start }}-{{ $attack->hit_third_end }}
-	 			@endif
+		</div>
+	</div>
 
-	 			@if($attack->hit_fourth_start)
-	 				,{{ $attack->hit_fourth_start }}-{{ $attack->hit_fourth_end }}
-				@endif
-		</div>
-	</div>
-	<div class="col-md-6">
-	 	<div class="data-group">
-	 		<label>iasa</label>
-			<p> {{ $attack->iasa }} </p>
-		</div>
-	</div>
-	<div class="col-md-12">
-	 	<div class="data-group">
-	 		<label>can charge on frame</label>
-			<p> {{ $attack->charge_frame }} </p>
-		</div>
-	</div>
 </div>
 	
 
 
-
-<h2 id="invincible"> invincible frames </h2>
-<div class="row">
-	<div class="col-md-12">
-	 	<div class="data-group">
-	 		<label>invincible from</label>
-	 		<p> {{ $attack->invincible_start }}-{{ $attack->invincible_end }} </p>
-		</div>
-	</div>
-</div>
 
 <h2 id="lag"> lag and l cancel </h2>
 <div class="row">
 	<div class="col-md-4">
 	 	<div class="data-group">
 	 		<label> lag on landing </label>
-			<p> {{ $attack->landlag }} </p>
+	 		@if($attack->landlag != 0)
+				<p> {{ $attack->landlag }} </p>
+			@else
+				<p> no landlag </p>
+			@endif
 		</div>
 	</div>
-	<div class="col-md-4">
-	 	<div class="data-group">
-	 		<label> lcancel on frame </label>
- 			<p> {{ $attack->lcancel }} </p> 
+	@if($attack->lcancel)
+		<div class="col-md-4">
+		 	<div class="data-group">
+		 		<label> lcancel on frame </label>
+	 			<p> {{ $attack->lcancel }} </p> 
+			</div>
 		</div>
-	</div>
-	<div class="col-md-4">
-	 	<div class="data-group">
-	 		<label> lag on release </label>
-			<p> {{ $attack->lag_on_release }} </p>
+	@endif
+	@if($attack->lag_on_release != 0)
+		<div class="col-md-4">
+		 	<div class="data-group">
+		 		<label> lag on release </label>
+				<p> {{ $attack->lag_on_release }} </p>
+			</div>
 		</div>
-	</div>
+	@endif
 </div>
 
 @if($attack->auto_cancelable)
@@ -132,7 +152,7 @@
 @endif
 
 @if($attack->reflects)
-	<h2> reflects </h2>
+	<h2 id="reflects"> reflects </h2>
 	<div class="row">
 		<div class="col-md-6">
 		 	<div class="data-group">

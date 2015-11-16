@@ -16,7 +16,6 @@
 
     	<ul class='nav nav-tabs' role='tablist' id='myTab'>
             <li class='active'><a href='#gif' role='tab' data-toggle='tab' class='tabz' data-id="gif">Gifs</a></li>
-            <li><a href='#data' role='tab' data-toggle='tab' class='tabz' data-id="data">Data</a></li>
             <li><a href='#group' role='tab' data-toggle='tab' class='tabz' data-id="group">Regional Group</a></li>
             <li><a href='#tech' role='tab' data-toggle='tab' class='tabz' data-id="technique">Techniques</a></li>
             <li><a href='#vod' role='tab' data-toggle='tab' class='tabz' data-id="vod">Vods</a></li>
@@ -30,7 +29,8 @@
             @include('modules.submit.partials.tech')
             @include('modules.submit.partials.vod')            
 
-            @include('modules.submit.partials.data')  
+        
+
             <!-- coming soon 
             <div class='tab-pane' id='guide'>
             </div>

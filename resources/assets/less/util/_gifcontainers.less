@@ -43,7 +43,7 @@
 }
 
 .gfyVid {
-  border: 2px solid @gfyborder;
+  border: 1px solid @gfyborder;
 }
 
 
@@ -66,7 +66,8 @@
         text-align: center;
         &.data {
             text-align: left;
-
+            padding-left: 15px;
+            padding-right: 15px;
             .banner {
                 margin-top: 20px;
                 margin-bottom: 10px;
@@ -89,8 +90,15 @@
     .gfySource {
         margin-top: 15px;
     }
-}
 
+}
+.gfyTainer.attack {
+    margin-top: 0px;
+    padding-top: 0px;
+    .gfyVid {
+        border-bottom: 5px solid fade(@well-color, 50%);
+    }
+}
 
 .gif {
   width: 100%;

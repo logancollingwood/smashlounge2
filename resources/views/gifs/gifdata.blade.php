@@ -1,7 +1,7 @@
 <div class="col-md-{{12/$dataColumns}} col-xs-6">
-	<div class="gfyTainer">
+	<div class="gfyTainer attack">
 		<div class="row">
-			 <div class="col-md-12 col-sm-12">
+			 <div class="col-md-12 col-sm-12 no-padding">
 			 	@if ($gif)
 					<img class="gfyitem" data-autoplay=false data-expand="true" data-id= {{ $gif->url}} />
 				@else
