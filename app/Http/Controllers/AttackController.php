@@ -79,7 +79,9 @@ class AttackController extends Controller {
 	public function apiShow($id) {
 		$attack = Attack::find($id);
 
-		return $attack;
+		$data["status"] = "success";
+		$data["data"] = $attack;
+		return $data;
 	}
 	public function apiShowChar($id) {
 		$json = [
