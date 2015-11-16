@@ -36,14 +36,14 @@
 		</div>
 		<!-- Nav tabs -->
 	  	<ul class="nav nav-tabs pills scene_element scene_element--fadeinup" role="tablist">
-	    	<li role="presentation" class="active"><a href="#charGifs" aria-controls="charGifs" role="tab" data-toggle="tab">General</a></li>
-	    	<li role="presentation"><a href="#charData" aria-controls="charData" role="tab" data-toggle="tab">Attacks</a></li>
+	    	<li role="presentation" class="active"><a href="#gifs" aria-controls="gifs" role="tab" data-toggle="tab">General</a></li>
+	    	<li role="presentation"><a href="#data" aria-controls="data" role="tab" data-toggle="tab">Frame Data</a></li>
 	  	</ul>
 	  	
 	</header>
 	
 	<content class="tab-content">
-			<div id="charGifs" class="row no-margin tab-pane active">
+			<div id="gifs" class="row no-margin tab-pane active">
 				<div class="row">
 					@foreach($gifs as $gif)
 						@include('gifs.gif')
@@ -53,7 +53,7 @@
 					@include('modules.submit.panel')
 				</div>
 			</div>
-			<div id="charData" class="tab-pane">
+			<div id="data" class="tab-pane">
 				<div class="row no-margin">
 					<div class="col-md-10">
 						<div class="row">
