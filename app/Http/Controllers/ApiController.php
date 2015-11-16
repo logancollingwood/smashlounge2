@@ -110,6 +110,7 @@ class ApiController extends Controller {
 
 	public function smashgifs() {
 		$smashGif = new SmashGifs();
+
 		return $smashGif->gif;
 	}
 }
