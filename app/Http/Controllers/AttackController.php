@@ -78,7 +78,6 @@ class AttackController extends Controller {
 
 	public function apiShow($id) {
 		$attack = Attack::find($id);
-		$attack->charname = Char::find($attack->charid)->name;
 
 		return $attack;
 	}
