@@ -17,7 +17,7 @@ class CreateTechsTable extends Migration {
 			$table->integer('id', true);
 			$table->string('tech', 32);
 			$table->string('description', 400);
-			$table->string('smashwiki', 260);
+			$table->string('smashwiki');
 			$table->string('inputs', 100);
 			$table->timestamps();
 		});

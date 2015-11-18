@@ -10240,7 +10240,7 @@ class GifsTableSeeder extends Seeder {
 				'id' => '1914',
 				'typeid' => '2',
 				'dataid' => '37',
-				'source' => 'https://www.reddit.com/r/smash',
+				'source' => 'https://www.reddit.com/r/smashbros/comments/2gxk0a/the_most_sacred_of_combos/',
 				'submittedby' => '0',
 				'url' => 'UltimateWhirlwindAmericancrow',
 				'description' => 'The most sacred of combos. ',

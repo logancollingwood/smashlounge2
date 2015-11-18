@@ -17,7 +17,7 @@ class CreateSubmissionstechTable extends Migration {
 			$table->integer('id', true);
 			$table->string('name', 90);
 			$table->string('description', 650);
-			$table->string('ssbwiki', 180);
+			$table->string('ssbwiki');
 			$table->timestamps();
 		});
 	}
