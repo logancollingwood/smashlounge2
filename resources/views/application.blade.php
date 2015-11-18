@@ -130,8 +130,6 @@ Questions?
 	
 	<script src="{{ asset('/js/lib/bootstrap.min.js') }}"></script>
 	
-	<!-- application minified js -->
-	<script src="{{ asset('/js/compiled/app.js') }}"></script>
 	<script>
 	 (function(d, t) {
 	    var g = d.createElement(t),
@@ -140,6 +138,9 @@ Questions?
 	    s.parentNode.insertBefore(g, s);
 	}(document, 'script'));
 	</script>
+	<!-- application minified js -->
+	<script src="{{ asset('/js/compiled/app.js') }}"></script>
+	
 
 	
 
