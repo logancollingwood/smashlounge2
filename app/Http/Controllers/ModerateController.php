@@ -161,7 +161,7 @@ class ModerateController extends Controller {
 			$technique->description = $submission->description;
 
 
-			//$technique->save();
+			$technique->save();
 			//$submission->delete();
 
 		} else if ($key == 'vod') {
@@ -177,7 +177,7 @@ class ModerateController extends Controller {
 			$vod->dataid = $submission->dataid;
 
 
-			//$vod->save();
+			$vod->save();
 			//$submission->delete();
 		} else {
 			abort(500);
