@@ -7,9 +7,7 @@
             <th>Approve</th>
             <th>Deny</th>
       	</tr>
-  	</table>
-
-  	@foreach ($data as $row)
+        @foreach ($data as $row)
             <tr class="submission" data-id="{{ $row->id }}">
               <td>
                 {{ $row->name }}
@@ -26,4 +24,7 @@
               <td><a class="delete-link" href="#"><i class="fa fa-times-circle fa-3x"></i></a></td>
             </tr>
         @endforeach
+  	</table>
+
+  	
 </div>
