@@ -38,8 +38,7 @@
                 <div class="form-group">
                     {!! Form::label('Source') !!}
                     {!! Form::text('gifsource', null, 
-                        array('required', 
-                              'class'=>'form-control', 
+                        array('class'=>'form-control', 
                               'placeholder'=>'Big House 5 or URL to vod')) !!}
                 </div>
 

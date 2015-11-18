@@ -1,6 +1,6 @@
 var gulp = require('gulp');
 var elixir = require('laravel-elixir');
-
+var minifyCss = require('gulp-minify-css');
 var concat = require('gulp-concat');
 //var uglify = require('gulp-uglify');
 
@@ -17,6 +17,12 @@ var concat = require('gulp-concat');
 
 elixir(function(mix) {
     mix.less('app.less');
+});
+
+gulp.task('minify-css', function() {
+	return gulp.src('public/css/app.css')
+		.pipe(minifyCss({compatibility: 'ie8'}))
+		.pipe(gulp.dest('dist'));
 });
 
 gulp.task('scripts', function () {

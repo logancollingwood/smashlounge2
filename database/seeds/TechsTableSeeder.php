@@ -21,6 +21,8 @@ class TechsTableSeeder extends Seeder {
 				'description' => 'A wavedash is a technique in Super Smash Bros. Melee that is performed by air dodging diagonally into the ground, causing the character to slide a short distance.',
 				'smashwiki' => 'http://www.ssbwiki.com/wavedash',
 			'inputs' => '(Jump)->immediate (Diagonal Air Dodge)',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			1 => 
 			array (
@@ -29,6 +31,8 @@ class TechsTableSeeder extends Seeder {
 			'description' => 'A double shine (or multi shine, triple shine, etc.) is the repeated use of Reflector as an attack by either Fox or Falco. It is performed by jump-cancelling a Reflector and using a second Reflector just after leaving the ground, timed so that Fox or Falco will quickly land and allow the pattern to be repeated.',
 				'smashwiki' => 'http://www.ssbwiki.com/Double_shine',
 			'inputs' => '(Down + B) , (Jump) , (Down + B)',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			2 => 
 			array (
@@ -37,6 +41,8 @@ class TechsTableSeeder extends Seeder {
 				'description' => 'A technique that allows characters to act faster than usual when landing in the middle of an aerial attack.',
 				'smashwiki' => 'http://www.ssbwiki.com/L-canceling',
 			'inputs' => '(L or R or Z) within 7 frames of landing ',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			3 => 
 			array (
@@ -45,6 +51,8 @@ class TechsTableSeeder extends Seeder {
 				'description' => 'The act of pressing the jump button and letting go before the character leaves the ground. This will result in a jump that is lower than a normal jump.',
 				'smashwiki' => 'http://www.ssbwiki.com/Short_hop',
 			'inputs' => '(QUICK Jump)',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			4 => 
 			array (
@@ -53,6 +61,8 @@ class TechsTableSeeder extends Seeder {
 			'description' => 'Edge hopping is a technique used to return on-stage from the ledge. It entails dropping from the ledge (by pressing either "back" or "down" on the control stick) and immediately double-jumping.',
 				'smashwiki' => 'http://www.ssbwiki.com/Edge_hopping',
 			'inputs' => '(Down or Back) , (Jump)',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			5 => 
 			array (
@@ -61,6 +71,8 @@ class TechsTableSeeder extends Seeder {
 				'description' => 'Using the frame at which a character turns during a dash-dance, in which any normal ground options are available as if the character were standing still.',
 				'smashwiki' => 'http://www.ssbwiki.com/Pivoting',
 			'inputs' => '(Left) , (Right) or vice versa.',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			6 => 
 			array (
@@ -69,6 +81,8 @@ class TechsTableSeeder extends Seeder {
 				'description' => 'A technique some characters can use to jump away from walls. Captain Falcon, Falco, Fox, Mario, Pichu, Samus, Young Link, and Sheik can all wall jump.',
 				'smashwiki' => 'http://www.ssbwiki.com/Wall_jump',
 			'inputs' => '(Away from wall) upon touching.',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			7 => 
 			array (
@@ -77,6 +91,8 @@ class TechsTableSeeder extends Seeder {
 				'description' => 'By crouching before getting hit by an attack, some aspects of the attack will be weakened. Both knockback and hitstun will be lessened.',
 				'smashwiki' => 'http://www.ssbwiki.com/Crouch_cancel',
 			'inputs' => '(CROUCH) before impending attack.',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			8 => 
 			array (
@@ -85,6 +101,8 @@ class TechsTableSeeder extends Seeder {
 				'description' => 'Dash-dancing is performed by tapping the analog stick left and right rapidly while on the ground, effectively dashing to the left and to the right alternately.',
 				'smashwiki' => 'http://www.ssbwiki.com/Dash-dancing',
 			'inputs' => '(Left), (Right)',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			9 => 
 			array (
@@ -93,6 +111,8 @@ class TechsTableSeeder extends Seeder {
 				'description' => 'Meteor cancelling is the act of instantly negating the downwards knockback of a meteor smash by jumping or using an up b after being hit.',
 				'smashwiki' => 'http://www.ssbwiki.com/Meteor_smash#Meteor_cancelling',
 			'inputs' => '(Jump or Up B) after being hit',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			10 => 
 			array (
@@ -101,6 +121,8 @@ class TechsTableSeeder extends Seeder {
 				'description' => 'A technique that allows your character to re-grab the ledge with slight invulnerability.',
 				'smashwiki' => 'http://www.ssbwiki.com/Ledgestall',
 			'inputs' => '(Character Dependent)',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			11 => 
 			array (
@@ -109,6 +131,8 @@ class TechsTableSeeder extends Seeder {
 				'description' => 'The act of teching off of a wall during hitstun',
 				'smashwiki' => 'http://www.ssbwiki.com/tech#Wall_tech',
 			'inputs' => '(L or R) before landing in falling animation',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			12 => 
 			array (
@@ -117,6 +141,8 @@ class TechsTableSeeder extends Seeder {
 				'description' => 'Cancelling a jump before grabbing allows your character to perform a standing grab. This is a vital technique when running in for a grab because it replaces the slow dash-grab with a quicker standing grab.',
 				'smashwiki' => 'http://www.ssbwiki.com/Jump-canceled_grab',
 			'inputs' => '(Jump) followed immediately by (Z)',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			13 => 
 			array (
@@ -125,6 +151,8 @@ class TechsTableSeeder extends Seeder {
 			'description' => 'A jump-canceled up smash (JC up-smash) is a technique where a character interrupts a dash or run with a jump, which itself is then jump-canceled with an up-smash.',
 				'smashwiki' => '',
 			'inputs' => '(Jump) followed immediately by (Up Smash)',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			14 => 
 			array (
@@ -133,6 +161,8 @@ class TechsTableSeeder extends Seeder {
 				'description' => 'Used to quickly recover from a falling animation before landing. You can choose to tech neutral, right roll, or left roll.',
 				'smashwiki' => 'http://www.ssbwiki.com/tech',
 			'inputs' => '(L or R or Z) upon landing',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			15 => 
 			array (
@@ -141,6 +171,8 @@ class TechsTableSeeder extends Seeder {
 				'description' => 'Changing the angle of trajectory with the analog stick while being hit.',
 				'smashwiki' => 'http://www.ssbwiki.com/Directional_influence',
 			'inputs' => '(Direction)[hold] after being hit',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			16 => 
 			array (
@@ -149,6 +181,8 @@ class TechsTableSeeder extends Seeder {
 				'description' => 'Wavelands are wavedashes performed when jumping onto platforms to increase mobility across the stage. It can also be used when falling from an empty hop to fake out or bait opponents.',
 				'smashwiki' => 'http://www.ssbwiki.com/wavedash#Wavelanding',
 			'inputs' => '(wavedash before landing)',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			17 => 
 			array (
@@ -157,6 +191,8 @@ class TechsTableSeeder extends Seeder {
 				'description' => 'Shorthop lasers take advantage of canceling the ending lag of Falco\'s lasers by landing. By short hopping, firing a laser, and fast falling, Falco can fire lasers at a much faster rate than when standing. Combining this added mobility while firing lasers will help lock down and stop an opponents approach. ',
 				'smashwiki' => 'http://supersmashbros.wikia.com/wiki/Short_hop_laser',
 			'inputs' => '(Jump), (Fast Fall), (Laser)',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			18 => 
 			array (
@@ -165,6 +201,8 @@ class TechsTableSeeder extends Seeder {
 				'description' => ' Using your shield against projectiles right when an attack\'s hitbox is about to connect will reflect the projectile in the opposite direction, dealing 50% damage and knockback',
 				'smashwiki' => 'http://www.ssbwiki.com/Powershield',
 			'inputs' => '(L or R) right before an attack',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			19 => 
 			array (
@@ -173,6 +211,8 @@ class TechsTableSeeder extends Seeder {
 			'description' => 'Float canceling is a bug relating to floating. If Peach uses an aerial attack while floating, landing during the attack (whether still floating or not) will skip landing lag entirely and result in a normal landing instead.',
 				'smashwiki' => 'http://www.ssbwiki.com/Floating#Float_canceling',
 				'inputs' => '',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			20 => 
 			array (
@@ -181,6 +221,8 @@ class TechsTableSeeder extends Seeder {
 				'description' => 'Jab resets is a technique that is performed by jabbing an opponent while they are knocked down. The jab will force the opponent to stand up, where the opponent can then hit them with almost any move they desire',
 				'smashwiki' => 'http://www.ssbwiki.com/jab_reset',
 			'inputs' => '(a)',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			21 => 
 			array (
@@ -189,6 +231,8 @@ class TechsTableSeeder extends Seeder {
 				'description' => 'tech chasing is the act of following your opponent after a knockdown. There are three options of techs, left roll, right roll, and neutral. Tech chasing is the act of punishing either of the three options with an attack',
 				'smashwiki' => 'http://www.ssbwiki.com/Tech-chasing',
 				'inputs' => '',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			22 => 
 			array (
@@ -197,6 +241,8 @@ class TechsTableSeeder extends Seeder {
 				'description' => 'A wave shine is a wavedash done immediately out of a shine. It can be done by Fox and Falco.',
 				'smashwiki' => 'http://www.ssbwiki.com/Waveshine',
 			'inputs' => '(Down + B) followed by (Wave Dash)',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			23 => 
 			array (
@@ -206,6 +252,8 @@ class TechsTableSeeder extends Seeder {
 ',
 				'smashwiki' => 'http://www.ssbwiki.com/Moonwalk',
 				'inputs' => '',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			24 => 
 			array (
@@ -214,6 +262,8 @@ class TechsTableSeeder extends Seeder {
 				'description' => 'A technique that allows for your character to smoothly fall through a soft platform while shielding',
 				'smashwiki' => 'http://www.ssbwiki.com/Shield_platform_dropping',
 				'inputs' => '',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			25 => 
 			array (
@@ -222,6 +272,8 @@ class TechsTableSeeder extends Seeder {
 			'description' => 'Use an aerial attack in a way that causes you to land on a platform which would not have happened without the aerial attack. The reason is a downward shift of your character\'s environment collision box (ECB) bound to the attack or, more specifically, your character\'s bone alignment on a given frame.',
 				'smashwiki' => 'www.ssbwiki.com/Aerial_interrupt',
 				'inputs' => '',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			26 => 
 			array (
@@ -230,6 +282,8 @@ class TechsTableSeeder extends Seeder {
 				'description' => 'Grabbing the ledge so other characters can\'t grab it.',
 				'smashwiki' => 'www.ssbwiki.com/Edge-hogging',
 				'inputs' => '',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			27 => 
 			array (
@@ -238,6 +292,8 @@ class TechsTableSeeder extends Seeder {
 				'description' => 'During a character\'s running animation, holding down will cancel the run into a crouch.',
 				'smashwiki' => 'www.ssbwiki.com/Dash-canceling#Crouching_.28Melee_only.29',
 				'inputs' => '',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			28 => 
 			array (
@@ -246,6 +302,38 @@ class TechsTableSeeder extends Seeder {
 				'description' => 'V-canceling is the act of reducing the X & Y knockback velocity of a received attack by 5%. The player receiving the attack must be in the air when the collision between the hitbox and hurtbox occurs. The receiving player must press the L or R button fully within 3 frames of the attack.',
 				'smashwiki' => 'http://www.ssbwiki.com/V-cancelling',
 			'inputs' => '(L or R) within 3 frames',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
+			),
+			29 => 
+			array (
+				'id' => '37',
+				'tech' => 'Sacred Combo',
+				'description' => 'A Captain Falcon combo performed by knocking an opponent off-stage, and following it up with a mid-air Falcon Punch. A true Sacred Combo risks the life of the Falcon player, as they must jump so far off the ledge to land the Falcon Punch that they risk not being able to make it back to stage.  ',
+				'smashwiki' => 'http://www.ssbwiki.com/Falcon_Punch#In_Super_Smash_Bros._Melee',
+				'inputs' => '',
+				'created_at' => '2015-11-18 22:08:25',
+				'updated_at' => '2015-11-18 22:08:25',
+			),
+			30 => 
+			array (
+				'id' => '38',
+				'tech' => 'Fox Trot',
+				'description' => 'A technique in all four smash games that consists of moving along the ground by repeatedly executing characters\' initial dash animation, as opposed to using their full dash. With some characters, the initial dash animation is faster than the full dash animation, which makes running faster with Fox Trotting as opposed to just dashing.',
+				'smashwiki' => 'http://www.ssbwiki.com/Fox-trotting',
+				'inputs' => '',
+				'created_at' => '2015-11-18 22:14:46',
+				'updated_at' => '2015-11-18 22:14:46',
+			),
+			31 => 
+			array (
+				'id' => '39',
+				'tech' => 'Boost Grab',
+				'description' => 'Boost grabbing is a technique in which the momentum from a character\'s dash attack is transferred into a dash grab, resulting in a longer ranged dash grab. To perform the boost grab, the player must first dash. Then, press the attack button while dashing to perform a dash attack, then press the grab button immediately within the first frame to grab. If done correctly, the dash attack will be cance',
+				'smashwiki' => 'http://www.ssbwiki.com/Boost_grab',
+				'inputs' => '',
+				'created_at' => '2015-11-18 22:24:58',
+				'updated_at' => '2015-11-18 22:24:58',
 			),
 		));
 	}

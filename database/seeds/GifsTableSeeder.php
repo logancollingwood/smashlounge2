@@ -24,6 +24,8 @@ class GifsTableSeeder extends Seeder {
 				'url' => 'MarvelousMedicalFlee',
 				'description' => 'aMSa going hard',
 				'score' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			1 => 
 			array (
@@ -35,6 +37,8 @@ class GifsTableSeeder extends Seeder {
 				'url' => 'ValidEdibleIndochinesetiger',
 				'description' => 'MMG | Shroomed demonstrating the importance of wavelanding with Dr. Mario',
 				'score' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			2 => 
 			array (
@@ -46,6 +50,8 @@ class GifsTableSeeder extends Seeder {
 				'url' => 'HarmlessShamefulHalicore',
 				'description' => 'Lord vs S2J with an amazing finisher at TNE. LONG LIVE THE HYPE.',
 				'score' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			3 => 
 			array (
@@ -57,6 +63,8 @@ class GifsTableSeeder extends Seeder {
 				'url' => 'BlankWickedAmmonite',
 				'description' => 'Mew2King demonstrating the importance of juggling and keeping your opponent above you',
 				'score' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			4 => 
 			array (
@@ -68,6 +76,8 @@ class GifsTableSeeder extends Seeder {
 				'url' => 'EuphoricCookedHornshark',
 				'description' => 'Westballz demonstrating technical edge guarding with Fox',
 				'score' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			5 => 
 			array (
@@ -80,6 +90,8 @@ class GifsTableSeeder extends Seeder {
 				'description' => 'The Armada double-Stitchface shield break combo
 ',
 				'score' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			6 => 
 			array (
@@ -91,6 +103,8 @@ class GifsTableSeeder extends Seeder {
 				'url' => 'SnappyBlissfulChickadee',
 				'description' => 'Short hop lasers are a crucial part of Falco\'s movement.',
 				'score' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			7 => 
 			array (
@@ -102,6 +116,8 @@ class GifsTableSeeder extends Seeder {
 				'url' => 'RingedIdolizedAidi',
 				'description' => 'A typical Falco combo, where shines are followed by down-airs. Notice how Zhu uses a laser reset to initiate the combo',
 				'score' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			8 => 
 			array (
@@ -113,6 +129,8 @@ class GifsTableSeeder extends Seeder {
 				'url' => 'NewCaringFurseal',
 				'description' => 'Hax demonstrating ridiculously fast multishines to pressure an enemy in shield',
 				'score' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			9 => 
 			array (
@@ -124,6 +142,8 @@ class GifsTableSeeder extends Seeder {
 				'url' => 'EarlyOptimalCondor',
 				'description' => 'Leffen demonstrating how to pressure your opponent as Fox',
 				'score' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			10 => 
 			array (
@@ -135,6 +155,8 @@ class GifsTableSeeder extends Seeder {
 				'url' => 'OrganicAnimatedBream',
 				'description' => 'Azen demonstrating a clean Marth combo',
 				'score' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			11 => 
 			array (
@@ -146,6 +168,8 @@ class GifsTableSeeder extends Seeder {
 				'url' => 'ClumsyCompetentAidi',
 				'description' => 'Axe demonstrating a clean Pikachu combo by patiently waiting for Tai to stand up',
 				'score' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			12 => 
 			array (
@@ -157,6 +181,8 @@ class GifsTableSeeder extends Seeder {
 				'url' => 'SeriousOptimalCougar',
 				'description' => 'One of Shiek\'s most powerful combos is down throw -> forward air',
 				'score' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			13 => 
 			array (
@@ -168,6 +194,8 @@ class GifsTableSeeder extends Seeder {
 				'url' => 'GrippingVariableGnu',
 				'description' => 'Luigi\'s great movement allow you to quickly surprise your opponent with unexpected plays',
 				'score' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			14 => 
 			array (
@@ -179,6 +207,8 @@ class GifsTableSeeder extends Seeder {
 				'url' => 'UncommonIckyBangeltiger',
 				'description' => 'Jigglypuff can be very offensive offstage, since 5 jumps allow for many recovery options',
 				'score' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			15 => 
 			array (
@@ -190,6 +220,8 @@ class GifsTableSeeder extends Seeder {
 				'url' => 'ColorfulDistinctAustralianshelduck',
 				'description' => 'Darrel showing how to combo with Samus',
 				'score' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			16 => 
 			array (
@@ -201,6 +233,8 @@ class GifsTableSeeder extends Seeder {
 				'url' => 'UnpleasantRepulsiveAlbacoretuna',
 				'description' => 'aMSa taking Westballz stock in 11 seconds with a disgusting combo',
 				'score' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			17 => 
 			array (
@@ -212,6 +246,8 @@ class GifsTableSeeder extends Seeder {
 				'url' => 'BelatedParallelAnnashummingbird',
 				'description' => 'Armada demonstrating how to use a turnip to reduce PPMD\'s recovery options',
 				'score' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			18 => 
 			array (
@@ -223,6 +259,8 @@ class GifsTableSeeder extends Seeder {
 				'url' => 'AlarmingConcreteHagfish',
 				'description' => 'Bam demonstrating how to keep constant pressure on your opponent',
 				'score' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			19 => 
 			array (
@@ -234,6 +272,8 @@ class GifsTableSeeder extends Seeder {
 				'url' => 'RemorsefulYellowLangur',
 				'description' => 'Hax demonstrating an efficient 0 to death',
 				'score' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			20 => 
 			array (
@@ -245,6 +285,8 @@ class GifsTableSeeder extends Seeder {
 				'url' => 'DeterminedBogusFerret',
 				'description' => 'Cosmo demonstrates Zelda\'s power',
 				'score' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			21 => 
 			array (
@@ -256,6 +298,8 @@ class GifsTableSeeder extends Seeder {
 				'url' => 'WindyAnotherAmericanpainthorse',
 			'description' => 'If you cling the second dash of Pikachu\'s Quick Attack (Up-B) with a move of equal priority, Pikachu performs a "Super W',
 				'score' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			22 => 
 			array (
@@ -267,6 +311,8 @@ class GifsTableSeeder extends Seeder {
 				'url' => 'JovialDemandingBluebottle',
 				'description' => 'M2K shows off G&W\'s difficult to DI throws and followup',
 				'score' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			23 => 
 			array (
@@ -278,6 +324,8 @@ class GifsTableSeeder extends Seeder {
 				'url' => 'ArtisticAdorableAlaskanhusky',
 				'description' => 'Link\'s recovery is pretty good ',
 				'score' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			24 => 
 			array (
@@ -289,6 +337,8 @@ class GifsTableSeeder extends Seeder {
 				'url' => 'SlimyMedicalBoto',
 				'description' => 'Mofo using the yoyo glitch on Hax',
 				'score' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			25 => 
 			array (
@@ -300,6 +350,8 @@ class GifsTableSeeder extends Seeder {
 				'url' => 'ChillyAptJaeger',
 				'description' => 'Wobbles demonstrating the infinite grab technique known as "Wobbling" ',
 				'score' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			26 => 
 			array (
@@ -311,6 +363,8 @@ class GifsTableSeeder extends Seeder {
 				'url' => 'SomberCarelessAppaloosa',
 				'description' => 'Mango demonstrating the use of a Shine Grab',
 				'score' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			27 => 
 			array (
@@ -322,6 +376,8 @@ class GifsTableSeeder extends Seeder {
 				'url' => 'AgreeableFlawedBlackmamba',
 				'description' => 'Mew2King tech chasing a Fox with grabs and down throw + dash attack.',
 				'score' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			28 => 
 			array (
@@ -333,6 +389,8 @@ class GifsTableSeeder extends Seeder {
 				'url' => 'FondPlayfulCarp',
 				'description' => 'How to edgeguard as Young Link',
 				'score' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			29 => 
 			array (
@@ -344,6 +402,8 @@ class GifsTableSeeder extends Seeder {
 				'url' => 'SpanishPastelCock',
 				'description' => 'Axe using the multiple hitboxes of Pikachu\'s Uair to gimp Westballz',
 				'score' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			30 => 
 			array (
@@ -355,6 +415,8 @@ class GifsTableSeeder extends Seeder {
 				'url' => 'unluckyhardgnu',
 				'description' => 'NMW showing the effectiveness of instant uair ',
 				'score' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			31 => 
 			array (
@@ -366,6 +428,8 @@ class GifsTableSeeder extends Seeder {
 				'url' => 'TalkativeJovialGalah',
 				'description' => 'Great example of how to use Ganon\'s Dair by Bizzarroflame',
 				'score' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			32 => 
 			array (
@@ -377,6 +441,8 @@ class GifsTableSeeder extends Seeder {
 				'url' => 'FamiliarAdvancedAcaciarat',
 				'description' => 'MMG | Shroomed demonstrates Dr. Mario\'s gimping abilities with back air and cape',
 				'score' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			33 => 
 			array (
@@ -388,6 +454,8 @@ class GifsTableSeeder extends Seeder {
 				'url' => 'SaltyEnergeticBadger',
 				'description' => 'KoreanDJ showing how Pichu can secure quick kills near ledges',
 				'score' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			34 => 
 			array (
@@ -399,6 +467,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'FoolishSlushyFawn',
 					'description' => 'Ness\'s double jump cancel allows him to perform extremely low aerials ',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				35 => 
 				array (
@@ -410,6 +480,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'LeanDifferentDorado',
 				'description' => 'Mango\'s (Scorpion Master) 0% to death combo with Mario',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				36 => 
 				array (
@@ -421,6 +493,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'CluelessWastefulIaerismetalmark',
 					'description' => 'Green Ranger shows us how brutal DK\'s combo game can be. ',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				37 => 
 				array (
@@ -432,6 +506,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'WelcomeAgileBluetickcoonhound',
 					'description' => 'Power Missile Edge Guarding with Samus ',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				38 => 
 				array (
@@ -443,6 +519,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'MealyHatefulArmadillo',
 					'description' => 'Axe tethers to the pillar underneath Pokemon Stadium and successfully recovers ',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				39 => 
 				array (
@@ -454,6 +532,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'ConcreteFamiliarGlowworm',
 					'description' => 'An interesting combo by Mew2King',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				40 => 
 				array (
@@ -465,6 +545,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'TightBarrenGnu',
 					'description' => 'Mew2King demonstrating an insane Sheik combo on EG | PPMD at EVO2k14',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				41 => 
 				array (
@@ -476,6 +558,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'SameOffbeatBushbaby',
 					'description' => 'With Luigi\'s wavedash distances and his powerful Up B he can get very hard punishes upon reading techrolls ',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				42 => 
 				array (
@@ -487,6 +571,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'SkinnyCorruptHake',
 				'description' => 'The longest wavedash (Luigi) and the shortest (Peach).',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				43 => 
 				array (
@@ -498,6 +584,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'ForkedGloomyHairstreakbutterfly',
 					'description' => 'Continuous Wavedashes with Marth.',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				44 => 
 				array (
@@ -509,6 +597,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'EcstaticHorribleDragon',
 					'description' => 'A pivot contains a few frames of dashing, followed by a single frame where your character is standing up straight. On this frame, you can use any move as if your character is standing still.',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				45 => 
 				array (
@@ -520,6 +610,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'SeveralCompassionateBlackwidowspider',
 					'description' => 'A series of frame-perfect multi shines at 1/4 speed.',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				46 => 
 				array (
@@ -531,6 +623,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'SpottedWhiteBordercollie',
 				'description' => 'Hit (L or R) and (Up) within 20 frames of hitting the wall while in hitstun',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				47 => 
 				array (
@@ -542,6 +636,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'SeveralUnlinedEsok',
 					'description' => 'Comparing the heights from a full jump and a short hop.',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				48 => 
 				array (
@@ -553,6 +649,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'FirmImmediateCivet',
 					'description' => 'Two Links performing a down aerial. The red Link L-cancels, and can input his shield in half the time of the green Link.',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				49 => 
 				array (
@@ -564,6 +662,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'DimIckyAztecant',
 					'description' => 'Falco\'s firestall, 1x speed, latest possible inputs',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				50 => 
 				array (
@@ -575,6 +675,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'FrightenedBruisedAstrangiacoral',
 					'description' => 'Fox performing a frame-perfect dash-dance in Melee.',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				51 => 
 				array (
@@ -586,6 +688,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'TatteredTediousDormouse',
 					'description' => 'Sheik demonstrating a Shino-Stall. The blue represents invulnerability',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				52 => 
 				array (
@@ -597,6 +701,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'SilverDimwittedDouglasfirbarkbeetle',
 					'description' => 'A meteor cancel used in a recovery off-stage.',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				53 => 
 				array (
@@ -608,6 +714,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'LeanWhimsicalBubblefish',
 					'description' => 'A wall jump can be used to mix up your opponent, and change up engages.',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				54 => 
 				array (
@@ -619,6 +727,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'SoulfulPreciousIslandcanary',
 					'description' => 'A demonstration of a ledge hop.',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				55 => 
 				array (
@@ -630,6 +740,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'UnfitAnotherFlea',
 					'description' => 'An example of what happens when you don\'t crouch cancel.',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				56 => 
 				array (
@@ -641,6 +753,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'EnlightenedIncompleteAnteater',
 					'description' => 'An example of what happens when crouch canceling is used.',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				57 => 
 				array (
@@ -652,6 +766,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'DelayedSmoggyGrison',
 					'description' => 'An example of a pivot Foward Smash',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				58 => 
 				array (
@@ -663,6 +779,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'SleepyGoodBoutu',
 				'description' => 'A non jump canceled grab (dash-grab)',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				59 => 
 				array (
@@ -674,6 +792,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'TheseFondIndiancow',
 				'description' => 'A jump canceled grab (stand-grab)',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				60 => 
 				array (
@@ -685,6 +805,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'UnsteadySoggyFrigatebird',
 					'description' => 'A neutral tech allows you to quickly stand up where you land',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				61 => 
 				array (
@@ -696,6 +818,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'PaltryParallelAmericancrow',
 					'description' => 'A right tech will make your character roll right before landing',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				62 => 
 				array (
@@ -707,6 +831,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'PortlyAdvancedDamselfly',
 					'description' => 'A left tech will make your character roll left before landing',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				63 => 
 				array (
@@ -718,6 +844,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'SnarlingHideousGreatwhiteshark',
 					'description' => 'Canceling run with a jump canceled up smash',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				64 => 
 				array (
@@ -729,6 +857,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'FatherlyAnimatedAmericanwarmblood',
 				'description' => 'Hit (L or R) to wall tech within 20 frames of hitting the wall while in hitstun',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				65 => 
 				array (
@@ -740,6 +870,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'AngryDearBassethound',
 					'description' => 'Dash dancing can be used to properly space your character as well as playing mind games with your opponent',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				66 => 
 				array (
@@ -751,6 +883,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'DeadCoarseFlamingo',
 					'description' => 'Demonstrating the different direction choices for DI',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				67 => 
 				array (
@@ -762,6 +896,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'EnormousFewGnat',
 					'description' => 'Wave Lands demonstrated on BattleField platforms',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				68 => 
 				array (
@@ -773,6 +909,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'SnappyBlissfulChickadee',
 					'description' => 'The added mobility of short hop lasering',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				69 => 
 				array (
@@ -784,6 +922,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'HelplessUnfortunateFlickertailsquirrel',
 					'description' => 'PewPewU powershielding a Falco laser to get a laser reset',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				70 => 
 				array (
@@ -795,6 +935,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'IdenticalThirstyDog',
 					'description' => 'The Peach on the right uses L canceling, while the Peach on the left uses Float Canceling. Notice how the amount of landing lag is the same!',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				71 => 
 				array (
@@ -806,6 +948,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'WideBlushingDiamondbackrattlesnake',
 					'description' => 'MewTwo performing a Jab Reset in order to push Fox into a neutral position to continue a combo',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				72 => 
 				array (
@@ -817,6 +961,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'DeepColorfulAfricanwilddog',
 					'description' => 'S2J demonstrating tech chasing by predicting where his opponent is going to tech and adjusting accordingly',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				73 => 
 				array (
@@ -828,6 +974,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'LegalInnocentEastrussiancoursinghounds',
 					'description' => 'A frame perfect Fox Wave Shine',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				74 => 
 				array (
@@ -839,6 +987,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'GenerousThriftyArieltoucan',
 					'description' => '',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				75 => 
 				array (
@@ -850,6 +1000,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'InsistentSilverArawana',
 					'description' => '',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				76 => 
 				array (
@@ -861,6 +1013,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'HelpfulDependentAmbushbug',
 					'description' => '',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				77 => 
 				array (
@@ -872,6 +1026,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'TenderNeighboringCentipede',
 					'description' => '',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				78 => 
 				array (
@@ -883,6 +1039,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'SeriousConsciousHeron',
 					'description' => '',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				79 => 
 				array (
@@ -894,6 +1052,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'ActiveKeenHornedviper',
 					'description' => '',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				80 => 
 				array (
@@ -905,6 +1065,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'ReadyAshamedBluewhale',
 					'description' => '',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				81 => 
 				array (
@@ -916,6 +1078,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'RipeUniformClumber',
 					'description' => '',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				82 => 
 				array (
@@ -927,6 +1091,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'TidyScaryAzurevase',
 					'description' => '',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				83 => 
 				array (
@@ -938,6 +1104,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'SmugOilyAmericanquarterhorse',
 					'description' => '',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				84 => 
 				array (
@@ -949,6 +1117,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'FittingBouncyAfricanpiedkingfisher',
 					'description' => '',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				85 => 
 				array (
@@ -960,6 +1130,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'WearyGranularCockatoo',
 					'description' => '',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				86 => 
 				array (
@@ -971,6 +1143,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'DiligentBronzeFalcon',
 					'description' => '',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				87 => 
 				array (
@@ -982,6 +1156,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'ApprehensiveIncompatibleBluet',
 					'description' => '',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				88 => 
 				array (
@@ -993,6 +1169,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'SpotlessDefiniteDoe',
 					'description' => '',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				89 => 
 				array (
@@ -1004,6 +1182,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'RealisticRespectfulBear',
 					'description' => '',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				90 => 
 				array (
@@ -1015,6 +1195,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'DefensiveConfusedBlackmamba',
 					'description' => '',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				91 => 
 				array (
@@ -1026,6 +1208,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'GrossUnhealthyEyra',
 					'description' => '',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				92 => 
 				array (
@@ -1037,6 +1221,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'ValidHatefulIraniangroundjay',
 					'description' => 'Forward B',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				93 => 
 				array (
@@ -1048,6 +1234,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'WelldocumentedShoddyBufeo',
 					'description' => 'Jab 1',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				94 => 
 				array (
@@ -1059,6 +1247,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'HardThreadbareHarpseal',
 					'description' => 'Jab 2',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				95 => 
 				array (
@@ -1070,6 +1260,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'HairyGiganticFrigatebird',
 					'description' => 'D Tilt',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				96 => 
 				array (
@@ -1081,6 +1273,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'ElasticMedicalAmazonparrot',
 					'description' => 'F Tilt',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				97 => 
 				array (
@@ -1092,6 +1286,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'JitteryHeavenlyAmericanriverotter',
 					'description' => 'High F Tilt',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				98 => 
 				array (
@@ -1103,6 +1299,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'WildCheapAntarcticgiantpetrel',
 					'description' => 'Low F Tilt',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				99 => 
 				array (
@@ -1114,6 +1312,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'HardCrazyIndianjackal',
 					'description' => 'U Tilt',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				100 => 
 				array (
@@ -1125,6 +1325,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'WarlikeBowedHerald',
 					'description' => 'D Smash',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				101 => 
 				array (
@@ -1136,6 +1338,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'EverlastingGenerousAustrianpinscher',
 					'description' => 'F Smash',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				102 => 
 				array (
@@ -1147,6 +1351,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'VagueDamagedHomalocephale',
 					'description' => 'U Smash',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				103 => 
 				array (
@@ -1158,6 +1364,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'UnderstatedTenseHare',
 					'description' => 'B Air',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				104 => 
 				array (
@@ -1169,6 +1377,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'DistantShadyCopperhead',
 					'description' => 'D Air',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				105 => 
 				array (
@@ -1180,6 +1390,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'OddTiredIvorybackedwoodswallow',
 					'description' => 'F Air',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				106 => 
 				array (
@@ -1191,6 +1403,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'LinearNervousApatosaur',
 					'description' => 'N Air',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				107 => 
 				array (
@@ -1202,6 +1416,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'YearlyHonorableArchaeocete',
 					'description' => 'U Air',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				108 => 
 				array (
@@ -1213,6 +1429,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'OilyWelloffAmericancrow',
 					'description' => 'Dash Attack',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				109 => 
 				array (
@@ -1224,6 +1442,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'CluelessNastyBeardeddragon',
 					'description' => 'Running Grab',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				110 => 
 				array (
@@ -1235,6 +1455,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'IlliterateMadDassierat',
 					'description' => 'Standing Grab',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				111 => 
 				array (
@@ -1246,6 +1468,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'FarflungDeliriousChipmunk',
 					'description' => 'Air Dodge',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				112 => 
 				array (
@@ -1257,6 +1481,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'KindheartedUnderstatedAtlasmoth',
 					'description' => 'Spot Dodge',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				113 => 
 				array (
@@ -1268,6 +1494,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'DamagedFlippantHanumanmonkey',
 					'description' => 'Roll Forward',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				114 => 
 				array (
@@ -1279,6 +1507,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'SlimyNervousEyelashpitviper',
 					'description' => 'Neutral B',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				115 => 
 				array (
@@ -1290,6 +1520,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'FastPalatableChanticleer',
 					'description' => 'Jab 2',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				116 => 
 				array (
@@ -1301,6 +1533,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'WarlikeImperfectAsiaticgreaterfreshwaterclam',
 					'description' => 'Jab 3',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				117 => 
 				array (
@@ -1312,6 +1546,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'ThinSparklingAmazontreeboa',
 					'description' => 'High F Tilt',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				118 => 
 				array (
@@ -1323,6 +1559,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'MediumPoliticalHarrier',
 					'description' => 'Low F Tilt',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				119 => 
 				array (
@@ -1334,6 +1572,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'EmbellishedLightheartedDormouse',
 					'description' => 'U Tilt',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				120 => 
 				array (
@@ -1345,6 +1585,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'PleasedImpracticalAlbertosaurus',
 					'description' => 'U Smash',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				121 => 
 				array (
@@ -1356,6 +1598,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'AmusedReasonableCaimanlizard',
 					'description' => 'B Air',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				122 => 
 				array (
@@ -1367,6 +1611,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'SingleOddHare',
 					'description' => 'F Air',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				123 => 
 				array (
@@ -1378,6 +1624,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'SardonicFlakyAustraliansilkyterrier',
 					'description' => 'U Air',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				124 => 
 				array (
@@ -1389,6 +1637,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'WeightyLastingDarwinsfox',
 					'description' => 'Air Dodge',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				125 => 
 				array (
@@ -1400,6 +1650,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'ElegantUncomfortableAuklet',
 					'description' => 'Down B',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				126 => 
 				array (
@@ -1411,6 +1663,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'OfficialForsakenJackrabbit',
 					'description' => 'Forward B',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				127 => 
 				array (
@@ -1422,6 +1676,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'AnguishedInfatuatedBrontosaurus',
 				'description' => 'Neutral B (charge)',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				128 => 
 				array (
@@ -1433,6 +1689,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'ShorttermAppropriateBlackrussianterrier',
 					'description' => 'Jab 1',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				129 => 
 				array (
@@ -1444,6 +1702,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'BaggyNearDragonfly',
 					'description' => 'Jab 2',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				130 => 
 				array (
@@ -1455,6 +1715,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'AmusedSlushyAchillestang',
 					'description' => 'D Tilt',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				131 => 
 				array (
@@ -1466,6 +1728,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'ClumsyTatteredBee',
 					'description' => 'F Tilt',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				132 => 
 				array (
@@ -1477,6 +1741,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'NecessaryEnviousCockatoo',
 					'description' => 'High F Tilt',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				133 => 
 				array (
@@ -1488,6 +1754,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'EveryImpracticalBackswimmer',
 					'description' => 'Low F Tilt',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				134 => 
 				array (
@@ -1499,6 +1767,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'GranularNiceCottontail',
 					'description' => 'U Tilt',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				135 => 
 				array (
@@ -1510,6 +1780,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'SingleEdibleChicken',
 					'description' => 'D Smash',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				136 => 
 				array (
@@ -1521,6 +1793,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'AdorableReliableBlacklemur',
 					'description' => 'F Smash',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				137 => 
 				array (
@@ -1532,6 +1806,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'SpotlessRewardingJapanesebeetle',
 					'description' => 'U Smash',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				138 => 
 				array (
@@ -1543,6 +1819,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'MetallicNewHarrierhawk',
 					'description' => 'Air Dodge',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				139 => 
 				array (
@@ -1554,6 +1832,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'AptBetterDalmatian',
 					'description' => 'B Air',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				140 => 
 				array (
@@ -1565,6 +1845,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'DimwittedCautiousEgg',
 					'description' => 'D Air',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				141 => 
 				array (
@@ -1576,6 +1858,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'UnimportantVengefulDunlin',
 					'description' => 'F Air',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				142 => 
 				array (
@@ -1587,6 +1871,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'ClosedAdventurousAlbacoretuna',
 					'description' => 'N Air',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				143 => 
 				array (
@@ -1598,6 +1884,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'DearestBowedArawana',
 					'description' => 'U Air',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				144 => 
 				array (
@@ -1609,6 +1897,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'ObedientScratchyGelding',
 					'description' => 'Dash Attack',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				145 => 
 				array (
@@ -1620,6 +1910,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'UnfitTepidBudgie',
 					'description' => 'Running Grab',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				146 => 
 				array (
@@ -1631,6 +1923,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'EqualClosedHaddock',
 					'description' => 'Standing Grab',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				147 => 
 				array (
@@ -1642,6 +1936,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'MilkyDisguisedIbis',
 					'description' => 'Roll Backward',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				148 => 
 				array (
@@ -1653,6 +1949,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'BabyishShallowFallowdeer',
 					'description' => 'Spot Dodge',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				149 => 
 				array (
@@ -1664,6 +1962,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'GrotesqueMiniatureFulmar',
 					'description' => 'Roll Forward',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				150 => 
 				array (
@@ -1675,6 +1975,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'WebbedWarlikeHarborporpoise',
 					'description' => 'Down B',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				151 => 
 				array (
@@ -1686,6 +1988,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'TidyGracefulAnole',
 					'description' => 'Forward B',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				152 => 
 				array (
@@ -1697,6 +2001,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'JoyfulPlayfulAtlanticsharpnosepuffer',
 					'description' => 'Up B',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				153 => 
 				array (
@@ -1708,6 +2014,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'ClassicRealAfricanclawedfrog',
 					'description' => 'Jab 1',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				154 => 
 				array (
@@ -1719,6 +2027,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'BetterLiquidAfricanaugurbuzzard',
 					'description' => 'Jab 2',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				155 => 
 				array (
@@ -1730,6 +2040,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'RigidExcellentAdamsstaghornedbeetle',
 					'description' => 'Jab 3',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				156 => 
 				array (
@@ -1741,6 +2053,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'ComplexFrequentArcticseal',
 					'description' => 'D Tilt',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				157 => 
 				array (
@@ -1752,6 +2066,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'CreativeAshamedHoiho',
 					'description' => 'F Tilt',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				158 => 
 				array (
@@ -1763,6 +2079,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'ThirdBiodegradableIvorybackedwoodswallow',
 					'description' => 'High F Tilt',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				159 => 
 				array (
@@ -1774,6 +2092,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'RepentantCriminalGardensnake',
 					'description' => 'Low F Tilt',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				160 => 
 				array (
@@ -1785,6 +2105,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'FragrantNastyBluegill',
 					'description' => 'D Smash',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				161 => 
 				array (
@@ -1796,6 +2118,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'UntidyAjarJuliabutterfly',
 					'description' => 'High F Smash',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				162 => 
 				array (
@@ -1807,6 +2131,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'WarpedShrillCottonmouth',
 					'description' => 'F Smash Down',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				163 => 
 				array (
@@ -1818,6 +2144,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'FarawayGenerousIndigowingedparrot',
 					'description' => 'U Smash',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				164 => 
 				array (
@@ -1829,6 +2157,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'RaggedWarmBedbug',
 					'description' => 'Air Dodge',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				165 => 
 				array (
@@ -1840,6 +2170,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'ZestyBrightAfricanhornbill',
 					'description' => 'B Air',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				166 => 
 				array (
@@ -1851,6 +2183,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'KindheartedDisfiguredGenet',
 					'description' => 'D Air',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				167 => 
 				array (
@@ -1862,6 +2196,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'LightImpureHoneycreeper',
 					'description' => 'F Air',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				168 => 
 				array (
@@ -1873,6 +2209,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'DistantSociableAmericankestrel',
 					'description' => 'N Air',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				169 => 
 				array (
@@ -1884,6 +2222,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'WelllitWellmadeCowbird',
 					'description' => 'U Air',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				170 => 
 				array (
@@ -1895,6 +2235,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'LightDishonestCat',
 					'description' => 'Dash attack',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				171 => 
 				array (
@@ -1906,6 +2248,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'GoodnaturedDarkFerret',
 					'description' => 'Running grab',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				172 => 
 				array (
@@ -1917,6 +2261,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'ScornfulRevolvingArabianwildcat',
 					'description' => 'Standing Grab',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				173 => 
 				array (
@@ -1928,6 +2274,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'ZestySolidCaudata',
 					'description' => 'Spot Dodge',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				174 => 
 				array (
@@ -1939,6 +2287,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'InfantileShyHorsechestnutleafminer',
 					'description' => 'Forward Roll',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				175 => 
 				array (
@@ -1950,6 +2300,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'CostlyGratefulHydatidtapeworm',
 					'description' => 'Down B',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				176 => 
 				array (
@@ -1961,6 +2313,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'NaturalEsteemedIndianhare',
 					'description' => 'Neutral B',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				177 => 
 				array (
@@ -1972,6 +2326,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'FlamboyantMiniatureFlea',
 					'description' => 'Up B',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				178 => 
 				array (
@@ -1983,6 +2339,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'WastefulEducatedKilldeer',
 					'description' => 'Jab 1',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				179 => 
 				array (
@@ -1994,6 +2352,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'DeliriousSleepyDamselfly',
 					'description' => 'Jab 2',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				180 => 
 				array (
@@ -2005,6 +2365,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'RealSeveralCommabutterfly',
 					'description' => 'Jab 3',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				181 => 
 				array (
@@ -2016,6 +2378,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'RawBossyIrrawaddydolphin',
 					'description' => 'D Tilt',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				182 => 
 				array (
@@ -2027,6 +2391,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'UnluckyPhysicalAruanas',
 					'description' => 'F Tilt',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				183 => 
 				array (
@@ -2038,6 +2404,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'CompetentGenuineKitty',
 					'description' => 'High F Tilt',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				184 => 
 				array (
@@ -2049,6 +2417,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'LeanBeneficialAssassinbug',
 					'description' => 'Low F Tilt',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				185 => 
 				array (
@@ -2060,6 +2430,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'FabulousGracefulInexpectatumpleco',
 					'description' => 'U Tilt',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				186 => 
 				array (
@@ -2071,6 +2443,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'SparseOptimisticAstarte',
 					'description' => 'D Smash',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				187 => 
 				array (
@@ -2082,6 +2456,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'ForsakenPreciousBlacknorwegianelkhound',
 					'description' => 'F Smash',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				188 => 
 				array (
@@ -2093,6 +2469,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'GlamorousDismalBadger',
 					'description' => 'U Smash',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				189 => 
 				array (
@@ -2104,6 +2482,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'OptimisticSplendidEyelashpitviper',
 					'description' => 'Air Dodge',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				190 => 
 				array (
@@ -2115,6 +2495,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'GiantContentIceblueredtopzebra',
 					'description' => 'B Air',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				191 => 
 				array (
@@ -2126,6 +2508,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'OrderlyNecessaryHorsemouse',
 					'description' => 'D Air',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				192 => 
 				array (
@@ -2137,6 +2521,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'WarlikeCostlyHippopotamus',
 					'description' => 'F Air',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				193 => 
 				array (
@@ -2148,6 +2534,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'TangibleSelfreliantBellsnake',
 					'description' => 'Forward B in air',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				194 => 
 				array (
@@ -2159,6 +2547,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'OldShyBobcat',
 					'description' => 'N Air',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				195 => 
 				array (
@@ -2170,6 +2560,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'EvergreenWearyAuklet',
 					'description' => 'Neutral B in air',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				196 => 
 				array (
@@ -2181,6 +2573,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'SardonicUnevenIndigowingedparrot',
 					'description' => 'U Air',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				197 => 
 				array (
@@ -2192,6 +2586,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'MasculineJollyGlobefish',
 					'description' => 'Dash Attack',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				198 => 
 				array (
@@ -2203,6 +2599,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'PoisedWhisperedDoe',
 					'description' => 'Running Grab',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				199 => 
 				array (
@@ -2214,6 +2612,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'BrownAgileInexpectatumpleco',
 					'description' => 'Roll Backward',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				200 => 
 				array (
@@ -2225,6 +2625,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'FemaleSafeGallinule',
 					'description' => 'Spot Dodge',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				201 => 
 				array (
@@ -2236,6 +2638,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'LegalMajorHogget',
 					'description' => 'Roll Forward',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				202 => 
 				array (
@@ -2247,6 +2651,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'DampSeparateDamselfly',
 					'description' => 'Down B',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				203 => 
 				array (
@@ -2258,6 +2664,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'HalfFlamboyantElver',
 					'description' => 'Forward B in air',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				204 => 
 				array (
@@ -2269,6 +2677,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'EasygoingGraciousHorse',
 					'description' => 'Neutral B on ground',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				205 => 
 				array (
@@ -2280,6 +2690,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'EntireMajorAtlasmoth',
 					'description' => 'Neutral B in air',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				206 => 
 				array (
@@ -2291,6 +2703,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'JaggedCreepyHuia',
 					'description' => 'Up B',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				207 => 
 				array (
@@ -2302,6 +2716,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'YearlyEdibleHarpseal',
 					'description' => 'Jab',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				208 => 
 				array (
@@ -2313,6 +2729,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'FirmForsakenAngwantibo',
 					'description' => 'Jab 2',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				209 => 
 				array (
@@ -2324,6 +2742,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'SpotlessSameArmadillo',
 					'description' => 'Jab 3',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				210 => 
 				array (
@@ -2335,6 +2755,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'AllTeemingBarnowl',
 					'description' => 'D Tilt',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				211 => 
 				array (
@@ -2346,6 +2768,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'ZigzagSlipperyKoodoo',
 					'description' => 'F Tilt',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				212 => 
 				array (
@@ -2357,6 +2781,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'SkinnyGrimyDeviltasmanian',
 					'description' => 'High F Tilt',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				213 => 
 				array (
@@ -2368,6 +2794,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'PaltryCoarseFowl',
 					'description' => 'Low F Tilt',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				214 => 
 				array (
@@ -2379,6 +2807,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'MenacingEquatorialHydra',
 					'description' => 'U Tilt',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				215 => 
 				array (
@@ -2390,6 +2820,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'FlatAdorableHorsechestnutleafminer',
 					'description' => 'D Smash',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				216 => 
 				array (
@@ -2401,6 +2833,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'BackDistortedAoudad',
 					'description' => 'F Smash',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				217 => 
 				array (
@@ -2412,6 +2846,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'PleasantAdventurousKissingbug',
 					'description' => 'U Smash',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				218 => 
 				array (
@@ -2423,6 +2859,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'ZealousLiquidDuck',
 					'description' => 'B Air',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				219 => 
 				array (
@@ -2434,6 +2872,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'UnequaledHappygoluckyAsianporcupine',
 					'description' => 'D Air',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				220 => 
 				array (
@@ -2445,6 +2885,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'KaleidoscopicShabbyDalmatian',
 					'description' => 'F Air',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				221 => 
 				array (
@@ -2456,6 +2898,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'AggressiveUnluckyDinosaur',
 					'description' => 'N Air',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				222 => 
 				array (
@@ -2467,6 +2911,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'QualifiedCostlyIaerismetalmark',
 					'description' => 'U Air',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				223 => 
 				array (
@@ -2478,6 +2924,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'LoathsomeBeneficialAmericanbittern',
 					'description' => 'Roll Backward',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				224 => 
 				array (
@@ -2489,6 +2937,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'RemorsefulGreatGallowaycow',
 					'description' => 'Dash Attack',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				225 => 
 				array (
@@ -2500,6 +2950,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'DeepBlondAngelfish',
 					'description' => 'Running Grab',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				226 => 
 				array (
@@ -2511,6 +2963,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'VibrantSevereKarakul',
 					'description' => 'Standing Grab',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				227 => 
 				array (
@@ -2522,6 +2976,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'FamiliarBoilingDarklingbeetle',
 					'description' => 'Air Dodge',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				228 => 
 				array (
@@ -2533,6 +2989,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'GrayHarmfulGallowaycow',
 					'description' => 'Spot Dodge',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				229 => 
 				array (
@@ -2544,6 +3002,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'PrestigiousNextGuineapig',
 					'description' => 'Roll Forward',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				230 => 
 				array (
@@ -2555,6 +3015,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'OptimisticEarlyHornshark',
 					'description' => 'Forward B in air',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				231 => 
 				array (
@@ -2566,6 +3028,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'EnviousBogusDodo',
 					'description' => 'Neutral B',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				232 => 
 				array (
@@ -2577,6 +3041,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'CriminalInexperiencedIndochinahogdeer',
 					'description' => 'Up B',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				233 => 
 				array (
@@ -2588,6 +3054,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'AthleticCapitalChuckwalla',
 					'description' => 'Jab',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				234 => 
 				array (
@@ -2599,6 +3067,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'AgitatedCrazyCub',
 					'description' => 'D Tilt',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				235 => 
 				array (
@@ -2610,6 +3080,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'HiddenBigGangesdolphin',
 					'description' => 'F Tilt',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				236 => 
 				array (
@@ -2621,6 +3093,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'DapperDeliriousCleanerwrasse',
 					'description' => 'High F Tilt',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				237 => 
 				array (
@@ -2632,6 +3106,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'DisguisedPointedHamster',
 					'description' => 'Low F Tilt',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				238 => 
 				array (
@@ -2643,6 +3119,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'VastWarlikeAdmiralbutterfly',
 					'description' => 'U Tilt',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				239 => 
 				array (
@@ -2654,6 +3132,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'TintedWelcomeBlueshark',
 					'description' => 'D Smash',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				240 => 
 				array (
@@ -2665,6 +3145,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'PhysicalDarkAplomadofalcon',
 					'description' => 'U Smash',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				241 => 
 				array (
@@ -2676,6 +3158,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'LazyIllAsianlion',
 					'description' => 'B Air',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				242 => 
 				array (
@@ -2687,6 +3171,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'DismalDrearyBobwhite',
 					'description' => 'D Air',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				243 => 
 				array (
@@ -2698,6 +3184,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'IllinformedTanEsok',
 					'description' => 'N Air',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				244 => 
 				array (
@@ -2709,6 +3197,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'EsteemedFatIndusriverdolphin',
 					'description' => 'B Air',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				245 => 
 				array (
@@ -2720,6 +3210,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'WellmadeDifferentFluke',
 					'description' => 'Down B',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				246 => 
 				array (
@@ -2731,6 +3223,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'HatefulHomelyDolphin',
 					'description' => 'Forward B',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				247 => 
 				array (
@@ -2742,6 +3236,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'VerifiableShrillAustralianshelduck',
 					'description' => 'Neutral B',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				248 => 
 				array (
@@ -2753,6 +3249,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'TautLoneGrayfox',
 					'description' => 'Up B',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				249 => 
 				array (
@@ -2764,6 +3262,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'PoshLameHogget',
 					'description' => 'Jab 1',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				250 => 
 				array (
@@ -2775,6 +3275,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'KindFailingCockatiel',
 					'description' => 'Jab 2',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				251 => 
 				array (
@@ -2786,6 +3288,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'CalculatingSlightBallpython',
 					'description' => 'D Tilt',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				252 => 
 				array (
@@ -2797,6 +3301,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'LightheartedAbsoluteAnemone',
 					'description' => 'High F Tilt',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				253 => 
 				array (
@@ -2808,6 +3314,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'WholeShockingDolphin',
 					'description' => 'Low F Tilt',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				254 => 
 				array (
@@ -2819,6 +3327,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'ChiefPlainBrontosaurus',
 					'description' => 'U Tilt',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				255 => 
 				array (
@@ -2830,6 +3340,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'EagerUnsteadyGoral',
 					'description' => 'D Smash',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				256 => 
 				array (
@@ -2841,6 +3353,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'SpeedyTenseGodwit',
 					'description' => 'F Smash',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				257 => 
 				array (
@@ -2852,6 +3366,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'BadBossyBass',
 					'description' => 'U Smash',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				258 => 
 				array (
@@ -2863,6 +3379,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'DisloyalDistortedEasternglasslizard',
 					'description' => 'D Air',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				259 => 
 				array (
@@ -2874,6 +3392,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'TallShortGalapagoshawk',
 					'description' => 'F Air',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				260 => 
 				array (
@@ -2885,6 +3405,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'AridQuestionableCaecilian',
 					'description' => 'N Air',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				261 => 
 				array (
@@ -2896,6 +3418,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'FalseMemorableGrackle',
 					'description' => 'U Air',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				262 => 
 				array (
@@ -2907,6 +3431,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'YellowFavoriteBlacknorwegianelkhound',
 					'description' => 'Dash Attack',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				263 => 
 				array (
@@ -2918,6 +3444,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'FrankHeartyGrunion',
 					'description' => 'Running Grab',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				264 => 
 				array (
@@ -2929,6 +3457,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'UncommonImpressionableAmericancrayfish',
 					'description' => 'Standing Grab',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				265 => 
 				array (
@@ -2940,6 +3470,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'IdioticIdolizedErin',
 					'description' => 'Air Dodge',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				266 => 
 				array (
@@ -2951,6 +3483,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'BlandVastIndianabat',
 					'description' => 'Roll Backward',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				267 => 
 				array (
@@ -2962,6 +3496,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'DesertedAcidicFattaileddunnart',
 					'description' => 'Spot Dodge',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				268 => 
 				array (
@@ -2973,6 +3509,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'WatchfulAntiqueIchneumonfly',
 					'description' => 'Roll Forward',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				269 => 
 				array (
@@ -2984,6 +3522,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'WideeyedAgonizingGemsbuck',
 					'description' => 'Down B',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				270 => 
 				array (
@@ -2995,6 +3535,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'ZanyOffensiveCowrie',
 					'description' => 'Forward B',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				271 => 
 				array (
@@ -3006,6 +3548,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'BothSparseBandicoot',
 					'description' => 'Neutral B',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				272 => 
 				array (
@@ -3017,6 +3561,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'HastyUnequaledGemsbuck',
 					'description' => 'Up B',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				273 => 
 				array (
@@ -3028,6 +3574,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'FineUnknownAffenpinscher',
 					'description' => 'Jab 1',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				274 => 
 				array (
@@ -3039,6 +3587,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'SandyMeekEuropeanfiresalamander',
 					'description' => 'Jab 2',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				275 => 
 				array (
@@ -3050,6 +3600,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'SelfreliantFakeCero',
 					'description' => 'D Tilt',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				276 => 
 				array (
@@ -3061,6 +3613,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'ImpossibleDarkAntelope',
 					'description' => 'F Tilt',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				277 => 
 				array (
@@ -3072,6 +3626,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'GenuineWaterloggedIridescentshark',
 					'description' => 'High F Tilt',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				278 => 
 				array (
@@ -3083,6 +3639,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'RewardingDisguisedAztecant',
 					'description' => 'Low F Tilt',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				279 => 
 				array (
@@ -3094,6 +3652,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'PaleWarmArmyant',
 					'description' => 'U Tilt',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				280 => 
 				array (
@@ -3105,6 +3665,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'ImmaterialFirstKakarikis',
 					'description' => 'F Smash',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				281 => 
 				array (
@@ -3116,6 +3678,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'ParallelWarmheartedIchthyostega',
 					'description' => 'D Air',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				282 => 
 				array (
@@ -3127,6 +3691,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'PoliteLongCooter',
 					'description' => 'F Air',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				283 => 
 				array (
@@ -3138,6 +3704,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'SaltySlimyBustard',
 					'description' => 'U Air',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				284 => 
 				array (
@@ -3149,6 +3717,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'PositiveHoarseDaddylonglegs',
 					'description' => 'Dash Attack',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				285 => 
 				array (
@@ -3160,6 +3730,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'FeistyTheseAtlanticridleyturtle',
 					'description' => 'Running Grab',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				286 => 
 				array (
@@ -3171,6 +3743,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'PoliticalShortHorseshoecrab',
 					'description' => 'Standing Grab',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				287 => 
 				array (
@@ -3182,6 +3756,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'WhiteFailingAmericansaddlebred',
 					'description' => 'Air Dodge',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				288 => 
 				array (
@@ -3193,6 +3769,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'SinfulTenderBushbaby',
 					'description' => 'Roll Back',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				289 => 
 				array (
@@ -3204,6 +3782,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'SinfulUltimateFanworms',
 					'description' => 'Roll Forward',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				290 => 
 				array (
@@ -3215,6 +3795,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'DecimalExaltedIndianringneckparakeet',
 					'description' => 'Down B',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				291 => 
 				array (
@@ -3226,6 +3808,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'FalseWigglyElephant',
 					'description' => 'Forward B in air',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				292 => 
 				array (
@@ -3237,6 +3821,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'FirmActualAfricanhornbill',
 					'description' => 'Neutral B',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				293 => 
 				array (
@@ -3248,6 +3834,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'NeglectedBriefAiredaleterrier',
 					'description' => 'Up B',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				294 => 
 				array (
@@ -3259,6 +3847,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'QuarrelsomeOffbeatDormouse',
 					'description' => 'Jab 1',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				295 => 
 				array (
@@ -3270,6 +3860,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'DenseLightheartedHypacrosaurus',
 					'description' => 'Jab 2',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				296 => 
 				array (
@@ -3281,6 +3873,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'FreshKaleidoscopicAnole',
 					'description' => 'Jab 3',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				297 => 
 				array (
@@ -3292,6 +3886,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'MajesticFavoriteCooter',
 					'description' => 'D Tilt',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				298 => 
 				array (
@@ -3303,6 +3899,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'YawningWelldocumentedFirefly',
 					'description' => 'High F Tilt',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				299 => 
 				array (
@@ -3314,6 +3912,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'BetterAmbitiousCornsnake',
 					'description' => 'Low F Tilt',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				300 => 
 				array (
@@ -3325,6 +3925,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'DearGiantChanticleer',
 					'description' => 'U Tilt',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				301 => 
 				array (
@@ -3336,6 +3938,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'AridLimpingCassowary',
 					'description' => 'D Smash',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				302 => 
 				array (
@@ -3347,6 +3951,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'InferiorPettyBeauceron',
 					'description' => 'F Smash',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				303 => 
 				array (
@@ -3358,6 +3964,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'KeyForcefulLark',
 					'description' => 'U Smash',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				304 => 
 				array (
@@ -3369,6 +3977,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'RepulsiveConcernedDaddylonglegs',
 					'description' => 'B Air',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				305 => 
 				array (
@@ -3380,6 +3990,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'TerrificEllipticalIrishredandwhitesetter',
 					'description' => 'D Air',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				306 => 
 				array (
@@ -3391,6 +4003,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'RegularBlissfulArmadillo',
 					'description' => 'F Air',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				307 => 
 				array (
@@ -3402,6 +4016,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'SnappyGreatFairybluebird',
 					'description' => 'N Air',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				308 => 
 				array (
@@ -3413,6 +4029,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'AcrobaticCharmingAxolotl',
 					'description' => 'U Air',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				309 => 
 				array (
@@ -3424,6 +4042,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'ElectricGrandioseGoldeneye',
 					'description' => 'Dash Attack',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				310 => 
 				array (
@@ -3435,6 +4055,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'HollowUnrealisticBuzzard',
 					'description' => 'Running Grab',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				311 => 
 				array (
@@ -3446,6 +4068,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'GoodScholarlyCooter',
 					'description' => 'Standing Grab',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				312 => 
 				array (
@@ -3457,6 +4081,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'EnlightenedAridDunnart',
 					'description' => 'Neutral B',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				313 => 
 				array (
@@ -3468,6 +4094,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'SparseForcefulDromedary',
 					'description' => 'U Smash',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				314 => 
 				array (
@@ -3479,6 +4107,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'NeglectedWiltedAzurevasesponge',
 					'description' => 'Jab 1',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				315 => 
 				array (
@@ -3490,6 +4120,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'FortunateAnguishedHoki',
 					'description' => 'Jab 2',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				316 => 
 				array (
@@ -3501,6 +4133,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'CavernousTornFlamingo',
 					'description' => 'D Tilt',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				317 => 
 				array (
@@ -3512,6 +4146,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'ChubbyMassiveBug',
 					'description' => 'F Tilt',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				318 => 
 				array (
@@ -3523,6 +4159,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'SpicyFirsthandFallowdeer',
 					'description' => 'U Tilt',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				319 => 
 				array (
@@ -3534,6 +4172,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'EveryUnawareIvorybilledwoodpecker',
 					'description' => 'D Smash',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				320 => 
 				array (
@@ -3545,6 +4185,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'UnselfishBeautifulHuman',
 					'description' => 'F Smash 2',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				321 => 
 				array (
@@ -3556,6 +4198,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'FineCrispCoot',
 					'description' => 'B Air',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				322 => 
 				array (
@@ -3567,6 +4211,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'AptWarlikeCockerspaniel',
 					'description' => 'D Air',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				323 => 
 				array (
@@ -3578,6 +4224,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'OrneryBleakBongo',
 					'description' => 'F Air',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				324 => 
 				array (
@@ -3589,6 +4237,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'NaturalColossalAntipodesgreenparakeet',
 					'description' => 'N Air',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				325 => 
 				array (
@@ -3600,6 +4250,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'AmplePeskyBluebottlejellyfish',
 					'description' => 'U Air',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				326 => 
 				array (
@@ -3611,6 +4263,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'UncommonWhirlwindChimpanzee',
 					'description' => 'Z Air',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				327 => 
 				array (
@@ -3622,6 +4276,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'TangibleAccurateCur',
 					'description' => 'Dash Attack',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				328 => 
 				array (
@@ -3633,6 +4289,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'UglyBlankGuppy',
 					'description' => 'Running Grab',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				329 => 
 				array (
@@ -3644,6 +4302,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'JoyfulGloriousFlea',
 					'description' => 'Standing Grab',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				330 => 
 				array (
@@ -3655,6 +4315,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'DazzlingVigorousGilamonster',
 				'description' => 'Forward B (misfire)',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				331 => 
 				array (
@@ -3666,6 +4328,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'AdorableInfiniteEstuarinecrocodile',
 					'description' => 'Neutral B',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				332 => 
 				array (
@@ -3677,6 +4341,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'CleanSecondhandGibbon',
 					'description' => 'Up B',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				333 => 
 				array (
@@ -3688,6 +4354,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'EnragedBasicJaguarundi',
 					'description' => 'Jab 1',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				334 => 
 				array (
@@ -3699,6 +4367,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'IllustriousReliableAmbushbug',
 					'description' => 'Jab 2',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				335 => 
 				array (
@@ -3710,6 +4380,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'HatefulTestyHog',
 					'description' => 'Jab 3',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				336 => 
 				array (
@@ -3721,6 +4393,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'MeatyElatedHalcyon',
 					'description' => 'D Tilt',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				337 => 
 				array (
@@ -3732,6 +4406,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'EvergreenFragrantCorydorascatfish',
 					'description' => 'F Tilt',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				338 => 
 				array (
@@ -3743,6 +4419,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'AmbitiousPitifulCockerspaniel',
 					'description' => 'High F Tilt',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				339 => 
 				array (
@@ -3754,6 +4432,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'AnotherDesertedJabiru',
 					'description' => 'Low F Tilt',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				340 => 
 				array (
@@ -3765,6 +4445,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'BruisedFlakyCaimanlizard',
 					'description' => 'U Tilt',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				341 => 
 				array (
@@ -3776,6 +4458,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'OptimalHardtofindIguanodon',
 					'description' => 'D Smash',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				342 => 
 				array (
@@ -3787,6 +4471,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'InfamousBlindInvisiblerail',
 					'description' => 'High F Smash',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				343 => 
 				array (
@@ -3798,6 +4484,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'WeirdShockingChimneyswift',
 					'description' => 'Low F Smash',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				344 => 
 				array (
@@ -3809,6 +4497,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'DenseBriefBarnacle',
 					'description' => 'U Smash',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				345 => 
 				array (
@@ -3820,6 +4510,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'BruisedSerpentineBudgie',
 					'description' => 'B Air',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				346 => 
 				array (
@@ -3831,6 +4523,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'GlitteringEmbellishedArieltoucan',
 					'description' => 'D Air',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				347 => 
 				array (
@@ -3842,6 +4536,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'WideDiscreteAcornbarnacle',
 					'description' => 'F Air',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				348 => 
 				array (
@@ -3853,6 +4549,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'SerpentineSecondHochstettersfrog',
 					'description' => 'N Air',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				349 => 
 				array (
@@ -3864,6 +4562,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'DefensiveGroundedBarb',
 					'description' => 'U Air',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				350 => 
 				array (
@@ -3875,6 +4575,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'ShinyEarlyHammerkop',
 					'description' => 'Taunt',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				351 => 
 				array (
@@ -3886,6 +4588,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'ImpartialUnfoldedBarb',
 					'description' => 'Face Up Get-Up Attack',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				352 => 
 				array (
@@ -3897,6 +4601,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'ShowySpectacularAngora',
 					'description' => 'Running grab',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				353 => 
 				array (
@@ -3908,6 +4614,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'DearCoarseIndianringneckparakeet',
 					'description' => 'Standing Grab',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				354 => 
 				array (
@@ -3919,6 +4627,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'AdolescentPleasingBlueandgoldmackaw',
 					'description' => 'Down B',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				355 => 
 				array (
@@ -3930,6 +4640,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'UnconsciousElectricBlacklemur',
 					'description' => 'Forward B',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				356 => 
 				array (
@@ -3941,6 +4653,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'HilariousJubilantDeermouse',
 					'description' => 'Up B',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				357 => 
 				array (
@@ -3952,6 +4666,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'MistyHilariousArrowana',
 					'description' => 'Jab 1',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				358 => 
 				array (
@@ -3963,6 +4679,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'MenacingClumsyCockerspaniel',
 					'description' => 'Jab 2',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				359 => 
 				array (
@@ -3974,6 +4692,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'SecretEssentialHanumanmonkey',
 					'description' => 'Jab 3',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				360 => 
 				array (
@@ -3985,6 +4705,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'DependentInsecureBug',
 					'description' => 'D Tilt',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				361 => 
 				array (
@@ -3996,6 +4718,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'PeriodicTanChafer',
 					'description' => 'F Tilt',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				362 => 
 				array (
@@ -4007,6 +4731,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'UnconsciousTediousHagfish',
 					'description' => 'High F Tilt',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				363 => 
 				array (
@@ -4018,6 +4744,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'FaithfulMeatyCrustacean',
 					'description' => 'Low F Tilt',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				364 => 
 				array (
@@ -4029,6 +4757,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'RepentantPerfumedBobwhite',
 					'description' => 'U Tilt',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				365 => 
 				array (
@@ -4040,6 +4770,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'ThirstyCreepyCoral',
 					'description' => 'D Smash',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				366 => 
 				array (
@@ -4051,6 +4783,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'ShallowNecessaryChinesecrocodilelizard',
 					'description' => 'High F Smash',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				367 => 
 				array (
@@ -4062,6 +4796,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'DefiniteSizzlingHind',
 					'description' => 'Low F Smash',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				368 => 
 				array (
@@ -4073,6 +4809,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'BoringGoldenGrosbeak',
 					'description' => 'U Smash',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				369 => 
 				array (
@@ -4084,6 +4822,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'ForcefulTidyAlligator',
 					'description' => 'B Air',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				370 => 
 				array (
@@ -4095,6 +4835,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'HarmlessPolishedJay',
 					'description' => 'F Air',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				371 => 
 				array (
@@ -4106,6 +4848,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'CreativeNastyDodobird',
 					'description' => 'N Air',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				372 => 
 				array (
@@ -4117,6 +4861,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'ForsakenDisloyalFantail',
 					'description' => 'U Air',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				373 => 
 				array (
@@ -4128,6 +4874,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'NextDimAmberpenshell',
 					'description' => 'Dash Attack',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				374 => 
 				array (
@@ -4139,6 +4887,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'WigglyClosedAustraliancattledog',
 					'description' => 'Running Grab',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				375 => 
 				array (
@@ -4150,6 +4900,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'LankyGraciousBufflehead',
 					'description' => 'Standing Grab',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				376 => 
 				array (
@@ -4161,6 +4913,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'BarrenShrillFalcon',
 					'description' => 'Down B',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				377 => 
 				array (
@@ -4172,6 +4926,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'WelcomeBlindAsp',
 					'description' => 'Forward B 1',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				378 => 
 				array (
@@ -4183,6 +4939,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'ImportantTintedApatosaur',
 				'description' => 'Forward B 3 (Down)',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				379 => 
 				array (
@@ -4194,6 +4952,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'PessimisticIllinformedBlackcrappie',
 				'description' => 'Forward B 3 (neutral)',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				380 => 
 				array (
@@ -4205,6 +4965,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'JubilantDentalAmericancrocodile',
 				'description' => 'Forward B 3 (up)',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				381 => 
 				array (
@@ -4216,6 +4978,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'MindlessLikableJumpingbean',
 				'description' => 'Forward B 4 (down)',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				382 => 
 				array (
@@ -4227,6 +4991,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'WindyIdleDikdik',
 				'description' => 'Forward B 4 (neutral)',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				383 => 
 				array (
@@ -4238,6 +5004,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'AlarmedHappyDobermanpinscher',
 				'description' => 'Forward B 4 (up)',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				384 => 
 				array (
@@ -4249,6 +5017,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'HeartyFlamboyantGuillemot',
 					'description' => 'Neutral B',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				385 => 
 				array (
@@ -4260,6 +5030,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'PaltryOrnateDouglasfirbarkbeetle',
 					'description' => 'Up B',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				386 => 
 				array (
@@ -4271,6 +5043,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'ValuableBlackChuckwalla',
 					'description' => 'Jab 1',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				387 => 
 				array (
@@ -4282,6 +5056,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'DamagedBlondFirecrest',
 					'description' => 'Jab 2',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				388 => 
 				array (
@@ -4293,6 +5069,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'LikablePlayfulEft',
 					'description' => 'D Tilt',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				389 => 
 				array (
@@ -4304,6 +5082,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'BowedAmbitiousGuineapig',
 					'description' => 'F Tilt',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				390 => 
 				array (
@@ -4315,6 +5095,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'CapitalIncompatibleAlaskankleekai',
 					'description' => 'U Tilt',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				391 => 
 				array (
@@ -4326,6 +5108,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'FearfulCorruptHoki',
 					'description' => 'D Smash',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				392 => 
 				array (
@@ -4337,6 +5121,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'WelcomeTatteredBarasingha',
 					'description' => 'F Smash',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				393 => 
 				array (
@@ -4348,6 +5134,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'TepidAjarBaiji',
 					'description' => 'U Smash',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				394 => 
 				array (
@@ -4359,6 +5147,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'GoodHandyJaguarundi',
 					'description' => 'B Air',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				395 => 
 				array (
@@ -4370,6 +5160,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'DearestEthicalIndianrhinoceros',
 					'description' => 'D Air',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				396 => 
 				array (
@@ -4381,6 +5173,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'FreshThinAntbear',
 					'description' => 'F Air',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				397 => 
 				array (
@@ -4392,6 +5186,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'SpitefulLivelyIntermediateegret',
 					'description' => 'N Air',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				398 => 
 				array (
@@ -4403,6 +5199,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'PertinentWildAsiansmallclawedotter',
 					'description' => 'U Air',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				399 => 
 				array (
@@ -4414,6 +5212,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'GrizzledChillyFlyinglemur',
 					'description' => 'Dash Attack',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				400 => 
 				array (
@@ -4425,6 +5225,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'SeparatePassionateJunco',
 					'description' => 'Running Grab',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				401 => 
 				array (
@@ -4436,6 +5238,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'BabyishMellowIndianabat',
 					'description' => 'Standing Grab',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				402 => 
 				array (
@@ -4447,6 +5251,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'NippyIlliterateAchillestang',
 					'description' => 'Air Dodge',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				403 => 
 				array (
@@ -4458,6 +5264,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'TotalQuickInchworm',
 					'description' => 'Roll Backward',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				404 => 
 				array (
@@ -4469,6 +5277,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'ImmediateCharmingChipmunk',
 					'description' => 'Spot Dodge',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				405 => 
 				array (
@@ -4480,6 +5290,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'WellmadeSnappyAfricanharrierhawk',
 					'description' => 'Roll Forward',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				406 => 
 				array (
@@ -4491,6 +5303,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'FavoriteHarmoniousAngelfish',
 					'description' => 'Down B',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				407 => 
 				array (
@@ -4502,6 +5316,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'OilyDismalCuscus',
 					'description' => 'Forward B',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				408 => 
 				array (
@@ -4513,6 +5329,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'FaithfulDisfiguredFanworms',
 					'description' => 'Jab 1',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				409 => 
 				array (
@@ -4524,6 +5342,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'PopularAliveGypsymoth',
 					'description' => 'Jab 2',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				410 => 
 				array (
@@ -4535,6 +5355,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'GranularTeemingAnteater',
 					'description' => 'D Tilt',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				411 => 
 				array (
@@ -4546,6 +5368,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'BlondLightheartedFugu',
 					'description' => 'F Tilt',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				412 => 
 				array (
@@ -4557,6 +5381,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'FreeColdCanine',
 					'description' => 'High F Tilt',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				413 => 
 				array (
@@ -4568,6 +5394,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'ImmenseFaithfulEyra',
 					'description' => 'Low F Tilt',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				414 => 
 				array (
@@ -4579,6 +5407,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'DampDistinctIcterinewarbler',
 					'description' => 'U Tilt',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				415 => 
 				array (
@@ -4590,6 +5420,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'DifficultWindingIrishterrier',
 					'description' => 'D Smash',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				416 => 
 				array (
@@ -4601,6 +5433,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'ShadowyFavorableDogwoodtwigborer',
 					'description' => 'F Smash',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				417 => 
 				array (
@@ -4612,6 +5446,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'NeatOrganicBichonfrise',
 					'description' => 'U Smash',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				418 => 
 				array (
@@ -4623,6 +5459,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'SatisfiedDismalGallinule',
 					'description' => 'B Air',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				419 => 
 				array (
@@ -4634,6 +5472,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'PerfectBestAmericanratsnake',
 					'description' => 'D Air',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				420 => 
 				array (
@@ -4645,6 +5485,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'ImpartialCooperativeBudgie',
 					'description' => 'F Air',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				421 => 
 				array (
@@ -4656,6 +5498,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'GlossySilkyFattaileddunnart',
 					'description' => 'N Air',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				422 => 
 				array (
@@ -4667,6 +5511,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'OblongOldfashionedAsiantrumpetfish',
 					'description' => 'U Air',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				423 => 
 				array (
@@ -4678,6 +5524,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'FirstUltimateEthiopianwolf',
 					'description' => 'Back Throw',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				424 => 
 				array (
@@ -4689,6 +5537,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'GoodBlushingFrigatebird',
 					'description' => 'Dash Attack',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				425 => 
 				array (
@@ -4700,6 +5550,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'PortlyGoodBug',
 					'description' => 'Forward Throw',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				426 => 
 				array (
@@ -4711,6 +5563,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'TidyUncommonArmyant',
 					'description' => 'Running Grab',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				427 => 
 				array (
@@ -4722,6 +5576,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'JaggedSinfulDiplodocus',
 					'description' => 'Standing Grab',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				428 => 
 				array (
@@ -4733,6 +5589,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'RelievedColdHamadryas',
 					'description' => 'Air Dodge',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				429 => 
 				array (
@@ -4744,6 +5602,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'HorribleLankyFantail',
 					'description' => 'Roll Backward',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				430 => 
 				array (
@@ -4755,6 +5615,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'RedConstantAssassinbug',
 					'description' => 'Spot Dodge',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				431 => 
 				array (
@@ -4766,6 +5628,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'RecentOnlyHornet',
 					'description' => 'Roll Forward',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				432 => 
 				array (
@@ -4777,6 +5641,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'CraftySmoothClingfish',
 					'description' => 'Up B',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				433 => 
 				array (
@@ -4788,6 +5654,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'TanWarpedAntipodesgreenparakeet',
 					'description' => 'Down Tilt',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				434 => 
 				array (
@@ -4799,6 +5667,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'EarlyGleamingGardensnake',
 					'description' => 'F Tilt',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				435 => 
 				array (
@@ -4810,6 +5680,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'ScratchyScalyArmyworm',
 					'description' => 'U Tilt',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				436 => 
 				array (
@@ -4821,6 +5693,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'AgitatedNeatBluemorphobutterfly',
 					'description' => 'D Smash',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				437 => 
 				array (
@@ -4832,6 +5706,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'CraftyGregariousBird',
 					'description' => 'F Smash',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				438 => 
 				array (
@@ -4843,6 +5719,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'GrippingWindingHatchetfish',
 					'description' => 'U Smash',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				439 => 
 				array (
@@ -4854,6 +5732,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'FrankFairAmurstarfish',
 					'description' => 'Down Air',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				440 => 
 				array (
@@ -4865,6 +5745,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'JaggedAliveJavalina',
 					'description' => 'F Air',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				441 => 
 				array (
@@ -4876,6 +5758,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'AngelicFlashyAfricanparadiseflycatcher',
 					'description' => 'N Air',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				442 => 
 				array (
@@ -4887,6 +5771,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'HonestValuableGlassfrog',
 					'description' => 'U Air',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				443 => 
 				array (
@@ -4898,6 +5784,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'FrighteningWideeyedAmethystsunbird',
 					'description' => 'Dash Attack',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				444 => 
 				array (
@@ -4909,6 +5797,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'KeyOptimisticGrassspider',
 					'description' => 'Running Grab',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				445 => 
 				array (
@@ -4920,6 +5810,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'ReadyGrouchyGiraffe',
 					'description' => 'Grab',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				446 => 
 				array (
@@ -4931,6 +5823,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'SpecificFittingHousefly',
 					'description' => 'Down B',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				447 => 
 				array (
@@ -4942,6 +5836,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'GreenOblongErne',
 					'description' => 'Neutral B',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				448 => 
 				array (
@@ -4953,6 +5849,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'SharpCarelessAfricanpiedkingfisher',
 					'description' => 'Jab 1',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				449 => 
 				array (
@@ -4964,6 +5862,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'AssuredAmazingAlpinegoat',
 					'description' => 'Jab 2',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				450 => 
 				array (
@@ -4975,6 +5875,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'MeaslySecretEyra',
 					'description' => 'Jab 3',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				451 => 
 				array (
@@ -4986,6 +5888,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'FrequentUnawareElkhound',
 					'description' => 'Down Tilt',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				452 => 
 				array (
@@ -4997,6 +5901,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'PortlySlightAmericanavocet',
 					'description' => 'High F Tilt',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				453 => 
 				array (
@@ -5008,6 +5914,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'RawAggressiveCuscus',
 					'description' => 'Low F Tilt',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				454 => 
 				array (
@@ -5019,6 +5927,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'VigorousVioletCub',
 					'description' => 'U Tilt',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				455 => 
 				array (
@@ -5030,6 +5940,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'SpotlessQuarrelsomeHatchetfish',
 					'description' => 'Down Smash',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				456 => 
 				array (
@@ -5041,6 +5953,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'SlimySaneGartersnake',
 					'description' => 'F Smash',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				457 => 
 				array (
@@ -5052,6 +5966,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'DearHeavyBluefintuna',
 					'description' => 'B Air',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				458 => 
 				array (
@@ -5063,6 +5979,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'FickleQueasyCockroach',
 					'description' => 'D Air',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				459 => 
 				array (
@@ -5074,6 +5992,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'TatteredBareArmyant',
 					'description' => 'F Air',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				460 => 
 				array (
@@ -5085,6 +6005,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'HighlevelSparklingBrahmancow',
 					'description' => 'N Air',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				461 => 
 				array (
@@ -5096,6 +6018,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'GentleFirsthandGnat',
 					'description' => 'U Air',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				462 => 
 				array (
@@ -5107,6 +6031,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'UntriedSaltyGallinule',
 					'description' => 'Dash Attack',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				463 => 
 				array (
@@ -5118,6 +6044,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'DentalPettyChickadee',
 					'description' => 'Running Grab',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				464 => 
 				array (
@@ -5129,6 +6057,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'CornyAcademicHermitcrab',
 					'description' => 'Standing Grab',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				465 => 
 				array (
@@ -5140,6 +6070,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'YearlyPaltryGalapagosalbatross',
 					'description' => 'Down B',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				466 => 
 				array (
@@ -5151,6 +6083,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'SociableOptimalAvians',
 					'description' => 'Forward B on ground',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				467 => 
 				array (
@@ -5162,6 +6096,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'CarelessPastelAmericanblackvulture',
 					'description' => 'Forward B in air',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				468 => 
 				array (
@@ -5173,6 +6109,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'TemptingTanAmphiuma',
 					'description' => 'Up B',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				469 => 
 				array (
@@ -5184,6 +6122,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'FamousTornAddax',
 					'description' => 'Jab 1',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				470 => 
 				array (
@@ -5195,6 +6135,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'SlushyDefiniteAsiansmallclawedotter',
 					'description' => 'Jab 2',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				471 => 
 				array (
@@ -5206,6 +6148,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'WholePowerlessCranefly',
 					'description' => 'D Tilt',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				472 => 
 				array (
@@ -5217,6 +6161,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'BoldUntriedBlackwidowspider',
 					'description' => 'F Tilt',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				473 => 
 				array (
@@ -5228,6 +6174,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'MilkyCautiousElectriceel',
 					'description' => 'U Tilt',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				474 => 
 				array (
@@ -5239,6 +6187,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'FarawayMammothCockerspaniel',
 					'description' => 'D smash',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				475 => 
 				array (
@@ -5250,6 +6200,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'VictoriousHideousFlyingfish',
 					'description' => 'U smash',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				476 => 
 				array (
@@ -5261,6 +6213,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'GrizzledCooperativeGemsbok',
 					'description' => 'B Air',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				477 => 
 				array (
@@ -5272,6 +6226,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'InformalBrightBantamrooster',
 					'description' => 'D Air',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				478 => 
 				array (
@@ -5283,6 +6239,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'DishonestGranularAlpinegoat',
 					'description' => 'F Air',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				479 => 
 				array (
@@ -5294,6 +6252,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'SpectacularIcyAlbertosaurus',
 					'description' => 'N Air',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				480 => 
 				array (
@@ -5305,6 +6265,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'KeyWelloffAmericankestrel',
 					'description' => 'U Air',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				481 => 
 				array (
@@ -5316,6 +6278,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'LittlePinkEmperorshrimp',
 					'description' => 'Dash Attack',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				482 => 
 				array (
@@ -5327,6 +6291,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'GentleImpartialFoal',
 					'description' => 'Running Grab',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				483 => 
 				array (
@@ -5338,6 +6304,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'SlowShyAfricanjacana',
 					'description' => 'Grab',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				484 => 
 				array (
@@ -5349,6 +6317,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'AdolescentDecimalClingfish',
 					'description' => 'Air Dodge',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				485 => 
 				array (
@@ -5360,6 +6330,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'ValidDarkHoopoe',
 					'description' => 'Spot Dodge',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				486 => 
 				array (
@@ -5371,6 +6343,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'GrizzledPresentCommongonolek',
 					'description' => 'Roll Forward',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				487 => 
 				array (
@@ -5382,6 +6356,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'DapperOrdinaryBlackbear',
 					'description' => 'Veggie Throw Ground',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				488 => 
 				array (
@@ -5393,6 +6369,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'VapidInsistentIchthyosaurs',
 					'description' => 'Forward B',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				489 => 
 				array (
@@ -5404,6 +6382,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'EvenFaithfulCuttlefish',
 					'description' => 'Neutral B in air',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				490 => 
 				array (
@@ -5415,6 +6395,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'SpicySlipperyArchaeocete',
 					'description' => 'Jab',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				491 => 
 				array (
@@ -5426,6 +6408,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'NaturalBlankClumber',
 					'description' => 'D Tilt',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				492 => 
 				array (
@@ -5437,6 +6421,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'HatefulPitifulCirriped',
 					'description' => 'High F Tilt',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				493 => 
 				array (
@@ -5448,6 +6434,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'ThreadbareDazzlingGrunion',
 					'description' => 'Low F Tilt',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				494 => 
 				array (
@@ -5459,6 +6447,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'ZestyOrangeFattaileddunnart',
 					'description' => 'U Tilt',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				495 => 
 				array (
@@ -5470,6 +6460,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'ExcellentLiquidAsianporcupine',
 					'description' => 'D Smash',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				496 => 
 				array (
@@ -5481,6 +6473,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'MeaslyPassionateButterfly',
 					'description' => 'F Smash',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				497 => 
 				array (
@@ -5492,6 +6486,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'DeficientAncientArthropods',
 					'description' => 'U Smash',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				498 => 
 				array (
@@ -5503,6 +6499,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'VictoriousInstructiveFairyfly',
 					'description' => 'B Air',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 				499 => 
 				array (
@@ -5514,6 +6512,8 @@ class GifsTableSeeder extends Seeder {
 					'url' => 'OrderlyImpoliteAfricanwildcat',
 					'description' => 'D Air',
 					'score' => '0',
+					'created_at' => '0000-00-00 00:00:00',
+					'updated_at' => '0000-00-00 00:00:00',
 				),
 			));
 		\DB::table('gifs')->insert(array (
@@ -5527,6 +6527,8 @@ class GifsTableSeeder extends Seeder {
 				'url' => 'RingedParallelGrasshopper',
 				'description' => 'F Air',
 				'score' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			1 => 
 			array (
@@ -5538,6 +6540,8 @@ class GifsTableSeeder extends Seeder {
 				'url' => 'SleepyFarAmurminnow',
 				'description' => 'Forward B in air',
 				'score' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			2 => 
 			array (
@@ -5549,6 +6553,8 @@ class GifsTableSeeder extends Seeder {
 				'url' => 'LastNaiveAmericanrobin',
 				'description' => 'U Air',
 				'score' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			3 => 
 			array (
@@ -5560,6 +6566,8 @@ class GifsTableSeeder extends Seeder {
 				'url' => 'IckyVillainousHoatzin',
 				'description' => 'Dash Attack',
 				'score' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			4 => 
 			array (
@@ -5571,6 +6579,8 @@ class GifsTableSeeder extends Seeder {
 				'url' => 'BlaringWarmheartedArthropods',
 				'description' => 'Running Grab',
 				'score' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			5 => 
 			array (
@@ -5582,6 +6592,8 @@ class GifsTableSeeder extends Seeder {
 				'url' => 'VeneratedPresentKittiwake',
 				'description' => 'Standing Grab',
 				'score' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			6 => 
 			array (
@@ -5593,6 +6605,8 @@ class GifsTableSeeder extends Seeder {
 				'url' => 'VariableScholarlyCooter',
 				'description' => 'Air Dodge',
 				'score' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			7 => 
 			array (
@@ -5604,6 +6618,8 @@ class GifsTableSeeder extends Seeder {
 				'url' => 'ExemplaryDecimalFawn',
 				'description' => 'Spot Dodge',
 				'score' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			8 => 
 			array (
@@ -5615,6 +6631,8 @@ class GifsTableSeeder extends Seeder {
 				'url' => 'OfficialFloweryKoi',
 				'description' => 'Roll Forward',
 				'score' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			9 => 
 			array (
@@ -5626,6 +6644,8 @@ class GifsTableSeeder extends Seeder {
 				'url' => 'MemorableFrayedDunlin',
 				'description' => 'Down B',
 				'score' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			10 => 
 			array (
@@ -5637,6 +6657,8 @@ class GifsTableSeeder extends Seeder {
 				'url' => 'BraveCelebratedEchidna',
 				'description' => 'Forward B',
 				'score' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			11 => 
 			array (
@@ -5648,6 +6670,8 @@ class GifsTableSeeder extends Seeder {
 				'url' => 'BeneficialMistyAmurratsnake',
 				'description' => 'Neutral B in air',
 				'score' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			12 => 
 			array (
@@ -5659,6 +6683,8 @@ class GifsTableSeeder extends Seeder {
 				'url' => 'OldYoungKiwi',
 				'description' => 'Up B',
 				'score' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			13 => 
 			array (
@@ -5670,6 +6696,8 @@ class GifsTableSeeder extends Seeder {
 				'url' => 'BriefWearyBaleenwhale',
 				'description' => 'Jab',
 				'score' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			14 => 
 			array (
@@ -5681,6 +6709,8 @@ class GifsTableSeeder extends Seeder {
 				'url' => 'IlliterateWhiteHogget',
 				'description' => 'D Tilt',
 				'score' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			15 => 
 			array (
@@ -5692,6 +6722,8 @@ class GifsTableSeeder extends Seeder {
 				'url' => 'SatisfiedLameEmeraldtreeskink',
 				'description' => 'High F Tilt',
 				'score' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			16 => 
 			array (
@@ -5703,6 +6735,8 @@ class GifsTableSeeder extends Seeder {
 				'url' => 'ExemplaryGiantDesertpupfish',
 				'description' => 'Low F Tilt',
 				'score' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			17 => 
 			array (
@@ -5714,6 +6748,8 @@ class GifsTableSeeder extends Seeder {
 				'url' => 'SoulfulBarrenGonolek',
 				'description' => 'U Tilt',
 				'score' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			18 => 
 			array (
@@ -5725,6 +6761,8 @@ class GifsTableSeeder extends Seeder {
 				'url' => 'EntireVictoriousHyrax',
 				'description' => 'D Smash',
 				'score' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			19 => 
 			array (
@@ -5736,6 +6774,8 @@ class GifsTableSeeder extends Seeder {
 				'url' => 'GoldenBouncyConure',
 				'description' => 'F Smash',
 				'score' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			20 => 
 			array (
@@ -5747,6 +6787,8 @@ class GifsTableSeeder extends Seeder {
 				'url' => 'PeriodicFlippantBlueandgoldmackaw',
 				'description' => 'U Smash',
 				'score' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			21 => 
 			array (
@@ -5758,6 +6800,8 @@ class GifsTableSeeder extends Seeder {
 				'url' => 'HelplessOpulentErin',
 				'description' => 'B Air',
 				'score' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			22 => 
 			array (
@@ -5769,6 +6813,8 @@ class GifsTableSeeder extends Seeder {
 				'url' => 'FamiliarVeneratedHorse',
 				'description' => 'D Air',
 				'score' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			23 => 
 			array (
@@ -5780,6 +6826,8 @@ class GifsTableSeeder extends Seeder {
 				'url' => 'FrayedPopularBrontosaurus',
 				'description' => 'F Air',
 				'score' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			24 => 
 			array (
@@ -5791,6 +6839,8 @@ class GifsTableSeeder extends Seeder {
 				'url' => 'CorruptWhisperedCommabutterfly',
 				'description' => 'N Air',
 				'score' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			25 => 
 			array (
@@ -5802,6 +6852,8 @@ class GifsTableSeeder extends Seeder {
 				'url' => 'DirtyWeeklyGoa',
 				'description' => 'U Air',
 				'score' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			26 => 
 			array (
@@ -5813,6 +6865,8 @@ class GifsTableSeeder extends Seeder {
 				'url' => 'KindheartedConcreteDowitcher',
 				'description' => 'Dash Attack',
 				'score' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			27 => 
 			array (
@@ -5824,6 +6878,8 @@ class GifsTableSeeder extends Seeder {
 				'url' => 'VerifiablePerfumedEyelashpitviper',
 				'description' => 'Running Grab',
 				'score' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			28 => 
 			array (
@@ -5835,6 +6891,8 @@ class GifsTableSeeder extends Seeder {
 				'url' => 'PointedFrigidAcouchi',
 				'description' => 'Standing Grab',
 				'score' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			29 => 
 			array (
@@ -5846,6 +6904,8 @@ class GifsTableSeeder extends Seeder {
 				'url' => 'AliveSarcasticEel',
 				'description' => 'Air Dodge',
 				'score' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			30 => 
 			array (
@@ -5857,6 +6917,8 @@ class GifsTableSeeder extends Seeder {
 				'url' => 'MeaslyEdibleGemsbuck',
 				'description' => 'Roll Backward',
 				'score' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			31 => 
 			array (
@@ -5868,6 +6930,8 @@ class GifsTableSeeder extends Seeder {
 				'url' => 'NiftyDismalGoldfish',
 				'description' => 'Spot Dodge',
 				'score' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			32 => 
 			array (
@@ -5879,6 +6943,8 @@ class GifsTableSeeder extends Seeder {
 				'url' => 'JitteryVastBighorn',
 				'description' => 'Roll Forward',
 				'score' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			33 => 
 			array (
@@ -5890,6 +6956,8 @@ class GifsTableSeeder extends Seeder {
 				'url' => 'VioletClosedKid',
 				'description' => 'Down B',
 				'score' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			34 => 
 			array (
@@ -5901,6 +6969,8 @@ class GifsTableSeeder extends Seeder {
 				'url' => 'ClutteredUnnaturalCutworm',
 				'description' => 'Forward B 1',
 				'score' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			35 => 
 			array (
@@ -5912,6 +6982,8 @@ class GifsTableSeeder extends Seeder {
 				'url' => 'YellowishFortunateEmu',
 			'description' => 'Forward B 3 (down)',
 				'score' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			36 => 
 			array (
@@ -5923,6 +6995,8 @@ class GifsTableSeeder extends Seeder {
 				'url' => 'VelvetyZestyAzurevasesponge',
 			'description' => 'Forward B 3 (neutral)',
 				'score' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			37 => 
 			array (
@@ -5934,6 +7008,8 @@ class GifsTableSeeder extends Seeder {
 				'url' => 'MeatyBeautifulIndochinesetiger',
 			'description' => 'Forward B 3 (up)',
 				'score' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			38 => 
 			array (
@@ -5945,6 +7021,8 @@ class GifsTableSeeder extends Seeder {
 				'url' => 'HastyGreatAmericankestrel',
 			'description' => 'Forward B 4 (down)',
 				'score' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			39 => 
 			array (
@@ -5956,6 +7034,8 @@ class GifsTableSeeder extends Seeder {
 				'url' => 'TartGiantClumber',
 			'description' => 'Forward B 4 (neutral)',
 				'score' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			40 => 
 			array (
@@ -5967,6 +7047,8 @@ class GifsTableSeeder extends Seeder {
 				'url' => 'RedThatHuemul',
 			'description' => 'Forward B 4 (up)',
 				'score' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			41 => 
 			array (
@@ -5978,6 +7060,8 @@ class GifsTableSeeder extends Seeder {
 				'url' => 'YoungLinearAmazondolphin',
 				'description' => 'Neutral B',
 				'score' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			42 => 
 			array (
@@ -5989,6 +7073,8 @@ class GifsTableSeeder extends Seeder {
 				'url' => 'AncientKaleidoscopicFlyingfish',
 				'description' => 'Neutral B in air',
 				'score' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			43 => 
 			array (
@@ -6000,6 +7086,8 @@ class GifsTableSeeder extends Seeder {
 				'url' => 'AffectionateSeparateEarthworm',
 				'description' => 'Up B',
 				'score' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			44 => 
 			array (
@@ -6011,6 +7099,8 @@ class GifsTableSeeder extends Seeder {
 				'url' => 'PertinentPinkIndianabat',
 				'description' => 'Jab 1',
 				'score' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			45 => 
 			array (
@@ -6022,6 +7112,8 @@ class GifsTableSeeder extends Seeder {
 				'url' => 'OffensiveViciousCob',
 				'description' => 'D Tilt',
 				'score' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			46 => 
 			array (
@@ -6033,6 +7125,8 @@ class GifsTableSeeder extends Seeder {
 				'url' => 'ScratchyGratefulEagle',
 				'description' => 'F Tilt',
 				'score' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			47 => 
 			array (
@@ -6044,6 +7138,8 @@ class GifsTableSeeder extends Seeder {
 				'url' => 'GargantuanGleamingHairstreakbutterfly',
 				'description' => 'N Air',
 				'score' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			48 => 
 			array (
@@ -6055,6 +7151,8 @@ class GifsTableSeeder extends Seeder {
 				'url' => 'GleamingTightGuppy',
 				'description' => 'U Tilt',
 				'score' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			49 => 
 			array (
@@ -6066,6 +7164,8 @@ class GifsTableSeeder extends Seeder {
 				'url' => 'ScarceRichKingfisher',
 				'description' => 'D Smash',
 				'score' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			50 => 
 			array (
@@ -6077,6 +7177,8 @@ class GifsTableSeeder extends Seeder {
 				'url' => 'GlitteringGaseousIbadanmalimbe',
 				'description' => 'F Smash',
 				'score' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			51 => 
 			array (
@@ -6088,6 +7190,8 @@ class GifsTableSeeder extends Seeder {
 				'url' => 'ImperturbablePlushGhostshrimp',
 				'description' => 'U Smash',
 				'score' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			52 => 
 			array (
@@ -6099,6 +7203,8 @@ class GifsTableSeeder extends Seeder {
 				'url' => 'LivelyGrimyIndri',
 				'description' => 'B Air',
 				'score' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			53 => 
 			array (
@@ -6110,6 +7216,8 @@ class GifsTableSeeder extends Seeder {
 				'url' => 'SpiffyEnlightenedIchneumonfly',
 				'description' => 'D Air',
 				'score' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			54 => 
 			array (
@@ -6121,6 +7229,8 @@ class GifsTableSeeder extends Seeder {
 				'url' => 'HarmoniousWildBoutu',
 				'description' => 'F Air',
 				'score' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			55 => 
 			array (
@@ -6132,6 +7242,8 @@ class GifsTableSeeder extends Seeder {
 				'url' => 'GlamorousBetterJenny',
 				'description' => 'U Air',
 				'score' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			56 => 
 			array (
@@ -6143,6 +7255,8 @@ class GifsTableSeeder extends Seeder {
 				'url' => 'ClassicMagnificentKakapo',
 				'description' => 'Dash Attack',
 				'score' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			57 => 
 			array (
@@ -6154,6 +7268,8 @@ class GifsTableSeeder extends Seeder {
 				'url' => 'PettyCheapBlacklab',
 				'description' => 'Running Grab',
 				'score' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			58 => 
 			array (
@@ -6165,6 +7281,8 @@ class GifsTableSeeder extends Seeder {
 				'url' => 'RevolvingAbsoluteGiraffe',
 				'description' => 'Grab',
 				'score' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			59 => 
 			array (
@@ -6176,6 +7294,8 @@ class GifsTableSeeder extends Seeder {
 				'url' => 'HeavyDishonestHairstreakbutterfly',
 				'description' => 'Air Dodge',
 				'score' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			60 => 
 			array (
@@ -6187,6 +7307,8 @@ class GifsTableSeeder extends Seeder {
 				'url' => 'ColossalGentleBustard',
 				'description' => 'Roll Back',
 				'score' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			61 => 
 			array (
@@ -6198,6 +7320,8 @@ class GifsTableSeeder extends Seeder {
 				'url' => 'AngryLavishFlyingfish',
 				'description' => 'Spot Dodge',
 				'score' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			62 => 
 			array (
@@ -6209,6 +7333,8 @@ class GifsTableSeeder extends Seeder {
 				'url' => 'ConstantWanBream',
 				'description' => 'Roll Forward',
 				'score' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			63 => 
 			array (
@@ -6220,6 +7346,8 @@ class GifsTableSeeder extends Seeder {
 				'url' => 'GleefulAnxiousHammerkop',
 				'description' => 'Down B',
 				'score' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			64 => 
 			array (
@@ -6231,6 +7359,8 @@ class GifsTableSeeder extends Seeder {
 				'url' => 'CarelessSpicyLadybug',
 				'description' => 'Neutral B',
 				'score' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			65 => 
 			array (
@@ -6242,6 +7372,8 @@ class GifsTableSeeder extends Seeder {
 				'url' => 'TotalComposedJackal',
 			'description' => 'Neutral B (full charge)',
 				'score' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			66 => 
 			array (
@@ -6253,6 +7385,8 @@ class GifsTableSeeder extends Seeder {
 				'url' => 'DaringVacantBluetonguelizard',
 				'description' => 'Jab 1',
 				'score' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			67 => 
 			array (
@@ -6264,6 +7398,8 @@ class GifsTableSeeder extends Seeder {
 				'url' => 'BeautifulMasculineHind',
 				'description' => 'Jab 2',
 				'score' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			68 => 
 			array (
@@ -6275,6 +7411,8 @@ class GifsTableSeeder extends Seeder {
 				'url' => 'OldElaborateAlligatorsnappingturtle',
 				'description' => 'D Tilt',
 				'score' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			69 => 
 			array (
@@ -6286,6 +7424,8 @@ class GifsTableSeeder extends Seeder {
 				'url' => 'MealyGrandAmericansaddlebred',
 				'description' => 'High F Tilt',
 				'score' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			70 => 
 			array (
@@ -6297,6 +7437,8 @@ class GifsTableSeeder extends Seeder {
 				'url' => 'UnsteadyDizzyComet',
 				'description' => 'Low F Tilt',
 				'score' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			71 => 
 			array (
@@ -6308,6 +7450,8 @@ class GifsTableSeeder extends Seeder {
 				'url' => 'ParchedWebbedAmazonparrot',
 				'description' => 'U Tilt',
 				'score' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			72 => 
 			array (
@@ -6319,6 +7463,8 @@ class GifsTableSeeder extends Seeder {
 				'url' => 'PepperyMediocreAardwolf',
 				'description' => 'D Smash',
 				'score' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			73 => 
 			array (
@@ -6330,6 +7476,8 @@ class GifsTableSeeder extends Seeder {
 				'url' => 'PlumpAngryDugong',
 				'description' => 'F Smash',
 				'score' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			74 => 
 			array (
@@ -6341,6 +7489,8 @@ class GifsTableSeeder extends Seeder {
 				'url' => 'UnpleasantCommonAfricanhornbill',
 				'description' => 'U Smash',
 				'score' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			75 => 
 			array (
@@ -6352,6 +7502,8 @@ class GifsTableSeeder extends Seeder {
 				'url' => 'WealthyDistantArgentineruddyduck',
 				'description' => 'B Air',
 				'score' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			76 => 
 			array (
@@ -6363,6 +7515,8 @@ class GifsTableSeeder extends Seeder {
 				'url' => 'RashFantasticGecko',
 				'description' => 'D Air',
 				'score' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			77 => 
 			array (
@@ -6374,6 +7528,8 @@ class GifsTableSeeder extends Seeder {
 				'url' => 'IgnorantDisguisedBinturong',
 				'description' => 'F Air',
 				'score' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			78 => 
 			array (
@@ -6385,6 +7541,8 @@ class GifsTableSeeder extends Seeder {
 				'url' => 'ReflectingInsignificantAnt',
 				'description' => 'N Air',
 				'score' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			79 => 
 			array (
@@ -6396,6 +7554,8 @@ class GifsTableSeeder extends Seeder {
 				'url' => 'RightInfiniteAlbino',
 				'description' => 'U Air',
 				'score' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			80 => 
 			array (
@@ -6407,6 +7567,8 @@ class GifsTableSeeder extends Seeder {
 				'url' => 'QuaintJovialHectorsdolphin',
 				'description' => 'Dash Attack',
 				'score' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			81 => 
 			array (
@@ -6418,6 +7580,8 @@ class GifsTableSeeder extends Seeder {
 				'url' => 'ArtisticGloomyBullmastiff',
 				'description' => 'Running Grab',
 				'score' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			82 => 
 			array (
@@ -6429,6 +7593,8 @@ class GifsTableSeeder extends Seeder {
 				'url' => 'SlushyInsignificantAltiplanochinchillamouse',
 				'description' => 'Standing Grab',
 				'score' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			83 => 
 			array (
@@ -6440,6 +7606,8 @@ class GifsTableSeeder extends Seeder {
 				'url' => 'WarmheartedSelfishCoati',
 				'description' => 'Air Dodge',
 				'score' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			84 => 
 			array (
@@ -6451,6 +7619,8 @@ class GifsTableSeeder extends Seeder {
 				'url' => 'ShadyFoolhardyBasil',
 				'description' => 'Roll Backward',
 				'score' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			85 => 
 			array (
@@ -6462,6 +7632,8 @@ class GifsTableSeeder extends Seeder {
 				'url' => 'HauntingOccasionalCapybara',
 				'description' => 'Spot Dodge',
 				'score' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			86 => 
 			array (
@@ -6473,6 +7645,8 @@ class GifsTableSeeder extends Seeder {
 				'url' => 'HandyOrneryAstrangiacoral',
 				'description' => 'Roll Forward',
 				'score' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			87 => 
 			array (
@@ -6484,6 +7658,8 @@ class GifsTableSeeder extends Seeder {
 				'url' => 'JauntyGreenJunco',
 				'description' => 'Down B',
 				'score' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			88 => 
 			array (
@@ -6495,6 +7671,8 @@ class GifsTableSeeder extends Seeder {
 				'url' => 'WatchfulNauticalAidi',
 				'description' => 'Forward B',
 				'score' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			89 => 
 			array (
@@ -6506,6 +7684,8 @@ class GifsTableSeeder extends Seeder {
 				'url' => 'ThriftyMetallicHornedtoad',
 			'description' => 'Neutral B (charged)',
 				'score' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			90 => 
 			array (
@@ -6517,6 +7697,8 @@ class GifsTableSeeder extends Seeder {
 				'url' => 'SameFlippantAbyssiniangroundhornbill',
 				'description' => 'Up B',
 				'score' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			91 => 
 			array (
@@ -6528,6 +7710,8 @@ class GifsTableSeeder extends Seeder {
 				'url' => 'ElegantVelvetyGreatargus',
 				'description' => 'Jab 1',
 				'score' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			92 => 
 			array (
@@ -6539,6 +7723,8 @@ class GifsTableSeeder extends Seeder {
 				'url' => 'ImpureHealthyCod',
 				'description' => 'Jab 2',
 				'score' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			93 => 
 			array (
@@ -6550,6 +7736,8 @@ class GifsTableSeeder extends Seeder {
 				'url' => 'LameGlaringAmericanrobin',
 				'description' => 'Jab 3',
 				'score' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			94 => 
 			array (
@@ -6561,6 +7749,8 @@ class GifsTableSeeder extends Seeder {
 				'url' => 'DeliciousCoordinatedGodwit',
 				'description' => 'D Tilt',
 				'score' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			95 => 
 			array (
@@ -6572,6 +7762,8 @@ class GifsTableSeeder extends Seeder {
 				'url' => 'LavishTanDotterel',
 				'description' => 'F Tilt',
 				'score' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			96 => 
 			array (
@@ -6583,6 +7775,8 @@ class GifsTableSeeder extends Seeder {
 				'url' => 'PersonalGiddyIcterinewarbler',
 				'description' => 'U Tilt',
 				'score' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			97 => 
 			array (
@@ -6594,6 +7788,8 @@ class GifsTableSeeder extends Seeder {
 				'url' => 'CoarseShadowyHypsilophodon',
 				'description' => 'F Smash',
 				'score' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			98 => 
 			array (
@@ -6605,6 +7801,8 @@ class GifsTableSeeder extends Seeder {
 				'url' => 'OldfashionedWatchfulDromedary',
 				'description' => 'B Air',
 				'score' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			99 => 
 			array (
@@ -6616,6 +7814,8 @@ class GifsTableSeeder extends Seeder {
 				'url' => 'PoorRaggedAlligatorgar',
 				'description' => 'D Air',
 				'score' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			100 => 
 			array (
@@ -6627,6 +7827,8 @@ class GifsTableSeeder extends Seeder {
 				'url' => 'SecondBigheartedCrocodile',
 				'description' => 'F Air',
 				'score' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			101 => 
 			array (
@@ -6638,6 +7840,8 @@ class GifsTableSeeder extends Seeder {
 				'url' => 'FlippantRequiredAfricanpiedkingfisher',
 				'description' => 'N Air',
 				'score' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			102 => 
 			array (
@@ -6649,6 +7853,8 @@ class GifsTableSeeder extends Seeder {
 				'url' => 'HappyOrneryHanumanmonkey',
 				'description' => 'Dash Attack',
 				'score' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			103 => 
 			array (
@@ -6660,6 +7866,8 @@ class GifsTableSeeder extends Seeder {
 				'url' => 'ShoddyAppropriateAegeancat',
 				'description' => 'Running Grab',
 				'score' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			104 => 
 			array (
@@ -6671,6 +7879,8 @@ class GifsTableSeeder extends Seeder {
 				'url' => 'HiddenFittingGrebe',
 				'description' => 'Standing Grab',
 				'score' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			105 => 
 			array (
@@ -6682,6 +7892,8 @@ class GifsTableSeeder extends Seeder {
 				'url' => 'TightLameLamb',
 				'description' => 'Air Dodge',
 				'score' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			106 => 
 			array (
@@ -6693,6 +7905,8 @@ class GifsTableSeeder extends Seeder {
 				'url' => 'SomberLargeAss',
 				'description' => 'Roll Backward',
 				'score' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			107 => 
 			array (
@@ -6704,6 +7918,8 @@ class GifsTableSeeder extends Seeder {
 				'url' => 'DevotedQuerulousArgentineruddyduck',
 				'description' => 'Spot Dodge',
 				'score' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			108 => 
 			array (
@@ -6715,6 +7931,8 @@ class GifsTableSeeder extends Seeder {
 				'url' => 'IgnorantFearlessElephantbeetle',
 				'description' => 'Roll Forward',
 				'score' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			109 => 
 			array (
@@ -6726,6 +7944,8 @@ class GifsTableSeeder extends Seeder {
 				'url' => 'InbornDamagedIndianpalmsquirrel',
 				'description' => 'Neutral B in air',
 				'score' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			110 => 
 			array (
@@ -6737,6 +7957,8 @@ class GifsTableSeeder extends Seeder {
 				'url' => 'AnxiousOblongBobwhite',
 				'description' => 'Down Smash',
 				'score' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			111 => 
 			array (
@@ -6748,6 +7970,8 @@ class GifsTableSeeder extends Seeder {
 				'url' => 'TatteredWarpedBushsqueaker',
 				'description' => 'Up Smash',
 				'score' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			112 => 
 			array (
@@ -6759,6 +7983,8 @@ class GifsTableSeeder extends Seeder {
 				'url' => 'AccomplishedInsidiousJohndory',
 				'description' => 'U Air',
 				'score' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			113 => 
 			array (
@@ -6770,6 +7996,8 @@ class GifsTableSeeder extends Seeder {
 				'url' => 'MindlessMajesticCockatiel',
 				'description' => 'Down B from ground',
 				'score' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			114 => 
 			array (
@@ -6781,6 +8009,8 @@ class GifsTableSeeder extends Seeder {
 				'url' => 'OrneryCalmChinesecrocodilelizard',
 				'description' => 'Neutral B',
 				'score' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			115 => 
 			array (
@@ -6792,6 +8022,8 @@ class GifsTableSeeder extends Seeder {
 				'url' => 'OpenUnrulyKangaroo',
 				'description' => 'Up B',
 				'score' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			116 => 
 			array (
@@ -6803,6 +8035,8 @@ class GifsTableSeeder extends Seeder {
 				'url' => 'ShamefulNecessaryDobermanpinscher',
 				'description' => 'Jab 1',
 				'score' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			117 => 
 			array (
@@ -6814,6 +8048,8 @@ class GifsTableSeeder extends Seeder {
 				'url' => 'RevolvingIncredibleDalmatian',
 				'description' => 'Jab 2',
 				'score' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			118 => 
 			array (
@@ -6825,6 +8061,8 @@ class GifsTableSeeder extends Seeder {
 				'url' => 'AngelicGrimyAfricanaugurbuzzard',
 				'description' => 'D Tilt',
 				'score' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			119 => 
 			array (
@@ -6836,6 +8074,8 @@ class GifsTableSeeder extends Seeder {
 				'url' => 'CorruptAmbitiousAiredaleterrier',
 				'description' => 'F Tilt',
 				'score' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			120 => 
 			array (
@@ -6847,6 +8087,8 @@ class GifsTableSeeder extends Seeder {
 				'url' => 'SolidShowyCoqui',
 				'description' => 'U Tilt',
 				'score' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			121 => 
 			array (
@@ -6858,6 +8100,8 @@ class GifsTableSeeder extends Seeder {
 				'url' => 'HatefulIdenticalHen',
 				'description' => 'D Smash',
 				'score' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			122 => 
 			array (
@@ -6869,6 +8113,8 @@ class GifsTableSeeder extends Seeder {
 				'url' => 'CoordinatedGiganticJay',
 				'description' => 'F Smash',
 				'score' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			123 => 
 			array (
@@ -6880,6 +8126,8 @@ class GifsTableSeeder extends Seeder {
 				'url' => 'SnarlingAdmirableDragonfly',
 				'description' => 'U Smash',
 				'score' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			124 => 
 			array (
@@ -6891,6 +8139,8 @@ class GifsTableSeeder extends Seeder {
 				'url' => 'IcyHollowAlaskajingle',
 				'description' => 'B Air',
 				'score' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			125 => 
 			array (
@@ -6902,6 +8152,8 @@ class GifsTableSeeder extends Seeder {
 				'url' => 'TenseMajorCatfish',
 				'description' => 'D Air',
 				'score' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			126 => 
 			array (
@@ -6913,6 +8165,8 @@ class GifsTableSeeder extends Seeder {
 				'url' => 'SpitefulDeterminedBuckeyebutterfly',
 				'description' => 'F Air',
 				'score' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			127 => 
 			array (
@@ -6924,6 +8178,8 @@ class GifsTableSeeder extends Seeder {
 				'url' => 'AshamedAnnualGoldfinch',
 				'description' => 'N Air',
 				'score' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			128 => 
 			array (
@@ -6935,6 +8191,8 @@ class GifsTableSeeder extends Seeder {
 				'url' => 'DismalGorgeousEstuarinecrocodile',
 				'description' => 'U Air',
 				'score' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			129 => 
 			array (
@@ -6946,6 +8204,8 @@ class GifsTableSeeder extends Seeder {
 				'url' => 'TintedGlassGarpike',
 				'description' => 'Dash Attack',
 				'score' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			130 => 
 			array (
@@ -6957,6 +8217,8 @@ class GifsTableSeeder extends Seeder {
 				'url' => 'NastyBasicAsp',
 				'description' => 'Running Grab',
 				'score' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			131 => 
 			array (
@@ -6968,6 +8230,8 @@ class GifsTableSeeder extends Seeder {
 				'url' => 'ValuableAlarmedHammerkop',
 				'description' => 'Standing Grab',
 				'score' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			132 => 
 			array (
@@ -6979,6 +8243,8 @@ class GifsTableSeeder extends Seeder {
 				'url' => 'HiddenPlasticCrossbill',
 				'description' => 'Air Dodge',
 				'score' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			133 => 
 			array (
@@ -6990,6 +8256,8 @@ class GifsTableSeeder extends Seeder {
 				'url' => 'SparklingQuestionableAmericantoad',
 				'description' => 'Roll Backward',
 				'score' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			134 => 
 			array (
@@ -7001,6 +8269,8 @@ class GifsTableSeeder extends Seeder {
 				'url' => 'ZanyNextHermitcrab',
 				'description' => 'Ground Dodge',
 				'score' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			135 => 
 			array (
@@ -7012,6 +8282,8 @@ class GifsTableSeeder extends Seeder {
 				'url' => 'EqualGenuineIberianchiffchaff',
 				'description' => 'Roll Forward',
 				'score' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			136 => 
 			array (
@@ -7023,6 +8295,8 @@ class GifsTableSeeder extends Seeder {
 				'url' => 'HardBlaringBrownbear',
 				'description' => 'Down B',
 				'score' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			137 => 
 			array (
@@ -7034,6 +8308,8 @@ class GifsTableSeeder extends Seeder {
 				'url' => 'TornWideAndeancondor',
 				'description' => 'Jab 1',
 				'score' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			138 => 
 			array (
@@ -7045,6 +8321,8 @@ class GifsTableSeeder extends Seeder {
 				'url' => 'FittingZanyHagfish',
 				'description' => 'Jab 2',
 				'score' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			139 => 
 			array (
@@ -7056,6 +8334,8 @@ class GifsTableSeeder extends Seeder {
 				'url' => 'SociableChiefIbisbill',
 				'description' => 'Jab 3',
 				'score' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			140 => 
 			array (
@@ -7067,6 +8347,8 @@ class GifsTableSeeder extends Seeder {
 				'url' => 'GlossyYearlyDassie',
 				'description' => 'Down Tilt',
 				'score' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			141 => 
 			array (
@@ -7078,6 +8360,8 @@ class GifsTableSeeder extends Seeder {
 				'url' => 'MajorDefensiveDungenesscrab',
 				'description' => 'F Tilt',
 				'score' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			142 => 
 			array (
@@ -7089,6 +8373,8 @@ class GifsTableSeeder extends Seeder {
 				'url' => 'GrimCluelessDorking',
 				'description' => 'U Tilt',
 				'score' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			143 => 
 			array (
@@ -7100,6 +8386,8 @@ class GifsTableSeeder extends Seeder {
 				'url' => 'HandyMetallicLabradorretriever',
 				'description' => 'Down Smash',
 				'score' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			144 => 
 			array (
@@ -7111,6 +8399,8 @@ class GifsTableSeeder extends Seeder {
 				'url' => 'LankyDependentGlassfrog',
 				'description' => 'F Smash 2',
 				'score' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			145 => 
 			array (
@@ -7122,6 +8412,8 @@ class GifsTableSeeder extends Seeder {
 				'url' => 'MixedPoliticalHarlequinbug',
 				'description' => 'Up Smash',
 				'score' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			146 => 
 			array (
@@ -7133,6 +8425,8 @@ class GifsTableSeeder extends Seeder {
 				'url' => 'PreciousGenerousGoldfish',
 				'description' => 'B Air',
 				'score' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			147 => 
 			array (
@@ -7144,6 +8438,8 @@ class GifsTableSeeder extends Seeder {
 				'url' => 'ImmenseRepentantGourami',
 				'description' => 'Down Air',
 				'score' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			148 => 
 			array (
@@ -7155,6 +8451,8 @@ class GifsTableSeeder extends Seeder {
 				'url' => 'VengefulPerfumedAddax',
 				'description' => 'F Air',
 				'score' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			149 => 
 			array (
@@ -7166,6 +8464,8 @@ class GifsTableSeeder extends Seeder {
 				'url' => 'ImprobableVapidGermanspitz',
 				'description' => 'N Air',
 				'score' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			150 => 
 			array (
@@ -7177,6 +8477,8 @@ class GifsTableSeeder extends Seeder {
 				'url' => 'DishonestVapidCicada',
 				'description' => 'U Air',
 				'score' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			151 => 
 			array (
@@ -7188,6 +8490,8 @@ class GifsTableSeeder extends Seeder {
 				'url' => 'AgreeableEssentialGrouper',
 				'description' => 'Z Air',
 				'score' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			152 => 
 			array (
@@ -7199,6 +8503,8 @@ class GifsTableSeeder extends Seeder {
 				'url' => 'UniqueFondChrysalis',
 				'description' => 'Dash Attack',
 				'score' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			153 => 
 			array (
@@ -7210,6 +8516,8 @@ class GifsTableSeeder extends Seeder {
 				'url' => 'BiodegradableBewitchedChupacabra',
 				'description' => 'Running Grab',
 				'score' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			154 => 
 			array (
@@ -7221,6 +8529,8 @@ class GifsTableSeeder extends Seeder {
 				'url' => 'UnfitOccasionalIceblueredtopzebra',
 				'description' => 'Grab',
 				'score' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			155 => 
 			array (
@@ -7232,6 +8542,8 @@ class GifsTableSeeder extends Seeder {
 				'url' => 'IndelibleFlippantCutworm',
 				'description' => 'Air Dodge',
 				'score' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			156 => 
 			array (
@@ -7243,6 +8555,8 @@ class GifsTableSeeder extends Seeder {
 				'url' => 'RemoteSentimentalAngwantibo',
 				'description' => 'Roll Backward',
 				'score' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			157 => 
 			array (
@@ -7254,6 +8568,8 @@ class GifsTableSeeder extends Seeder {
 				'url' => 'SentimentalConcernedBedlingtonterrier',
 				'description' => 'Spot Dodge',
 				'score' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			158 => 
 			array (
@@ -7265,6 +8581,8 @@ class GifsTableSeeder extends Seeder {
 				'url' => 'SpeedyHarmoniousGalapagossealion',
 				'description' => 'Roll Forward',
 				'score' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			159 => 
 			array (
@@ -7276,6 +8594,8 @@ class GifsTableSeeder extends Seeder {
 				'url' => 'BasicPettyAmericanlobster',
 				'description' => 'Down B',
 				'score' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			160 => 
 			array (
@@ -7287,6 +8607,8 @@ class GifsTableSeeder extends Seeder {
 				'url' => 'WeightySkinnyAfricanrockpython',
 				'description' => 'Forward B',
 				'score' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			161 => 
 			array (
@@ -7298,6 +8620,8 @@ class GifsTableSeeder extends Seeder {
 				'url' => 'ElaborateAccurateIberianmidwifetoad',
 				'description' => 'Neutral B',
 				'score' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			162 => 
 			array (
@@ -7309,6 +8633,8 @@ class GifsTableSeeder extends Seeder {
 				'url' => 'HarshForcefulArabianwildcat',
 				'description' => 'Up B',
 				'score' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			163 => 
 			array (
@@ -7320,6 +8646,8 @@ class GifsTableSeeder extends Seeder {
 				'url' => 'InfiniteInnocentAcornbarnacle',
 				'description' => 'F Tilt',
 				'score' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			164 => 
 			array (
@@ -7331,6 +8659,8 @@ class GifsTableSeeder extends Seeder {
 				'url' => 'PinkIllfatedIraniangroundjay',
 				'description' => 'D Smash',
 				'score' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			165 => 
 			array (
@@ -7342,6 +8672,8 @@ class GifsTableSeeder extends Seeder {
 				'url' => 'ImpressionableRecklessKouprey',
 				'description' => 'F Smash',
 				'score' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			166 => 
 			array (
@@ -7353,6 +8685,8 @@ class GifsTableSeeder extends Seeder {
 				'url' => 'TatteredAffectionateAfricanelephant',
 				'description' => 'U Smash',
 				'score' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			167 => 
 			array (
@@ -7364,6 +8698,8 @@ class GifsTableSeeder extends Seeder {
 				'url' => 'DismalUntimelyGoral',
 				'description' => 'U Tilt',
 				'score' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			168 => 
 			array (
@@ -7375,6 +8711,8 @@ class GifsTableSeeder extends Seeder {
 				'url' => 'FluidIcyGalah',
 				'description' => 'B Air',
 				'score' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			169 => 
 			array (
@@ -7386,6 +8724,8 @@ class GifsTableSeeder extends Seeder {
 				'url' => 'ShinyUntriedBrontosaurus',
 				'description' => 'D Air',
 				'score' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			170 => 
 			array (
@@ -7397,6 +8737,8 @@ class GifsTableSeeder extends Seeder {
 				'url' => 'UnderstatedCheapBellfrog',
 				'description' => 'D Tilt',
 				'score' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			171 => 
 			array (
@@ -7408,6 +8750,8 @@ class GifsTableSeeder extends Seeder {
 				'url' => 'SaneMajesticIchneumonfly',
 				'description' => 'F Air',
 				'score' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			172 => 
 			array (
@@ -7419,6 +8763,8 @@ class GifsTableSeeder extends Seeder {
 				'url' => 'SoreColorfulJavalina',
 				'description' => 'N Air',
 				'score' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			173 => 
 			array (
@@ -7430,6 +8776,8 @@ class GifsTableSeeder extends Seeder {
 				'url' => 'NeighboringPositiveAlligator',
 				'description' => 'U Air',
 				'score' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			174 => 
 			array (
@@ -7441,6 +8789,8 @@ class GifsTableSeeder extends Seeder {
 				'url' => 'BrokenCostlyGrison',
 				'description' => 'Dash attack',
 				'score' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			175 => 
 			array (
@@ -7452,6 +8802,8 @@ class GifsTableSeeder extends Seeder {
 				'url' => 'HighlevelRegalLark',
 				'description' => 'Running Grab',
 				'score' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			176 => 
 			array (
@@ -7463,6 +8815,8 @@ class GifsTableSeeder extends Seeder {
 				'url' => 'SomberTenderAvocet',
 				'description' => 'Standing Grab',
 				'score' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			177 => 
 			array (
@@ -7474,6 +8828,8 @@ class GifsTableSeeder extends Seeder {
 				'url' => 'CircularFrenchChrysomelid',
 				'description' => 'Air Dodge',
 				'score' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			178 => 
 			array (
@@ -7485,6 +8841,8 @@ class GifsTableSeeder extends Seeder {
 				'url' => 'OddInexperiencedDesertpupfish',
 				'description' => 'Roll Backward',
 				'score' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			179 => 
 			array (
@@ -7496,6 +8854,8 @@ class GifsTableSeeder extends Seeder {
 				'url' => 'DismalClosedAmericanpainthorse',
 				'description' => 'Spot Dodge',
 				'score' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			180 => 
 			array (
@@ -7507,6 +8867,8 @@ class GifsTableSeeder extends Seeder {
 				'url' => 'ColossalEasygoingCrayfish',
 				'description' => 'Roll Forward',
 				'score' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			181 => 
 			array (
@@ -7518,6 +8880,8 @@ class GifsTableSeeder extends Seeder {
 				'url' => 'ShamelessExhaustedAmericanindianhorse',
 				'description' => 'Jab',
 				'score' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			182 => 
 			array (
@@ -7529,6 +8893,8 @@ class GifsTableSeeder extends Seeder {
 				'url' => 'ElaborateMaleAustraliankestrel',
 				'description' => 'Down B on ground',
 				'score' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			183 => 
 			array (
@@ -7540,6 +8906,8 @@ class GifsTableSeeder extends Seeder {
 				'url' => 'SmoggyBriefHyracotherium',
 				'description' => 'Up B in air',
 				'score' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			184 => 
 			array (
@@ -7551,6 +8919,8 @@ class GifsTableSeeder extends Seeder {
 				'url' => 'DangerousPessimisticAmericanredsquirrel',
 				'description' => 'Up B on ground',
 				'score' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			185 => 
 			array (
@@ -7562,6 +8932,8 @@ class GifsTableSeeder extends Seeder {
 				'url' => 'CourteousWarmFairybluebird',
 				'description' => 'Down B in air',
 				'score' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			186 => 
 			array (
@@ -7573,6 +8945,8 @@ class GifsTableSeeder extends Seeder {
 				'url' => 'ThinIckyGrackle',
 				'description' => 'Neutral B',
 				'score' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			187 => 
 			array (
@@ -7584,6 +8958,8 @@ class GifsTableSeeder extends Seeder {
 				'url' => 'ComplexRevolvingBantamrooster',
 				'description' => 'Up B on ground',
 				'score' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			188 => 
 			array (
@@ -7595,6 +8971,8 @@ class GifsTableSeeder extends Seeder {
 				'url' => 'ObedientAnimatedGuillemot',
 				'description' => 'Up B in air',
 				'score' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			189 => 
 			array (
@@ -7606,6 +8984,8 @@ class GifsTableSeeder extends Seeder {
 				'url' => 'HopefulNauticalArrowana',
 				'description' => 'Neutral B',
 				'score' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			190 => 
 			array (
@@ -7617,6 +8997,8 @@ class GifsTableSeeder extends Seeder {
 				'url' => 'AppropriateCleanJellyfish',
 				'description' => 'High F Smash',
 				'score' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			191 => 
 			array (
@@ -7628,6 +9010,8 @@ class GifsTableSeeder extends Seeder {
 				'url' => 'DependentTidyGalapagospenguin',
 				'description' => 'Low F Smash',
 				'score' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			192 => 
 			array (
@@ -7639,6 +9023,8 @@ class GifsTableSeeder extends Seeder {
 				'url' => 'InbornOrdinaryAffenpinscher',
 				'description' => 'Down B',
 				'score' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			193 => 
 			array (
@@ -7650,6 +9036,8 @@ class GifsTableSeeder extends Seeder {
 				'url' => 'MadeupNiftyFerret',
 				'description' => 'Forward B on ground',
 				'score' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			194 => 
 			array (
@@ -7661,6 +9049,8 @@ class GifsTableSeeder extends Seeder {
 				'url' => 'EdibleSilverFirebelliedtoad',
 				'description' => 'Down B in air',
 				'score' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			195 => 
 			array (
@@ -7672,6 +9062,8 @@ class GifsTableSeeder extends Seeder {
 				'url' => 'LastEducatedFurseal',
 			'description' => 'Forward B in air (hit)',
 				'score' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			196 => 
 			array (
@@ -7683,6 +9075,8 @@ class GifsTableSeeder extends Seeder {
 				'url' => 'ShortLazyHammerheadshark',
 				'description' => 'B Air',
 				'score' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			197 => 
 			array (
@@ -7694,6 +9088,8 @@ class GifsTableSeeder extends Seeder {
 				'url' => 'HiddenSpryFerret',
 				'description' => 'N Air',
 				'score' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			198 => 
 			array (
@@ -7705,6 +9101,8 @@ class GifsTableSeeder extends Seeder {
 				'url' => 'SpanishWealthyAsianconstablebutterfly',
 				'description' => 'Up B',
 				'score' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			199 => 
 			array (
@@ -7716,6 +9114,8 @@ class GifsTableSeeder extends Seeder {
 				'url' => 'BogusSandyIrishterrier',
 				'description' => 'Up B',
 				'score' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			200 => 
 			array (
@@ -7727,6 +9127,8 @@ class GifsTableSeeder extends Seeder {
 				'url' => 'VagueUglyDartfrog',
 				'description' => 'Up B in air',
 				'score' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			201 => 
 			array (
@@ -7738,6 +9140,8 @@ class GifsTableSeeder extends Seeder {
 				'url' => 'RecentElaborateBellsnake',
 			'description' => 'Jab 3 (non-rapid)',
 				'score' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			202 => 
 			array (
@@ -7749,6 +9153,8 @@ class GifsTableSeeder extends Seeder {
 				'url' => 'QuarrelsomeCanineAmericanindianhorse',
 			'description' => 'Jab 3 (rapid)',
 				'score' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			203 => 
 			array (
@@ -7760,6 +9166,8 @@ class GifsTableSeeder extends Seeder {
 				'url' => 'ComplicatedEquatorialInsect',
 				'description' => 'Down B',
 				'score' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			204 => 
 			array (
@@ -7771,6 +9179,8 @@ class GifsTableSeeder extends Seeder {
 				'url' => 'IllJovialDotterel',
 				'description' => 'Down B on ground',
 				'score' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			205 => 
 			array (
@@ -7782,6 +9192,8 @@ class GifsTableSeeder extends Seeder {
 				'url' => 'RareFrigidBasenji',
 			'description' => 'Forward B 2 (up)',
 				'score' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			206 => 
 			array (
@@ -7793,6 +9205,8 @@ class GifsTableSeeder extends Seeder {
 				'url' => 'WellmadeUnripeCopepod',
 			'description' => 'Forward B 2 (neutral & down)',
 				'score' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			207 => 
 			array (
@@ -7804,6 +9218,8 @@ class GifsTableSeeder extends Seeder {
 				'url' => 'FeminineThoseDragonfly',
 				'description' => 'Down B',
 				'score' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			208 => 
 			array (
@@ -7815,6 +9231,8 @@ class GifsTableSeeder extends Seeder {
 				'url' => 'ExcitableShimmeringCoelacanth',
 			'description' => 'Down B (after 3 charges)',
 				'score' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			209 => 
 			array (
@@ -7826,6 +9244,8 @@ class GifsTableSeeder extends Seeder {
 				'url' => 'MelodicDisfiguredBedlingtonterrier',
 				'description' => 'Jab',
 				'score' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			210 => 
 			array (
@@ -7837,6 +9257,8 @@ class GifsTableSeeder extends Seeder {
 				'url' => 'LimpDecimalEarthworm',
 				'description' => 'Neutral B',
 				'score' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			211 => 
 			array (
@@ -7848,6 +9270,8 @@ class GifsTableSeeder extends Seeder {
 				'url' => 'SillyWiltedKakarikis',
 				'description' => 'Jab',
 				'score' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			212 => 
 			array (
@@ -7859,6 +9283,8 @@ class GifsTableSeeder extends Seeder {
 				'url' => 'PleasedClearDikdik',
 			'description' => 'Neutral B (1-8)',
 				'score' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			213 => 
 			array (
@@ -7870,6 +9296,8 @@ class GifsTableSeeder extends Seeder {
 				'url' => 'WelltodoFluidFrigatebird',
 				'description' => 'Forward B',
 				'score' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			214 => 
 			array (
@@ -7881,6 +9309,8 @@ class GifsTableSeeder extends Seeder {
 				'url' => 'ImpracticalSleepyAtlanticspadefish',
 				'description' => 'Up B 1',
 				'score' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			215 => 
 			array (
@@ -7892,6 +9322,8 @@ class GifsTableSeeder extends Seeder {
 				'url' => 'SlushyPeriodicEstuarinecrocodile',
 				'description' => 'Up B 2',
 				'score' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			216 => 
 			array (
@@ -7903,6 +9335,8 @@ class GifsTableSeeder extends Seeder {
 				'url' => 'SpiffyJoyousAustralianfurseal',
 				'description' => 'Forward B',
 				'score' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			217 => 
 			array (
@@ -7914,6 +9348,8 @@ class GifsTableSeeder extends Seeder {
 				'url' => 'QuarrelsomeAggressiveIslandcanary',
 				'description' => 'F Smash Golf Club',
 				'score' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			218 => 
 			array (
@@ -7925,6 +9361,8 @@ class GifsTableSeeder extends Seeder {
 				'url' => 'SpecificShorttermBurro',
 				'description' => 'F Smash Racket',
 				'score' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			219 => 
 			array (
@@ -7936,6 +9374,8 @@ class GifsTableSeeder extends Seeder {
 				'url' => 'ResponsibleImaginaryGoa',
 				'description' => 'F Smash Frying Pan',
 				'score' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			220 => 
 			array (
@@ -7947,6 +9387,8 @@ class GifsTableSeeder extends Seeder {
 				'url' => 'NaiveHeavyBallpython',
 			'description' => 'Forward B 2 (up)',
 				'score' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			221 => 
 			array (
@@ -7958,6 +9400,8 @@ class GifsTableSeeder extends Seeder {
 				'url' => 'ConstantLastAmericanblackvulture',
 			'description' => 'Forward B 2 (neutral & down)',
 				'score' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			222 => 
 			array (
@@ -7969,6 +9413,8 @@ class GifsTableSeeder extends Seeder {
 				'url' => 'FlamboyantGiganticHuia',
 				'description' => 'Up B',
 				'score' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			223 => 
 			array (
@@ -7980,6 +9426,8 @@ class GifsTableSeeder extends Seeder {
 				'url' => 'PoshOblongBlackpanther',
 			'description' => 'Forward B in air (smash b)',
 				'score' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			224 => 
 			array (
@@ -7991,6 +9439,8 @@ class GifsTableSeeder extends Seeder {
 				'url' => 'OblongDesertedAnophelesmosquito',
 			'description' => 'Forward B on ground (smash b)',
 				'score' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			225 => 
 			array (
@@ -8002,6 +9452,8 @@ class GifsTableSeeder extends Seeder {
 				'url' => 'SandyNauticalEel',
 			'description' => 'Forward B in air (tilt b)',
 				'score' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			226 => 
 			array (
@@ -8013,6 +9465,8 @@ class GifsTableSeeder extends Seeder {
 				'url' => 'BlandAngelicAnaconda',
 			'description' => 'Forward B on ground (tilt b)',
 				'score' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			227 => 
 			array (
@@ -8024,6 +9478,8 @@ class GifsTableSeeder extends Seeder {
 				'url' => 'DisastrousFreshFerret',
 				'description' => 'Up B in air',
 				'score' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			228 => 
 			array (
@@ -8035,6 +9491,8 @@ class GifsTableSeeder extends Seeder {
 				'url' => 'SingleImmediateGermanshepherd',
 				'description' => 'Up B',
 				'score' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			229 => 
 			array (
@@ -8046,6 +9504,8 @@ class GifsTableSeeder extends Seeder {
 				'url' => 'ParallelIdealisticAnhinga',
 			'description' => 'Neutral B (startup)',
 				'score' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			230 => 
 			array (
@@ -8057,6 +9517,8 @@ class GifsTableSeeder extends Seeder {
 				'url' => 'PassionateFreshHogget',
 				'description' => 'Up B in air',
 				'score' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			231 => 
 			array (
@@ -8068,6 +9530,8 @@ class GifsTableSeeder extends Seeder {
 				'url' => 'UnacceptableBigheartedElectriceel',
 				'description' => 'Neutral B',
 				'score' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			232 => 
 			array (
@@ -8079,6 +9543,8 @@ class GifsTableSeeder extends Seeder {
 				'url' => 'TiredGracefulIndigobunting',
 			'description' => 'Forward B (end)',
 				'score' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			233 => 
 			array (
@@ -8090,6 +9556,8 @@ class GifsTableSeeder extends Seeder {
 				'url' => 'ConsciousVacantFlea',
 			'description' => 'Forward B (start)',
 				'score' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			234 => 
 			array (
@@ -8101,6 +9569,8 @@ class GifsTableSeeder extends Seeder {
 				'url' => 'FelineBouncyClam',
 				'description' => 'Forward B',
 				'score' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			235 => 
 			array (
@@ -8112,6 +9582,8 @@ class GifsTableSeeder extends Seeder {
 				'url' => 'GrandInferiorHammerheadshark',
 				'description' => 'Jab 3 ',
 				'score' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			236 => 
 			array (
@@ -8123,6 +9595,8 @@ class GifsTableSeeder extends Seeder {
 				'url' => 'PaleHollowLamb',
 				'description' => 'Captain Falcon moonwalks across the stage',
 				'score' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			237 => 
 			array (
@@ -8134,6 +9608,8 @@ class GifsTableSeeder extends Seeder {
 				'url' => 'PreciousHiddenBighornedsheep',
 				'description' => 'Laudandus demonstrating how to relentlessly edgeguard as Sheik',
 				'score' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			238 => 
 			array (
@@ -8145,6 +9621,8 @@ class GifsTableSeeder extends Seeder {
 				'url' => 'OilyMinorAcaciarat',
 				'description' => 'Irish covering all recovery options',
 				'score' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			239 => 
 			array (
@@ -8156,6 +9634,8 @@ class GifsTableSeeder extends Seeder {
 				'url' => 'EmbellishedFalseInvisiblerail',
 				'description' => 'Zelda using a nair to break out of a Falcon down-throw knee combo',
 				'score' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			240 => 
 			array (
@@ -8167,6 +9647,8 @@ class GifsTableSeeder extends Seeder {
 				'url' => 'AggravatingOddImperialeagle',
 				'description' => 'Zelda 0 - death on Peach',
 				'score' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			241 => 
 			array (
@@ -8178,6 +9660,8 @@ class GifsTableSeeder extends Seeder {
 				'url' => 'ScratchyAcademicAmericanavocet',
 				'description' => 'DJ Nintendo counter-picks Bowser!',
 				'score' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			242 => 
 			array (
@@ -8189,6 +9673,8 @@ class GifsTableSeeder extends Seeder {
 				'url' => 'JollyUnawareGrasshopper',
 				'description' => 'Westballz demonstrating how to apply pressure as Falco',
 				'score' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			243 => 
 			array (
@@ -8200,6 +9686,8 @@ class GifsTableSeeder extends Seeder {
 				'url' => 'SecondHiddenJoey',
 			'description' => 'Light Powershielding(20XX)',
 				'score' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			244 => 
 			array (
@@ -8211,6 +9699,8 @@ class GifsTableSeeder extends Seeder {
 				'url' => 'CalmPoliticalConch',
 			'description' => 'Another example of light powershielding(Credit to Kadano) ',
 				'score' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			245 => 
 			array (
@@ -8222,6 +9712,8 @@ class GifsTableSeeder extends Seeder {
 				'url' => 'OddEmbellishedAmazontreeboa',
 				'description' => 'A shield drop demonstrated alongside the controller inputs',
 				'score' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			246 => 
 			array (
@@ -8233,6 +9725,8 @@ class GifsTableSeeder extends Seeder {
 				'url' => 'AmusedAngryAlbacoretuna',
 				'description' => 'ARC showing off Marth\'s throw DI mixups vs Jigglypuff',
 				'score' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			247 => 
 			array (
@@ -8244,6 +9738,8 @@ class GifsTableSeeder extends Seeder {
 				'url' => 'SatisfiedParallelIchthyostega',
 				'description' => 'ARC dashdance baits a grab and punishes with a pivot tipper',
 				'score' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			248 => 
 			array (
@@ -8255,6 +9751,8 @@ class GifsTableSeeder extends Seeder {
 				'url' => 'EvilRecklessComet',
 			'description' => 'Falco performs a completely intangible ledgedashstall (aka haxdash) on Yoshi\'s Story\'s side platform',
 				'score' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			249 => 
 			array (
@@ -8266,6 +9764,8 @@ class GifsTableSeeder extends Seeder {
 				'url' => 'QuarrelsomeFragrantAndeancondor',
 				'description' => 'the difference between f-trhow wavedash f-smash and f-throw pivot tipper',
 				'score' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			250 => 
 			array (
@@ -8277,6 +9777,8 @@ class GifsTableSeeder extends Seeder {
 				'url' => 'LeadingHandsomeBernesemountaindog',
 			'description' => 'Marth uses Z-Powershielding to increase the frame window for the powershield-projectile (reflect)',
 				'score' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			251 => 
 			array (
@@ -8288,6 +9790,8 @@ class GifsTableSeeder extends Seeder {
 				'url' => 'WelldocumentedHoarseDuiker',
 			'description' => 'Marth uses Z-Powershielding to reflect a low laser from crouch (not possible with normal PS)',
 				'score' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			252 => 
 			array (
@@ -8299,6 +9803,8 @@ class GifsTableSeeder extends Seeder {
 				'url' => 'FancyRadiantHog',
 				'description' => 'Sheik performs an aerial interrupt with her up aerial and retains 8 frames of grounded intangibility',
 				'score' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			253 => 
 			array (
@@ -8310,6 +9816,8 @@ class GifsTableSeeder extends Seeder {
 				'url' => 'CorruptWideeyedCommabutterfly',
 				'description' => 'A collection of PewPewU pivot-tippers',
 				'score' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			254 => 
 			array (
@@ -8321,6 +9829,8 @@ class GifsTableSeeder extends Seeder {
 				'url' => 'OldDistantAmericanwigeon',
 				'description' => 'Sheik punishes Falco\'s shield pressure with a wavedash out of shield followed by a dash attack',
 				'score' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			255 => 
 			array (
@@ -8332,6 +9842,8 @@ class GifsTableSeeder extends Seeder {
 				'url' => 'HealthyCarefreeCowbird',
 			'description' => 'Marth\'s counter (activated)',
 				'score' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			256 => 
 			array (
@@ -8343,6 +9855,8 @@ class GifsTableSeeder extends Seeder {
 				'url' => 'CloudyScaredBernesemountaindog',
 			'description' => 'Fox\'s completely intangible firestall (up-B ledgestall) with body state & environment visibility on',
 				'score' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			257 => 
 			array (
@@ -8354,6 +9868,8 @@ class GifsTableSeeder extends Seeder {
 				'url' => 'SophisticatedPleasingCarpenterant',
 				'description' => 'Marth comboes Captain Falcon with his Dancing Blade and converts into a kill',
 				'score' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			258 => 
 			array (
@@ -8365,6 +9881,8 @@ class GifsTableSeeder extends Seeder {
 				'url' => 'HonorableGratefulBuck',
 				'description' => 'PC edge hogâ€”turning around during a walk and sliding off into fast fall ledgegrab',
 				'score' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			259 => 
 			array (
@@ -8376,6 +9894,8 @@ class GifsTableSeeder extends Seeder {
 				'url' => 'ThriftyClearIndusriverdolphin',
 				'description' => 'Sheik performs a wavedash smash turn fast fall edge hog',
 				'score' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			260 => 
 			array (
@@ -8387,6 +9907,8 @@ class GifsTableSeeder extends Seeder {
 				'url' => 'NimblePleasantIndianpangolin',
 				'description' => 'Sheik performs a wavedash smash turn wavedash fast fall edge hog',
 				'score' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			261 => 
 			array (
@@ -8398,6 +9920,8 @@ class GifsTableSeeder extends Seeder {
 				'url' => 'PlumpBonyFlamingo',
 			'description' => 'Sheik angles her up-B against the wall to delay her fall (but lose continuous intangibility)',
 				'score' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			262 => 
 			array (
@@ -8409,6 +9933,8 @@ class GifsTableSeeder extends Seeder {
 				'url' => 'UnfortunateTanCrossbill',
 				'description' => 'Sheik angles her up-B against the wall, making her land earlier than without the wall collision',
 				'score' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			263 => 
 			array (
@@ -8420,6 +9946,8 @@ class GifsTableSeeder extends Seeder {
 				'url' => 'AccomplishedLegitimateGopher',
 				'description' => 'DI away prevents Captain Falcon from getting uthrow follow-ups on Falco until very high percent',
 				'score' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			264 => 
 			array (
@@ -8431,6 +9959,8 @@ class GifsTableSeeder extends Seeder {
 				'url' => 'IllinformedIndolentGaur',
 				'description' => 'Fox frame-perfectly waveshines Marth from zero to death, near inescapable',
 				'score' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			265 => 
 			array (
@@ -8442,6 +9972,8 @@ class GifsTableSeeder extends Seeder {
 				'url' => 'DistantWhiteGrosbeak',
 			'description' => 'Short hop double fair input window (left: instant aerial and gravity, right: one frame delay)',
 				'score' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			266 => 
 			array (
@@ -8453,6 +9985,8 @@ class GifsTableSeeder extends Seeder {
 				'url' => 'GrippingEverlastingArthropods',
 			'description' => 'Marth\'s ledgedashstall (also known as haxdash), completely intangible if executed perfectly',
 				'score' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			267 => 
 			array (
@@ -8464,6 +9998,8 @@ class GifsTableSeeder extends Seeder {
 				'url' => 'GrippingEverlastingArthropods',
 			'description' => 'Marth doing the ledgedashstall (aka haxdash), completely intangible for every character except Peach',
 				'score' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			268 => 
 			array (
@@ -8475,6 +10011,8 @@ class GifsTableSeeder extends Seeder {
 				'url' => 'WiltedDazzlingGlassfrog',
 			'description' => 'Marth wavedashes, moonwalks and stickywalks in that order (moonwalk part is Dash 1-26)',
 				'score' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			269 => 
 			array (
@@ -8486,6 +10024,8 @@ class GifsTableSeeder extends Seeder {
 				'url' => 'SmugOilyAmericanquarterhorse',
 			'description' => 'Captain Falcon does a frame-perfect ledgedash (wavedash from the ledge) and pivot edgehogs',
 				'score' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			270 => 
 			array (
@@ -8497,6 +10037,8 @@ class GifsTableSeeder extends Seeder {
 				'url' => 'ForthrightActiveKillifish',
 				'description' => 'PPMD dash dances through Mew2king\'s needles, taking them as if they were nothing',
 				'score' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			271 => 
 			array (
@@ -8508,6 +10050,8 @@ class GifsTableSeeder extends Seeder {
 				'url' => 'FrigidShadowyCheetah',
 				'description' => 'Running speed depends on control stick position. Useful for spacing and faking out.',
 				'score' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			272 => 
 			array (
@@ -8519,6 +10063,8 @@ class GifsTableSeeder extends Seeder {
 				'url' => 'SeparateUnhealthyIncatern',
 				'description' => 'Sheik\'s different dash dance lengths',
 				'score' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			273 => 
 			array (
@@ -8530,6 +10076,8 @@ class GifsTableSeeder extends Seeder {
 				'url' => 'SeparateUnhealthyIncatern',
 				'description' => 'Sheik\'s different dash dance lengths',
 				'score' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			274 => 
 			array (
@@ -8541,6 +10089,8 @@ class GifsTableSeeder extends Seeder {
 				'url' => 'TidyScaryAzurevase',
 				'description' => 'Captain Falcon\'s aerial interrupt, using his back aerial, alternating between normal and hitbox vis.',
 				'score' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			275 => 
 			array (
@@ -8552,6 +10102,8 @@ class GifsTableSeeder extends Seeder {
 				'url' => 'EvilRecklessComet',
 			'description' => 'Falco\'s ledgedashstall on Yoshi\'s Story\'s side platform (completely intangible)',
 				'score' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			276 => 
 			array (
@@ -8563,6 +10115,8 @@ class GifsTableSeeder extends Seeder {
 				'url' => 'HonorableHilariousBobwhite',
 			'description' => 'Falco\'s ledgedashstall (completely intangible), use gfycat options at the bottom right to slow down',
 				'score' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			277 => 
 			array (
@@ -8574,6 +10128,8 @@ class GifsTableSeeder extends Seeder {
 				'url' => 'NastyLightAnt',
 				'description' => '',
 				'score' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			278 => 
 			array (
@@ -8585,6 +10141,8 @@ class GifsTableSeeder extends Seeder {
 				'url' => 'IllTidyChamois',
 				'description' => '',
 				'score' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			279 => 
 			array (
@@ -8596,6 +10154,8 @@ class GifsTableSeeder extends Seeder {
 				'url' => 'CookedFemaleAfricanaugurbuzzard',
 				'description' => '',
 				'score' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			280 => 
 			array (
@@ -8607,6 +10167,8 @@ class GifsTableSeeder extends Seeder {
 				'url' => 'EasyAdorableKite',
 				'description' => '',
 				'score' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			281 => 
 			array (
@@ -8618,6 +10180,8 @@ class GifsTableSeeder extends Seeder {
 				'url' => 'DenseFailingAmericancrocodile',
 				'description' => '',
 				'score' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			282 => 
 			array (
@@ -8629,6 +10193,8 @@ class GifsTableSeeder extends Seeder {
 				'url' => 'ConfusedMelodicGallowaycow',
 				'description' => 'nice tech chase string from S2J',
 				'score' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			283 => 
 			array (
@@ -8640,6 +10206,8 @@ class GifsTableSeeder extends Seeder {
 				'url' => 'DimIckyAztecant',
 				'description' => '',
 				'score' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			284 => 
 			array (
@@ -8651,6 +10219,8 @@ class GifsTableSeeder extends Seeder {
 				'url' => 'WhoppingMinorIvorybackedwoodswallow',
 				'description' => 'Fly Amanita edge guards with SoPo',
 				'score' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			285 => 
 			array (
@@ -8662,6 +10232,34 @@ class GifsTableSeeder extends Seeder {
 				'url' => 'FailingOfficialAfricanharrierhawk',
 				'description' => 'Demonstrating the benefits of V Canceling. Notice the left character does a V Cancel, and thus survives Fox\'s up smash. ',
 				'score' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
+			),
+			286 => 
+			array (
+				'id' => '1914',
+				'typeid' => '2',
+				'dataid' => '37',
+				'source' => 'https://www.reddit.com/r/smash',
+				'submittedby' => '0',
+				'url' => 'UltimateWhirlwindAmericancrow',
+				'description' => 'The most sacred of combos. ',
+				'score' => '0',
+				'created_at' => '2015-11-18 22:11:26',
+				'updated_at' => '2015-11-18 22:11:26',
+			),
+			287 => 
+			array (
+				'id' => '1915',
+				'typeid' => '2',
+				'dataid' => '38',
+				'source' => '',
+				'submittedby' => '0',
+				'url' => 'DeliriousTidyGoosefish',
+				'description' => 'Marth demonstrating his ability to Fox Trot. Notice the animation and it\'s difference from using a full dash.',
+				'score' => '0',
+				'created_at' => '2015-11-18 22:18:01',
+				'updated_at' => '2015-11-18 22:18:01',
 			),
 		));
 	}
