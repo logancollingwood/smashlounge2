@@ -130,14 +130,6 @@ Questions?
 	
 	<script src="{{ asset('/js/lib/bootstrap.min.js') }}"></script>
 	
-	<script>
-	 (function(d, t) {
-	    var g = d.createElement(t),
-	        s = d.getElementsByTagName(t)[0];
-	    g.src = 'http://assets.gfycat.com/js/gfyajax-0.517d.js';
-	    s.parentNode.insertBefore(g, s);
-	}(document, 'script'));
-	</script>
 	<!-- application minified js -->
 	<script src="{{ asset('/js/compiled/app.js') }}"></script>
 	
