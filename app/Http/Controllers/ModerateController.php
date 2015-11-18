@@ -162,7 +162,7 @@ class ModerateController extends Controller {
 
 
 			$technique->save();
-			//$submission->delete();
+			$submission->delete();
 
 		} else if ($key == 'vod') {
 			$submission = SubmissionVod::findOrFail($id);
