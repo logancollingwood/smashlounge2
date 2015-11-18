@@ -1,6 +1,9 @@
 #!/bin/bash
 
+./migrateandseed.sh
+
 cd .. 
+
 
 sudo composer dump-autoload
 
