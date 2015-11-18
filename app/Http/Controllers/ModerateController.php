@@ -157,7 +157,7 @@ class ModerateController extends Controller {
 
 			$technique = new Tech;
 			$technique->tech = $submission->name;
-			$technique->ssbwiki = $submission->ssbwiki;
+			$technique->smashwiki = $submission->ssbwiki;
 			$technique->description = $submission->description;
 
 
