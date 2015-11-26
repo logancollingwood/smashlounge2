@@ -24,6 +24,16 @@ class UsersTableSeeder extends Seeder {
 				'created_at' => '2015-10-09 14:55:55',
 				'updated_at' => '2015-10-09 14:55:55',
 			),
+			1 => 
+			array (
+				'id' => '2',
+				'name' => 'schmoo',
+				'email' => 'will_beats@hotmail.co.uk',
+				'password' => '$2y$10$zPbpeUOyFmdoK9d8QxxV.eGSqkWXX1IgHEOLcRG/Flk7C1nyK37zy',
+				'remember_token' => NULL,
+				'created_at' => '2015-11-25 17:45:53',
+				'updated_at' => '2015-11-25 17:45:53',
+			),
 		));
 	}
 
