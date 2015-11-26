@@ -49,14 +49,23 @@ class CharController extends Controller {
 	 *
 	 * @return Response
 	 */
-	public function show(Char $char) {
-
+	public function show($id) {
+		$char = Char::where('name', '=', $id)->first();
 		$gifs = $char->getGifs();
 		$dataGifs = $char->getDataGifs();
 
+		if (isset($gifs[0])) {
+			$twitterGif = json_decode($gifs[0]->queryGfycat());
+			$twitterGif->gfyItem->mp4Url = preg_replace("/^http:/i", "https:", $twitterGif->gfyItem->mp4Url);
+			$twitterGif->gfyItem->webmUrl = preg_replace("/^http:/i", "https:", $twitterGif->gfyItem->webmUrl);
+		} else {
+			$twitterGif = [];
+		}
 		
 
-		$data = ['char' => $char , 'gifs' => $gifs, 'dataGifs' => $dataGifs, 'dataColumns' => 3, 'submitDir' => "gif", 'moves' => $this->moves];
+		$data = ['char' => $char , 'gifs' => $gifs, 'dataGifs' => $dataGifs, 
+					'dataColumns' => 3, 'submitDir' => "gif", 
+					'moves' => $this->moves, 'twitterGif' => $twitterGif];
 		
 		return view($this->viewDir . ".show", $data);
 	}

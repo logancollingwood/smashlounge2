@@ -40,6 +40,7 @@ Route::get('/donate', 'HomeController@donate');
 */
 
 Route::resource('techs', 'TechController');
+Route::get('techs/{slug}', 'CharController@show');
 Route::bind('techs', function($value, $route) {
 	$tech = App\Tech::where("tech", $value)->first();
 	if ($tech == null) abort(404);
@@ -47,6 +48,7 @@ Route::bind('techs', function($value, $route) {
 });
 
 Route::resource('chars', 'CharController');
+Route::get('chars/{slug}', 'CharController@show');
 Route::bind('chars', function($value, $route) {
 	$char = App\Char::where("name", $value)->first();
 	if ($char == null) abort(404);

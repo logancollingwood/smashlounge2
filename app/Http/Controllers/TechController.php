@@ -41,8 +41,8 @@ class TechController extends Controller {
 		return view($this->viewDir . ".tech", $data);
 	}
 	
-	public function show(Tech $tech) {
-		
+	public function show($id) {
+		$tech = Tech::where('tech', '=', $id)->first();
 		$gifs = $tech->getGifs();
 
 		/**
