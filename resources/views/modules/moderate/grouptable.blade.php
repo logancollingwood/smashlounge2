@@ -19,7 +19,7 @@
             <a href="{{ $row->facebook }}"> facebook </a>
           </td>
           <td>
-            <img src="http://maps.googleapis.com/maps/api/staticmap?center={{$row->latitude}},{{$row->longitude}}&zoom=3&size=50x50&key=AIzaSyBwejAOR-dv6OP1L2ttLguJOKA8Gzxi_lI">
+            <img src="http://maps.googleapis.com/maps/api/staticmap?center={{$row->latitude}},{{$row->longitude}}&zoom=1&size=100x100&markers=color:blue%7Clabel:S%7C{{$row->latitude}},{{$row->longitude}}">
             {{ $row->latitude }}, {{ $row->longitude }}
           </td>
           <td>
