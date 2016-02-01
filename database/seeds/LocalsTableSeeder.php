@@ -902,7 +902,7 @@ class LocalsTableSeeder extends Seeder {
 				'name' => 'Missouri - Springfield',
 				'latitude' => '37.2089570',
 				'longitude' => '-93.2922990',
-				'game' => NULL,
+				'game' => '0',
 			),
 			89 => 
 			array (
@@ -1901,7 +1901,7 @@ class LocalsTableSeeder extends Seeder {
 				'profileid' => 'www.facebook.com/groups/SmashWichita/',
 				'name' => 'Super Smash Bros. 4 Wichita',
 				'latitude' => '37.6889',
-				'longitude' => '97.3361',
+				'longitude' => '-97.3361',
 				'game' => '5',
 			),
 			189 => 

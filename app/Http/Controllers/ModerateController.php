@@ -149,8 +149,8 @@ class ModerateController extends Controller {
 			$group->region = $submission->region;
 			$group->game = $submission->game;
 
-			//$group->save();
-			//$submission->delete();
+			$group->save();
+			$submission->delete();
 
 		} else if ($key == 'technique') {
 			$submission = SubmissionTech::findOrFail($id);

@@ -21,6 +21,7 @@ class CreateLocalsTable extends Migration {
 			$table->decimal('latitude', 10, 7)->nullable();
 			$table->decimal('longitude', 11, 7)->nullable();
 			$table->integer('game')->nullable();
+			$table->timestamps();
 		});
 	}
 
