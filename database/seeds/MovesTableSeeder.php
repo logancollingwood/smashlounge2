@@ -17,37 +17,37 @@ class MovesTableSeeder extends Seeder {
 			0 => 
 			array (
 				'id' => '1',
-				'name' => 'B Moves'
+				'name' => 'B Moves',
 			),
 			1 => 
 			array (
 				'id' => '2',
-				'name' => 'Jab'
+				'name' => 'Jab',
 			),
 			2 => 
 			array (
 				'id' => '3',
-				'name' => 'Tilt'
+				'name' => 'Tilt',
 			),
 			3 => 
 			array (
 				'id' => '4',
-				'name' => 'Smash'
+				'name' => 'Smash',
 			),
 			4 => 
 			array (
 				'id' => '5',
-				'name' => 'Aerials'
+				'name' => 'Aerials',
 			),
 			5 => 
 			array (
 				'id' => '6',
-				'name' => 'Ground Options'
+				'name' => 'Ground Options',
 			),
 			6 => 
 			array (
 				'id' => '7',
-				'name' => 'Defensive Options'
+				'name' => 'Defensive Options',
 			),
 		));
 	}

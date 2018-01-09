@@ -50,7 +50,8 @@ class HomeController extends Controller {
 		/** Gather twitch streams **/
 		$activeStreams = $this->getGameStreams('Super Smash Bros');
 		$streams = [];
-		for ($i = 0; $i < $this->streamCount; $i++) {
+		for ($i = 0; $i < count($activeStreams); $i++) {
+			if ($i > $this->streamCount) break;
 			$streams[] = $activeStreams[$i];
 		}
 		for ($i = 0; $i < $this->randTechCount; $i++) {
@@ -79,7 +80,7 @@ class HomeController extends Controller {
 	public function getGameStreams($game = '') {
 		$streamsArray = [];
 		$queryString = urlencode($game);
-		$file = "https://api.twitch.tv/kraken/search/streams?q=" . $queryString;
+		$file = "https://api.twitch.tv/kraken/search/streams?q=" . $queryString . "&client_id=" . $this->twitchclientId;
 		
 		// File Check
 		if ($file) {

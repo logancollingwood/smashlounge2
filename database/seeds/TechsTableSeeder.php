@@ -335,6 +335,16 @@ class TechsTableSeeder extends Seeder {
 				'created_at' => '2015-11-18 22:24:58',
 				'updated_at' => '2015-11-18 22:24:58',
 			),
+			32 => 
+			array (
+				'id' => '40',
+				'tech' => 'Wobbling',
+				'description' => 'A technique that allows the Ice Climber to keep another player in an indefinite grab. The tech is performed by getting one Ice Climber to grab the opponent and getting the cpu ice climber to f-tlit or d-tilt the opponent. This is a majority of the reason Ice Climbers are considered high tier because one grab under the right conditions can lead to death.',
+				'smashwiki' => 'https://www.ssbwiki.com/wobbling',
+				'inputs' => '',
+				'created_at' => '2017-11-30 00:22:41',
+				'updated_at' => '2017-11-30 00:22:41',
+			),
 		));
 	}
 

@@ -31,7 +31,7 @@ class RolesTableSeeder extends Seeder {
 				'description' => 'For editing frame data',
 				'created_at' => '0000-00-00 00:00:00',
 				'updated_at' => '0000-00-00 00:00:00',
-			)
+			),
 		));
 	}
 

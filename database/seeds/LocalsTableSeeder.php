@@ -23,6 +23,8 @@ class LocalsTableSeeder extends Seeder {
 				'latitude' => '37.9500000',
 				'longitude' => '-84.0000000',
 				'game' => '2',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			1 => 
 			array (
@@ -33,6 +35,8 @@ class LocalsTableSeeder extends Seeder {
 				'latitude' => '37.9470848',
 				'longitude' => '-83.7225060',
 				'game' => '1',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			2 => 
 			array (
@@ -43,6 +47,8 @@ class LocalsTableSeeder extends Seeder {
 				'latitude' => '39.1564159',
 				'longitude' => '-75.5134199',
 				'game' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			3 => 
 			array (
@@ -53,6 +59,8 @@ class LocalsTableSeeder extends Seeder {
 				'latitude' => '37.0000000',
 				'longitude' => '-79.0145760',
 				'game' => '2',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			4 => 
 			array (
@@ -63,6 +71,8 @@ class LocalsTableSeeder extends Seeder {
 				'latitude' => '37.5000000',
 				'longitude' => '-77.0000000',
 				'game' => '3',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			5 => 
 			array (
@@ -73,6 +83,8 @@ class LocalsTableSeeder extends Seeder {
 				'latitude' => '38.0000000',
 				'longitude' => '-76.5000000',
 				'game' => '4',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			6 => 
 			array (
@@ -83,6 +95,8 @@ class LocalsTableSeeder extends Seeder {
 				'latitude' => '38.9875571',
 				'longitude' => '-76.9361836',
 				'game' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			7 => 
 			array (
@@ -93,6 +107,8 @@ class LocalsTableSeeder extends Seeder {
 				'latitude' => '41.6855955',
 				'longitude' => '-71.1019620',
 				'game' => '4',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			8 => 
 			array (
@@ -103,6 +119,8 @@ class LocalsTableSeeder extends Seeder {
 				'latitude' => '42.2499739',
 				'longitude' => '-71.2378280',
 				'game' => '2',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			9 => 
 			array (
@@ -113,6 +131,8 @@ class LocalsTableSeeder extends Seeder {
 				'latitude' => '42.2499739',
 				'longitude' => '-71.0000000',
 				'game' => '3',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			10 => 
 			array (
@@ -123,6 +143,8 @@ class LocalsTableSeeder extends Seeder {
 				'latitude' => '40.4786710',
 				'longitude' => '-74.4317890',
 				'game' => '2',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			11 => 
 			array (
@@ -133,6 +155,8 @@ class LocalsTableSeeder extends Seeder {
 				'latitude' => '40.0583240',
 				'longitude' => '-74.4056610',
 				'game' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			12 => 
 			array (
@@ -143,6 +167,8 @@ class LocalsTableSeeder extends Seeder {
 				'latitude' => '39.8297280',
 				'longitude' => '-74.9789590',
 				'game' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			13 => 
 			array (
@@ -153,6 +179,8 @@ class LocalsTableSeeder extends Seeder {
 				'latitude' => '40.4636660',
 				'longitude' => '-74.4406130',
 				'game' => '3',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			14 => 
 			array (
@@ -163,6 +191,8 @@ class LocalsTableSeeder extends Seeder {
 				'latitude' => '40.5305020',
 				'longitude' => '-74.3389890',
 				'game' => '4',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			15 => 
 			array (
@@ -173,6 +203,8 @@ class LocalsTableSeeder extends Seeder {
 				'latitude' => '40.6056120',
 				'longitude' => '-74.2236330',
 				'game' => '5',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			16 => 
 			array (
@@ -183,6 +215,8 @@ class LocalsTableSeeder extends Seeder {
 				'latitude' => '42.4534490',
 				'longitude' => '-76.4735030',
 				'game' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			17 => 
 			array (
@@ -193,6 +227,8 @@ class LocalsTableSeeder extends Seeder {
 				'latitude' => '40.7891420',
 				'longitude' => '-73.1349600',
 				'game' => '2',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			18 => 
 			array (
@@ -203,6 +239,8 @@ class LocalsTableSeeder extends Seeder {
 				'latitude' => '40.7763820',
 				'longitude' => '-73.2843020',
 				'game' => '3',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			19 => 
 			array (
@@ -213,6 +251,8 @@ class LocalsTableSeeder extends Seeder {
 				'latitude' => '40.7139560',
 				'longitude' => '-73.6358640',
 				'game' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			20 => 
 			array (
@@ -223,6 +263,8 @@ class LocalsTableSeeder extends Seeder {
 				'latitude' => '40.7127840',
 				'longitude' => '-74.0059410',
 				'game' => '2',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			21 => 
 			array (
@@ -233,6 +275,8 @@ class LocalsTableSeeder extends Seeder {
 				'latitude' => '40.7272480',
 				'longitude' => '-73.9954510',
 				'game' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			22 => 
 			array (
@@ -243,6 +287,8 @@ class LocalsTableSeeder extends Seeder {
 				'latitude' => '42.8142430',
 				'longitude' => '-73.9395690',
 				'game' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			23 => 
 			array (
@@ -253,6 +299,8 @@ class LocalsTableSeeder extends Seeder {
 				'latitude' => '43.0481220',
 				'longitude' => '-76.1474240',
 				'game' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			24 => 
 			array (
@@ -263,6 +311,8 @@ class LocalsTableSeeder extends Seeder {
 				'latitude' => '40.7127840',
 				'longitude' => '-74.0059410',
 				'game' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			25 => 
 			array (
@@ -273,6 +323,8 @@ class LocalsTableSeeder extends Seeder {
 				'latitude' => '41.2967480',
 				'longitude' => '-76.3729960',
 				'game' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			26 => 
 			array (
@@ -283,6 +335,8 @@ class LocalsTableSeeder extends Seeder {
 				'latitude' => '39.9523350',
 				'longitude' => '-75.1637890',
 				'game' => '2',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			27 => 
 			array (
@@ -293,6 +347,8 @@ class LocalsTableSeeder extends Seeder {
 				'latitude' => '40.3565090',
 				'longitude' => '-79.9192700',
 				'game' => '2',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			28 => 
 			array (
@@ -303,6 +359,8 @@ class LocalsTableSeeder extends Seeder {
 				'latitude' => '37.0592750',
 				'longitude' => '-81.5377010',
 				'game' => '2',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			29 => 
 			array (
@@ -313,6 +371,8 @@ class LocalsTableSeeder extends Seeder {
 				'latitude' => '38.0293060',
 				'longitude' => '-78.4766780',
 				'game' => '2',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			30 => 
 			array (
@@ -323,6 +383,8 @@ class LocalsTableSeeder extends Seeder {
 				'latitude' => '38.0283520',
 				'longitude' => '-78.4880450',
 				'game' => '4',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			31 => 
 			array (
@@ -333,6 +395,8 @@ class LocalsTableSeeder extends Seeder {
 				'latitude' => '36.8823350',
 				'longitude' => '-76.2999060',
 				'game' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			32 => 
 			array (
@@ -343,6 +407,8 @@ class LocalsTableSeeder extends Seeder {
 				'latitude' => '37.4315730',
 				'longitude' => '-78.6568940',
 				'game' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			33 => 
 			array (
@@ -353,6 +419,8 @@ class LocalsTableSeeder extends Seeder {
 				'latitude' => '37.5446450',
 				'longitude' => '-77.4479900',
 				'game' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			34 => 
 			array (
@@ -363,6 +431,8 @@ class LocalsTableSeeder extends Seeder {
 				'latitude' => '38.5976260',
 				'longitude' => '-80.4549030',
 				'game' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			35 => 
 			array (
@@ -373,6 +443,8 @@ class LocalsTableSeeder extends Seeder {
 				'latitude' => '36.0313320',
 				'longitude' => '-72.6855470',
 				'game' => '2',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			36 => 
 			array (
@@ -383,6 +455,8 @@ class LocalsTableSeeder extends Seeder {
 				'latitude' => '34.4522180',
 				'longitude' => '-73.0371090',
 				'game' => '1',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			37 => 
 			array (
@@ -393,6 +467,8 @@ class LocalsTableSeeder extends Seeder {
 				'latitude' => '41.4016300',
 				'longitude' => '-94.9908060',
 				'game' => '4',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			38 => 
 			array (
@@ -403,6 +479,8 @@ class LocalsTableSeeder extends Seeder {
 				'latitude' => '32.3182310',
 				'longitude' => '-86.9022980',
 				'game' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			39 => 
 			array (
@@ -413,6 +491,8 @@ class LocalsTableSeeder extends Seeder {
 				'latitude' => '35.2010500',
 				'longitude' => '-91.8318330',
 				'game' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			40 => 
 			array (
@@ -423,6 +503,8 @@ class LocalsTableSeeder extends Seeder {
 				'latitude' => '27.6648270',
 				'longitude' => '-81.5157540',
 				'game' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			41 => 
 			array (
@@ -433,6 +515,8 @@ class LocalsTableSeeder extends Seeder {
 				'latitude' => '27.7127100',
 				'longitude' => '-81.5405270',
 				'game' => '2',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			42 => 
 			array (
@@ -443,6 +527,8 @@ class LocalsTableSeeder extends Seeder {
 				'latitude' => '29.6516340',
 				'longitude' => '-82.3248260',
 				'game' => '3',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			43 => 
 			array (
@@ -453,6 +539,8 @@ class LocalsTableSeeder extends Seeder {
 				'latitude' => '30.3321840',
 				'longitude' => '-81.6556510',
 				'game' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			44 => 
 			array (
@@ -463,6 +551,8 @@ class LocalsTableSeeder extends Seeder {
 				'latitude' => '30.4213090',
 				'longitude' => '-87.2169150',
 				'game' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			45 => 
 			array (
@@ -473,6 +563,8 @@ class LocalsTableSeeder extends Seeder {
 				'latitude' => '27.4602270',
 				'longitude' => '-82.6676730',
 				'game' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			46 => 
 			array (
@@ -483,6 +575,8 @@ class LocalsTableSeeder extends Seeder {
 				'latitude' => '27.4504470',
 				'longitude' => '-82.5773760',
 				'game' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			47 => 
 			array (
@@ -493,6 +587,8 @@ class LocalsTableSeeder extends Seeder {
 				'latitude' => '27.9064690',
 				'longitude' => '-81.5740650',
 				'game' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			48 => 
 			array (
@@ -503,6 +599,8 @@ class LocalsTableSeeder extends Seeder {
 				'latitude' => '27.6648270',
 				'longitude' => '-81.5157540',
 				'game' => '2',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			49 => 
 			array (
@@ -513,6 +611,8 @@ class LocalsTableSeeder extends Seeder {
 				'latitude' => '27.6656460',
 				'longitude' => '-81.5116450',
 				'game' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			50 => 
 			array (
@@ -523,6 +623,8 @@ class LocalsTableSeeder extends Seeder {
 				'latitude' => '30.4382560',
 				'longitude' => '-84.2807330',
 				'game' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			51 => 
 			array (
@@ -533,6 +635,8 @@ class LocalsTableSeeder extends Seeder {
 				'latitude' => '27.7028710',
 				'longitude' => '-82.5834950',
 				'game' => '2',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			52 => 
 			array (
@@ -543,6 +647,8 @@ class LocalsTableSeeder extends Seeder {
 				'latitude' => '27.8366470',
 				'longitude' => '-82.5032040',
 				'game' => '3',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			53 => 
 			array (
@@ -553,6 +659,8 @@ class LocalsTableSeeder extends Seeder {
 				'latitude' => '25.7885490',
 				'longitude' => '-80.3796260',
 				'game' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			54 => 
 			array (
@@ -563,6 +671,8 @@ class LocalsTableSeeder extends Seeder {
 				'latitude' => '32.1656220',
 				'longitude' => '-82.9000750',
 				'game' => '2',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			55 => 
 			array (
@@ -573,6 +683,8 @@ class LocalsTableSeeder extends Seeder {
 				'latitude' => '30.3229140',
 				'longitude' => '-93.1854220',
 				'game' => '3',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			56 => 
 			array (
@@ -583,6 +695,8 @@ class LocalsTableSeeder extends Seeder {
 				'latitude' => '33.1947030',
 				'longitude' => '-84.2845670',
 				'game' => '4',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			57 => 
 			array (
@@ -593,6 +707,8 @@ class LocalsTableSeeder extends Seeder {
 				'latitude' => '30.9842980',
 				'longitude' => '-91.9623330',
 				'game' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			58 => 
 			array (
@@ -603,6 +719,8 @@ class LocalsTableSeeder extends Seeder {
 				'latitude' => '30.0827880',
 				'longitude' => '-92.6747630',
 				'game' => '2',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			59 => 
 			array (
@@ -613,6 +731,8 @@ class LocalsTableSeeder extends Seeder {
 				'latitude' => '30.4132580',
 				'longitude' => '-91.1800020',
 				'game' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			60 => 
 			array (
@@ -623,6 +743,8 @@ class LocalsTableSeeder extends Seeder {
 				'latitude' => '29.9510660',
 				'longitude' => '-90.0715320',
 				'game' => '2',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			61 => 
 			array (
@@ -633,6 +755,8 @@ class LocalsTableSeeder extends Seeder {
 				'latitude' => '35.7595730',
 				'longitude' => '-79.0193000',
 				'game' => '2',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			62 => 
 			array (
@@ -643,6 +767,8 @@ class LocalsTableSeeder extends Seeder {
 				'latitude' => '35.1934210',
 				'longitude' => '-77.0334180',
 				'game' => '3',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			63 => 
 			array (
@@ -653,6 +779,8 @@ class LocalsTableSeeder extends Seeder {
 				'latitude' => '33.8360810',
 				'longitude' => '-81.1637250',
 				'game' => '2',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			64 => 
 			array (
@@ -663,6 +791,8 @@ class LocalsTableSeeder extends Seeder {
 				'latitude' => '35.5174910',
 				'longitude' => '-86.5804470',
 				'game' => '2',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			65 => 
 			array (
@@ -673,6 +803,8 @@ class LocalsTableSeeder extends Seeder {
 				'latitude' => '39.9097360',
 				'longitude' => '-93.5156250',
 				'game' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			66 => 
 			array (
@@ -683,6 +815,8 @@ class LocalsTableSeeder extends Seeder {
 				'latitude' => '39.9013090',
 				'longitude' => '-92.5872800',
 				'game' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			67 => 
 			array (
@@ -693,6 +827,8 @@ class LocalsTableSeeder extends Seeder {
 				'latitude' => '40.1164200',
 				'longitude' => '-88.2433830',
 				'game' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			68 => 
 			array (
@@ -703,6 +839,8 @@ class LocalsTableSeeder extends Seeder {
 				'latitude' => '41.8781140',
 				'longitude' => '-87.6297980',
 				'game' => '2',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			69 => 
 			array (
@@ -713,6 +851,8 @@ class LocalsTableSeeder extends Seeder {
 				'latitude' => '39.7817210',
 				'longitude' => '-89.6501480',
 				'game' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			70 => 
 			array (
@@ -723,6 +863,8 @@ class LocalsTableSeeder extends Seeder {
 				'latitude' => '37.5097260',
 				'longitude' => '-88.7695310',
 				'game' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			71 => 
 			array (
@@ -733,6 +875,8 @@ class LocalsTableSeeder extends Seeder {
 				'latitude' => '39.9783710',
 				'longitude' => '-86.1180430',
 				'game' => '2',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			72 => 
 			array (
@@ -743,6 +887,8 @@ class LocalsTableSeeder extends Seeder {
 				'latitude' => '39.7684030',
 				'longitude' => '-86.1580680',
 				'game' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			73 => 
 			array (
@@ -753,6 +899,8 @@ class LocalsTableSeeder extends Seeder {
 				'latitude' => '41.0792730',
 				'longitude' => '-85.1393510',
 				'game' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			74 => 
 			array (
@@ -763,6 +911,8 @@ class LocalsTableSeeder extends Seeder {
 				'latitude' => '40.4237050',
 				'longitude' => '-86.9211950',
 				'game' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			75 => 
 			array (
@@ -773,6 +923,8 @@ class LocalsTableSeeder extends Seeder {
 				'latitude' => '39.1691360',
 				'longitude' => '-86.5149050',
 				'game' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			76 => 
 			array (
@@ -783,6 +935,8 @@ class LocalsTableSeeder extends Seeder {
 				'latitude' => '41.8780030',
 				'longitude' => '-93.0977020',
 				'game' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			77 => 
 			array (
@@ -793,6 +947,8 @@ class LocalsTableSeeder extends Seeder {
 				'latitude' => '39.0119020',
 				'longitude' => '-98.4842460',
 				'game' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			78 => 
 			array (
@@ -803,6 +959,8 @@ class LocalsTableSeeder extends Seeder {
 				'latitude' => '39.0997270',
 				'longitude' => '-94.5785670',
 				'game' => '4',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			79 => 
 			array (
@@ -813,6 +971,8 @@ class LocalsTableSeeder extends Seeder {
 				'latitude' => '38.7883450',
 				'longitude' => '-84.5507810',
 				'game' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			80 => 
 			array (
@@ -823,6 +983,8 @@ class LocalsTableSeeder extends Seeder {
 				'latitude' => '42.2808260',
 				'longitude' => '-83.7430380',
 				'game' => '2',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			81 => 
 			array (
@@ -833,6 +995,8 @@ class LocalsTableSeeder extends Seeder {
 				'latitude' => '42.3443350',
 				'longitude' => '-83.8201900',
 				'game' => '3',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			82 => 
 			array (
@@ -843,6 +1007,8 @@ class LocalsTableSeeder extends Seeder {
 				'latitude' => '43.8028190',
 				'longitude' => '-86.0449220',
 				'game' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			83 => 
 			array (
@@ -853,6 +1019,8 @@ class LocalsTableSeeder extends Seeder {
 				'latitude' => '42.3849230',
 				'longitude' => '-83.5702510',
 				'game' => '4',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			84 => 
 			array (
@@ -863,6 +1031,8 @@ class LocalsTableSeeder extends Seeder {
 				'latitude' => '46.7295530',
 				'longitude' => '-94.6859000',
 				'game' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			85 => 
 			array (
@@ -873,6 +1043,8 @@ class LocalsTableSeeder extends Seeder {
 				'latitude' => '45.5892070',
 				'longitude' => '-95.9033780',
 				'game' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			86 => 
 			array (
@@ -883,6 +1055,8 @@ class LocalsTableSeeder extends Seeder {
 				'latitude' => '38.6270030',
 				'longitude' => '-90.1994040',
 				'game' => '2',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			87 => 
 			array (
@@ -893,6 +1067,8 @@ class LocalsTableSeeder extends Seeder {
 				'latitude' => '38.6218030',
 				'longitude' => '-90.2365320',
 				'game' => '3',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			88 => 
 			array (
@@ -903,6 +1079,8 @@ class LocalsTableSeeder extends Seeder {
 				'latitude' => '37.2089570',
 				'longitude' => '-93.2922990',
 				'game' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			89 => 
 			array (
@@ -913,6 +1091,8 @@ class LocalsTableSeeder extends Seeder {
 				'latitude' => '41.4925370',
 				'longitude' => '-99.9018130',
 				'game' => '2',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			90 => 
 			array (
@@ -923,6 +1103,8 @@ class LocalsTableSeeder extends Seeder {
 				'latitude' => '40.4172870',
 				'longitude' => '-82.9071230',
 				'game' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			91 => 
 			array (
@@ -933,6 +1115,8 @@ class LocalsTableSeeder extends Seeder {
 				'latitude' => '39.1031180',
 				'longitude' => '-84.5120200',
 				'game' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			92 => 
 			array (
@@ -943,6 +1127,8 @@ class LocalsTableSeeder extends Seeder {
 				'latitude' => '39.9611760',
 				'longitude' => '-82.9987940',
 				'game' => '2',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			93 => 
 			array (
@@ -953,6 +1139,8 @@ class LocalsTableSeeder extends Seeder {
 				'latitude' => '39.9596880',
 				'longitude' => '-83.0074600',
 				'game' => '3',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			94 => 
 			array (
@@ -963,6 +1151,8 @@ class LocalsTableSeeder extends Seeder {
 				'latitude' => '40.8138090',
 				'longitude' => '-83.8256840',
 				'game' => '2',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			95 => 
 			array (
@@ -973,6 +1163,8 @@ class LocalsTableSeeder extends Seeder {
 				'latitude' => '41.2447720',
 				'longitude' => '-80.4858400',
 				'game' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			96 => 
 			array (
@@ -983,6 +1175,8 @@ class LocalsTableSeeder extends Seeder {
 				'latitude' => '43.9695150',
 				'longitude' => '-99.9018130',
 				'game' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			97 => 
 			array (
@@ -993,6 +1187,8 @@ class LocalsTableSeeder extends Seeder {
 				'latitude' => '43.0327610',
 				'longitude' => '-87.9071040',
 				'game' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			98 => 
 			array (
@@ -1003,6 +1199,8 @@ class LocalsTableSeeder extends Seeder {
 				'latitude' => '33.4406090',
 				'longitude' => '-112.0935060',
 				'game' => '2',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			99 => 
 			array (
@@ -1013,6 +1211,8 @@ class LocalsTableSeeder extends Seeder {
 				'latitude' => '32.1384090',
 				'longitude' => '-110.9179690',
 				'game' => '3',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			100 => 
 			array (
@@ -1023,6 +1223,8 @@ class LocalsTableSeeder extends Seeder {
 				'latitude' => '39.7325380',
 				'longitude' => '-104.9688720',
 				'game' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			101 => 
 			array (
@@ -1033,6 +1235,8 @@ class LocalsTableSeeder extends Seeder {
 				'latitude' => '35.4675600',
 				'longitude' => '-97.5164280',
 				'game' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			102 => 
 			array (
@@ -1043,6 +1247,8 @@ class LocalsTableSeeder extends Seeder {
 				'latitude' => '35.2219970',
 				'longitude' => '-101.8312970',
 				'game' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			103 => 
 			array (
@@ -1053,6 +1259,8 @@ class LocalsTableSeeder extends Seeder {
 				'latitude' => '30.2671530',
 				'longitude' => '-97.7430610',
 				'game' => '1',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			104 => 
 			array (
@@ -1063,6 +1271,8 @@ class LocalsTableSeeder extends Seeder {
 				'latitude' => '30.2680370',
 				'longitude' => '-97.7365640',
 				'game' => '2',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			105 => 
 			array (
@@ -1073,6 +1283,8 @@ class LocalsTableSeeder extends Seeder {
 				'latitude' => '30.2604020',
 				'longitude' => '-97.7520560',
 				'game' => '4',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			106 => 
 			array (
@@ -1083,6 +1295,8 @@ class LocalsTableSeeder extends Seeder {
 				'latitude' => '30.6275730',
 				'longitude' => '-96.3348200',
 				'game' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			107 => 
 			array (
@@ -1093,6 +1307,8 @@ class LocalsTableSeeder extends Seeder {
 				'latitude' => '30.6224020',
 				'longitude' => '-96.3410000',
 				'game' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			108 => 
 			array (
@@ -1103,6 +1319,8 @@ class LocalsTableSeeder extends Seeder {
 				'latitude' => '32.7554880',
 				'longitude' => '-97.3307660',
 				'game' => '2',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			109 => 
 			array (
@@ -1113,6 +1331,8 @@ class LocalsTableSeeder extends Seeder {
 				'latitude' => '31.7699560',
 				'longitude' => '-106.4968050',
 				'game' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			110 => 
 			array (
@@ -1123,6 +1343,8 @@ class LocalsTableSeeder extends Seeder {
 				'latitude' => '32.7554880',
 				'longitude' => '-97.3307660',
 				'game' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			111 => 
 			array (
@@ -1133,6 +1355,8 @@ class LocalsTableSeeder extends Seeder {
 				'latitude' => '29.7601930',
 				'longitude' => '-95.3693900',
 				'game' => '2',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			112 => 
 			array (
@@ -1143,6 +1367,8 @@ class LocalsTableSeeder extends Seeder {
 				'latitude' => '29.4241220',
 				'longitude' => '-98.4936280',
 				'game' => '2',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			113 => 
 			array (
@@ -1153,6 +1379,8 @@ class LocalsTableSeeder extends Seeder {
 				'latitude' => '26.1502960',
 				'longitude' => '-97.9767720',
 				'game' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			114 => 
 			array (
@@ -1163,6 +1391,8 @@ class LocalsTableSeeder extends Seeder {
 				'latitude' => '40.7472570',
 				'longitude' => '-111.8627930',
 				'game' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			115 => 
 			array (
@@ -1173,6 +1403,8 @@ class LocalsTableSeeder extends Seeder {
 				'latitude' => '40.2617130',
 				'longitude' => '-111.6773990',
 				'game' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			116 => 
 			array (
@@ -1183,6 +1415,8 @@ class LocalsTableSeeder extends Seeder {
 				'latitude' => '35.0659730',
 				'longitude' => '-106.6223140',
 				'game' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			117 => 
 			array (
@@ -1193,6 +1427,8 @@ class LocalsTableSeeder extends Seeder {
 				'latitude' => '36.6331620',
 				'longitude' => '-119.7290040',
 				'game' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			118 => 
 			array (
@@ -1203,6 +1439,8 @@ class LocalsTableSeeder extends Seeder {
 				'latitude' => '37.7446570',
 				'longitude' => '-122.4371340',
 				'game' => '2',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			119 => 
 			array (
@@ -1213,6 +1451,8 @@ class LocalsTableSeeder extends Seeder {
 				'latitude' => '37.3133830',
 				'longitude' => '-121.8988040',
 				'game' => '3',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			120 => 
 			array (
@@ -1223,6 +1463,8 @@ class LocalsTableSeeder extends Seeder {
 				'latitude' => '37.3308570',
 				'longitude' => '-121.8905640',
 				'game' => '4',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			121 => 
 			array (
@@ -1233,6 +1475,8 @@ class LocalsTableSeeder extends Seeder {
 				'latitude' => '36.9696440',
 				'longitude' => '-122.0224000',
 				'game' => '2',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			122 => 
 			array (
@@ -1243,6 +1487,8 @@ class LocalsTableSeeder extends Seeder {
 				'latitude' => '37.8715930',
 				'longitude' => '-122.2727470',
 				'game' => '2',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			123 => 
 			array (
@@ -1253,6 +1499,8 @@ class LocalsTableSeeder extends Seeder {
 				'latitude' => '40.7450050',
 				'longitude' => '-123.8695090',
 				'game' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			124 => 
 			array (
@@ -1263,6 +1511,8 @@ class LocalsTableSeeder extends Seeder {
 				'latitude' => '33.7174710',
 				'longitude' => '-117.8311430',
 				'game' => '2',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			125 => 
 			array (
@@ -1273,6 +1523,8 @@ class LocalsTableSeeder extends Seeder {
 				'latitude' => '32.7157380',
 				'longitude' => '-117.1610840',
 				'game' => '2',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			126 => 
 			array (
@@ -1283,6 +1535,8 @@ class LocalsTableSeeder extends Seeder {
 				'latitude' => '34.4208310',
 				'longitude' => '-119.6981900',
 				'game' => '2',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			127 => 
 			array (
@@ -1293,6 +1547,8 @@ class LocalsTableSeeder extends Seeder {
 				'latitude' => '34.0344530',
 				'longitude' => '-118.4710690',
 				'game' => '1',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			128 => 
 			array (
@@ -1303,6 +1559,8 @@ class LocalsTableSeeder extends Seeder {
 				'latitude' => '34.0299000',
 				'longitude' => '-118.2568360',
 				'game' => '2',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			129 => 
 			array (
@@ -1313,6 +1571,8 @@ class LocalsTableSeeder extends Seeder {
 				'latitude' => '34.2027160',
 				'longitude' => '-118.5699460',
 				'game' => '3',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			130 => 
 			array (
@@ -1323,6 +1583,8 @@ class LocalsTableSeeder extends Seeder {
 				'latitude' => '33.9205720',
 				'longitude' => '-117.4108890',
 				'game' => '4',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			131 => 
 			array (
@@ -1333,6 +1595,8 @@ class LocalsTableSeeder extends Seeder {
 				'latitude' => '37.3395920',
 				'longitude' => '-121.9235230',
 				'game' => '2',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			132 => 
 			array (
@@ -1343,6 +1607,8 @@ class LocalsTableSeeder extends Seeder {
 				'latitude' => '34.1705610',
 				'longitude' => '-118.8375940',
 				'game' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			133 => 
 			array (
@@ -1353,6 +1619,8 @@ class LocalsTableSeeder extends Seeder {
 				'latitude' => '36.1699410',
 				'longitude' => '-115.1398300',
 				'game' => '2',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			134 => 
 			array (
@@ -1363,6 +1631,8 @@ class LocalsTableSeeder extends Seeder {
 				'latitude' => '36.1728030',
 				'longitude' => '-115.2095030',
 				'game' => '3',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			135 => 
 			array (
@@ -1373,6 +1643,8 @@ class LocalsTableSeeder extends Seeder {
 				'latitude' => '36.1683680',
 				'longitude' => '-115.0968930',
 				'game' => '4',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			136 => 
 			array (
@@ -1383,6 +1655,8 @@ class LocalsTableSeeder extends Seeder {
 				'latitude' => '39.5296330',
 				'longitude' => '-119.8138030',
 				'game' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			137 => 
 			array (
@@ -1393,6 +1667,8 @@ class LocalsTableSeeder extends Seeder {
 				'latitude' => '38.5815720',
 				'longitude' => '-121.4944000',
 				'game' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			138 => 
 			array (
@@ -1403,6 +1679,8 @@ class LocalsTableSeeder extends Seeder {
 				'latitude' => '47.6000000',
 				'longitude' => '-122.3320000',
 				'game' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			139 => 
 			array (
@@ -1413,6 +1691,8 @@ class LocalsTableSeeder extends Seeder {
 				'latitude' => '33.6839470',
 				'longitude' => '-117.7946940',
 				'game' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			140 => 
 			array (
@@ -1423,6 +1703,8 @@ class LocalsTableSeeder extends Seeder {
 				'latitude' => '45.5234520',
 				'longitude' => '-122.6762070',
 				'game' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			141 => 
 			array (
@@ -1433,6 +1715,8 @@ class LocalsTableSeeder extends Seeder {
 				'latitude' => '44.0520690',
 				'longitude' => '-123.0867540',
 				'game' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			142 => 
 			array (
@@ -1443,6 +1727,8 @@ class LocalsTableSeeder extends Seeder {
 				'latitude' => '44.5645660',
 				'longitude' => '-123.2620440',
 				'game' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			143 => 
 			array (
@@ -1453,6 +1739,8 @@ class LocalsTableSeeder extends Seeder {
 				'latitude' => '34.3796510',
 				'longitude' => '-118.5305980',
 				'game' => '2',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			144 => 
 			array (
@@ -1463,6 +1751,8 @@ class LocalsTableSeeder extends Seeder {
 				'latitude' => '42.2625930',
 				'longitude' => '-71.8022930',
 				'game' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			145 => 
 			array (
@@ -1473,6 +1763,8 @@ class LocalsTableSeeder extends Seeder {
 				'latitude' => '32.7554880',
 				'longitude' => '-97.0000000',
 				'game' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			146 => 
 			array (
@@ -1483,6 +1775,8 @@ class LocalsTableSeeder extends Seeder {
 				'latitude' => '35.5950580',
 				'longitude' => '-82.5514870',
 				'game' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			147 => 
 			array (
@@ -1493,6 +1787,8 @@ class LocalsTableSeeder extends Seeder {
 				'latitude' => '43.1610300',
 				'longitude' => '-77.6109220',
 				'game' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			148 => 
 			array (
@@ -1503,6 +1799,8 @@ class LocalsTableSeeder extends Seeder {
 				'latitude' => '37.5482700',
 				'longitude' => '-121.9885720',
 				'game' => '2',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			149 => 
 			array (
@@ -1513,6 +1811,8 @@ class LocalsTableSeeder extends Seeder {
 				'latitude' => '35.2827520',
 				'longitude' => '-120.6596160',
 				'game' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			150 => 
 			array (
@@ -1523,6 +1823,8 @@ class LocalsTableSeeder extends Seeder {
 				'latitude' => '37.6888890',
 				'longitude' => '-97.3361110',
 				'game' => '2',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			151 => 
 			array (
@@ -1533,6 +1835,8 @@ class LocalsTableSeeder extends Seeder {
 				'latitude' => '34.2685660',
 				'longitude' => '-119.2284390',
 				'game' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			152 => 
 			array (
@@ -1543,6 +1847,8 @@ class LocalsTableSeeder extends Seeder {
 				'latitude' => '33.7489950',
 				'longitude' => '-84.3879820',
 				'game' => '2',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			153 => 
 			array (
@@ -1553,6 +1859,8 @@ class LocalsTableSeeder extends Seeder {
 				'latitude' => '35.1440470',
 				'longitude' => '-106.4869710',
 				'game' => '2',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			154 => 
 			array (
@@ -1563,6 +1871,8 @@ class LocalsTableSeeder extends Seeder {
 				'latitude' => '39.5296330',
 				'longitude' => '-119.8138030',
 				'game' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			155 => 
 			array (
@@ -1573,6 +1883,8 @@ class LocalsTableSeeder extends Seeder {
 				'latitude' => '38.2918590',
 				'longitude' => '-122.4580360',
 				'game' => '2',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			156 => 
 			array (
@@ -1583,6 +1895,8 @@ class LocalsTableSeeder extends Seeder {
 				'latitude' => '38.5367470',
 				'longitude' => '-82.6829410',
 				'game' => '2',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			157 => 
 			array (
@@ -1593,6 +1907,8 @@ class LocalsTableSeeder extends Seeder {
 				'latitude' => '34.1206560',
 				'longitude' => '-84.0043510',
 				'game' => '2',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			158 => 
 			array (
@@ -1603,6 +1919,8 @@ class LocalsTableSeeder extends Seeder {
 				'latitude' => '42.3739110',
 				'longitude' => '-88.0109120',
 				'game' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			159 => 
 			array (
@@ -1613,6 +1931,8 @@ class LocalsTableSeeder extends Seeder {
 				'latitude' => '33.7700500',
 				'longitude' => '-118.1937390',
 				'game' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			160 => 
 			array (
@@ -1623,6 +1943,8 @@ class LocalsTableSeeder extends Seeder {
 				'latitude' => '42.4906230',
 				'longitude' => '-71.2760090',
 				'game' => '2',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			161 => 
 			array (
@@ -1633,6 +1955,8 @@ class LocalsTableSeeder extends Seeder {
 				'latitude' => '31.2232310',
 				'longitude' => '-85.3904890',
 				'game' => '4',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			162 => 
 			array (
@@ -1643,6 +1967,8 @@ class LocalsTableSeeder extends Seeder {
 				'latitude' => '47.6520000',
 				'longitude' => '-117.4330000',
 				'game' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			163 => 
 			array (
@@ -1653,6 +1979,8 @@ class LocalsTableSeeder extends Seeder {
 				'latitude' => '51.0780000',
 				'longitude' => '-114.1340000',
 				'game' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			164 => 
 			array (
@@ -1663,6 +1991,8 @@ class LocalsTableSeeder extends Seeder {
 				'latitude' => '53.5320000',
 				'longitude' => '-113.4900000',
 				'game' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			165 => 
 			array (
@@ -1673,6 +2003,8 @@ class LocalsTableSeeder extends Seeder {
 				'latitude' => '37.2730000',
 				'longitude' => '-76.7140000',
 				'game' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			166 => 
 			array (
@@ -1683,6 +2015,8 @@ class LocalsTableSeeder extends Seeder {
 				'latitude' => '51.4540000',
 				'longitude' => '-0.0680000',
 				'game' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			167 => 
 			array (
@@ -1693,6 +2027,8 @@ class LocalsTableSeeder extends Seeder {
 				'latitude' => '50.9030000',
 				'longitude' => '-1.3980000',
 				'game' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			168 => 
 			array (
@@ -1703,6 +2039,8 @@ class LocalsTableSeeder extends Seeder {
 				'latitude' => '59.8630000',
 				'longitude' => '10.4860000',
 				'game' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			169 => 
 			array (
@@ -1713,6 +2051,8 @@ class LocalsTableSeeder extends Seeder {
 				'latitude' => '44.0390000',
 				'longitude' => '-123.0760000',
 				'game' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			170 => 
 			array (
@@ -1723,6 +2063,8 @@ class LocalsTableSeeder extends Seeder {
 				'latitude' => '55.8740000',
 				'longitude' => '-4.2340000',
 				'game' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			171 => 
 			array (
@@ -1733,6 +2075,8 @@ class LocalsTableSeeder extends Seeder {
 				'latitude' => '43.6450000',
 				'longitude' => '-79.3940000',
 				'game' => '2',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			172 => 
 			array (
@@ -1743,6 +2087,8 @@ class LocalsTableSeeder extends Seeder {
 				'latitude' => '49.2700000',
 				'longitude' => '-123.1170000',
 				'game' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			173 => 
 			array (
@@ -1753,6 +2099,8 @@ class LocalsTableSeeder extends Seeder {
 				'latitude' => '33.5460000',
 				'longitude' => '-117.1390000',
 				'game' => '2',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			174 => 
 			array (
@@ -1763,6 +2111,8 @@ class LocalsTableSeeder extends Seeder {
 				'latitude' => '52.6270000',
 				'longitude' => '-1.1220000',
 				'game' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			175 => 
 			array (
@@ -1773,6 +2123,8 @@ class LocalsTableSeeder extends Seeder {
 				'latitude' => '45.4990000',
 				'longitude' => '-73.5660000',
 				'game' => '2',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			176 => 
 			array (
@@ -1783,6 +2135,8 @@ class LocalsTableSeeder extends Seeder {
 				'latitude' => '38.5430000',
 				'longitude' => '-121.7540000',
 				'game' => '2',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			177 => 
 			array (
@@ -1793,6 +2147,8 @@ class LocalsTableSeeder extends Seeder {
 				'latitude' => '46.5840000',
 				'longitude' => '-112.8500000',
 				'game' => '2',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			178 => 
 			array (
@@ -1803,6 +2159,8 @@ class LocalsTableSeeder extends Seeder {
 				'latitude' => '42.6020000',
 				'longitude' => '-76.1860000',
 				'game' => '2',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			179 => 
 			array (
@@ -1813,6 +2171,8 @@ class LocalsTableSeeder extends Seeder {
 				'latitude' => '42.4470000',
 				'longitude' => '-76.4900000',
 				'game' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			180 => 
 			array (
@@ -1823,6 +2183,8 @@ class LocalsTableSeeder extends Seeder {
 				'latitude' => '-15.8150000',
 				'longitude' => '-47.8560000',
 				'game' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			181 => 
 			array (
@@ -1833,6 +2195,8 @@ class LocalsTableSeeder extends Seeder {
 				'latitude' => '44.4750000',
 				'longitude' => '-73.2060000',
 				'game' => '2',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			182 => 
 			array (
@@ -1843,6 +2207,8 @@ class LocalsTableSeeder extends Seeder {
 				'latitude' => '45.3970000',
 				'longitude' => '-75.6660000',
 				'game' => '2',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			183 => 
 			array (
@@ -1853,6 +2219,8 @@ class LocalsTableSeeder extends Seeder {
 				'latitude' => '42.7330000',
 				'longitude' => '-90.4870000',
 				'game' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			184 => 
 			array (
@@ -1863,6 +2231,8 @@ class LocalsTableSeeder extends Seeder {
 				'latitude' => '47.4310000',
 				'longitude' => '-120.3370000',
 				'game' => '1',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			185 => 
 			array (
@@ -1873,6 +2243,8 @@ class LocalsTableSeeder extends Seeder {
 				'latitude' => '47.4160000',
 				'longitude' => '-120.2960000',
 				'game' => '4',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			186 => 
 			array (
@@ -1883,6 +2255,8 @@ class LocalsTableSeeder extends Seeder {
 				'latitude' => '40.1520000',
 				'longitude' => '-76.5920000',
 				'game' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			187 => 
 			array (
@@ -1893,6 +2267,8 @@ class LocalsTableSeeder extends Seeder {
 				'latitude' => '40.8720000',
 				'longitude' => '-75.3440000',
 				'game' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			188 => 
 			array (
@@ -1900,9 +2276,11 @@ class LocalsTableSeeder extends Seeder {
 				'region' => '1',
 				'profileid' => 'www.facebook.com/groups/SmashWichita/',
 				'name' => 'Super Smash Bros. 4 Wichita',
-				'latitude' => '37.6889',
-				'longitude' => '-97.3361',
+				'latitude' => '37.6889000',
+				'longitude' => '-97.3361000',
 				'game' => '5',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			189 => 
 			array (
@@ -1913,6 +2291,8 @@ class LocalsTableSeeder extends Seeder {
 				'latitude' => '41.2750000',
 				'longitude' => '-75.7890000',
 				'game' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			190 => 
 			array (
@@ -1923,6 +2303,8 @@ class LocalsTableSeeder extends Seeder {
 				'latitude' => '35.1380000',
 				'longitude' => '-90.0710000',
 				'game' => '2',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
 			),
 			191 => 
 			array (
@@ -1933,6 +2315,800 @@ class LocalsTableSeeder extends Seeder {
 				'latitude' => '35.1430000',
 				'longitude' => '-90.0530000',
 				'game' => '0',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
+			),
+			192 => 
+			array (
+				'id' => '194',
+				'region' => '6',
+				'profileid' => 'https://www.facebook.com/groups/537230349688495/',
+				'name' => 'Smash NL',
+				'latitude' => '52.3890000',
+				'longitude' => '4.9110000',
+				'game' => '2',
+				'created_at' => '2016-02-01 22:17:39',
+				'updated_at' => '2016-02-01 22:17:39',
+			),
+			193 => 
+			array (
+				'id' => '195',
+				'region' => '6',
+				'profileid' => 'http://facebook.com/groups/meleegdl',
+				'name' => 'Smash Bros. Melee Guadalajara',
+				'latitude' => '20.6720000',
+				'longitude' => '-103.3890000',
+				'game' => '1',
+				'created_at' => '2016-02-01 22:17:51',
+				'updated_at' => '2016-02-01 22:17:51',
+			),
+			194 => 
+			array (
+				'id' => '196',
+				'region' => '4',
+				'profileid' => 'https://www.facebook.com/groups/1392852414305170/',
+				'name' => 'West Texas Smash Bros',
+				'latitude' => '32.2500000',
+				'longitude' => '-101.4670000',
+				'game' => '2',
+				'created_at' => '2016-02-01 22:17:54',
+				'updated_at' => '2016-02-01 22:17:54',
+			),
+			195 => 
+			array (
+				'id' => '197',
+				'region' => '1',
+				'profileid' => 'https://www.facebook.com/groups/ssb4tr',
+				'name' => 'SSBTR',
+				'latitude' => '46.3600000',
+				'longitude' => '-72.5710000',
+				'game' => '5',
+				'created_at' => '2016-02-01 22:17:57',
+				'updated_at' => '2016-02-01 22:17:57',
+			),
+			196 => 
+			array (
+				'id' => '198',
+				'region' => '2',
+				'profileid' => 'https://www.facebook.com/groups/280251925445617/',
+				'name' => 'Knoxville',
+				'latitude' => '35.9600000',
+				'longitude' => '-83.9790000',
+				'game' => '2',
+				'created_at' => '2016-02-01 22:17:59',
+				'updated_at' => '2016-02-01 22:17:59',
+			),
+			197 => 
+			array (
+				'id' => '199',
+				'region' => '2',
+				'profileid' => 'https://www.facebook.com/groups/495161043926025/',
+				'name' => 'Chattanooga',
+				'latitude' => '35.0120000',
+				'longitude' => '-85.3200000',
+				'game' => '2',
+				'created_at' => '2016-02-01 22:18:01',
+				'updated_at' => '2016-02-01 22:18:01',
+			),
+			198 => 
+			array (
+				'id' => '200',
+				'region' => '1',
+				'profileid' => 'https://www.facebook.com/groups/CornellSmash/',
+				'name' => 'Cornell Smash',
+				'latitude' => '42.4450000',
+				'longitude' => '-76.4830000',
+				'game' => '5',
+				'created_at' => '2016-02-01 22:18:03',
+				'updated_at' => '2016-02-01 22:18:03',
+			),
+			199 => 
+			array (
+				'id' => '201',
+				'region' => '1',
+				'profileid' => 'https://www.facebook.com/groups/CornellSmash/',
+				'name' => 'Cornell Smash',
+				'latitude' => '42.4440000',
+				'longitude' => '-76.4840000',
+				'game' => '2',
+				'created_at' => '2016-02-01 22:18:06',
+				'updated_at' => '2016-02-01 22:18:06',
+			),
+			200 => 
+			array (
+				'id' => '202',
+				'region' => '1',
+				'profileid' => 'https://www.facebook.com/groups/CornellSmash/',
+				'name' => 'Cornell Smash',
+				'latitude' => '42.4450000',
+				'longitude' => '-76.4830000',
+				'game' => '4',
+				'created_at' => '2016-02-01 22:18:07',
+				'updated_at' => '2016-02-01 22:18:07',
+			),
+			201 => 
+			array (
+				'id' => '203',
+				'region' => '1',
+				'profileid' => 'https://www.facebook.com/groups/PghNeohSmash4/',
+				'name' => 'Pittsburgh/Northeast Ohio Smash 4',
+				'latitude' => '40.4290000',
+				'longitude' => '-79.9870000',
+				'game' => '5',
+				'created_at' => '2016-02-01 22:18:10',
+				'updated_at' => '2016-02-01 22:18:10',
+			),
+			202 => 
+			array (
+				'id' => '204',
+				'region' => '1',
+				'profileid' => 'www.facebook.com/groups/HYPECENTRAL',
+				'name' => 'HYPECENTRAL - Melee & Sm4sh weekly tournamen',
+				'latitude' => '43.8070000',
+				'longitude' => '-79.4220000',
+				'game' => '2',
+				'created_at' => '2016-02-01 22:18:30',
+				'updated_at' => '2016-02-01 22:18:30',
+			),
+			203 => 
+			array (
+				'id' => '205',
+				'region' => '6',
+				'profileid' => 'www.facebook.com/groups/HYPECENTRAL',
+				'name' => 'HYPECENTRAL - Melee & Sm4sh weekly tournamen',
+				'latitude' => '43.8070000',
+				'longitude' => '-79.4220000',
+				'game' => '5',
+				'created_at' => '2016-02-01 22:18:31',
+				'updated_at' => '2016-02-01 22:18:31',
+			),
+			204 => 
+			array (
+				'id' => '206',
+				'region' => '1',
+				'profileid' => '',
+				'name' => 'Grande Prairie Smash Bros Community ',
+				'latitude' => '55.1850000',
+				'longitude' => '-118.8120000',
+				'game' => '2',
+				'created_at' => '2016-02-01 22:18:36',
+				'updated_at' => '2016-02-01 22:18:36',
+			),
+			205 => 
+			array (
+				'id' => '207',
+				'region' => '1',
+				'profileid' => 'https://m.facebook.com/groups/395973923931639/?refsrc=http%3A%2F%2Fm.reddit.com%2Fr%2Fsmashbros%2Fwiki%2Ffacebook',
+				'name' => 'Grande Prairie Smash Bros Community ',
+				'latitude' => '55.1630000',
+				'longitude' => '-118.8120000',
+				'game' => '2',
+				'created_at' => '2016-02-01 22:18:38',
+				'updated_at' => '2016-02-01 22:18:38',
+			),
+			206 => 
+			array (
+				'id' => '208',
+				'region' => '1',
+				'profileid' => 'https://www.facebook.com/groups/sjsmash/',
+				'name' => 'South Jersey Smash',
+				'latitude' => '39.4880000',
+				'longitude' => '-75.0160000',
+				'game' => '5',
+				'created_at' => '2016-02-01 22:18:39',
+				'updated_at' => '2016-02-01 22:18:39',
+			),
+			207 => 
+			array (
+				'id' => '209',
+				'region' => '1',
+				'profileid' => 'https://www.facebook.com/groups/sjsmash/',
+				'name' => 'South Jersey Smash',
+				'latitude' => '39.4850000',
+				'longitude' => '-75.0160000',
+				'game' => '2',
+				'created_at' => '2016-02-01 22:18:40',
+				'updated_at' => '2016-02-01 22:18:40',
+			),
+			208 => 
+			array (
+				'id' => '210',
+				'region' => '6',
+				'profileid' => 'https://www.facebook.com/groups/1403141159988467/',
+				'name' => 'Jupiter Smash',
+				'latitude' => '41.9030000',
+				'longitude' => '12.5050000',
+				'game' => '5',
+				'created_at' => '2016-02-01 22:18:42',
+				'updated_at' => '2016-02-01 22:18:42',
+			),
+			209 => 
+			array (
+				'id' => '211',
+				'region' => '6',
+				'profileid' => 'https://www.facebook.com/smashgofsg/',
+				'name' => 'Singapore',
+				'latitude' => '1.3580000',
+				'longitude' => '103.8600000',
+				'game' => '5',
+				'created_at' => '2016-02-01 22:18:43',
+				'updated_at' => '2016-02-01 22:18:43',
+			),
+			210 => 
+			array (
+				'id' => '212',
+				'region' => '1',
+				'profileid' => '',
+				'name' => 'Capital region smash',
+				'latitude' => '42.9970000',
+				'longitude' => '-73.7810000',
+				'game' => '2',
+				'created_at' => '2016-02-01 22:18:44',
+				'updated_at' => '2016-02-01 22:18:44',
+			),
+			211 => 
+			array (
+				'id' => '213',
+				'region' => '3',
+				'profileid' => 'Facebook.com/groups/siouxcitysmash',
+				'name' => 'Sioux City Smash',
+				'latitude' => '42.5000000',
+				'longitude' => '-96.4060000',
+				'game' => '2',
+				'created_at' => '2016-02-01 22:18:46',
+				'updated_at' => '2016-02-01 22:18:46',
+			),
+			212 => 
+			array (
+				'id' => '214',
+				'region' => '5',
+				'profileid' => '',
+				'name' => 'Modesto Melee',
+				'latitude' => '37.6510000',
+				'longitude' => '-121.0100000',
+				'game' => '2',
+				'created_at' => '2016-02-01 22:18:47',
+				'updated_at' => '2016-02-01 22:18:47',
+			),
+			213 => 
+			array (
+				'id' => '215',
+				'region' => '1',
+				'profileid' => 'https://www.facebook.com/groups/projectmontario/',
+				'name' => 'Ontario',
+				'latitude' => '43.8350000',
+				'longitude' => '-80.3320000',
+				'game' => '1',
+				'created_at' => '2016-02-01 22:18:48',
+				'updated_at' => '2016-02-01 22:18:48',
+			),
+			214 => 
+			array (
+				'id' => '216',
+				'region' => '1',
+				'profileid' => 'Facebook.com/Modestomelee',
+				'name' => 'Modesto Melee',
+				'latitude' => '37.6510000',
+				'longitude' => '-121.0100000',
+				'game' => '2',
+				'created_at' => '2016-02-01 22:18:49',
+				'updated_at' => '2016-02-01 22:18:49',
+			),
+			215 => 
+			array (
+				'id' => '217',
+				'region' => '3',
+				'profileid' => 'https://www.facebook.com/groups/rockfordsmash/',
+				'name' => 'Rockford IL Smash',
+				'latitude' => '42.2660000',
+				'longitude' => '-89.1000000',
+				'game' => '2',
+				'created_at' => '2016-02-01 22:18:58',
+				'updated_at' => '2016-02-01 22:18:58',
+			),
+			216 => 
+			array (
+				'id' => '218',
+				'region' => '1',
+				'profileid' => '',
+				'name' => 'Smash @ Dracut',
+				'latitude' => '42.7390000',
+				'longitude' => '-71.4040000',
+				'game' => '5',
+				'created_at' => '2016-02-01 22:19:00',
+				'updated_at' => '2016-02-01 22:19:00',
+			),
+			217 => 
+			array (
+				'id' => '219',
+				'region' => '3',
+				'profileid' => 'https://www.facebook.com/groups/836513426404338/',
+			'name' => 'Saints Competitive Gaming (S.C.G.)',
+				'latitude' => '43.9810000',
+				'longitude' => '-94.6290000',
+				'game' => '2',
+				'created_at' => '2016-02-01 22:19:02',
+				'updated_at' => '2016-02-01 22:19:02',
+			),
+			218 => 
+			array (
+				'id' => '220',
+				'region' => '1',
+				'profileid' => 'https://www.facebook.com/groups/odussa/',
+				'name' => 'ODU SSA',
+				'latitude' => '36.8870000',
+				'longitude' => '-76.3060000',
+				'game' => '2',
+				'created_at' => '2016-02-01 22:19:03',
+				'updated_at' => '2016-02-01 22:19:03',
+			),
+			219 => 
+			array (
+				'id' => '221',
+				'region' => '6',
+				'profileid' => 'https://www.facebook.com/groups/smashdojopr/',
+				'name' => 'Smah Dojo PR - Puerto Rico',
+				'latitude' => '18.2240000',
+				'longitude' => '-66.4730000',
+				'game' => '5',
+				'created_at' => '2016-02-01 22:19:08',
+				'updated_at' => '2016-02-01 22:19:08',
+			),
+			220 => 
+			array (
+				'id' => '222',
+				'region' => '1',
+				'profileid' => 'https://www.facebook.com/groups/314009222142108/',
+				'name' => 'Aurora Smash Heroes',
+				'latitude' => '41.7630000',
+				'longitude' => '-88.2190000',
+				'game' => '2',
+				'created_at' => '2016-02-01 22:19:12',
+				'updated_at' => '2016-02-01 22:19:12',
+			),
+			221 => 
+			array (
+				'id' => '223',
+				'region' => '6',
+				'profileid' => 'https://www.facebook.com/groups/uwsmashclub/',
+				'name' => 'University of Waterloo Smash Club',
+				'latitude' => '43.4720000',
+				'longitude' => '-80.5450000',
+				'game' => '2',
+				'created_at' => '2016-02-01 22:19:24',
+				'updated_at' => '2016-02-01 22:19:24',
+			),
+			222 => 
+			array (
+				'id' => '224',
+				'region' => '3',
+				'profileid' => 'https://www.facebook.com/groups/541374019328110/',
+				'name' => 'SFASU Smash',
+				'latitude' => '31.6210000',
+				'longitude' => '-94.6490000',
+				'game' => '2',
+				'created_at' => '2016-02-01 22:19:31',
+				'updated_at' => '2016-02-01 22:19:31',
+			),
+			223 => 
+			array (
+				'id' => '225',
+				'region' => '1',
+				'profileid' => 'https://www.facebook.com/groups/219940314699498/',
+				'name' => 'Fredonia Smash Club',
+				'latitude' => '42.4480000',
+				'longitude' => '-79.2970000',
+				'game' => '2',
+				'created_at' => '2016-02-01 22:19:33',
+				'updated_at' => '2016-02-01 22:19:33',
+			),
+			224 => 
+			array (
+				'id' => '226',
+				'region' => '6',
+				'profileid' => 'https://www.facebook.com/groups/133034603414177/',
+				'name' => 'Louisiana Smash',
+				'latitude' => '31.2030000',
+				'longitude' => '-92.4170000',
+				'game' => '2',
+				'created_at' => '2016-02-01 22:19:34',
+				'updated_at' => '2016-02-01 22:19:34',
+			),
+			225 => 
+			array (
+				'id' => '227',
+				'region' => '3',
+				'profileid' => 'https://www.facebook.com/NebraskaSmashBros',
+				'name' => 'Nebraska',
+				'latitude' => '41.2190000',
+				'longitude' => '-96.0430000',
+				'game' => '2',
+				'created_at' => '2016-02-01 22:19:42',
+				'updated_at' => '2016-02-01 22:19:42',
+			),
+			226 => 
+			array (
+				'id' => '228',
+				'region' => '6',
+				'profileid' => 'https://m.facebook.com/ggbergen/',
+				'name' => 'GG Bergen',
+				'latitude' => '60.3830000',
+				'longitude' => '5.2990000',
+				'game' => '2',
+				'created_at' => '2016-02-12 22:22:29',
+				'updated_at' => '2016-02-12 22:22:29',
+			),
+			227 => 
+			array (
+				'id' => '229',
+				'region' => '6',
+				'profileid' => 'https://www.facebook.com/groups/smashbrositalia/',
+				'name' => 'Super Smash Bros. Melee Italia',
+				'latitude' => '45.4670000',
+				'longitude' => '9.1900000',
+				'game' => '2',
+				'created_at' => '2016-02-12 22:22:34',
+				'updated_at' => '2016-02-12 22:22:34',
+			),
+			228 => 
+			array (
+				'id' => '230',
+				'region' => '6',
+				'profileid' => 'http://facebook.com/groups/Smashatlan/',
+				'name' => 'Smash Melee Mazatlán',
+				'latitude' => '23.2350000',
+				'longitude' => '-106.4230000',
+				'game' => '2',
+				'created_at' => '2016-02-12 22:22:37',
+				'updated_at' => '2016-02-12 22:22:37',
+			),
+			229 => 
+			array (
+				'id' => '231',
+				'region' => '4',
+				'profileid' => 'https://www.facebook.com/groups/1392852414305170/',
+				'name' => 'West Texas Smash Bros',
+				'latitude' => '32.2500000',
+				'longitude' => '-101.4780000',
+				'game' => '5',
+				'created_at' => '2016-02-12 22:22:40',
+				'updated_at' => '2016-02-12 22:22:40',
+			),
+			230 => 
+			array (
+				'id' => '232',
+				'region' => '5',
+				'profileid' => 'https://www.facebook.com/groups/970720402987175/',
+				'name' => 'Salinas Super Smash Bros Melee',
+				'latitude' => '36.6680000',
+				'longitude' => '-121.6570000',
+				'game' => '2',
+				'created_at' => '2016-02-12 22:22:50',
+				'updated_at' => '2016-02-12 22:22:50',
+			),
+			231 => 
+			array (
+				'id' => '233',
+				'region' => '1',
+				'profileid' => 'https://www.facebook.com/groups/victoriasmash/',
+				'name' => 'Uvic Smash Bros. Club',
+				'latitude' => '48.4600000',
+				'longitude' => '-123.3070000',
+				'game' => '2',
+				'created_at' => '2016-02-12 22:22:55',
+				'updated_at' => '2016-02-12 22:22:55',
+			),
+			232 => 
+			array (
+				'id' => '234',
+				'region' => '5',
+				'profileid' => 'https://www.facebook.com/groups/602316896500737/',
+				'name' => 'North Vancouver Island Smash Community',
+				'latitude' => '49.1640000',
+				'longitude' => '-123.9390000',
+				'game' => '2',
+				'created_at' => '2016-02-12 22:22:57',
+				'updated_at' => '2016-02-12 22:22:57',
+			),
+			233 => 
+			array (
+				'id' => '235',
+				'region' => '1',
+				'profileid' => 'https://www.facebook.com/groups/1524716234455288/',
+				'name' => 'American University Smash Crew',
+				'latitude' => '38.9390000',
+				'longitude' => '-77.0890000',
+				'game' => '2',
+				'created_at' => '2016-02-12 22:23:04',
+				'updated_at' => '2016-02-12 22:23:04',
+			),
+			234 => 
+			array (
+				'id' => '236',
+				'region' => '6',
+				'profileid' => 'https://www.facebook.com/groups/545296702253114/',
+				'name' => 'Smash Barcelona',
+				'latitude' => '41.3790000',
+				'longitude' => '2.1660000',
+				'game' => '2',
+				'created_at' => '2016-02-12 22:23:09',
+				'updated_at' => '2016-02-12 22:23:09',
+			),
+			235 => 
+			array (
+				'id' => '237',
+				'region' => '1',
+				'profileid' => 'https://www.facebook.com/groups/1524716234455288/',
+				'name' => 'American University Smash',
+				'latitude' => '38.9370000',
+				'longitude' => '-77.0890000',
+				'game' => '2',
+				'created_at' => '2016-02-12 22:23:13',
+				'updated_at' => '2016-02-12 22:23:13',
+			),
+			236 => 
+			array (
+				'id' => '238',
+				'region' => '2',
+				'profileid' => 'https://www.facebook.com/groups/NLandLSC/',
+				'name' => 'Nuevo Laredo and Laredo Smash Community',
+				'latitude' => '27.5110000',
+				'longitude' => '-99.4800000',
+				'game' => '5',
+				'created_at' => '2016-03-02 00:03:59',
+				'updated_at' => '2016-03-02 00:03:59',
+			),
+			237 => 
+			array (
+				'id' => '239',
+				'region' => '6',
+				'profileid' => 'https://facebook.com/groups/MeleeGDL/',
+				'name' => 'Smash Bros. Melee Guadalajara',
+				'latitude' => '20.6720000',
+				'longitude' => '-103.3890000',
+				'game' => '2',
+				'created_at' => '2016-03-02 00:04:01',
+				'updated_at' => '2016-03-02 00:04:01',
+			),
+			238 => 
+			array (
+				'id' => '240',
+				'region' => '3',
+				'profileid' => 'https://facebook.com/groups/916631871764591/',
+				'name' => 'Santa Fe Smash Group',
+				'latitude' => '35.6630000',
+				'longitude' => '-105.9760000',
+				'game' => '5',
+				'created_at' => '2016-04-11 20:38:56',
+				'updated_at' => '2016-04-11 20:38:56',
+			),
+			239 => 
+			array (
+				'id' => '241',
+				'region' => '6',
+				'profileid' => 'https://www.facebook.com/groups/343477779066696/?fref=ts',
+				'name' => 'Le French Melee',
+				'latitude' => '48.8940000',
+				'longitude' => '2.3570000',
+				'game' => '2',
+				'created_at' => '2016-04-11 20:39:01',
+				'updated_at' => '2016-04-11 20:39:01',
+			),
+			240 => 
+			array (
+				'id' => '242',
+				'region' => '1',
+				'profileid' => 'https://www.facebook.com/groups/santamariasmash',
+				'name' => 'Santa Maria',
+				'latitude' => '34.9230000',
+				'longitude' => '-120.4240000',
+				'game' => '2',
+				'created_at' => '2016-04-11 20:39:08',
+				'updated_at' => '2016-04-11 20:39:08',
+			),
+			241 => 
+			array (
+				'id' => '243',
+				'region' => '6',
+				'profileid' => 'https://www.facebook.com/groups/GreekSmashBrosMelee',
+				'name' => 'Greek Athens Melee Scene',
+				'latitude' => '37.9840000',
+				'longitude' => '23.7290000',
+				'game' => '2',
+				'created_at' => '2016-06-06 19:48:55',
+				'updated_at' => '2016-06-06 19:48:55',
+			),
+			242 => 
+			array (
+				'id' => '244',
+				'region' => '1',
+				'profileid' => 'https://www.facebook.com/groups/809334862467449/',
+				'name' => 'EWU Smash',
+				'latitude' => '47.4880000',
+				'longitude' => '-117.5860000',
+				'game' => '2',
+				'created_at' => '2016-06-06 19:48:58',
+				'updated_at' => '2016-06-06 19:48:58',
+			),
+			243 => 
+			array (
+				'id' => '245',
+				'region' => '1',
+				'profileid' => 'https://www.facebook.com/groups/1386598461656385/',
+				'name' => 'Smash at High Tides',
+				'latitude' => '38.2880000',
+				'longitude' => '-76.4870000',
+				'game' => '5',
+				'created_at' => '2016-06-06 19:49:00',
+				'updated_at' => '2016-06-06 19:49:00',
+			),
+			244 => 
+			array (
+				'id' => '246',
+				'region' => '1',
+				'profileid' => 'https://www.facebook.com/groups/211269812393715/',
+				'name' => 'Fargo/Moorhead Smash Club',
+				'latitude' => '46.8620000',
+				'longitude' => '-96.8120000',
+				'game' => '2',
+				'created_at' => '2016-06-06 19:49:15',
+				'updated_at' => '2016-06-06 19:49:15',
+			),
+			245 => 
+			array (
+				'id' => '247',
+				'region' => '6',
+				'profileid' => 'https://www.facebook.com/groups/smashBXL',
+				'name' => 'Smash BXL',
+				'latitude' => '50.8550000',
+				'longitude' => '4.3230000',
+				'game' => '2',
+				'created_at' => '2016-06-06 19:49:16',
+				'updated_at' => '2016-06-06 19:49:16',
+			),
+			246 => 
+			array (
+				'id' => '248',
+				'region' => '1',
+				'profileid' => 'https://www.facebook.com/groups/115483696626/',
+				'name' => 'Salisbury Smasherz',
+				'latitude' => '38.3630000',
+				'longitude' => '-75.5940000',
+				'game' => '2',
+				'created_at' => '2016-06-06 19:49:36',
+				'updated_at' => '2016-06-06 19:49:36',
+			),
+			247 => 
+			array (
+				'id' => '249',
+				'region' => '6',
+				'profileid' => 'https://www.facebook.com/groups/218742101607432/',
+				'name' => 'Swiss Smash',
+				'latitude' => '46.5590000',
+				'longitude' => '8.0860000',
+				'game' => '2',
+				'created_at' => '2016-06-06 19:50:00',
+				'updated_at' => '2016-06-06 19:50:00',
+			),
+			248 => 
+			array (
+				'id' => '250',
+				'region' => '6',
+				'profileid' => 'https://www.facebook.com/groups/SMASHLATAM/',
+				'name' => 'Smash Latam',
+				'latitude' => '8.4070000',
+				'longitude' => '-73.6520000',
+				'game' => '2',
+				'created_at' => '2016-06-06 19:50:02',
+				'updated_at' => '2016-06-06 19:50:02',
+			),
+			249 => 
+			array (
+				'id' => '251',
+				'region' => '6',
+				'profileid' => 'https://www.facebook.com/groups/SMASHLATAM/',
+				'name' => 'Smash Latam',
+				'latitude' => '6.8390000',
+				'longitude' => '-74.3550000',
+				'game' => '4',
+				'created_at' => '2016-06-06 19:50:06',
+				'updated_at' => '2016-06-06 19:50:06',
+			),
+			250 => 
+			array (
+				'id' => '252',
+				'region' => '6',
+				'profileid' => 'https://www.facebook.com/groups/SMASHLATAM/',
+				'name' => 'Smash Latam',
+				'latitude' => '7.1880000',
+				'longitude' => '-74.1800000',
+				'game' => '1',
+				'created_at' => '2016-06-06 19:50:07',
+				'updated_at' => '2016-06-06 19:50:07',
+			),
+			251 => 
+			array (
+				'id' => '253',
+				'region' => '6',
+				'profileid' => 'https://www.facebook.com/groups/SMASHLATAM/',
+				'name' => 'Smash Latam',
+				'latitude' => '6.6650000',
+				'longitude' => '-74.8830000',
+				'game' => '5',
+				'created_at' => '2016-06-06 19:50:07',
+				'updated_at' => '2016-06-06 19:50:07',
+			),
+			252 => 
+			array (
+				'id' => '254',
+				'region' => '3',
+				'profileid' => 'https://www.facebook.com/groups/568696659868188/',
+				'name' => 'Rolla Smash',
+				'latitude' => '37.9600000',
+				'longitude' => '-91.7710000',
+				'game' => '2',
+				'created_at' => '2016-11-12 04:14:14',
+				'updated_at' => '2016-11-12 04:14:14',
+			),
+			253 => 
+			array (
+				'id' => '255',
+				'region' => '2',
+				'profileid' => 'http://www.facebook.com/groups/1071781742911676/',
+				'name' => 'Hub City Smash',
+				'latitude' => '35.6130000',
+				'longitude' => '-88.7860000',
+				'game' => '2',
+				'created_at' => '2016-11-12 04:14:16',
+				'updated_at' => '2016-11-12 04:14:16',
+			),
+			254 => 
+			array (
+				'id' => '256',
+				'region' => '2',
+				'profileid' => 'http://www.facebook.com/groups/1071781742911676/',
+				'name' => 'Hub City Smash 4',
+				'latitude' => '35.6390000',
+				'longitude' => '-88.7860000',
+				'game' => '5',
+				'created_at' => '2016-11-12 04:14:17',
+				'updated_at' => '2016-11-12 04:14:17',
+			),
+			255 => 
+			array (
+				'id' => '257',
+				'region' => '6',
+				'profileid' => 'https://www.facebook.com/groups/smashcn/',
+				'name' => 'SmashCN',
+				'latitude' => '31.2790000',
+				'longitude' => '121.4980000',
+				'game' => '5',
+				'created_at' => '2016-11-12 04:14:19',
+				'updated_at' => '2016-11-12 04:14:19',
+			),
+			256 => 
+			array (
+				'id' => '258',
+				'region' => '3',
+				'profileid' => 'https://www.facebook.com/groups/SoUSmash/',
+				'name' => 'Southern Utah Smash',
+				'latitude' => '37.0870000',
+				'longitude' => '-113.5700000',
+				'game' => '2',
+				'created_at' => '2017-01-09 07:16:51',
+				'updated_at' => '2017-01-09 07:16:51',
+			),
+			257 => 
+			array (
+				'id' => '259',
+				'region' => '1',
+				'profileid' => 'https://www.facebook.com/groups/585036658265765/',
+				'name' => 'Northern Louisiana Smash',
+				'latitude' => '32.5380000',
+				'longitude' => '-93.7480000',
+				'game' => '2',
+				'created_at' => '2017-08-13 20:08:57',
+				'updated_at' => '2017-08-13 20:08:57',
 			),
 		));
 	}

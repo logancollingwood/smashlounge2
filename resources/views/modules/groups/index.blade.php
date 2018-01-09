@@ -26,17 +26,13 @@
 
 			@foreach ($scenes as $scene) 
 				@yield('modules.cards.scenes.table')
-				 {{ $scene->name }}
-				
+				 <a href="{{ $scene->profileid }}">{{ $scene->name }}</a>&nbsp;&ndash;&nbsp;
 			@endforeach
 
 		@endforeach
 
-		@foreach($regions as $region) 
-			
-
-		@endforeach
 		</div>
+		<br>
 		<div class="row">
 			<?php $submitDir = "group"; ?>
 			@include('modules.submit.panel')

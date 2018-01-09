@@ -18,7 +18,7 @@
             <li class='active'><a href='#gif' role='tab' data-toggle='tab' class='tabz' data-id="gif">Gifs</a></li>
             <li><a href='#group' role='tab' data-toggle='tab' class='tabz' data-id="group">Regional Group</a></li>
             <li><a href='#tech' role='tab' data-toggle='tab' class='tabz' data-id="technique">Techniques</a></li>
-            <li><a href='#vod' role='tab' data-toggle='tab' class='tabz' data-id="vod">Vods</a></li>
+            <!-- <li><a href='#vod' role='tab' data-toggle='tab' class='tabz' data-id="vod">Vods</a></li> -->
         </ul>
 
         
@@ -27,7 +27,6 @@
             @include('modules.submit.partials.gif')
             @include('modules.submit.partials.group')
             @include('modules.submit.partials.tech')
-            @include('modules.submit.partials.vod')            
 
         
 

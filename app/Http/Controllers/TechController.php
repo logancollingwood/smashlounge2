@@ -42,7 +42,7 @@ class TechController extends Controller {
 	}
 	
 	public function show(Tech $tech) {
-		
+		//dd($tech);	
 		$gifs = $tech->getGifs();
 
 		/**

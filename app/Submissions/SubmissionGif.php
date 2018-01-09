@@ -16,8 +16,10 @@ class SubmissionGif extends Model {
 	  
 	  if (isset($matches[4])) 
 	  	return $matches[4];
-	  else 
-	  	abort(500);
+	  else { 
+	  	//abort(500);
+		return NULL;
+	}
 	}
 
 	public function getTechName() {

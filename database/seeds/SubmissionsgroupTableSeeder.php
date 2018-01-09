@@ -2,7 +2,7 @@
 
 use Illuminate\Database\Seeder;
 
-class UserinfoTableSeeder extends Seeder {
+class SubmissionsgroupTableSeeder extends Seeder {
 
 	/**
 	 * Auto generated seed file
@@ -11,7 +11,7 @@ class UserinfoTableSeeder extends Seeder {
 	 */
 	public function run()
 	{
-		\DB::table('userinfo')->delete();
+		\DB::table('submissionsgroup')->delete();
         
 	}
 

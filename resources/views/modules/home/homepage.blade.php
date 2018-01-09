@@ -16,8 +16,7 @@
 						<p class="heading"> 
 							MOTD: 
 						</p>
-						<p> Thanks for checking out the new site! Take a look at the new character frame data by going to chars > character > attacks! 
-							We're also recruiting any content/submission moderators who'd like to help us build the best smash database ever.</p>
+						<p> Things have been slow over here lately. I'm still approving submissions but not doing active development on new features. Hit me up on twitter if you have any requests, feedback, or want to contribute! :)</p>
 
 					</div>
 					@include('modules.cards.home.smashgif')

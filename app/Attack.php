@@ -9,7 +9,7 @@ class Attack extends Model {
 
 	protected $guarded = array();
 
-	protected $attacktype = ['1' => 'aerial', '2' => 'smash',
+	protected $attacktype = ['0' => 'Not Set', '1' => 'aerial', '2' => 'smash',
 					   '3' => 'tilt', '4' => 'special',
 					   '5' => 'jab', '6' => 'dash',
 					   '7' => 'grab', '8' => 'dodge',

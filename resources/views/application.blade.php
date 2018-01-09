@@ -4,7 +4,9 @@ Smashlounge is built for the community, by the community.
 
 All tools used on this site are for non-commercial purposes.
 Questions?
-  smashlounge@gmail.DOCTYPEana
+  smashlounge@gmail.com
+  @thesmashlounge
+  
 
 -->
 
@@ -77,7 +79,7 @@ Questions?
 					</li>
 					<li class="{{ strpos(Request::path(), 'chars') === 0 ? 'active' : ''}}"><a href="{{ url('/chars') }}">Characters</a></li>
 					<!-- <li class="{{ strpos(Request::path(), 'guides') === 0 ? 'active' : ''}}"><a href="{{ url('/guides') }}">Guides</a></li> -->
-					<li class="{{ strpos(Request::path(), 'vods') === 0 ? 'active' : ''}}"><a href="{{ url('/vods') }}">Videos</a></li>
+					<!-- <li class="{{ strpos(Request::path(), 'vods') === 0 ? 'active' : ''}}"><a href="{{ url('/vods') }}">Videos</a></li> -->
 
 					<li class="hidden-xs {{ strpos(Request::path(), 'groups') === 0 ? 'active' : ''}}"><a href="{{ url('/groups') }}">Groups</a></li>
 
