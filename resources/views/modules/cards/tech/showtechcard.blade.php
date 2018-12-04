@@ -14,7 +14,7 @@
 			</div>
 			<div class="col-md-8 cardgif">
 				@if(isset($tech->getGifs()[0]))
-					<img class='gfyitem' data-perimeter=true data-expand=true data-id= {{ $tech->getGifs()[0]->url }} />
+<div style='position:relative; padding-bottom:70.80%'><iframe src='https://gfycat.com/ifr/{{ $tech->getGifs()[0]->url}}' frameborder='0' scrolling='no' width='100%' height='100%' style='position:absolute;top:0;left:0;' allowfullscreen></iframe></div>					
 				@endif
 			</div>
 		</div>

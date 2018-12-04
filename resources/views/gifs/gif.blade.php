@@ -2,7 +2,8 @@
 	<div class="gfyTainer">
 		<div class="row">
 			<div class="col-md-8 col-sm-9">
-				<img class='gfyitem' data-autoplay=false data-expand=true data-id= {{ $gif->url}} />
+			<div style='position:relative; padding-bottom:70.80%'><iframe src='https://gfycat.com/ifr/{{ $gif->url}}' frameborder='0' scrolling='no' width='100%' height='100%' style='position:absolute;top:0;left:0;' allowfullscreen></iframe></div>
+
 			</div>
 			<div class="col-md-4 col-sm-3 voteBlock">
 				<div class="gfyDescription"> {{$gif->description or 'No Description available'}}</div>

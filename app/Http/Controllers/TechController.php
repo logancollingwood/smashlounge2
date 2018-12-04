@@ -52,13 +52,8 @@ class TechController extends Controller {
 		 * metadata timeline embedding
 		 */
 
-		if (isset($gifs[0])) {
-			$twitterGif = json_decode($gifs[0]->queryGfycat());
-			$twitterGif->gfyItem->mp4Url = preg_replace("/^http:/i", "https:", $twitterGif->gfyItem->mp4Url);
-			$twitterGif->gfyItem->webmUrl = preg_replace("/^http:/i", "https:", $twitterGif->gfyItem->webmUrl);
-		} else {
-			$twitterGif = [];
-		}
+		$twitterGif = [];
+		
 		
 
 		$data = ['tech' => $tech, 'gifs' => $gifs, 'twitterGif' => $twitterGif, 'submitDir' => "gif"];
