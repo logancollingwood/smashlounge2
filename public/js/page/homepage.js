@@ -31,7 +31,7 @@ function drawRandomGif() {
       drawRandomGif();
     }
 
-    
+    console.log(m[4]);
     //<a class="button button-inline button-large button-info" href=characters/' .  urlencode($randomLink) . '>'.'<span><i class="fa fa-share-alt"></i>' . $randomLink . '</span></a>
     panelHeading = "<a class='button button-inline button-small button-info' id='drawgif'><i class='fa fa-random'></i></a><br>"; 
 var panelBody = "<div style='position:relative; padding-bottom:70.80%'><iframe src='https://gfycat.com/ifr/" + m[4] + "' frameborder='0' scrolling='no' width='100%' height='100%' style='position:absolute;top:0;left:0;' allowfullscreen></iframe></div>"
@@ -51,10 +51,6 @@ var panelBody = "<div style='position:relative; padding-bottom:70.80%'><iframe s
     $("#another-link").empty();
     $("#another-link").append(panelHeading);
 
-    var gifobj = document.getElementById('smashgify');
-
-    var gfyObj = new gfyObject(gifobj);
-    gfyObj.init();
     
   });
 }
