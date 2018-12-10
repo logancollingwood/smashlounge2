@@ -1,9 +1,7 @@
 <?php
 
-Route::controllers([
-	'auth' => 'Auth\AuthController',
-	'password' => 'Auth\PasswordController',
-]);
+// Route::get('/auth', 'Auth\AuthController');
+// Route::post('/auth', 'Auth\PasswordController');
 
 // Provide controller methods with object instead of ID
 Route::model('techs', 'Tech');
@@ -86,7 +84,7 @@ Route::bind('groups', function($value, $route) {
 	return $group;
 });
 
-Entrust::routeNeedsRole('moderate*', 'moderator', Redirect::to('/'));
+// Entrust::routeNeedsRole('moderate*', 'moderator', Redirect::to('/'));
 Route::resource('moderate', 'ModerateController');
 
 /*
@@ -167,7 +165,7 @@ Route::bind('card/tech/{tech}', function($value, $route) {
 
 
 Route::resource('attack', 'AttackController');
-Entrust::routeNeedsRole('attack/*/edit', 'contributor', Redirect::to('/'));
+// Entrust::routeNeedsRole('attack/*/edit', 'contributor', Redirect::to('/'));
 
 
 
